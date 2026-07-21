@@ -21,6 +21,8 @@
 import { en, type RawTranslationKey } from './en';
 import { es } from './es';
 
+export { LANGUAGE_LABELS, UI_LANGUAGES, languageLabel } from './languages';
+
 /**
  * The base name behind a plural pair: `common.book_one` → `common.book`.
  *

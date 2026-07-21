@@ -23,8 +23,35 @@ export const en = {
   'common.signInCreate': 'Sign In or Create Account',
   'common.book_one': '{{count}} book',
   'common.book_other': '{{count}} books',
+  'common.saving': 'Saving…',
+  'common.loading': 'Loading…',
+  'common.copy': 'Copy',
+  'common.retry': 'Try again',
+  'common.back': 'Back',
+  'common.next': 'Next',
+  'common.searching': 'Searching…',
+  'common.noResults': 'No results found.',
+  'common.dismiss': 'Dismiss',
+  'common.options': 'Options',
+  'common.expandLibrary': 'Expand Library',
+  'common.minutesAgo': '{{count}}m ago',
+  'common.hoursAgo': '{{count}}h ago',
+  'common.daysAgo': '{{count}}d ago',
   'common.highlight_one': '{{count}} highlight',
   'common.highlight_other': '{{count}} highlights',
+
+  // Primary navigation. The web sidebar shows these as its nav items; on
+  // mobile the same destinations are the drawer's screen titles.
+  'nav.home': 'Home',
+  'nav.library': 'Library',
+  'nav.tags': 'Tags',
+  'nav.notes': 'Notes',
+  'nav.xrefs': 'X-Refs',
+  'nav.discover': 'Discover',
+  'nav.settings': 'Settings',
+  'nav.guest': 'Guest',
+  'nav.reader': 'Reader',
+  'nav.signOut': 'Sign Out',
 
   'library.title': 'Library',
   'library.languageSheetTitle': 'Library language',
@@ -100,6 +127,12 @@ export const en = {
   'settings.planPro': 'Pro',
   'settings.planTrial': 'Pro (trial)',
 
+  // Web-only: the subscription-management link and the post-checkout banner
+  // are Stripe flows that exist only on web (mobile purchases go through
+  // RevenueCat and the App Store).
+  'settings.welcomeToPro': 'Welcome to Pro!',
+  'settings.manage': 'Manage',
+
   'home.tags': 'Tags',
   'home.notes': 'Notes',
   'home.xrefs': 'X-Refs',
@@ -115,6 +148,10 @@ export const en = {
   'home.signInCreate': 'Sign In / Create Account',
   'home.startReadingHint': 'Start reading to see your recent books here.',
   'home.viewLibrary': 'VIEW LIBRARY',
+
+  // Web-only: the sign-in card on the web Home has no mobile counterpart —
+  // mobile shows home.signInCreate on its own instead.
+  'home.signInBlurb': 'Sign in to see your recently viewed books, annotations, and more across all your devices.',
 
   'auth.tagline': 'Interfaith E-Reader & Research',
   'auth.usernamePlaceholder': 'Username *',
@@ -237,6 +274,7 @@ export const en = {
   'ai.copied': '✓ Copied',
   'ai.copyHint': 'Long press to copy',
 
+  'note.addTitle': 'Add Note',
   'note.placeholder': 'Write your note here…',
   'note.loading': 'Loading…',
   'note.emptyTitle': 'Empty note',
@@ -252,6 +290,22 @@ export const en = {
   'xref.yourSelection': 'YOUR SELECTION',
   'xref.pickSecond': 'Pick second passage  →',
   'xref.noneFound': 'No cross-references found.',
+
+  // Web-only. The web builds a cross-reference through a two-step panel —
+  // search for the target, then confirm the pair — where mobile has you pick
+  // the second passage in the reader itself.
+  'xref.findPassage': 'Find a passage to link',
+  'xref.searchPlaceholder': 'Search any passage…',
+  'xref.save': 'Save Cross-Reference',
+  'xref.from': 'From',
+  'xref.to': 'To',
+  'xref.linksTo': 'links to',
+
+  // Web-only: the install banner shown on mobile browsers.
+  'banner.googlePlay': 'Get it on Google Play',
+  'banner.appStore': 'Download on the App Store',
+  'banner.install': 'Install',
+  'banner.get': 'Get',
 
   'tagPanel.new': 'New Tag',
   'tagPanel.create': 'Create',
@@ -305,6 +359,32 @@ export const en = {
   'onboarding.continue': 'Continue',
   'onboarding.chooseTextSize': 'Choose Text Size',
   'onboarding.getStarted': 'Get Started',
+
+  // Web-only: the intro screenshot walkthrough replayed from Settings → About.
+  // NOTE the screenshots themselves are English captures, so a Spanish caption
+  // sits under an English image until localised screenshots exist.
+  'onboarding.closeIntro': 'Close intro',
+  'onboarding.goToStep': 'Go to step {{number}}',
+  'onboarding.libraryTitle': 'The Library',
+  'onboarding.libraryCaption': 'Browse a curated, multi-tradition library. Tap any book to start reading.',
+  'onboarding.searchTitle': 'Search everything',
+  'onboarding.searchCaption': 'Search across every book at once and jump straight to the passage.',
+  'onboarding.tagAsYouGoTitle': 'Tag as you go',
+  'onboarding.tagAsYouGoCaption': 'Add a tag to a passage right from the search results.',
+  'onboarding.buildTagsTitle': 'Build your tags',
+  'onboarding.buildTagsCaption': 'Group passages under your own tags for easy recall.',
+  'onboarding.selectActTitle': 'Select & act',
+  'onboarding.selectActCaption': 'Select any text to highlight, tag, note, or cross-reference it.',
+  'onboarding.marginTitle': 'Margin annotations',
+  'onboarding.marginCaption': 'Your tags, notes, and cross-references live in the margin.',
+  'onboarding.navigateTitle': 'Navigate quickly',
+  'onboarding.navigateCaption': 'Open the table of contents to move around a book.',
+  'onboarding.yourTagsTitle': 'Your tags',
+  'onboarding.yourTagsCaption': 'Revisit every tagged passage, organized by tag.',
+  'onboarding.xrefsTitle': 'Cross-references',
+  'onboarding.xrefsCaption': 'Link related passages across books and traditions.',
+  'onboarding.shareTitle': 'Share & publish',
+  'onboarding.shareCaption': 'Share a quote or publish a tag for the community.',
 } as const;
 
 /** Keys exactly as written above, including the `_one` / `_other` variants. */
