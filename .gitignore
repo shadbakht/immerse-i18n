@@ -1,0 +1,6 @@
+node_modules/
+
+# Built by the `prepare` script, which npm runs automatically when either repo
+# installs this package from its git URL. Committing it would only create a
+# second source of truth that can go stale against src/.
+dist/

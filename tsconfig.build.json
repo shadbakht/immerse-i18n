@@ -1,0 +1,21 @@
+{
+  // CommonJS on purpose. The mobile app runs jest-expo, whose
+  // transformIgnorePatterns does not cover this package, so an ESM build would
+  // reach Jest untransformed and fail to parse. CJS is consumable as-is by
+  // Metro, Next/Turbopack, and Node's test runner alike.
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ES2020"],
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*"]
+}
