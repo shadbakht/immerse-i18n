@@ -86,9 +86,29 @@ and a test enforces it.
 
 ### Right-to-left
 
-`LANGUAGE_LABELS` includes `fa` and `ar`. Translating them is necessary but not
-sufficient: RTL is a **layout** problem (`I18nManager` on React Native, `dir`
-on the web) and is not handled by this package. Budget for it separately.
+`isRTL(code)` and `directionOf(code)` say which languages mirror; both match on
+the primary subtag, so `ar-EG` counts. `RTL_LANGUAGES` is deliberately wider
+than the interface offers — a *content* pack can be RTL before the UI is
+translated.
+
+Both apps are wired for it:
+
+- **Web** sets `<html dir>` from the UI language. All direction-sensitive
+  styling uses logical utilities (`ms-`, `pe-`, `start-`, `text-start`), which
+  are identical in LTR — **do not reintroduce `ml-`, `left-`, `text-left`**.
+- **Mobile** calls `I18nManager.forceRTL`. React Native mirrors physical
+  `left`/`right`/`marginLeft` itself (`doLeftAndRightSwapInRTL` is on by
+  default), so styles need no conversion there.
+
+> ⚠️ **Mobile needs an app restart to change direction.** React Native mirrors
+> at startup and cannot re-mirror a running app, so `setUiLanguage` returns
+> `{ requiresRestart }` and Settings tells the user. Do not treat a language
+> switch that "did nothing" as a bug before checking for that prompt.
+
+**Still open:** passage text takes its direction from the *interface*, not the
+book. An English book under an Arabic interface shows bidi artefacts. Fixing it
+means giving the passage container its own `dir` from the content language, on
+both platforms.
 
 ## Guarding against drift
 
