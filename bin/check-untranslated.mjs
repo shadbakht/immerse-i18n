@@ -57,6 +57,10 @@ for (const dir of dirs) {
 const isProse = s =>
   /[A-Za-z]{3}/.test(s) && !/^[A-Z0-9_]+$/.test(s) && !/^[\d\s\W]*$/.test(s);
 
+// User-facing text starts with a capital or contains a space; style values and
+// debug tokens ('auto', 'none', '45deg', 'defined') do neither.
+const userFacing = (s) => isProse(s) && (/^[A-Z]/.test(s) || s.includes(' '));
+
 const findings = [];
 for (const file of files) {
   const lines = readFileSync(file, 'utf8').split('\n');
@@ -116,6 +120,26 @@ for (const file of files) {
     // Alert.alert('Literal', 'Literal')
     for (const m of line.matchAll(/Alert\.alert\(\s*['"]([^'"]{3,})['"]\s*(?:,\s*['"]([^'"]{3,})['"])?/g)) {
       for (const g of [m[1], m[2]]) if (g && isProse(g)) hits.push(g);
+    }
+    // Alert BUTTON labels — `{ text: 'Cancel', style: 'cancel' }`. These sit in
+    // the third argument's array, which the Alert.alert pattern above never
+    // reaches, so the Cancel/Delete buttons of every confirm dialog hid here.
+    for (const m of line.matchAll(/\btext\s*:\s*['"]([^'"]{3,})['"]/g)) {
+      if (userFacing(m[1])) hits.push(m[1]);
+    }
+    // Ternaries picking between two literals, typically inside JSX braces:
+    // `{isViewMode ? 'No tags on this selection' : 'No tags yet'}`. The JSX
+    // text-child patterns only see bare text between tags, never inside braces.
+    // Both arms must look like something a user reads, or this drowns in style
+    // values ('auto' : 'none', '45deg' : '-45deg') and debug strings.
+    for (const m of line.matchAll(/\?\s*['"]([^'"]{3,})['"]\s*:\s*['"]([^'"]{3,})['"]/g)) {
+      if ([m[1], m[2]].every(userFacing)) for (const g of [m[1], m[2]]) hits.push(g);
+    }
+    // Label paired with a key in an array literal, the shape used to build tab
+    // rows: `[['recent', 'Recent'], ['trending', 'Trending']]`. The key is
+    // lowercase code, the second entry is the user-visible label.
+    for (const m of line.matchAll(/\[\s*['"][a-z][\w-]*['"]\s*,\s*['"]([^'"]{3,})['"]\s*\]/g)) {
+      if (isProse(m[1])) hits.push(m[1]);
     }
 
     for (const text of hits) {

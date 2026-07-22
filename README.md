@@ -133,6 +133,20 @@ Deliberate exceptions live in the consumer's `package.json`:
 exists because both apps had accumulated ~100 stray literals before anything
 was checking — a cost that multiplies with every language added.
 
+Two things this has been wrong about, both worth knowing before trusting a
+clean run:
+
+- **`allow` hides real findings.** Mobile's Tags and Notes screens read as
+  translated for a release because their headers sat in `allow` from an earlier
+  sweep. An entry added to silence one false positive keeps silencing the same
+  text after it becomes a genuine bug, so read the list rather than the exit
+  code when a screen looks suspiciously clean.
+- **A pattern the scanner has no rule for is invisible, not absent.** The whole
+  navigation chrome stayed English through a "fully translated" release because
+  React Navigation declares labels as object properties. Alert button labels,
+  ternaries inside JSX braces, and `[key, label]` array rows were each found the
+  same way. Spot-check a real screen against the report before believing it.
+
 ## Releasing
 
 Consumers pin a tag, so a change here reaches them in three steps:
