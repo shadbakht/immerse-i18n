@@ -13,6 +13,8 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'common.removing': 'Eliminando…',
   'common.save': 'Guardar',
   'common.done': 'Listo',
+  'common.ok': 'Aceptar',
+  'common.continue': 'Continuar',
   'common.tryAgain': 'Inténtalo de nuevo.',
   'common.delete': 'Eliminar',
   'common.clear': 'Borrar',
@@ -175,6 +177,7 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'home.planFinished': 'Terminado: elige tu próximo libro',
   'home.recentlyViewed': 'Visto recientemente',
   'home.removeFromRecent': 'Quitar de Visto recientemente',
+  'home.removeFromRecentBody': '¿Quitar «{{title}}» y restablecer el progreso de lectura a 0 %?',
   'home.signInCreate': 'Iniciar sesión / Crear cuenta',
   'home.startReadingHint': 'Empieza a leer para ver aquí tus libros recientes.',
   'home.viewLibrary': 'VER BIBLIOTECA',
@@ -214,6 +217,8 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'auth.checkUsernameBody': 'Espera a que termine la validación del nombre de usuario.',
   'auth.checkEmail': 'Revisa tu correo',
   'auth.checkEmailBody': 'Enviamos un enlace de confirmación a {{email}}',
+  'auth.checkEmailSignInBody':
+    'Enviamos un enlace de confirmación a {{email}}. Después de confirmarlo, inicia sesión para acceder a tu cuenta.',
   'auth.enterEmail': 'Introduce el correo',
   'auth.enterEmailBody': 'Introduce tu dirección de correo electrónico.',
   'auth.emailSent': 'Correo enviado',
@@ -267,6 +272,17 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'reminders.signInRequired': 'Se requiere iniciar sesión',
   'reminders.signInRequiredBody': 'Crea una cuenta para seguir un plan de lectura y llevar tu progreso.',
   'reminders.notNow': 'Ahora no',
+  'reminders.enabledSub': 'Muestra tu lectura diaria en la pantalla de inicio.',
+  'reminders.disabledSub': 'Desactivado: tu lectura diaria está oculta en la pantalla de inicio.',
+  'reminders.chooseNextToResume': 'Elige arriba tu próximo libro para reanudar los recordatorios.',
+  'reminders.chooseBookToEnable': 'Elige un libro arriba para activar los recordatorios.',
+  'reminders.selectSourceToEnable': 'Selecciona al menos una fuente arriba para activar los recordatorios.',
+  'reminders.todayComplete': 'completado ✓',
+  'reminders.todayPending': 'pendiente',
+  'reminders.todayMorningDone': 'mañana ✓',
+  'reminders.todayMorningPending': 'mañana pendiente',
+  'reminders.todayEveningDone': 'noche ✓',
+  'reminders.todayEveningPending': 'noche pendiente',
 
   'paywall.heading': 'Immerse Pro',
   'paywall.subheading': 'Lee con más profundidad. Conecta más.',
@@ -297,6 +313,7 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'xrefs.noMatch': 'Ninguna remisión coincide con tu búsqueda.',
   'xrefs.addLabel': 'Añadir etiqueta…',
   'xrefs.deleteConfirm': '¿Eliminar la remisión?',
+  'xrefs.deleteBody': 'Las dos selecciones resaltadas se conservarán.',
 
   'notes.title': 'Notas',
   'notes.empty': 'Aún no hay notas. Las notas que crees en el lector aparecerán aquí.',
@@ -320,6 +337,7 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'tags.searchSelected': 'Buscar en las etiquetas seleccionadas...',
   'tags.noMatch': 'Ninguna etiqueta coincide con tu búsqueda.',
   'tags.deleteConfirm': '¿Eliminar la etiqueta?',
+  'tags.deleteBody': 'Se eliminarán «{{name}}» y todas sus selecciones.',
 
   'tags.renameTitle': 'Cambiar el nombre de la etiqueta',
   'tags.setPrivate': 'Hacer privada',
@@ -470,6 +488,8 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'onboarding.libraryDownloadHint': 'Para descargar la biblioteca en {{language}}, toca el ⌄ junto a «Biblioteca» en la pantalla Biblioteca.',
   'onboarding.continue': 'Continuar',
   'onboarding.chooseTextSize': 'Elige el tamaño del texto',
+  'onboarding.fontPreviewQuote':
+    '«Buscad y hallaréis; llamad y se os abrirá.»',
   'onboarding.getStarted': 'Comenzar',
   'onboarding.closeIntro': 'Cerrar introducción',
   'onboarding.goToStep': 'Ir al paso {{number}}',
@@ -512,6 +532,8 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'export.csvDesc': 'Una fila por pasaje. Se abre en Excel, Numbers o Google Sheets.',
   'export.mdTitle': 'Markdown (.md)',
   'export.mdDesc': 'Para Obsidian, Notion o cualquier herramienta de texto plano.',
+  'export.noPassagesTagged': '(ningún pasaje etiquetado)',
+  'export.seeAlso': 'Véase también:',
 
   // ── Plan de lectura ───────────────────────────────────────────────────────
   'plan.chooseBook': 'Elige un libro',

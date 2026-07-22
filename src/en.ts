@@ -17,6 +17,8 @@ export const en = {
   'common.removing': 'Removing…',
   'common.save': 'Save',
   'common.done': 'Done',
+  'common.ok': 'OK',
+  'common.continue': 'Continue',
   'common.tryAgain': 'Please try again.',
   'common.delete': 'Delete',
   'common.clear': 'Clear',
@@ -187,6 +189,7 @@ export const en = {
   'home.planFinished': 'Finished — choose your next book',
   'home.recentlyViewed': 'Recently Viewed',
   'home.removeFromRecent': 'Remove from Recently Viewed',
+  'home.removeFromRecentBody': 'Remove “{{title}}” and reset reading progress to 0%?',
   'home.signInCreate': 'Sign In / Create Account',
   'home.startReadingHint': 'Start reading to see your recent books here.',
   'home.viewLibrary': 'VIEW LIBRARY',
@@ -229,6 +232,8 @@ export const en = {
   'auth.checkUsernameBody': 'Please wait for username validation to complete.',
   'auth.checkEmail': 'Check your email',
   'auth.checkEmailBody': 'We sent a confirmation link to {{email}}',
+  'auth.checkEmailSignInBody':
+    'We sent a confirmation link to {{email}}. After confirming, sign in to access your account.',
   'auth.enterEmail': 'Enter email',
   'auth.enterEmailBody': 'Please enter your email address.',
   'auth.emailSent': 'Email sent',
@@ -282,6 +287,19 @@ export const en = {
   'reminders.signInRequired': 'Sign in required',
   'reminders.signInRequiredBody': 'Create an account to follow a reading plan and track your progress.',
   'reminders.notNow': 'Not Now',
+  'reminders.enabledSub': 'Shows your daily reading on the Home screen.',
+  'reminders.disabledSub': 'Off — your daily reading is hidden from the Home screen.',
+  'reminders.chooseNextToResume': 'Choose your next book above to resume reminders.',
+  'reminders.chooseBookToEnable': 'Choose a book above to turn on reminders.',
+  'reminders.selectSourceToEnable': 'Select at least one source above to turn on reminders.',
+  // Today's progress, shown as "morning ✓ · evening pending" when the plan asks
+  // for two sessions and as a single word when it asks for one.
+  'reminders.todayComplete': 'complete ✓',
+  'reminders.todayPending': 'pending',
+  'reminders.todayMorningDone': 'morning ✓',
+  'reminders.todayMorningPending': 'morning pending',
+  'reminders.todayEveningDone': 'evening ✓',
+  'reminders.todayEveningPending': 'evening pending',
 
   'paywall.heading': 'Immerse Pro',
   'paywall.subheading': 'Read deeper. Connect more.',
@@ -312,6 +330,7 @@ export const en = {
   'xrefs.noMatch': 'No cross-references match your search.',
   'xrefs.addLabel': 'Add label…',
   'xrefs.deleteConfirm': 'Delete cross-reference?',
+  'xrefs.deleteBody': 'The two highlighted selections will be kept.',
 
   'notes.title': 'Notes',
   'notes.empty': 'No notes yet. Notes you create in the reader will appear here.',
@@ -335,6 +354,7 @@ export const en = {
   'tags.searchSelected': 'Search selected tags...',
   'tags.noMatch': 'No tags match your search.',
   'tags.deleteConfirm': 'Delete tag?',
+  'tags.deleteBody': '“{{name}}” and all its selections will be removed.',
 
   'tags.renameTitle': 'Rename Tag',
   'tags.setPrivate': 'Set Private',
@@ -494,6 +514,8 @@ export const en = {
   'onboarding.libraryDownloadHint': 'To download the library in {{language}}, tap the ⌄ next to “Library” on the Library screen.',
   'onboarding.continue': 'Continue',
   'onboarding.chooseTextSize': 'Choose Text Size',
+  'onboarding.fontPreviewQuote':
+    '“Seek and you will find; knock and the door will be opened to you.”',
   'onboarding.getStarted': 'Get Started',
 
   // Web-only: the intro screenshot walkthrough replayed from Settings → About.
@@ -544,6 +566,10 @@ export const en = {
   'export.csvDesc': 'One row per passage. Opens in Excel, Numbers, or Google Sheets.',
   'export.mdTitle': 'Markdown (.md)',
   'export.mdDesc': 'For Obsidian, Notion, or any plain-text tool.',
+  // Inside the exported document itself, which is written in the reader's
+  // language like everything else.
+  'export.noPassagesTagged': '(no passages tagged)',
+  'export.seeAlso': 'See also:',
 
   // ── Reading plan ──────────────────────────────────────────────────────────
   // Mobile-only: the web has no reading plan, so none of this existed before.

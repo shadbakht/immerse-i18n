@@ -57,14 +57,45 @@ for (const dir of dirs) {
 const isProse = s =>
   /[A-Za-z]{3}/.test(s) && !/^[A-Z0-9_]+$/.test(s) && !/^[\d\s\W]*$/.test(s);
 
+// A Tailwind class list is the one kind of style value that does contain
+// spaces, so "has a space" alone would flag most of the web app's conditional
+// styling. Its tokens are lowercase and carry a hyphen, a variant colon, or an
+// arbitrary-value bracket; prose tokens carry none of those, and prose that
+// earns a capital anywhere is not a class list at all.
+const CLASS_TOKEN = /^-?[a-z][a-zA-Z0-9]*(?:[-:./][\w#[\]().%/-]*)+$/;
+const looksLikeClassList = (s) => {
+  const tokens = s.trim().split(/\s+/);
+  if (tokens.some(t => /^[A-Z]/.test(t))) return false;
+  return tokens.filter(t => CLASS_TOKEN.test(t)).length * 2 >= tokens.length;
+};
+
 // User-facing text starts with a capital or contains a space; style values and
 // debug tokens ('auto', 'none', '45deg', 'defined') do neither.
-const userFacing = (s) => isProse(s) && (/^[A-Z]/.test(s) || s.includes(' '));
+const userFacing = (s) =>
+  isProse(s) && (/^[A-Z]/.test(s) || s.includes(' ')) && !looksLikeClassList(s);
+
+// Parenthesis depth a line leaves behind, ignoring the ones inside strings so
+// that a message like "…(Xcode → Product)…" does not read as an open call.
+const depthAfter = (line, start) => {
+  let depth = start;
+  let quote = null;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (quote) {
+      if (c === '\\') i++;
+      else if (c === quote) quote = null;
+    } else if (c === "'" || c === '"' || c === '`') quote = c;
+    else if (c === '(') depth++;
+    else if (c === ')') depth--;
+  }
+  return depth;
+};
 
 const findings = [];
 for (const file of files) {
   const lines = readFileSync(file, 'utf8').split('\n');
   let inBlockComment = false;
+  let inConsoleCall = false;
   let prevTrimmed = '';
 
   lines.forEach((line, i) => {
@@ -80,6 +111,18 @@ for (const file of files) {
       return;
     }
     if (trimmed.startsWith('*')) return;
+
+    // A wrapped console call reads exactly like a wrapped Alert: a sentence
+    // alone on a line. Developer diagnostics are the one such sentence nobody
+    // translates, so track when one is still open across lines.
+    if (inConsoleCall) {
+      inConsoleCall = depthAfter(line, 1) > 0;
+      return;
+    }
+    if (/\bconsole\.(?:log|warn|error|info|debug)\s*\(/.test(line) && depthAfter(line, 0) > 0) {
+      inConsoleCall = true;
+      return;
+    }
 
     const hits = [];
     // JSX text children: >Some words<
@@ -127,6 +170,27 @@ for (const file of files) {
     for (const m of line.matchAll(/\btext\s*:\s*['"]([^'"]{3,})['"]/g)) {
       if (userFacing(m[1])) hits.push(m[1]);
     }
+    // A string alone on a line — the shape every sentence takes once the call
+    // holding it wraps, which is exactly when it is long enough to matter:
+    //     Alert.alert(
+    //       t('home.removeFromRecent'),
+    //       `Remove "${item.title}" and reset reading progress to 0%?`,
+    // The Alert.alert rule only ever saw arguments sharing the call's line, and
+    // the quoted-string rules are all blind to backticks, so a message earned
+    // an exemption by being long or by containing a variable. A leading `?` or
+    // `:` is allowed for the arms of a ternary that wrapped the same way.
+    // A line of its own is also where this codebase puts its SQL, its injected
+    // WebView JavaScript and its log lines, so this rule asks for an actual
+    // sentence: closing punctuation, and no leading SQL verb. That trades away
+    // lone titles and labels, which every other rule already covers.
+    const bare = trimmed.match(/^[?:]?\s*(['"`])(.{3,}?)\1\s*,?$/);
+    if (bare) {
+      const sentence = bare[2].replace(/\$\{[^}]*\}/g, '').trim();
+      const isQuery =
+        /^(?:SELECT|INSERT|UPDATE|DELETE|REPLACE|CREATE|DROP|ALTER|PRAGMA|ATTACH|DETACH|BEGIN|COMMIT|WITH)\b/i.test(sentence);
+      const isCode = /^[[(]/.test(sentence) || /[;)]$/.test(sentence) || sentence.includes('function(');
+      if (!isQuery && !isCode && /[.?!…]$/.test(sentence) && userFacing(sentence)) hits.push(bare[2]);
+    }
     // Ternaries picking between two literals, typically inside JSX braces:
     // `{isViewMode ? 'No tags on this selection' : 'No tags yet'}`. The JSX
     // text-child patterns only see bare text between tags, never inside braces.
@@ -138,8 +202,11 @@ for (const file of files) {
     // Label paired with a key in an array literal, the shape used to build tab
     // rows: `[['recent', 'Recent'], ['trending', 'Trending']]`. The key is
     // lowercase code, the second entry is the user-visible label.
+    // A label is capitalised; a plain list of code values ('top', 'bottom' /
+    // 'morning', 'evening' / category id prefixes) fits the same brackets and
+    // is not text anyone reads.
     for (const m of line.matchAll(/\[\s*['"][a-z][\w-]*['"]\s*,\s*['"]([^'"]{3,})['"]\s*\]/g)) {
-      if (isProse(m[1])) hits.push(m[1]);
+      if (userFacing(m[1])) hits.push(m[1]);
     }
 
     for (const text of hits) {
@@ -164,4 +231,7 @@ console.error(
   '\nMove these into @immerse/i18n and read them with t(), or — if the English' +
   '\nis deliberate — add the exact text to "i18nCheck".allow in package.json.\n',
 );
-process.exit(1);
+// Not process.exit(1): writes to a pipe or a file are asynchronous, and exiting
+// discards whatever is still buffered. Redirecting the report to a log left the
+// count and nothing under it — the failure looks like a passing list of zero.
+process.exitCode = 1;

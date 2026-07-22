@@ -144,8 +144,15 @@ clean run:
 - **A pattern the scanner has no rule for is invisible, not absent.** The whole
   navigation chrome stayed English through a "fully translated" release because
   React Navigation declares labels as object properties. Alert button labels,
-  ternaries inside JSX braces, and `[key, label]` array rows were each found the
-  same way. Spot-check a real screen against the report before believing it.
+  ternaries inside JSX braces, `[key, label]` array rows, and the arguments of
+  any call long enough to wrap were each found the same way. Spot-check a real
+  screen against the report before believing it.
+
+Every construct that has hidden a live string is pinned in `check.test.ts`,
+alongside the lookalikes that make naive rules unusable — Tailwind class
+ternaries, SQL, injected WebView JavaScript, log lines, lists of code values.
+A new rule belongs there in both directions: what it must catch, and what it
+must stay quiet about. A rule that cries wolf gets the whole check switched off.
 
 ## Releasing
 
