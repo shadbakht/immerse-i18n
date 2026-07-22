@@ -488,4 +488,110 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'onboarding.xrefsCaption': 'Enlaza pasajes relacionados entre libros y tradiciones.',
   'onboarding.shareTitle': 'Comparte y publica',
   'onboarding.shareCaption': 'Comparte una cita o publica una etiqueta para la comunidad.',
+
+  // ── Hoja de exportación ───────────────────────────────────────────────────
+  'export.shareTags_one': 'Compartir {{count}} etiqueta',
+  'export.shareTags_other': 'Compartir {{count}} etiquetas',
+  'export.shareTagsGeneric': 'Compartir etiquetas',
+  'export.preparing': 'Preparando…',
+  'export.notesOn': 'Tus notas escritas en cada pasaje',
+  'export.notesNone': 'No hay notas en estos pasajes',
+  'export.xrefsOn': 'Pasajes enlazados bajo cada cita',
+  'export.xrefsNone': 'No hay remisiones en estos pasajes',
+  'export.docxTitle': 'Documento de Word (.docx)',
+  'export.docxDesc': 'Encabezados de etiqueta con los pasajes citados. Se abre en Word, Pages o Google Docs.',
+  'export.pdfTitle': 'Documento PDF',
+  'export.pdfDesc': 'Documento con formato para imprimir o compartir.',
+  'export.csvTitle': 'Hoja de cálculo (.csv)',
+  'export.csvDesc': 'Una fila por pasaje. Se abre en Excel, Numbers o Google Sheets.',
+  'export.mdTitle': 'Markdown (.md)',
+  'export.mdDesc': 'Para Obsidian, Notion o cualquier herramienta de texto plano.',
+
+  // ── Plan de lectura ───────────────────────────────────────────────────────
+  'plan.chooseBook': 'Elige un libro',
+  'plan.searchBooks': 'Buscar libros…',
+  'plan.noBooksMatch': 'Ningún libro coincide con «{{query}}».',
+  'plan.readingComplete': 'Lectura completada',
+  'plan.morningSession': 'Sesión de la mañana',
+  'plan.eveningSession': 'Sesión de la tarde',
+  'plan.minutes': '{{count}} min',
+  'plan.streakDay': 'Día {{count}} de racha ✓',
+  'plan.sessionsToday': '{{done}} de {{required}} sesiones hoy',
+  'plan.youFinished': 'Has terminado {{title}}',
+  'plan.readOverDays_one': 'Leído en {{count}} día',
+  'plan.readOverDays_other': 'Leído en {{count}} días',
+  'plan.remindersPaused': 'los recordatorios están en pausa',
+  'plan.chooseNextBook': 'Elige tu próximo libro',
+  'completed.title': 'Libros completados',
+  'completed.empty': 'Los libros que termines en tu plan de lectura aparecerán aquí.',
+  'completed.finishedOn': 'Terminado el {{date}}',
+  'completed.day_one': '{{count}} día',
+  'completed.day_other': '{{count}} días',
+
+  // ── Biblioteca ────────────────────────────────────────────────────────────
+  'library.selectPassageForXref': 'Selecciona el pasaje para la remisión',
+  'library.findingRelated': 'Buscando pasajes relacionados…',
+  'library.importFailedTitle': 'Error al importar',
+  'library.couldNotImport': 'No se pudo importar el archivo.',
+  'library.bookAdded': 'Libro añadido',
+  'library.bookAddedBody': '«{{title}}» ya está en Mis libros.',
+  'library.importErrorTitle': 'Error de importación',
+  'library.unexpectedError': 'Se ha producido un error inesperado.',
+
+  'auth.usernamePlain': 'Nombre de usuario',
+  'auth.fullNameOptional': 'Nombre completo (opcional)',
+  'auth.emailPlain': 'Correo electrónico',
+  'auth.passwordPlain': 'Contraseña',
+  'auth.emailAddressPlain': 'Dirección de correo electrónico',
+
+  // ── Tour de bienvenida (móvil) ────────────────────────────────────────────
+  'onboarding.skip': 'Saltar',
+  'onboarding.tour.libraryMain.label': 'Pantalla de la biblioteca',
+  'onboarding.tour.libraryMain.caption':
+    'La Biblioteca contiene más de 400 textos sagrados de todas las grandes tradiciones. Toca una tradición para explorar sus libros.',
+  'onboarding.tour.libraryExpanded.label': 'Biblioteca desplegada',
+  'onboarding.tour.libraryExpanded.caption':
+    'Cada tradición se despliega para mostrar autores y colecciones. Toca cualquier título para abrirlo en el lector.',
+  'onboarding.tour.librarySearch.label': 'Búsqueda en la biblioteca',
+  'onboarding.tour.librarySearch.caption':
+    'Busca en los más de 400 textos a la vez. Toca un resultado para desplegarlo o mantenlo pulsado para abrirlo directamente en el lector.',
+  'onboarding.tour.searchQuickTag.label': 'Etiquetado rápido de resultados',
+  'onboarding.tour.searchQuickTag.caption':
+    'Selecciona uno o varios resultados de búsqueda y asígnalos a una etiqueta con un solo toque. Una forma rápida de crear una colección temática a partir de toda la biblioteca.',
+  'onboarding.tour.home.label': 'Pantalla de inicio',
+  'onboarding.tour.home.caption':
+    'Tu pantalla de inicio muestra cuántas etiquetas, notas y remisiones has creado, además de tus libros leídos recientemente. Toca cualquier título para seguir leyendo.',
+  'onboarding.tour.homePlan.label': 'Plan de lectura en el inicio',
+  'onboarding.tour.homePlan.caption':
+    'Crea el hábito de leer a diario: sigue un plan de lectura por el libro que elijas y durante el tiempo que quieras, o recibe versículos aleatorios de las tradiciones que selecciones, con recordatorios diarios y una racha que crece cada día que lees.',
+  'onboarding.tour.settingsDaily.label': 'Ajustes de lecturas diarias',
+  'onboarding.tour.settingsDaily.caption':
+    'En Ajustes, configura los versículos aleatorios eligiendo las tradiciones de las que se extraen y las horas del día en las que quieres un recordatorio suave, o cambia a un plan de lectura para avanzar por un libro cada día.',
+  'onboarding.tour.readerSelect.label': 'Selección de texto en el lector',
+  'onboarding.tour.readerSelect.caption':
+    'Mantén pulsado cualquier pasaje para seleccionarlo. Usa los iconos de la parte inferior de la pantalla para añadir una etiqueta, una nota o una remisión, u obtener un resumen con IA.',
+  'onboarding.tour.readerNote.label': 'Nota en el lector',
+  'onboarding.tour.readerNote.caption':
+    'Las notas se adjuntan al texto exacto que seleccionaste. El marcador dorado del margen te permite encontrarlas y volver a abrirlas cuando quieras.',
+  'onboarding.tour.readerXref.label': 'Remisión en el lector',
+  'onboarding.tour.readerXref.caption':
+    'Las remisiones enlazan pasajes de distintos libros y tradiciones. Mantén pulsada cualquier cita enlazada para saltar a ella en el lector.',
+  'onboarding.tour.readerAi.label': 'Resumen con IA en el lector',
+  'onboarding.tour.readerAi.caption':
+    'Después de seleccionar un pasaje, toca el icono de destellos para obtener un resumen instantáneo con IA, especialmente útil en textos densos o poco conocidos.',
+  'onboarding.tour.readerListen.label': 'Modo escucha en el lector',
+  'onboarding.tour.readerListen.caption':
+    'Toca el botón de auriculares para escuchar cualquier libro en voz alta: el lector resalta cada pasaje a medida que suena. Mantén pulsado el botón de auriculares para elegir entre una selección de voces naturales.',
+  'onboarding.tour.tags.label': 'Pantalla de etiquetas',
+  'onboarding.tour.tags.caption':
+    'La pantalla de Etiquetas agrupa por tema los pasajes que has etiquetado. Toca el nombre de una etiqueta para ver sus pasajes citados con las referencias completas.',
+  'onboarding.tour.xrefs.label': 'Pantalla de remisiones',
+  'onboarding.tour.xrefs.caption':
+    'La pantalla de Remisiones muestra todos tus pasajes enlazados uno junto a otro. Mantén pulsado cualquiera de los dos lados para saltar a ese pasaje en el lector.',
+  'onboarding.tour.discover.label': 'Pantalla Descubrir',
+  'onboarding.tour.discover.caption':
+    'En la pantalla Descubrir encontrarás colecciones de etiquetas compartidas por otros lectores. Toca una etiqueta para ver sus pasajes y luego impórtala a tu propia biblioteca.',
+  'onboarding.tour.tagShare.label': 'Panel para compartir etiquetas',
+  'onboarding.tour.tagShare.caption':
+    'Exporta cualquier colección de etiquetas como documento de Word, PDF, hoja de cálculo, Markdown y más, incluyendo tus notas y remisiones.',
 };

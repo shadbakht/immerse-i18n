@@ -513,6 +513,126 @@ export const en = {
   'onboarding.xrefsCaption': 'Link related passages across books and traditions.',
   'onboarding.shareTitle': 'Share & publish',
   'onboarding.shareCaption': 'Share a quote or publish a tag for the community.',
+
+  // ── Export sheet ──────────────────────────────────────────────────────────
+  // Mobile-only. The web exports through its own panel, which reuses `tags.*`.
+  // `Include`, and the two toggle titles, come from `tags.exportInclude`,
+  // `notes.title` and `xrefs.title` rather than being duplicated here.
+  'export.shareTags_one': 'Share {{count}} tag',
+  'export.shareTags_other': 'Share {{count}} tags',
+  'export.shareTagsGeneric': 'Share Tags',
+  'export.preparing': 'Preparing…',
+  'export.notesOn': 'Your written notes on each passage',
+  'export.notesNone': 'No notes on these passages',
+  'export.xrefsOn': 'Linked passages under each quote',
+  'export.xrefsNone': 'No cross-references on these passages',
+  'export.docxTitle': 'Word Document (.docx)',
+  'export.docxDesc': 'Tag headers with quoted passages. Opens in Word, Pages, or Google Docs.',
+  'export.pdfTitle': 'PDF Document',
+  'export.pdfDesc': 'Formatted document for printing or sharing.',
+  'export.csvTitle': 'Spreadsheet (.csv)',
+  'export.csvDesc': 'One row per passage. Opens in Excel, Numbers, or Google Sheets.',
+  'export.mdTitle': 'Markdown (.md)',
+  'export.mdDesc': 'For Obsidian, Notion, or any plain-text tool.',
+
+  // ── Reading plan ──────────────────────────────────────────────────────────
+  // Mobile-only: the web has no reading plan, so none of this existed before.
+  'plan.chooseBook': 'Choose a Book',
+  'plan.searchBooks': 'Search books…',
+  'plan.noBooksMatch': 'No books match “{{query}}”.',
+  'plan.readingComplete': 'Reading complete',
+  'plan.morningSession': 'Morning session',
+  'plan.eveningSession': 'Evening session',
+  'plan.minutes': '{{count}} min',
+  'plan.streakDay': 'Streak day {{count}} ✓',
+  'plan.sessionsToday': '{{done}} of {{required}} sessions today',
+  'plan.youFinished': 'You finished {{title}}',
+  'plan.readOverDays_one': 'Read over {{count}} day',
+  'plan.readOverDays_other': 'Read over {{count}} days',
+  'plan.remindersPaused': 'reminders are paused',
+  'plan.chooseNextBook': 'Choose your next book',
+  'completed.title': 'Completed Books',
+  'completed.empty': 'Books you finish on your reading plan will appear here.',
+  'completed.finishedOn': 'Finished {{date}}',
+  'completed.day_one': '{{count}} day',
+  'completed.day_other': '{{count}} days',
+
+  // ── Library leftovers ─────────────────────────────────────────────────────
+  'library.selectPassageForXref': 'Select passage for cross-reference',
+  'library.findingRelated': 'Finding related passages…',
+  'library.importFailedTitle': 'Import failed',
+  'library.couldNotImport': 'Could not import the file.',
+  'library.bookAdded': 'Book added',
+  'library.bookAddedBody': '“{{title}}” is now in My Books.',
+  'library.importErrorTitle': 'Import error',
+  'library.unexpectedError': 'An unexpected error occurred.',
+
+  // Onboarding's sign-up form omits the asterisk the standalone auth screens
+  // use to mark a required field, so these cannot reuse the `auth.*Placeholder`
+  // keys without silently changing the English.
+  'auth.usernamePlain': 'Username',
+  'auth.fullNameOptional': 'Full Name (optional)',
+  'auth.emailPlain': 'Email',
+  'auth.passwordPlain': 'Password',
+  'auth.emailAddressPlain': 'Email address',
+
+  // ── Onboarding tour (mobile) ──────────────────────────────────────────────
+  // Sixteen slides, distinct from the web's nine: these describe touch gestures
+  // ("long-press", "tap and hold") that have no desktop equivalent, so the
+  // `onboarding.*Caption` keys above cannot be reused.
+  //
+  // Each slide carries a `.label` as well — shown in place of the screenshot on
+  // any platform that has no image for that slide, which today means iPad on
+  // the five slides with no `imagePad`. They are user-visible, not debug text.
+  'onboarding.skip': 'Skip',
+  'onboarding.tour.libraryMain.label': 'Library screen',
+  'onboarding.tour.libraryMain.caption':
+    'The Library holds 400+ sacred texts from all major traditions. Tap a tradition to explore its books.',
+  'onboarding.tour.libraryExpanded.label': 'Library expanded',
+  'onboarding.tour.libraryExpanded.caption':
+    'Each tradition expands to show authors and collections. Tap any title to open it in the reader.',
+  'onboarding.tour.librarySearch.label': 'Library search',
+  'onboarding.tour.librarySearch.caption':
+    'Search across all 400+ texts at once. Tap a result to expand it — long-press to open it directly in the reader.',
+  'onboarding.tour.searchQuickTag.label': 'Search result quick tag',
+  'onboarding.tour.searchQuickTag.caption':
+    'Select one or many search results and assign them to a tag in one tap. A fast way to build a thematic collection from across the entire library.',
+  'onboarding.tour.home.label': 'Home screen',
+  'onboarding.tour.home.caption':
+    'Your home screen shows how many tags, notes, and cross-references you’ve made, plus your recently read books. Tap any title to continue reading.',
+  'onboarding.tour.homePlan.label': 'Home reading plan',
+  'onboarding.tour.homePlan.caption':
+    'Build a daily reading habit: follow a Reading Plan through any book of your choice and the duration of your choice, or receive Random Verses drawn from the traditions you select — with daily reminders and a streak that grows each day you read.',
+  'onboarding.tour.settingsDaily.label': 'Daily readings settings',
+  'onboarding.tour.settingsDaily.caption':
+    'In Settings, set up Random Verses by picking the traditions to draw from and the times of day you’d like a gentle reminder — or switch to a Reading Plan to work through one book daily.',
+  'onboarding.tour.readerSelect.label': 'Reader selecting text',
+  'onboarding.tour.readerSelect.caption':
+    'Long-press any passage to select it. Use the icons at the bottom of the screen to add a tag, note, cross-reference, or get an AI summary.',
+  'onboarding.tour.readerNote.label': 'Reader viewing note',
+  'onboarding.tour.readerNote.caption':
+    'Notes attach to the exact text you selected. The gold marker in the margin lets you find and reopen them any time.',
+  'onboarding.tour.readerXref.label': 'Reader viewing cross-reference',
+  'onboarding.tour.readerXref.caption':
+    'Cross-references link passages across different books and traditions. Long-press any linked quote to jump to it in the reader.',
+  'onboarding.tour.readerAi.label': 'Reader AI summary',
+  'onboarding.tour.readerAi.caption':
+    'After selecting a passage, tap the sparkle icon for an instant AI summary — especially helpful for dense or unfamiliar texts.',
+  'onboarding.tour.readerListen.label': 'Reader listen mode',
+  'onboarding.tour.readerListen.caption':
+    'Tap the headphones button to have any book read aloud — the reader highlights each passage as it plays. Tap and hold the headphones button to choose from a selection of natural voices.',
+  'onboarding.tour.tags.label': 'Tags screen',
+  'onboarding.tour.tags.caption':
+    'The Tags screen groups your tagged passages by theme. Tap a tag name to see its quoted passages with full citations.',
+  'onboarding.tour.xrefs.label': 'Cross-references screen',
+  'onboarding.tour.xrefs.caption':
+    'The Cross-References screen shows all your linked passages side by side. Long-press either side to jump to that passage in the reader.',
+  'onboarding.tour.discover.label': 'Discover screen',
+  'onboarding.tour.discover.caption':
+    'In the Discover screen, find tag collections shared by other readers. Tap a tag to preview its passages, then import it into your own library.',
+  'onboarding.tour.tagShare.label': 'Tag share panel',
+  'onboarding.tour.tagShare.caption':
+    'Export any tag collection as a Word doc, PDF, Spreadsheet, Markdown, and more — with your notes and cross-references included.',
 } as const;
 
 /** Keys exactly as written above, including the `_one` / `_other` variants. */
