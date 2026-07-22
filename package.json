@@ -1,13 +1,14 @@
 {
   "name": "@immerse/i18n",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Shared UI strings for the Immerse mobile app and immerse-web.",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "src",
+    "bin"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -19,5 +20,8 @@
   "devDependencies": {
     "@types/node": "^20",
     "typescript": "~5.9.2"
+  },
+  "bin": {
+    "immerse-i18n-check": "bin/check-untranslated.mjs"
   }
 }

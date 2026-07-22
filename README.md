@@ -37,12 +37,81 @@ user. `es.ts` is therefore `Partial` by design and can be filled in gradually.
 
 1. Add the key to `src/en.ts` first — English is the fallback, so a key absent
    there has nothing to fall back to.
-2. Add the Spanish to `src/es.ts` (optional; it will fall back until you do).
-3. `npm test` — the suite checks both directions: no Spanish key orphaned from
-   English, and `{{placeholders}}` consistent between locales.
+2. Add the translation to each locale file (optional; it falls back until you do).
+3. `npm test` — the guards run against **every** registered locale: no key
+   orphaned from English, `{{placeholders}}` consistent, plural groups complete.
+   `pretest` rebuilds first, because the suite runs against `dist/` and once
+   passed green on a stale one.
 
-Plurals use `_one` / `_other` suffixes selected by `count`. Interpolation is
-`{{name}}`.
+Plurals use CLDR category suffixes selected by `count` — see below.
+Interpolation is `{{name}}`.
+
+## Adding a language
+
+Adding a locale touches **no app code**. It is this, and then translation:
+
+1. `cp src/en.ts src/fr.ts`, rename the export, translate the values. Leave out
+   anything you are unsure of — missing keys fall back to English rather than
+   showing a raw key, so a partial file ships safely.
+2. Register it in `src/index.ts` (`LOCALES`) and in `src/languages.ts`
+   (`UI_LANGUAGES`, and `LANGUAGE_LABELS` if the label is not there yet).
+   A test fails if those two lists disagree.
+3. `npm test`. Every guard is driven off `LOCALES`, so the new language is held
+   to all of them automatically: no key absent from English, placeholders
+   preserved, every plural group offering an `_other`.
+4. Release, and repin both consumers — see **Releasing**.
+
+The irreducible cost is translating ~534 strings. Everything around it is the
+four steps above.
+
+### Plurals
+
+`translate()` selects the variant with `Intl.PluralRules`, so each locale gets
+its own rules rather than English's:
+
+| Language | Categories | Suffixes to supply |
+|---|---|---|
+| English, Spanish, German… | 2 | `_one` `_other` |
+| French | 2 (but 0 is singular) | `_one` `_other` |
+| Polish, Russian, Czech | 3 | `_one` `_few` `_many` `_other` |
+| Arabic | 6 | `_zero` `_one` `_two` `_few` `_many` `_other` |
+
+Supplying only `_one`/`_other` is fine: an unmatched category falls back to
+that locale's own `_other` **before** falling back to English, so the sentence
+stays in one language. `_other` is therefore required for every plural group,
+and a test enforces it.
+
+> Do not reintroduce `count === 1 ? one : other`. It is silently wrong rather
+> than broken — Russian `3` and `5` take different words, and Arabic has six.
+
+### Right-to-left
+
+`LANGUAGE_LABELS` includes `fa` and `ar`. Translating them is necessary but not
+sufficient: RTL is a **layout** problem (`I18nManager` on React Native, `dir`
+on the web) and is not handled by this package. Budget for it separately.
+
+## Guarding against drift
+
+`immerse-i18n-check` ships with this package and fails when a user-visible
+string is hardcoded instead of read through `t()`:
+
+```bash
+npx immerse-i18n-check src
+```
+
+Both apps run it — mobile as a jest test, web as `npm run i18n:check`.
+Deliberate exceptions live in the consumer's `package.json`:
+
+```json
+"i18nCheck": {
+  "allow": ["Immerse"],
+  "ignorePaths": ["__tests__"]
+}
+```
+
+`allow` matches the flagged text exactly, so it cannot quietly widen. This
+exists because both apps had accumulated ~100 stray literals before anything
+was checking — a cost that multiplies with every language added.
 
 ## Releasing
 

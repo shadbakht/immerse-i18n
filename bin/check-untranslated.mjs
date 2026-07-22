@@ -1,0 +1,119 @@
+#!/usr/bin/env node
+/**
+ * Fail when user-visible English is hardcoded instead of coming from t().
+ *
+ * Both apps reached full translation by hand-sweeping roughly a hundred
+ * literals that had accumulated unnoticed over months. Nothing objected while
+ * they piled up, so the same drift would simply start again — and every
+ * language added multiplies the cost of catching it late. This is the thing
+ * that keeps "fully translated" true rather than a snapshot of one afternoon.
+ *
+ * Usage:  immerse-i18n-check <dir> [<dir>...]
+ *
+ * Deliberate exceptions go in the consumer's package.json:
+ *
+ *   "i18nCheck": {
+ *     "allow":       ["Immerse", "Made with Immerse"],
+ *     "ignorePaths": ["__tests__", "scripts/"]
+ *   }
+ *
+ * `allow` matches the flagged text exactly, so it stays narrow: allowing
+ * "Immerse" does not quietly allow "Immerse is great".
+ */
+
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+
+const dirs = process.argv.slice(2);
+if (dirs.length === 0) {
+  console.error('usage: immerse-i18n-check <dir> [<dir>...]');
+  process.exit(2);
+}
+
+let config = { allow: [], ignorePaths: [] };
+const pkgPath = resolve('package.json');
+if (existsSync(pkgPath)) {
+  const pkg = JSON.parse(readFileSync(pkgPath, 'utf8'));
+  config = { ...config, ...(pkg.i18nCheck ?? {}) };
+}
+const allow = new Set(config.allow);
+const ignorePaths = config.ignorePaths;
+
+const files = [];
+for (const dir of dirs) {
+  (function walk(d) {
+    if (!existsSync(d)) return;
+    for (const f of readdirSync(d)) {
+      const p = join(d, f);
+      if (ignorePaths.some(ig => p.includes(ig))) continue;
+      if (statSync(p).isDirectory()) walk(p);
+      else if (/\.(ts|tsx|js|jsx)$/.test(p)) files.push(p);
+    }
+  })(dir);
+}
+
+// Prose, not identifiers: needs a letter run, and must not be SCREAMING_CASE
+// (those are constants) or punctuation/digits only (✓, ›, 40%).
+const isProse = s =>
+  /[A-Za-z]{3}/.test(s) && !/^[A-Z0-9_]+$/.test(s) && !/^[\d\s\W]*$/.test(s);
+
+const findings = [];
+for (const file of files) {
+  const lines = readFileSync(file, 'utf8').split('\n');
+  let inBlockComment = false;
+
+  lines.forEach((line, i) => {
+    // Cheap comment handling: enough to avoid flagging prose in doc blocks.
+    if (inBlockComment) {
+      if (line.includes('*/')) inBlockComment = false;
+      return;
+    }
+    const trimmed = line.trim();
+    if (trimmed.startsWith('//')) return;
+    if (trimmed.startsWith('/*')) {
+      if (!line.includes('*/')) inBlockComment = true;
+      return;
+    }
+    if (trimmed.startsWith('*')) return;
+
+    const hits = [];
+    // JSX text children: >Some words<
+    // The lookbehind rejects `=>`, so an arrow function returning a generic
+    // (`=> Promise<string[]>`) is not mistaken for JSX text.
+    for (const m of line.matchAll(/(?<![=-])>\s*([A-Z][A-Za-z][^<>{}\n]{2,})</g)) {
+      const text = m[1].trim();
+      if (isProse(text)) hits.push(text);
+    }
+    // String-literal props the user reads
+    for (const m of line.matchAll(
+      /\b(placeholder|title|label|description|accessibilityLabel|accessibilityHint)=["']([^"']{3,})["']/g,
+    )) {
+      if (isProse(m[2])) hits.push(m[2]);
+    }
+    // Alert.alert('Literal', 'Literal')
+    for (const m of line.matchAll(/Alert\.alert\(\s*['"]([^'"]{3,})['"]\s*(?:,\s*['"]([^'"]{3,})['"])?/g)) {
+      for (const g of [m[1], m[2]]) if (g && isProse(g)) hits.push(g);
+    }
+
+    for (const text of hits) {
+      if (allow.has(text)) continue;
+      findings.push({ file, line: i + 1, text });
+    }
+  });
+}
+
+if (findings.length === 0) {
+  console.log(`i18n: no hardcoded UI strings in ${files.length} files`);
+  process.exit(0);
+}
+
+console.error(`\ni18n: ${findings.length} hardcoded UI string(s) found.\n`);
+for (const f of findings) {
+  console.error(`  ${f.file}:${f.line}`);
+  console.error(`    ${f.text}`);
+}
+console.error(
+  '\nMove these into @immerse/i18n and read them with t(), or — if the English' +
+  '\nis deliberate — add the exact text to "i18nCheck".allow in package.json.\n',
+);
+process.exit(1);
