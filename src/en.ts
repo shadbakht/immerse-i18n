@@ -566,10 +566,26 @@ export const en = {
   'library.bookAddedBody': '“{{title}}” is now in My Books.',
   'library.importErrorTitle': 'Import error',
   'library.unexpectedError': 'An unexpected error occurred.',
+  'nav.browsingAsGuest': 'Browsing as guest',
+  'reader.selectBookToBegin': 'Select a book to begin reading',
+  'tags.exportFailed': 'Export failed',
+  'tags.couldNotExport': 'Could not export tags.',
+  'tags.couldNotRemoveSelection': 'Could not remove selection',
+  'tags.reorderHint': 'Drag the grip to reorder · ⇤ ⇥ to change nesting · tap a tag to reorder its quotes.',
+  'library.tapToExpandHint': 'Tap to expand · Hold to open in reader',
+  'library.deleteBookImportedBody': 'This book and all its annotations will be permanently removed.',
+  'library.deleteBookBundledBody':
+    'This book and all its annotations will be removed. It will return when the library next refreshes.',
+  'library.deleteCategoryConfirm': 'Delete “{{name}}”?',
+  'library.deleteCategoryBody_one': 'This will also remove {{count}} book and all its annotations.',
+  'library.deleteCategoryBody_other': 'This will also remove {{count}} books and all their annotations.',
+  'library.deleteCategoryEmptyBody': 'This category will be permanently removed.',
 
   // Onboarding's sign-up form omits the asterisk the standalone auth screens
   // use to mark a required field, so these cannot reuse the `auth.*Placeholder`
   // keys without silently changing the English.
+  'auth.passwordTooShortTitle': 'Password too short',
+  'auth.passwordsMustMatch': 'Please make sure both passwords are the same.',
   'auth.usernamePlain': 'Username',
   'auth.fullNameOptional': 'Full Name (optional)',
   'auth.emailPlain': 'Email',
@@ -581,9 +597,11 @@ export const en = {
   // ("long-press", "tap and hold") that have no desktop equivalent, so the
   // `onboarding.*Caption` keys above cannot be reused.
   //
-  // Each slide carries a `.label` as well — shown in place of the screenshot on
-  // any platform that has no image for that slide, which today means iPad on
-  // the five slides with no `imagePad`. They are user-visible, not debug text.
+  // Each slide also carries a `.label`, rendered in place of the screenshot when
+  // a slide has no image for the platform. That branch is unreachable as things
+  // stand — every slide has a non-null `image`, and iPad filters out the slides
+  // with no `imagePad` rather than falling back — so these are translated to
+  // keep the fallback honest, not because anything renders them today.
   'onboarding.skip': 'Skip',
   'onboarding.tour.libraryMain.label': 'Library screen',
   'onboarding.tour.libraryMain.caption':
