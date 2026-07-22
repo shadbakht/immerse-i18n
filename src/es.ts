@@ -92,6 +92,11 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'settings.appLanguage': 'Idioma de la aplicación',
   'settings.appLanguageHint':
     'Botones y menús. Independiente de la biblioteca que lees.',
+  'settings.restartForDirection': 'Reinicia para completar el cambio',
+  'settings.restartForDirectionBody':
+    '{{language}} se escribe de derecha a izquierda. Cierra y vuelve a abrir Immerse para voltear el diseño.',
+  'settings.restartForDirectionBodyLtr':
+    'Cierra y vuelve a abrir Immerse para que el diseño vuelva a ser de izquierda a derecha.',
   'settings.downloadedLibraries': 'Bibliotecas descargadas',
   'settings.downloadedLibrariesHint':
     'Cambia entre ellas desde la pantalla Biblioteca.',

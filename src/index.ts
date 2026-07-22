@@ -20,7 +20,10 @@
 import { en, type RawTranslationKey } from './en';
 import { es } from './es';
 
-export { LANGUAGE_LABELS, UI_LANGUAGES, languageLabel } from './languages';
+export {
+  LANGUAGE_LABELS, UI_LANGUAGES, languageLabel,
+  RTL_LANGUAGES, isRTL, directionOf,
+} from './languages';
 
 /**
  * The base name behind a plural group: `common.book_one` → `common.book`.

@@ -98,6 +98,14 @@ export const en = {
   'settings.language': 'Language',
   'settings.appLanguage': 'App language',
   'settings.appLanguageHint': 'Buttons and menus. Separate from which library you read.',
+  // Shown only when the chosen language runs in the other direction. React
+  // Native mirrors the layout at startup and cannot re-mirror a running app,
+  // so without this the setting would look like it had half-applied.
+  'settings.restartForDirection': 'Restart to finish switching',
+  'settings.restartForDirectionBody':
+    '{{language}} is written right-to-left. Close and reopen Immerse to flip the layout.',
+  'settings.restartForDirectionBodyLtr':
+    'Close and reopen Immerse to return the layout to left-to-right.',
   'settings.downloadedLibraries': 'Downloaded libraries',
   'settings.downloadedLibrariesHint': 'Switch between them from the Library screen.',
   'settings.includedWithApp': 'included with the app',

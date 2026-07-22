@@ -20,10 +20,38 @@ export const LANGUAGE_LABELS: Record<string, string> = {
   tr: 'Türkçe',
   fa: 'فارسی',
   ar: 'العربية',
+  he: 'עברית',
+  ur: 'اردو',
 };
 
 export function languageLabel(code: string): string {
   return LANGUAGE_LABELS[code] ?? code;
+}
+
+/**
+ * Languages written right-to-left.
+ *
+ * Kept here, next to the labels, so the two apps cannot disagree about which
+ * languages need mirroring — the same drift that made LANGUAGE_LABELS shared.
+ * Broader than the UI currently offers: a *content* pack can be RTL before the
+ * interface is translated, and the reader has to mirror for it either way.
+ */
+export const RTL_LANGUAGES: ReadonlySet<string> = new Set(['ar', 'fa', 'he', 'ur']);
+
+/**
+ * Whether a locale is right-to-left.
+ *
+ * Matches on the primary subtag, so regional variants (`ar-EG`, `fa-AF`) are
+ * recognised rather than silently treated as left-to-right.
+ */
+export function isRTL(code: string | null | undefined): boolean {
+  if (!code) return false;
+  return RTL_LANGUAGES.has(code.split('-')[0].toLowerCase());
+}
+
+/** `'rtl'` or `'ltr'` — the value for an HTML `dir` attribute. */
+export function directionOf(code: string | null | undefined): 'rtl' | 'ltr' {
+  return isRTL(code) ? 'rtl' : 'ltr';
 }
 
 /**

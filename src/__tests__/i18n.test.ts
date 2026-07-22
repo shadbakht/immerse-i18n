@@ -6,7 +6,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 
 import { translate, LOCALES, SUPPORTED_UI_LANGUAGES } from '../index';
-import { UI_LANGUAGES } from '../languages';
+import { UI_LANGUAGES, isRTL, directionOf, RTL_LANGUAGES, LANGUAGE_LABELS } from '../languages';
 import { en } from '../en';
 import { es } from '../es';
 
@@ -170,6 +170,27 @@ test('every plural group in every locale offers an _other fallback', () => {
         `${code}: plural group '${base}' has no _other variant`,
       );
     }
+  }
+});
+
+test('identifies right-to-left languages, including regional variants', () => {
+  assert.equal(isRTL('ar'), true);
+  assert.equal(isRTL('fa'), true);
+  assert.equal(isRTL('ar-EG'), true);          // regional variant
+  assert.equal(isRTL('AR'), true);             // case-insensitive
+  assert.equal(isRTL('en'), false);
+  assert.equal(isRTL('es'), false);
+  assert.equal(isRTL(null), false);            // no language chosen yet
+  assert.equal(isRTL(undefined), false);
+  assert.equal(directionOf('fa'), 'rtl');
+  assert.equal(directionOf('en'), 'ltr');
+});
+
+test('every RTL language has a display label', () => {
+  // A language that mirrors the layout but shows a raw code in the picker
+  // would be a half-added language; this catches the half.
+  for (const code of RTL_LANGUAGES) {
+    assert.ok(LANGUAGE_LABELS[code], `no LANGUAGE_LABELS entry for '${code}'`);
   }
 });
 
