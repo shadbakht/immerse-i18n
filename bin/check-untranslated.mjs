@@ -61,6 +61,7 @@ const findings = [];
 for (const file of files) {
   const lines = readFileSync(file, 'utf8').split('\n');
   let inBlockComment = false;
+  let prevTrimmed = '';
 
   lines.forEach((line, i) => {
     // Cheap comment handling: enough to avoid flagging prose in doc blocks.
@@ -84,11 +85,33 @@ for (const file of files) {
       const text = m[1].trim();
       if (isProse(text)) hits.push(text);
     }
-    // String-literal props the user reads
+    // JSX text sitting on its own line, between a tag opened and closed on
+    // other lines:
+    //     <Text style={…}>
+    //       Sign In / Create Account
+    //     </Text>
+    // The single-line pattern above cannot see this shape, and it hid a live
+    // string in the navigation drawer.
+    // Excludes anything that looks like code rather than copy: calls,
+    // statements and assignments all end up on their own line too.
+    const looksLikeCode = /[(){}[\];=<>|&]/.test(trimmed) || !trimmed.includes(' ');
+    if (/>\s*$/.test(prevTrimmed) && !looksLikeCode && /^[A-Z]/.test(trimmed) && isProse(trimmed)) {
+      hits.push(trimmed);
+    }
+    // String-literal props the user reads, both as a JSX attribute
+    // (title="…") and as an object property (options={{ title: '…' }}).
+    // The object form is how React Navigation declares header titles and
+    // drawer labels; missing it hid every screen title in the app.
     for (const m of line.matchAll(
-      /\b(placeholder|title|label|description|accessibilityLabel|accessibilityHint)=["']([^"']{3,})["']/g,
+      /\b(placeholder|title|label|drawerLabel|headerTitle|description|accessibilityLabel|accessibilityHint)\s*[=:]\s*["']([^"']{3,})["']/g,
     )) {
       if (isProse(m[2])) hits.push(m[2]);
+    }
+    // Bare string arguments to a helper whose name says it renders a title,
+    // e.g. stackHeaderOptions('Cross-References', …). Function arguments were
+    // the other shape that slipped through.
+    for (const m of line.matchAll(/\b\w*(?:HeaderOptions|Title|Label)\w*\(\s*['"]([^'"]{3,})['"]/g)) {
+      if (isProse(m[1])) hits.push(m[1]);
     }
     // Alert.alert('Literal', 'Literal')
     for (const m of line.matchAll(/Alert\.alert\(\s*['"]([^'"]{3,})['"]\s*(?:,\s*['"]([^'"]{3,})['"])?/g)) {
@@ -99,6 +122,7 @@ for (const file of files) {
       if (allow.has(text)) continue;
       findings.push({ file, line: i + 1, text });
     }
+    prevTrimmed = trimmed;
   });
 }
 

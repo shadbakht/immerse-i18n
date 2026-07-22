@@ -1,6 +1,6 @@
 {
   "name": "@immerse/i18n",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Shared UI strings for the Immerse mobile app and immerse-web.",
   "license": "UNLICENSED",
   "main": "dist/index.js",

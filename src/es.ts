@@ -504,6 +504,7 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'export.xrefsOn': 'Pasajes enlazados bajo cada cita',
   'export.xrefsNone': 'No hay remisiones en estos pasajes',
   'export.docxTitle': 'Documento de Word (.docx)',
+  'export.docxShort': 'Word (.docx)',
   'export.docxDesc': 'Encabezados de etiqueta con los pasajes citados. Se abre en Word, Pages o Google Docs.',
   'export.pdfTitle': 'Documento PDF',
   'export.pdfDesc': 'Documento con formato para imprimir o compartir.',
@@ -548,6 +549,19 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'tags.couldNotExport': 'No se pudieron exportar las etiquetas.',
   'tags.couldNotRemoveSelection': 'No se pudo quitar la selección',
   'tags.reorderHint': 'Arrastra el asa para reordenar · ⇤ ⇥ para cambiar el nivel · toca una etiqueta para reordenar sus citas.',
+  'tags.swipeHint': 'Desliza una etiqueta a la derecha para hacerla pública o privada.',
+  'discover.publishHint':
+    'Desliza a la derecha sobre una etiqueta en tu pantalla de Etiquetas para publicarla aquí.',
+  'reminders.notificationsOff':
+    'Las notificaciones están desactivadas para Immerse, así que no se pueden enviar '
+    + 'recordatorios. Actívalas en los ajustes de tu dispositivo.',
+  'plan.continueJourney': 'Continúa tu camino de lectura',
+  'plan.yourBook': 'Tu libro',
+  'reader.notesInParagraph_one': '{{count}} nota en este párrafo',
+  'reader.notesInParagraph_other': '{{count}} notas en este párrafo',
+  'plan.awaitsMorning': '{{book}} te espera — lectura de la mañana',
+  'plan.awaitsEvening': '{{book}} te espera — lectura de la tarde',
+  'reminders.dailyReadingFrom': 'Lectura diaria · {{source}}',
   'library.tapToExpandHint': 'Toca para desplegar · Mantén pulsado para abrir en el lector',
   'library.deleteBookImportedBody': 'Este libro y todas sus anotaciones se eliminarán permanentemente.',
   'library.deleteBookBundledBody':

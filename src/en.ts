@@ -535,6 +535,8 @@ export const en = {
   'export.xrefsOn': 'Linked passages under each quote',
   'export.xrefsNone': 'No cross-references on these passages',
   'export.docxTitle': 'Word Document (.docx)',
+  // The web's export menu uses a shorter label than mobile's format sheet.
+  'export.docxShort': 'Word (.docx)',
   'export.docxDesc': 'Tag headers with quoted passages. Opens in Word, Pages, or Google Docs.',
   'export.pdfTitle': 'PDF Document',
   'export.pdfDesc': 'Formatted document for printing or sharing.',
@@ -580,6 +582,20 @@ export const en = {
   'tags.couldNotExport': 'Could not export tags.',
   'tags.couldNotRemoveSelection': 'Could not remove selection',
   'tags.reorderHint': 'Drag the grip to reorder · ⇤ ⇥ to change nesting · tap a tag to reorder its quotes.',
+  'tags.swipeHint': 'Swipe a tag right to make it public or private.',
+  'discover.publishHint': 'Swipe right on a tag in your Tags screen to publish it here.',
+  'reminders.notificationsOff':
+    'Notifications are turned off for Immerse, so reminders can’t be delivered. '
+    + 'Enable them in your device settings.',
+  // Body of the scheduled reading reminder. User-visible on the lock screen,
+  // so it belongs here even though no screen renders it.
+  'plan.continueJourney': 'Continue your reading journey',
+  'plan.yourBook': 'Your book',
+  'reader.notesInParagraph_one': '{{count}} note in this paragraph',
+  'reader.notesInParagraph_other': '{{count}} notes in this paragraph',
+  'plan.awaitsMorning': '{{book}} awaits — morning reading',
+  'plan.awaitsEvening': '{{book}} awaits — evening reading',
+  'reminders.dailyReadingFrom': 'Daily Reading · {{source}}',
   'library.tapToExpandHint': 'Tap to expand · Hold to open in reader',
   'library.deleteBookImportedBody': 'This book and all its annotations will be permanently removed.',
   'library.deleteBookBundledBody':
