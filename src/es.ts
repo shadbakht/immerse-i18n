@@ -100,6 +100,7 @@ export const es: Partial<Record<keyof typeof en, string>> = {
   'settings.restartForDirectionBodyLtr':
     'Cierra y vuelve a abrir Immerse para que el diseño vuelva a ser de izquierda a derecha.',
   'settings.downloadedLibraries': 'Bibliotecas descargadas',
+  'settings.libraries': 'Bibliotecas',
   'settings.downloadedLibrariesHint':
     'Cambia entre ellas desde la pantalla Biblioteca.',
   'settings.includedWithApp': 'incluida con la aplicación',

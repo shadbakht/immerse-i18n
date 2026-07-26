@@ -109,6 +109,10 @@ export const en = {
   'settings.restartForDirectionBodyLtr':
     'Close and reopen Immerse to return the layout to left-to-right.',
   'settings.downloadedLibraries': 'Downloaded libraries',
+  // Web streams every library from the server, so nothing is "downloaded" and
+  // there is nothing to remove — it lists the same libraries under a plain
+  // heading. The hint below applies verbatim on both platforms.
+  'settings.libraries': 'Libraries',
   'settings.downloadedLibrariesHint': 'Switch between them from the Library screen.',
   'settings.includedWithApp': 'included with the app',
   'settings.removeLanguageTitle': 'Remove {{language}}?',
