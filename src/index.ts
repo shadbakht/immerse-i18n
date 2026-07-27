@@ -17,41 +17,27 @@
  * translation therefore degrades to English rather than showing a raw key.
  */
 
-import { en, type RawTranslationKey } from './en';
+import { en } from './en';
 import { es } from './es';
+import { fr } from './fr';
+import { ru } from './ru';
+import { tr } from './tr';
+import { zh } from './zh';
+import type { LocaleKey, LocaleTable, TranslationKey } from './keys';
 
 export {
   LANGUAGE_LABELS, UI_LANGUAGES, languageLabel,
   RTL_LANGUAGES, isRTL, directionOf,
 } from './languages';
 
-/**
- * The base name behind a plural group: `common.book_one` → `common.book`.
- *
- * Callers write `t('common.book', { count })` and let translate() pick the
- * variant, so the base has to be a valid key even though no table contains it
- * directly. Without this the type would reject every real plural call site.
- *
- * All six CLDR categories are listed, not just the two English needs, so a
- * locale that uses `_few` or `_many` types correctly the day it is added.
- */
-type PluralBaseKey<K extends string> =
-  K extends `${infer Base}_zero` ? Base :
-  K extends `${infer Base}_one` ? Base :
-  K extends `${infer Base}_two` ? Base :
-  K extends `${infer Base}_few` ? Base :
-  K extends `${infer Base}_many` ? Base :
-  K extends `${infer Base}_other` ? Base :
-  never;
-
-export type TranslationKey = RawTranslationKey | PluralBaseKey<RawTranslationKey>;
+export type { TranslationKey, LocaleKey, LocaleTable, PluralCategory } from './keys';
 
 /**
  * Every registered locale table. Exported so the tests can hold all of them to
  * the same guarantees generically — the parity checks used to name `es`, which
  * silently left any third locale unguarded.
  */
-export const LOCALES: Record<string, Partial<Record<RawTranslationKey, string>>> = { en, es };
+export const LOCALES: Record<string, LocaleTable> = { en, es, fr, ru, tr, zh };
 
 export const SUPPORTED_UI_LANGUAGES = Object.keys(LOCALES);
 
@@ -129,8 +115,8 @@ export function translate(
     const category = pluralCategory(locale, vars.count);
     for (const table of chain) {
       if (!table) continue;
-      const hit = table[`${key}_${category}` as RawTranslationKey]
-               ?? table[`${key}_other` as RawTranslationKey];
+      const hit = table[`${key}_${category}` as LocaleKey]
+               ?? table[`${key}_other` as LocaleKey];
       if (hit) return interpolate(hit, vars);
     }
   }
@@ -138,7 +124,7 @@ export function translate(
   // A base plural key has no direct entry, so this lookup simply misses and
   // falls through — the variant loop above is what resolves it.
   for (const table of chain) {
-    const hit = table?.[key as RawTranslationKey];
+    const hit = table?.[key as LocaleKey];
     if (hit) return interpolate(hit, vars);
   }
 

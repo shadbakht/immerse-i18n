@@ -1,4 +1,4 @@
-import type { en } from './en';
+import type { LocaleTable } from './keys';
 
 /**
  * Spanish UI strings.
@@ -7,7 +7,7 @@ import type { en } from './en';
  * rendering a raw key, so this file can be filled in gradually without the app
  * ever showing `settings.appLanguage` to a user.
  */
-export const es: Partial<Record<keyof typeof en, string>> = {
+export const es: LocaleTable = {
   'common.cancel': 'Cancelar',
   'common.remove': 'Eliminar',
   'common.removing': 'Eliminando…',

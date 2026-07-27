@@ -17,6 +17,11 @@ export const LANGUAGE_LABELS: Record<string, string> = {
   es: 'Español',
   pt: 'Português',
   fr: 'Français',
+  ru: 'Русский',
+  // Simplified, the script the `zh` tables are written in. Marked as such
+  // because a reader who wants Traditional has to be able to tell at a glance
+  // that this is not it.
+  zh: '中文（简体）',
   tr: 'Türkçe',
   fa: 'فارسی',
   ar: 'العربية',
@@ -62,4 +67,8 @@ export function directionOf(code: string | null | undefined): 'rtl' | 'ltr' {
 export const UI_LANGUAGES: ReadonlyArray<{ code: string; label: string }> = [
   { code: 'en', label: LANGUAGE_LABELS.en },
   { code: 'es', label: LANGUAGE_LABELS.es },
+  { code: 'fr', label: LANGUAGE_LABELS.fr },
+  { code: 'ru', label: LANGUAGE_LABELS.ru },
+  { code: 'zh', label: LANGUAGE_LABELS.zh },
+  { code: 'tr', label: LANGUAGE_LABELS.tr },
 ];
