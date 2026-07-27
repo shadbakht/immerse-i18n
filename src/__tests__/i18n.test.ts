@@ -75,6 +75,16 @@ test('the shipped tables count the way their own language counts', () => {
   // `_other` entry is the correct reading, not a gap in the table.
   assert.equal(translate('tr', 'common.book', { count: 1 }), '1 kitap');
   assert.equal(translate('tr', 'common.book', { count: 5 }), '5 kitap');
+
+  // Persian is a fourth shape, and the only one English cannot stand in for:
+  // its `one` category covers ZERO as well as one, where English counts zero as
+  // `other`. The table writes only `_other`, so a count of 0 asks for a category
+  // that is absent and has to resolve through Persian's own `_other` — if that
+  // middle step ever regressed, this is the assertion that would catch it, in
+  // English, in the middle of a Persian screen.
+  assert.equal(translate('fa', 'common.book', { count: 0 }), '0 کتاب');
+  assert.equal(translate('fa', 'common.book', { count: 1 }), '1 کتاب');
+  assert.equal(translate('fa', 'common.book', { count: 5 }), '5 کتاب');
 });
 
 test('treats zero as plural', () => {

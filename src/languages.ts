@@ -71,4 +71,9 @@ export const UI_LANGUAGES: ReadonlyArray<{ code: string; label: string }> = [
   { code: 'ru', label: LANGUAGE_LABELS.ru },
   { code: 'zh', label: LANGUAGE_LABELS.zh },
   { code: 'tr', label: LANGUAGE_LABELS.tr },
+  // The first right-to-left interface language. Adding it needed no app code —
+  // both platforms already mirror from `isRTL` — but it does need the reader to
+  // declare each book's own direction, or a Persian interface renders every
+  // left-to-right book right-to-left.
+  { code: 'fa', label: LANGUAGE_LABELS.fa },
 ];
