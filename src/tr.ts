@@ -173,6 +173,8 @@ export const tr: LocaleTable = {
   'home.xrefs': 'Referanslar',
   'home.readingPlan': 'OKUMA PLANI',
   'home.dailyVerses': 'GÜNÜN AYETLERİ',
+  'home.dayStreak_other': '{{count}} günlük seri',
+  'home.dailyReading': 'Günlük okuma',
   'home.dailyReadingsTitle': 'Günlük okumalar',
   'home.tapToSetUp': 'Ayarlamak için dokunun',
   'home.tapToReadVerse': 'Bir ayet okumak için dokunun',
