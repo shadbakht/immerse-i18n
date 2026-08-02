@@ -84,6 +84,8 @@ export const tr: LocaleTable = {
   'library.relatedPassages': 'İlgili pasajlar',
   'library.relatedOn': 'kaynak',
   'library.relatedPrefix': 'İLGİLİ',
+  'library.booksAndSections': 'Kitaplar ve bölümler',
+  'library.tapToOpenHint': 'Açmak için dokunun',
   'library.importTitle': 'Kitap içe aktar (TXT, EPUB, DOCX, RTF, PDF)',
   'library.importProFeature':
     'Kitap içe aktarma bir Pro özelliğidir. Kendi kitaplarınızı aktarmak için Ayarlar’dan Pro’ya geçin.',
@@ -131,7 +133,7 @@ export const tr: LocaleTable = {
     'Yapay zekâ özetlerini, premium seslendirme seslerini ve kendi kitaplarınızı aktarmayı açın. Ayda 0,99 $.',
   'settings.purchases': 'Satın alımlar',
   'settings.restorePurchase': 'Satın alımı geri yükle',
-  'settings.restorePurchaseHint': 'Bu Apple veya Google hesabında zaten ödediğiniz Pro erişimini geri getirir.',
+  'settings.restorePurchaseHint': 'Zaten ödediğiniz Pro erişimini geri getirir — App Store, Google Play veya web üzerinden.',
   'settings.about': 'Hakkında',
   'settings.version': 'Sürüm',
   'settings.privacyPolicy': 'Gizlilik Politikası',

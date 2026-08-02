@@ -96,6 +96,8 @@ export const ru: LocaleTable = {
   'library.relatedPassages': 'Похожие отрывки',
   'library.relatedOn': 'в',
   'library.relatedPrefix': 'ПОХОЖЕЕ',
+  'library.booksAndSections': 'Книги и разделы',
+  'library.tapToOpenHint': 'Нажмите, чтобы открыть',
   'library.importTitle': 'Импортировать книгу (TXT, EPUB, DOCX, RTF, PDF)',
   'library.importProFeature':
     'Импорт книг доступен в Pro. Оформите Pro в настройках, чтобы добавлять свои книги.',
@@ -143,7 +145,7 @@ export const ru: LocaleTable = {
     'Откройте краткие пересказы с ИИ, премиальные голоса озвучки и импорт своих книг. 0,99 $ в месяц.',
   'settings.purchases': 'Покупки',
   'settings.restorePurchase': 'Восстановить покупку',
-  'settings.restorePurchaseHint': 'Восстанавливает доступ Pro, уже оплаченный в этой учётной записи Apple или Google.',
+  'settings.restorePurchaseHint': 'Восстанавливает доступ Pro, уже оплаченный в App Store, Google Play или на сайте.',
   'settings.about': 'О приложении',
   'settings.version': 'Версия',
   'settings.privacyPolicy': 'Политика конфиденциальности',

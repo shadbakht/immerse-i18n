@@ -84,6 +84,8 @@ export const fr: LocaleTable = {
   'library.relatedPassages': 'Passages liés',
   'library.relatedOn': 'dans',
   'library.relatedPrefix': 'EN LIEN',
+  'library.booksAndSections': 'Livres et sections',
+  'library.tapToOpenHint': 'Touchez pour ouvrir',
   'library.importTitle': 'Importer un livre (TXT, EPUB, DOCX, RTF, PDF)',
   'library.importProFeature':
     'L’import de livres est une fonction Pro. Passez à Pro dans les Réglages pour importer vos propres livres.',
@@ -131,7 +133,7 @@ export const fr: LocaleTable = {
     'Débloquez les résumés IA, les voix de lecture premium et l’import de vos propres livres. 0,99 $/mois.',
   'settings.purchases': 'Achats',
   'settings.restorePurchase': 'Restaurer l’achat',
-  'settings.restorePurchaseHint': 'Récupère l’accès Pro déjà payé sur ce compte Apple ou Google.',
+  'settings.restorePurchaseHint': 'Récupère l’accès Pro déjà payé — sur l’App Store, Google Play ou le web.',
   'settings.about': 'À propos',
   'settings.version': 'Version',
   'settings.privacyPolicy': 'Politique de confidentialité',

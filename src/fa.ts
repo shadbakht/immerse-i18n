@@ -92,6 +92,8 @@ export const fa: LocaleTable = {
   'library.relatedPassages': 'بندهای مرتبط',
   'library.relatedOn': 'در',
   'library.relatedPrefix': 'مرتبط',
+  'library.booksAndSections': 'کتاب‌ها و بخش‌ها',
+  'library.tapToOpenHint': 'برای باز کردن ضربه بزنید',
   'library.importTitle': 'وارد کردن کتاب (TXT، EPUB، DOCX، RTF، PDF)',
   'library.importProFeature':
     'وارد کردن کتاب یک قابلیت پرو است. برای وارد کردن کتاب‌های خودتان، در تنظیمات ارتقا دهید.',
@@ -139,7 +141,7 @@ export const fa: LocaleTable = {
     'خلاصه‌های هوش مصنوعی، صداهای ویژهٔ گوینده و وارد کردن کتاب‌های خودتان را باز کنید. ماهانه $0.99.',
   'settings.purchases': 'خریدها',
   'settings.restorePurchase': 'بازیابی خرید',
-  'settings.restorePurchaseHint': 'دسترسی Pro که پیش‌تر در این حساب Apple یا Google خریداری کرده‌اید را بازمی‌گرداند.',
+  'settings.restorePurchaseHint': 'دسترسی Pro که پیش‌تر خریداری کرده‌اید را بازمی‌گرداند — از App Store، Google Play یا وب‌سایت.',
   'settings.about': 'درباره',
   'settings.version': 'نسخه',
   'settings.privacyPolicy': 'سیاست حریم خصوصی',

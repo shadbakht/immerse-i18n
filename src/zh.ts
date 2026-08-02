@@ -82,6 +82,8 @@ export const zh: LocaleTable = {
   'library.relatedPassages': '相关段落',
   'library.relatedOn': '于',
   'library.relatedPrefix': '相关',
+  'library.booksAndSections': '书籍与章节',
+  'library.tapToOpenHint': '点按打开',
   'library.importTitle': '导入书籍（TXT、EPUB、DOCX、RTF、PDF）',
   'library.importProFeature':
     '导入书籍是 Pro 功能。请在设置中升级到 Pro，即可导入自己的书籍。',
@@ -129,7 +131,7 @@ export const zh: LocaleTable = {
     '解锁 AI 摘要、优质朗读语音，以及导入自己的书籍。每月 $0.99。',
   'settings.purchases': '购买',
   'settings.restorePurchase': '恢复购买',
-  'settings.restorePurchaseHint': '恢复您已在此 Apple 或 Google 账户上付费购买的 Pro 权限。',
+  'settings.restorePurchaseHint': '恢复您已付费购买的 Pro 权限——无论是通过 App Store、Google Play 还是网页购买。',
   'settings.about': '关于',
   'settings.version': '版本',
   'settings.privacyPolicy': '隐私政策',

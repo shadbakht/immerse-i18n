@@ -87,6 +87,8 @@ export const en = {
   'library.relatedPassages': 'Related passages',
   'library.relatedOn': 'on',
   'library.relatedPrefix': 'RELATED',
+  'library.booksAndSections': 'Books & sections',
+  'library.tapToOpenHint': 'Tap to open',
   'library.importTitle': 'Import a book (TXT, EPUB, DOCX, RTF, PDF)',
   'library.importProFeature':
     'Book import is a Pro feature. Upgrade in Settings to import your own books.',
@@ -137,7 +139,7 @@ export const en = {
     'Unlock AI summaries, premium listening voices, and importing your own books. $0.99/month.',
   'settings.purchases': 'Purchases',
   'settings.restorePurchase': 'Restore Purchase',
-  'settings.restorePurchaseHint': 'Recovers Pro access you already paid for on this Apple or Google account.',
+  'settings.restorePurchaseHint': 'Recovers Pro access you already paid for — on the App Store, Google Play, or the web.',
   'settings.about': 'About',
   'settings.version': 'Version',
   'settings.privacyPolicy': 'Privacy Policy',
