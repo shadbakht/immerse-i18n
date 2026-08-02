@@ -131,6 +131,7 @@ export const fr: LocaleTable = {
     'Débloquez les résumés IA, les voix de lecture premium et l’import de vos propres livres. 0,99 $/mois.',
   'settings.purchases': 'Achats',
   'settings.restorePurchase': 'Restaurer l’achat',
+  'settings.restorePurchaseHint': 'Récupère l’accès Pro déjà payé sur ce compte Apple ou Google.',
   'settings.about': 'À propos',
   'settings.version': 'Version',
   'settings.privacyPolicy': 'Politique de confidentialité',

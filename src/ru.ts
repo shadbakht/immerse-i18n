@@ -143,6 +143,7 @@ export const ru: LocaleTable = {
     'Откройте краткие пересказы с ИИ, премиальные голоса озвучки и импорт своих книг. 0,99 $ в месяц.',
   'settings.purchases': 'Покупки',
   'settings.restorePurchase': 'Восстановить покупку',
+  'settings.restorePurchaseHint': 'Восстанавливает доступ Pro, уже оплаченный в этой учётной записи Apple или Google.',
   'settings.about': 'О приложении',
   'settings.version': 'Версия',
   'settings.privacyPolicy': 'Политика конфиденциальности',

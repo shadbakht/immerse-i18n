@@ -137,6 +137,7 @@ export const en = {
     'Unlock AI summaries, premium listening voices, and importing your own books. $0.99/month.',
   'settings.purchases': 'Purchases',
   'settings.restorePurchase': 'Restore Purchase',
+  'settings.restorePurchaseHint': 'Recovers Pro access you already paid for on this Apple or Google account.',
   'settings.about': 'About',
   'settings.version': 'Version',
   'settings.privacyPolicy': 'Privacy Policy',

@@ -129,6 +129,7 @@ export const es: LocaleTable = {
     'Desbloquea resúmenes con IA, voces premium de lectura e importación de tus propios libros. 0,99 USD al mes.',
   'settings.purchases': 'Compras',
   'settings.restorePurchase': 'Restaurar compra',
+  'settings.restorePurchaseHint': 'Recupera el acceso Pro que ya pagaste con esta cuenta de Apple o Google.',
   'settings.about': 'Acerca de',
   'settings.version': 'Versión',
   'settings.privacyPolicy': 'Política de privacidad',

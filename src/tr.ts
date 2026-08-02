@@ -131,6 +131,7 @@ export const tr: LocaleTable = {
     'Yapay zekâ özetlerini, premium seslendirme seslerini ve kendi kitaplarınızı aktarmayı açın. Ayda 0,99 $.',
   'settings.purchases': 'Satın alımlar',
   'settings.restorePurchase': 'Satın alımı geri yükle',
+  'settings.restorePurchaseHint': 'Bu Apple veya Google hesabında zaten ödediğiniz Pro erişimini geri getirir.',
   'settings.about': 'Hakkında',
   'settings.version': 'Sürüm',
   'settings.privacyPolicy': 'Gizlilik Politikası',

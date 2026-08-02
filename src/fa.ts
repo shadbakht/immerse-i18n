@@ -139,6 +139,7 @@ export const fa: LocaleTable = {
     'خلاصه‌های هوش مصنوعی، صداهای ویژهٔ گوینده و وارد کردن کتاب‌های خودتان را باز کنید. ماهانه $0.99.',
   'settings.purchases': 'خریدها',
   'settings.restorePurchase': 'بازیابی خرید',
+  'settings.restorePurchaseHint': 'دسترسی Pro که پیش‌تر در این حساب Apple یا Google خریداری کرده‌اید را بازمی‌گرداند.',
   'settings.about': 'درباره',
   'settings.version': 'نسخه',
   'settings.privacyPolicy': 'سیاست حریم خصوصی',
