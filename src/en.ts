@@ -614,7 +614,7 @@ export const en = {
   'tags.couldNotExport': 'Could not export tags.',
   'tags.couldNotRemoveSelection': 'Could not remove selection',
   'tags.reorderHint': 'Drag the grip to reorder · ⇤ ⇥ to change nesting · tap a tag to reorder its quotes.',
-  'tags.swipeHint': 'Swipe a tag right to make it public or private.',
+  'tags.swipeHint': 'Swipe right on a Tag to make it public or private.',
   'discover.publishHint': 'Swipe right on a tag in your Tags screen to publish it here.',
   'reminders.notificationsOff':
     'Notifications are turned off for Immerse, so reminders can’t be delivered. '
