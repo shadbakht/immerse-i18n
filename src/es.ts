@@ -68,6 +68,8 @@ export const es: LocaleTable = {
   'library.importing': 'Importando…',
   'library.cleaning': 'Finalizando…',
   'library.downloadFailed': 'Error en la descarga',
+  'library.updateAvailable': 'Actualización disponible',
+  'library.updateLanguageA11y': 'Actualizar {{language}}',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Cambiar el idioma de la biblioteca',
 
   'library.myBooks': 'Mis libros',

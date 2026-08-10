@@ -72,6 +72,8 @@ export const zh: LocaleTable = {
   'library.importing': '正在导入…',
   'library.cleaning': '正在收尾…',
   'library.downloadFailed': '下载失败',
+  'library.updateAvailable': '有可用更新',
+  'library.updateLanguageA11y': '更新{{language}}',
   'library.changeLanguageA11y': '{{title}}，{{language}}。更改书库语言',
 
   'library.myBooks': '我的书',

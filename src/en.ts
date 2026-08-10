@@ -75,6 +75,8 @@ export const en = {
   'library.importing': 'Importing…',
   'library.cleaning': 'Finishing…',
   'library.downloadFailed': 'Download failed',
+  'library.updateAvailable': 'Update available',
+  'library.updateLanguageA11y': 'Update {{language}}',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Change library language',
 
   'library.myBooks': 'My Books',

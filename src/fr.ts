@@ -72,6 +72,8 @@ export const fr: LocaleTable = {
   'library.importing': 'Importation…',
   'library.cleaning': 'Finalisation…',
   'library.downloadFailed': 'Échec du téléchargement',
+  'library.updateAvailable': 'Mise à jour disponible',
+  'library.updateLanguageA11y': 'Mettre à jour {{language}}',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Changer la langue de la bibliothèque',
 
   'library.myBooks': 'Mes livres',

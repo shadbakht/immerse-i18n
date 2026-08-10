@@ -74,6 +74,8 @@ export const tr: LocaleTable = {
   'library.importing': 'İçe aktarılıyor…',
   'library.cleaning': 'Tamamlanıyor…',
   'library.downloadFailed': 'İndirme başarısız',
+  'library.updateAvailable': 'Güncelleme mevcut',
+  'library.updateLanguageA11y': '{{language}} dilini güncelle',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Kütüphane dilini değiştir',
 
   'library.myBooks': 'Kitaplarım',

@@ -80,6 +80,8 @@ export const ru: LocaleTable = {
   'library.importing': 'Импорт…',
   'library.cleaning': 'Завершение…',
   'library.downloadFailed': 'Не удалось загрузить',
+  'library.updateAvailable': 'Доступно обновление',
+  'library.updateLanguageA11y': 'Обновить {{language}}',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Изменить язык библиотеки',
 
   'library.myBooks': 'Мои книги',
