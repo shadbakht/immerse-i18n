@@ -377,6 +377,7 @@ export const zh: LocaleTable = {
 
   'reader.selectBook': '选择一本书开始阅读',
   'reader.tableOfContents': '目录',
+  'reader.tocButtonHint': '跳到本书的某一节',
   'reader.expandSection': '展开此节',
   'reader.collapseSection': '收起此节',
   'reader.expand': '展开',

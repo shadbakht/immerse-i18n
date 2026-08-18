@@ -396,6 +396,7 @@ export const ru: LocaleTable = {
 
   'reader.selectBook': 'Выберите книгу, чтобы начать читать',
   'reader.tableOfContents': 'Содержание',
+  'reader.tocButtonHint': 'Перейти к разделу этой книги',
   'reader.expandSection': 'Развернуть раздел',
   'reader.collapseSection': 'Свернуть раздел',
   'reader.expand': 'Развернуть',

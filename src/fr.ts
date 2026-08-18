@@ -381,6 +381,7 @@ export const fr: LocaleTable = {
 
   'reader.selectBook': 'Sélectionnez un livre pour commencer à lire',
   'reader.tableOfContents': 'Table des matières',
+  'reader.tocButtonHint': 'Aller à une section de ce livre',
   'reader.expandSection': 'Développer la section',
   'reader.collapseSection': 'Réduire la section',
   'reader.expand': 'Développer',

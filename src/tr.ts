@@ -379,6 +379,7 @@ export const tr: LocaleTable = {
 
   'reader.selectBook': 'Okumaya başlamak için bir kitap seçin',
   'reader.tableOfContents': 'İçindekiler',
+  'reader.tocButtonHint': 'Bu kitapta bir bölüme atlayın',
   'reader.expandSection': 'Bölümü genişlet',
   'reader.collapseSection': 'Bölümü daralt',
   'reader.expand': 'Genişlet',

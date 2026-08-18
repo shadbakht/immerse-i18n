@@ -396,6 +396,7 @@ export const en = {
   // renders the book in a WebView and uses the OS selection menu.
   'reader.selectBook': 'Select a book to begin reading',
   'reader.tableOfContents': 'Table of Contents',
+  'reader.tocButtonHint': 'Jump to a section in this book',
   'reader.expandSection': 'Expand section',
   'reader.collapseSection': 'Collapse section',
   'reader.expand': 'Expand',

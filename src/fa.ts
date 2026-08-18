@@ -386,6 +386,7 @@ export const fa: LocaleTable = {
 
   'reader.selectBook': 'برای شروع مطالعه، کتابی را انتخاب کنید',
   'reader.tableOfContents': 'فهرست مطالب',
+  'reader.tocButtonHint': 'رفتن به بخشی از این کتاب',
   'reader.expandSection': 'باز کردن بخش',
   'reader.collapseSection': 'جمع کردن بخش',
   'reader.expand': 'باز کردن',
