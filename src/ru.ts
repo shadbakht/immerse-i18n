@@ -11,9 +11,10 @@ import type { LocaleTable } from './keys';
  * fractional counts CLDR sends there, so it is written out rather than left to
  * fall through to English mid-sentence.
  *
- * Terminology fixed once, here: a tag is a *метка*, a note a *заметка*, and a
- * cross-reference a *перекрёстная ссылка*, shortened to «Ссылки» only where the
- * navigation has no room for the full term.
+ * Terminology fixed once, here: a tag/compilation is a *подборка* (renamed
+ * 2026-08-17 from *метка*), a note a *заметка*, and a cross-reference a
+ * *перекрёстная ссылка*, shortened to «Ссылки» only where the navigation has
+ * no room for the full term.
  */
 export const ru: LocaleTable = {
   'common.cancel': 'Отмена',
@@ -63,7 +64,7 @@ export const ru: LocaleTable = {
 
   'nav.home': 'Главная',
   'nav.library': 'Библиотека',
-  'nav.tags': 'Метки',
+  'nav.tags': 'Подборки',
   'nav.notes': 'Заметки',
   'nav.xrefs': 'Ссылки',
   'nav.discover': 'Обзор',
@@ -108,7 +109,7 @@ export const ru: LocaleTable = {
   'library.noImportedBooks':
     'Импортированных книг пока нет. Нажмите кнопку рядом со строкой поиска, чтобы добавить книгу.',
   'library.deleteBookConfirm': 'Удалить «{{title}}»?',
-  'library.tagAction': 'Метка',
+  'library.tagAction': 'Подборка',
 
   'settings.language': 'Язык',
   'settings.appLanguage': 'Язык приложения',
@@ -166,7 +167,7 @@ export const ru: LocaleTable = {
   'settings.deleting': 'Удаление…',
   'settings.error': 'Ошибка',
   'settings.deleteAccountConfirm':
-    'Ваш аккаунт и все аннотации, метки, заметки и прогресс чтения будут удалены навсегда. Это действие необратимо.',
+    'Ваш аккаунт и все аннотации, подборки, заметки и прогресс чтения будут удалены навсегда. Это действие необратимо.',
   'settings.areYouSure': 'Вы уверены?',
   'settings.deleteAccountFinal':
     'Ваш аккаунт и все данные будут удалены немедленно и не подлежат восстановлению.',
@@ -185,7 +186,7 @@ export const ru: LocaleTable = {
   'settings.welcomeToPro': 'Добро пожаловать в Pro!',
   'settings.manage': 'Управлять',
 
-  'home.tags': 'Метки',
+  'home.tags': 'Подборки',
   'home.notes': 'Заметки',
   'home.xrefs': 'Ссылки',
   'home.readingPlan': 'ПЛАН ЧТЕНИЯ',
@@ -356,36 +357,36 @@ export const ru: LocaleTable = {
   'notes.deleteConfirm': 'Удалить заметку?',
   'notes.deleteBody': 'Выделенный фрагмент сохранится.',
 
-  'tags.title': 'Метки',
-  'tags.empty': 'Меток пока нет. Метки, созданные в читалке, появятся здесь.',
-  'tags.signInTitle': 'Войдите, чтобы увидеть свои метки',
+  'tags.title': 'Подборки',
+  'tags.empty': 'Подборок пока нет. Подборки, созданные в читалке, появятся здесь.',
+  'tags.signInTitle': 'Войдите, чтобы увидеть свои подборки',
   'tags.signInBody': 'Создавайте и упорядочивайте подборки цитат со всей библиотеки.',
   'tags.organize': 'Упорядочить',
-  'tags.searchPlaceholder': 'Поиск по меткам...',
-  'tags.searchSelected': 'Поиск по выбранным меткам...',
-  'tags.noMatch': 'Ни одна метка не соответствует запросу.',
-  'tags.deleteConfirm': 'Удалить метку?',
+  'tags.searchPlaceholder': 'Поиск по подборкам...',
+  'tags.searchSelected': 'Поиск по выбранным подборкам...',
+  'tags.noMatch': 'Ни одна подборка не соответствует запросу.',
+  'tags.deleteConfirm': 'Удалить подборку?',
   'tags.deleteBody': 'Метка «{{name}}» и все её фрагменты будут удалены.',
 
-  'tags.renameTitle': 'Переименовать метку',
+  'tags.renameTitle': 'Переименовать подборку',
   'tags.setPrivate': 'Сделать личной',
   'tags.setPublic': 'Сделать общей',
-  'tags.publicTag': 'Общая метка',
-  'tags.removePassage': 'Убрать из метки',
-  'tags.removePassageConfirm': 'Убрать этот отрывок из метки?',
+  'tags.publicTag': 'Общая подборка',
+  'tags.removePassage': 'Убрать из подборки',
+  'tags.removePassageConfirm': 'Убрать этот отрывок из подборки?',
   'tags.indent': 'Вложить',
   'tags.outdent': 'Вынести',
   'tags.organizeHint':
-    'Перетаскивайте за ручку, чтобы изменить порядок · ⇤ ⇥ меняет вложенность · нажмите на метку, чтобы упорядочить её цитаты.',
-  'tags.searchTagsPassages': 'Поиск по меткам и отрывкам…',
-  'tags.exportSelected': 'Экспортировать выбранные метки',
+    'Перетаскивайте за ручку, чтобы изменить порядок \u00b7 \u21e4 \u21e5 меняет вложенность \u00b7 нажмите на подборку, чтобы упорядочить её цитаты.',
+  'tags.searchTagsPassages': 'Поиск по подборкам и отрывкам…',
+  'tags.exportSelected': 'Экспортировать выбранные подборки',
   'tags.export': 'Экспорт',
   'tags.exporting': 'Экспорт…',
   'tags.exportInclude': 'Включить',
-  'tags.exportNothingToInclude': 'Ни в одной из выбранных меток нет: {{items}}',
+  'tags.exportNothingToInclude': 'Ни в одной из выбранных подборок нет: {{items}}',
 
   'panel.createAccount': 'Создать аккаунт',
-  'panel.signInToSave': 'Создайте бесплатный аккаунт, чтобы сохранять метки, заметки и ссылки.',
+  'panel.signInToSave': 'Создайте бесплатный аккаунт, чтобы сохранять подборки, заметки и ссылки.',
   'panel.editSelection': 'Изменить выделение текста',
 
   'reader.xrefMode': 'Режим ссылки — нажмите и удерживайте, чтобы выбрать отрывок',
@@ -399,7 +400,7 @@ export const ru: LocaleTable = {
   'reader.collapseSection': 'Свернуть раздел',
   'reader.expand': 'Развернуть',
   'reader.collapse': 'Свернуть',
-  'reader.actionTag': 'Метка',
+  'reader.actionTag': 'Подборка',
   'reader.actionNote': 'Заметка',
   'reader.actionXref': 'Ссылка',
   'reader.actionAi': 'ИИ',
@@ -413,7 +414,7 @@ export const ru: LocaleTable = {
   'reader.pickTargetHint': 'Выделите текст или нажмите на отрывок, чтобы связать',
   'reader.footnoteUnavailable': 'Текст сноски недоступен в веб-версии.',
   'reader.bookNotFound': 'Книга не найдена',
-  'reader.viewTags': 'Показать метки',
+  'reader.viewTags': 'Показать подборки',
   'reader.viewNote': 'Показать заметку',
   'reader.viewXrefs': 'Показать перекрёстные ссылки',
   'reader.noQuotesFiled': 'Сюда пока не добавлено ни одной цитаты.',
@@ -456,14 +457,14 @@ export const ru: LocaleTable = {
   'banner.install': 'Установить',
   'banner.get': 'Получить',
 
-  'tagPanel.new': 'Новая метка',
+  'tagPanel.new': 'Новая подборка',
   'tagPanel.create': 'Создать',
-  'tagPanel.addTitle': 'Добавить метки',
-  'tagPanel.viewTitle': 'Метки',
+  'tagPanel.addTitle': 'Добавить в подборку',
+  'tagPanel.viewTitle': 'Подборки',
   'tagPanel.under': 'в',
-  'tagPanel.addSubTag': 'Добавить вложенную метку',
-  'tagPanel.emptyAdd': 'Меток пока нет — создайте выше',
-  'tagPanel.emptyView': 'На этом выделении нет меток',
+  'tagPanel.addSubTag': 'Добавить вложенную подборку',
+  'tagPanel.emptyAdd': 'Подборок пока нет — создайте выше',
+  'tagPanel.emptyView': 'На этом выделении нет подборок',
 
   'voice.title': 'Голос чтения',
   'voice.onyx': 'Onyx — глубокий и тёплый',
@@ -474,7 +475,7 @@ export const ru: LocaleTable = {
   'voice.marin': 'Marin — естественный и спокойный',
 
   'reader.signInRequired': 'Требуется вход',
-  'reader.signInBody': 'Создайте аккаунт, чтобы ставить метки, делать заметки и сохранять прочитанное.',
+  'reader.signInBody': 'Создайте аккаунт, чтобы сохранять подборки, заметки и историю чтения.',
   'reader.notNow': 'Не сейчас',
   'reader.signIn': 'Войти',
   'reader.pdfNotFound': 'Не удалось найти PDF-файл.',
@@ -484,30 +485,30 @@ export const ru: LocaleTable = {
 
   'discover.recent': 'НЕДАВНИЕ',
   'discover.trending': 'ПОПУЛЯРНОЕ',
-  'discover.searchPlaceholder': 'Поиск по меткам и пользователям…',
-  'discover.searchSelected': 'Поиск по выбранным меткам…',
+  'discover.searchPlaceholder': 'Поиск по подборкам и пользователям…',
+  'discover.searchSelected': 'Поиск по выбранным подборкам…',
   'discover.import': 'Импортировать',
   'discover.imported': 'Импортировано',
   'discover.import_one': '{{count}} импорт',
   'discover.import_few': '{{count}} импорта',
   'discover.import_many': '{{count}} импортов',
   'discover.import_other': '{{count}} импорта',
-  'discover.noneYet': 'Общих меток пока нет',
+  'discover.noneYet': 'Общих подборок пока нет',
   'discover.noResults': 'Ничего не найдено',
   'discover.tryDifferent': 'Попробуйте другой запрос.',
   'discover.signInTitle': 'Войдите, чтобы открыть «Обзор»',
   'discover.signInBody': 'Смотрите, что находят другие читатели во всех традициях.',
   'discover.anonymous': 'Аноним',
-  'discover.beFirst': 'Поделитесь меткой первым.',
-  'discover.ownTag': 'Это ваша собственная метка',
+  'discover.beFirst': 'Поделитесь подборкой первым.',
+  'discover.ownTag': 'Это ваша собственная подборка',
   'discover.alreadyImported': 'Уже импортировано',
   'discover.importFailed': 'Не удалось импортировать',
   'discover.exportFailed': 'Не удалось экспортировать',
   'discover.unknownError': 'Неизвестная ошибка',
 
-  'usertags.autoImports': 'Автоматически добавляет общие метки этого пользователя в ваше приложение',
-  'usertags.noTags': 'Общих меток нет',
-  'usertags.noTagsBody': 'Этот пользователь пока не поделился ни одной меткой.',
+  'usertags.autoImports': 'Автоматически добавляет общие подборки этого пользователя в ваше приложение',
+  'usertags.noTags': 'Общих подборок нет',
+  'usertags.noTagsBody': 'Этот пользователь пока не поделился ни одной подборкой.',
   'usertags.follow': 'Подписаться',
   'usertags.unfollow': 'Отписаться',
   'usertags.share': 'Поделиться',
@@ -529,29 +530,29 @@ export const ru: LocaleTable = {
   'onboarding.libraryCaption': 'Просматривайте отобранную библиотеку разных традиций. Нажмите на книгу, чтобы начать читать.',
   'onboarding.searchTitle': 'Ищите везде',
   'onboarding.searchCaption': 'Ищите сразу по всем книгам и переходите прямо к отрывку.',
-  'onboarding.tagAsYouGoTitle': 'Отмечайте по ходу чтения',
-  'onboarding.tagAsYouGoCaption': 'Добавляйте метку к отрывку прямо из результатов поиска.',
-  'onboarding.buildTagsTitle': 'Собирайте свои метки',
-  'onboarding.buildTagsCaption': 'Группируйте отрывки под своими метками, чтобы легко к ним возвращаться.',
+  'onboarding.tagAsYouGoTitle': 'Собирайте подборки по ходу чтения',
+  'onboarding.tagAsYouGoCaption': 'Добавляйте отрывок в подборку прямо из результатов поиска.',
+  'onboarding.buildTagsTitle': 'Создавайте свои подборки',
+  'onboarding.buildTagsCaption': 'Группируйте отрывки в своих подборках, чтобы легко к ним возвращаться.',
   'onboarding.selectActTitle': 'Выделяйте и действуйте',
-  'onboarding.selectActCaption': 'Выделите любой текст, чтобы подсветить его, поставить метку, добавить заметку или связать ссылкой.',
+  'onboarding.selectActCaption': 'Выделите любой текст, чтобы подсветить его, добавить в подборку, добавить заметку или связать ссылкой.',
   'onboarding.marginTitle': 'Аннотации на полях',
-  'onboarding.marginCaption': 'Ваши метки, заметки и ссылки живут на полях.',
+  'onboarding.marginCaption': 'Ваши подборки, заметки и ссылки живут на полях.',
   'onboarding.navigateTitle': 'Быстрая навигация',
   'onboarding.navigateCaption': 'Откройте содержание, чтобы перемещаться по книге.',
-  'onboarding.yourTagsTitle': 'Ваши метки',
-  'onboarding.yourTagsCaption': 'Возвращайтесь к каждому отмеченному отрывку, сгруппированному по меткам.',
+  'onboarding.yourTagsTitle': 'Ваши подборки',
+  'onboarding.yourTagsCaption': 'Возвращайтесь к каждому отрывку из подборки, сгруппированному по подборкам.',
   'onboarding.xrefsTitle': 'Перекрёстные ссылки',
   'onboarding.xrefsCaption': 'Связывайте близкие отрывки между книгами и традициями.',
   'onboarding.shareTitle': 'Делитесь и публикуйте',
-  'onboarding.shareCaption': 'Поделитесь цитатой или опубликуйте метку для сообщества.',
+  'onboarding.shareCaption': 'Поделитесь цитатой или опубликуйте подборку для сообщества.',
 
   // ── Экспорт ───────────────────────────────────────────────────────────────
-  'export.shareTags_one': 'Поделиться {{count}} меткой',
-  'export.shareTags_few': 'Поделиться {{count}} метками',
-  'export.shareTags_many': 'Поделиться {{count}} метками',
-  'export.shareTags_other': 'Поделиться {{count}} метками',
-  'export.shareTagsGeneric': 'Поделиться метками',
+  'export.shareTags_one': 'Поделиться {{count}} подборкой',
+  'export.shareTags_few': 'Поделиться {{count}} подборками',
+  'export.shareTags_many': 'Поделиться {{count}} подборками',
+  'export.shareTags_other': 'Поделиться {{count}} подборками',
+  'export.shareTagsGeneric': 'Поделиться подборками',
   'export.preparing': 'Подготовка…',
   'export.notesOn': 'Ваши заметки к каждому отрывку',
   'export.notesNone': 'На этих отрывках нет заметок',
@@ -559,14 +560,14 @@ export const ru: LocaleTable = {
   'export.xrefsNone': 'На этих отрывках нет перекрёстных ссылок',
   'export.docxTitle': 'Документ Word (.docx)',
   'export.docxShort': 'Word (.docx)',
-  'export.docxDesc': 'Заголовки меток с цитатами. Открывается в Word, Pages или Google Документах.',
+  'export.docxDesc': 'Заголовки подборок с цитатами. Открывается в Word, Pages или Google Документах.',
   'export.pdfTitle': 'Документ PDF',
   'export.pdfDesc': 'Свёрстанный документ для печати или отправки.',
   'export.csvTitle': 'Таблица (.csv)',
   'export.csvDesc': 'По строке на отрывок. Открывается в Excel, Numbers или Google Таблицах.',
   'export.mdTitle': 'Markdown (.md)',
   'export.mdDesc': 'Для Obsidian, Notion или любого текстового редактора.',
-  'export.noPassagesTagged': '(отмеченных отрывков нет)',
+  'export.noPassagesTagged': '(в этой подборке нет отрывков)',
   'export.seeAlso': 'См. также:',
 
   // ── План чтения ───────────────────────────────────────────────────────────
@@ -606,11 +607,11 @@ export const ru: LocaleTable = {
   'nav.browsingAsGuest': 'Просмотр как гость',
   'reader.selectBookToBegin': 'Выберите книгу, чтобы начать читать',
   'tags.exportFailed': 'Не удалось экспортировать',
-  'tags.couldNotExport': 'Не удалось экспортировать метки.',
+  'tags.couldNotExport': 'Не удалось экспортировать подборки.',
   'tags.couldNotRemoveSelection': 'Не удалось убрать выделение',
-  'tags.reorderHint': 'Перетаскивайте за ручку, чтобы изменить порядок · ⇤ ⇥ меняет вложенность · нажмите на метку, чтобы упорядочить её цитаты.',
-  'tags.swipeHint': 'Проведите по метке вправо, чтобы сделать её общей или личной.',
-  'discover.publishHint': 'Проведите по метке вправо на экране «Метки», чтобы опубликовать её здесь.',
+  'tags.reorderHint': 'Перетаскивайте за ручку, чтобы изменить порядок · ⇤ ⇥ меняет вложенность · нажмите на подборку, чтобы упорядочить её цитаты.',
+  'tags.swipeHint': 'Проведите по подборке вправо, чтобы сделать её общей или личной.',
+  'discover.publishHint': 'Проведите по подборке вправо на экране «Подборки», чтобы опубликовать её здесь.',
   'reminders.notificationsOff':
     'Уведомления для Immerse отключены, поэтому напоминания не смогут прийти. '
     + 'Включите их в настройках устройства.',
@@ -653,12 +654,12 @@ export const ru: LocaleTable = {
   'onboarding.tour.librarySearch.label': 'Поиск по библиотеке',
   'onboarding.tour.librarySearch.caption':
     'Ищите сразу по всем 400+ текстам. Нажмите на результат, чтобы развернуть его, или удерживайте, чтобы сразу открыть в читалке.',
-  'onboarding.tour.searchQuickTag.label': 'Быстрые метки в результатах поиска',
+  'onboarding.tour.searchQuickTag.label': 'Быстрые подборки в результатах поиска',
   'onboarding.tour.searchQuickTag.caption':
-    'Выберите один или несколько результатов поиска и присвойте им метку одним касанием. Быстрый способ собрать тематическую подборку со всей библиотеки.',
+    'Выберите один или несколько результатов поиска и добавьте их в подборку одним касанием. Быстрый способ собрать тематическую подборку со всей библиотеки.',
   'onboarding.tour.home.label': 'Главный экран',
   'onboarding.tour.home.caption':
-    'На главном экране видно, сколько меток, заметок и перекрёстных ссылок вы создали, а также ваши недавние книги. Нажмите на название, чтобы продолжить чтение.',
+    'На главном экране видно, сколько подборок, заметок и перекрёстных ссылок вы создали, а также ваши недавние книги. Нажмите на название, чтобы продолжить чтение.',
   'onboarding.tour.homePlan.label': 'План чтения на главном экране',
   'onboarding.tour.homePlan.caption':
     'Выработайте привычку читать каждый день: следуйте плану чтения по любой книге и на любую длительность или получайте случайные стихи из выбранных вами традиций — с ежедневными напоминаниями и серией, которая растёт с каждым днём чтения.',
@@ -667,7 +668,7 @@ export const ru: LocaleTable = {
     'В настройках выберите традиции для случайных стихов и время, когда вам удобно получать мягкое напоминание, — или переключитесь на план чтения, чтобы каждый день продвигаться по одной книге.',
   'onboarding.tour.readerSelect.label': 'Выделение текста в читалке',
   'onboarding.tour.readerSelect.caption':
-    'Нажмите и удерживайте любой отрывок, чтобы выделить его. Значками внизу экрана добавьте метку, заметку, перекрёстную ссылку или получите пересказ с ИИ.',
+    'Нажмите и удерживайте любой отрывок, чтобы выделить его. Значками внизу экрана добавьте отрывок в подборку, заметку, перекрёстную ссылку или получите пересказ с ИИ.',
   'onboarding.tour.readerNote.label': 'Заметка в читалке',
   'onboarding.tour.readerNote.caption':
     'Заметки прикрепляются к тому тексту, который вы выделили. Золотой маркер на полях позволяет найти и открыть их в любой момент.',
@@ -680,18 +681,18 @@ export const ru: LocaleTable = {
   'onboarding.tour.readerListen.label': 'Режим прослушивания',
   'onboarding.tour.readerListen.caption':
     'Нажмите кнопку с наушниками, чтобы книга читалась вслух: читалка подсвечивает каждый отрывок по ходу озвучки. Нажмите и удерживайте эту кнопку, чтобы выбрать один из естественных голосов.',
-  'onboarding.tour.tags.label': 'Экран меток',
+  'onboarding.tour.tags.label': 'Экран подборок',
   'onboarding.tour.tags.caption':
-    'Экран «Метки» группирует отмеченные отрывки по темам. Нажмите на название метки, чтобы увидеть её цитаты с полными ссылками на источник.',
+    'Экран «Подборки» группирует отрывки из подборок по темам. Нажмите на название подборки, чтобы увидеть её цитаты с полными ссылками на источник.',
   'onboarding.tour.xrefs.label': 'Экран перекрёстных ссылок',
   'onboarding.tour.xrefs.caption':
     'Экран перекрёстных ссылок показывает все связанные отрывки рядом друг с другом. Нажмите и удерживайте любую из сторон, чтобы перейти к этому отрывку в читалке.',
   'onboarding.tour.discover.label': 'Экран «Обзор»',
   'onboarding.tour.discover.caption':
-    'На экране «Обзор» вы найдёте подборки меток, которыми поделились другие читатели. Нажмите на метку, чтобы посмотреть её отрывки, а затем добавьте её к себе.',
-  'onboarding.tour.tagShare.label': 'Панель отправки метки',
+    'На экране «Обзор» вы найдёте подборки, которыми поделились другие читатели. Нажмите на подборку, чтобы посмотреть её отрывки, а затем добавьте её к себе.',
+  'onboarding.tour.tagShare.label': 'Панель отправки подборки',
   'onboarding.tour.tagShare.caption':
-    'Экспортируйте любую подборку меток в документ Word, PDF, таблицу, Markdown и другие форматы — вместе с вашими заметками и перекрёстными ссылками.',
+    'Экспортируйте любую подборку в документ Word, PDF, таблицу, Markdown и другие форматы — вместе с вашими заметками и перекрёстными ссылками.',
 
   // ── Appearance (reader typography) ───────────────────────────────────────
   'appearance.title': 'Оформление',

@@ -10,8 +10,10 @@ import type { LocaleTable } from './keys';
  * so a `_one` variant would be a form the language never asks for — one book
  * and five books are written the same way, with the measure word doing the work.
  *
- * Terminology fixed once, here: a tag is 标签, a note 笔记, a cross-reference
- * 交叉引用 (shortened to 引用 in the navigation), and a passage 段落.
+ * Terminology fixed once, here: a tag/compilation is 汇编 (renamed 2026-08-17
+ * from 标签; also matches the existing Bahá'í-library category name for
+ * "Compilations"), a note 笔记, a cross-reference 交叉引用 (shortened to 引用
+ * in the navigation), and a passage 段落.
  */
 export const zh: LocaleTable = {
   'common.cancel': '取消',
@@ -55,7 +57,7 @@ export const zh: LocaleTable = {
 
   'nav.home': '主页',
   'nav.library': '书库',
-  'nav.tags': '标签',
+  'nav.tags': '汇编',
   'nav.notes': '笔记',
   'nav.xrefs': '引用',
   'nav.discover': '发现',
@@ -94,7 +96,7 @@ export const zh: LocaleTable = {
   'library.noImportedBooks':
     '尚未导入任何书籍。点击搜索栏旁边的按钮即可导入。',
   'library.deleteBookConfirm': '删除“{{title}}”？',
-  'library.tagAction': '加标签',
+  'library.tagAction': '汇编',
 
   'settings.language': '语言',
   'settings.appLanguage': '应用语言',
@@ -152,7 +154,7 @@ export const zh: LocaleTable = {
   'settings.deleting': '正在删除…',
   'settings.error': '错误',
   'settings.deleteAccountConfirm':
-    '此操作将永久删除你的账户，以及全部注释、标签、笔记和阅读进度，且无法撤销。',
+    '此操作将永久删除你的账户，以及全部注释、汇编、笔记和阅读进度，且无法撤销。',
   'settings.areYouSure': '确定吗？',
   'settings.deleteAccountFinal':
     '你的账户和全部数据将立即删除，且无法恢复。',
@@ -171,7 +173,7 @@ export const zh: LocaleTable = {
   'settings.welcomeToPro': '欢迎使用 Pro！',
   'settings.manage': '管理',
 
-  'home.tags': '标签',
+  'home.tags': '汇编',
   'home.notes': '笔记',
   'home.xrefs': '引用',
   'home.readingPlan': '阅读计划',
@@ -336,36 +338,36 @@ export const zh: LocaleTable = {
   'notes.deleteConfirm': '删除笔记？',
   'notes.deleteBody': '高亮的选段会保留。',
 
-  'tags.title': '标签',
-  'tags.empty': '还没有标签。你在阅读器中创建的标签会显示在这里。',
-  'tags.signInTitle': '登录以查看你的标签',
+  'tags.title': '汇编',
+  'tags.empty': '还没有汇编。你在阅读器中创建的汇编会显示在这里。',
+  'tags.signInTitle': '登录以查看你的汇编',
   'tags.signInBody': '从整个书库中建立并整理你的引文集。',
   'tags.organize': '整理',
-  'tags.searchPlaceholder': '搜索标签...',
-  'tags.searchSelected': '在所选标签中搜索...',
-  'tags.noMatch': '没有符合搜索条件的标签。',
-  'tags.deleteConfirm': '删除标签？',
+  'tags.searchPlaceholder': '搜索汇编...',
+  'tags.searchSelected': '在所选汇编中搜索...',
+  'tags.noMatch': '没有符合搜索条件的汇编。',
+  'tags.deleteConfirm': '删除汇编？',
   'tags.deleteBody': '“{{name}}”及其全部选段都将被移除。',
 
-  'tags.renameTitle': '重命名标签',
+  'tags.renameTitle': '重命名汇编',
   'tags.setPrivate': '设为私密',
   'tags.setPublic': '设为公开',
-  'tags.publicTag': '公开标签',
-  'tags.removePassage': '从标签中移除',
-  'tags.removePassageConfirm': '将此段落从标签中移除？',
+  'tags.publicTag': '公开汇编',
+  'tags.removePassage': '从汇编中移除',
+  'tags.removePassageConfirm': '将此段落从汇编中移除？',
   'tags.indent': '增加缩进',
   'tags.outdent': '减少缩进',
   'tags.organizeHint':
-    '拖动手柄可调整顺序 · ⇤ ⇥ 可更改层级 · 点击标签可调整其引文顺序。',
-  'tags.searchTagsPassages': '搜索标签和段落…',
-  'tags.exportSelected': '导出所选标签',
+    '拖动手柄可调整顺序 · ⇤ ⇥ 可更改层级 · 点击汇编可调整其引文顺序。',
+  'tags.searchTagsPassages': '搜索汇编和段落…',
+  'tags.exportSelected': '导出所选汇编',
   'tags.export': '导出',
   'tags.exporting': '正在导出…',
   'tags.exportInclude': '包含',
-  'tags.exportNothingToInclude': '所选标签中都没有{{items}}',
+  'tags.exportNothingToInclude': '所选汇编中都没有{{items}}',
 
   'panel.createAccount': '创建账户',
-  'panel.signInToSave': '创建免费账户即可保存标签、笔记和交叉引用。',
+  'panel.signInToSave': '创建免费账户即可保存汇编、笔记和交叉引用。',
   'panel.editSelection': '编辑所选文本',
 
   'reader.xrefMode': '交叉引用模式 — 长按以选取段落',
@@ -379,7 +381,7 @@ export const zh: LocaleTable = {
   'reader.collapseSection': '收起此节',
   'reader.expand': '展开',
   'reader.collapse': '收起',
-  'reader.actionTag': '标签',
+  'reader.actionTag': '汇编',
   'reader.actionNote': '笔记',
   'reader.actionXref': '引用',
   'reader.actionAi': 'AI',
@@ -393,7 +395,7 @@ export const zh: LocaleTable = {
   'reader.pickTargetHint': '选择文本或点击某个段落以建立连接',
   'reader.footnoteUnavailable': '网页版暂不提供脚注文本。',
   'reader.bookNotFound': '未找到该书',
-  'reader.viewTags': '查看标签',
+  'reader.viewTags': '查看汇编',
   'reader.viewNote': '查看笔记',
   'reader.viewXrefs': '查看交叉引用',
   'reader.noQuotesFiled': '这里还没有归入任何引文。',
@@ -436,14 +438,14 @@ export const zh: LocaleTable = {
   'banner.install': '安装',
   'banner.get': '获取',
 
-  'tagPanel.new': '新建标签',
+  'tagPanel.new': '新建汇编',
   'tagPanel.create': '创建',
-  'tagPanel.addTitle': '添加标签',
-  'tagPanel.viewTitle': '标签',
+  'tagPanel.addTitle': '加入汇编',
+  'tagPanel.viewTitle': '汇编',
   'tagPanel.under': '归入',
-  'tagPanel.addSubTag': '添加子标签',
-  'tagPanel.emptyAdd': '还没有标签 — 请在上方创建',
-  'tagPanel.emptyView': '此选段上没有标签',
+  'tagPanel.addSubTag': '添加子汇编',
+  'tagPanel.emptyAdd': '还没有汇编 — 请在上方创建',
+  'tagPanel.emptyView': '此选段上没有汇编',
 
   'voice.title': '朗读语音',
   'voice.onyx': 'Onyx — 低沉温厚',
@@ -454,7 +456,7 @@ export const zh: LocaleTable = {
   'voice.marin': 'Marin — 自然轻缓',
 
   'reader.signInRequired': '需要登录',
-  'reader.signInBody': '创建账户即可添加标签、做注释并保存你的阅读。',
+  'reader.signInBody': '创建账户即可保存汇编、笔记和交叉引用。',
   'reader.notNow': '暂不',
   'reader.signIn': '登录',
   'reader.pdfNotFound': '找不到该 PDF 文件。',
@@ -464,27 +466,27 @@ export const zh: LocaleTable = {
 
   'discover.recent': '最新',
   'discover.trending': '热门',
-  'discover.searchPlaceholder': '搜索标签和用户…',
-  'discover.searchSelected': '在所选标签中搜索…',
+  'discover.searchPlaceholder': '搜索汇编和用户…',
+  'discover.searchSelected': '在所选汇编中搜索…',
   'discover.import': '导入',
   'discover.imported': '已导入',
   'discover.import_other': '{{count}} 次导入',
-  'discover.noneYet': '还没有共享的标签',
+  'discover.noneYet': '还没有共享的汇编',
   'discover.noResults': '没有结果',
   'discover.tryDifferent': '换一个搜索词试试。',
   'discover.signInTitle': '登录以使用「发现」',
   'discover.signInBody': '看看其他读者在各个传统中发现了什么。',
   'discover.anonymous': '匿名',
-  'discover.beFirst': '成为第一个分享标签的人。',
-  'discover.ownTag': '这是你自己的标签',
+  'discover.beFirst': '成为第一个分享汇编的人。',
+  'discover.ownTag': '这是你自己的汇编',
   'discover.alreadyImported': '已导入',
   'discover.importFailed': '导入失败',
   'discover.exportFailed': '导出失败',
   'discover.unknownError': '未知错误',
 
-  'usertags.autoImports': '自动将该用户的公开标签导入你的应用',
-  'usertags.noTags': '没有公开标签',
-  'usertags.noTagsBody': '该用户尚未分享任何标签。',
+  'usertags.autoImports': '自动将该用户的公开汇编导入你的应用',
+  'usertags.noTags': '没有公开汇编',
+  'usertags.noTagsBody': '该用户尚未分享任何汇编。',
   'usertags.follow': '关注',
   'usertags.unfollow': '取消关注',
   'usertags.share': '分享',
@@ -506,26 +508,26 @@ export const zh: LocaleTable = {
   'onboarding.libraryCaption': '浏览一个精心编选、涵盖多个传统的书库。点按任意书籍即可开始阅读。',
   'onboarding.searchTitle': '搜索一切',
   'onboarding.searchCaption': '一次搜索全部书籍，直接跳到相应段落。',
-  'onboarding.tagAsYouGoTitle': '边读边加标签',
-  'onboarding.tagAsYouGoCaption': '直接在搜索结果中为段落添加标签。',
-  'onboarding.buildTagsTitle': '建立你的标签',
-  'onboarding.buildTagsCaption': '把段落归入你自己的标签，方便随时回顾。',
+  'onboarding.tagAsYouGoTitle': '边读边整理汇编',
+  'onboarding.tagAsYouGoCaption': '直接在搜索结果中把段落加入汇编。',
+  'onboarding.buildTagsTitle': '建立你的汇编',
+  'onboarding.buildTagsCaption': '把段落归入你自己的汇编，方便随时回顾。',
   'onboarding.selectActTitle': '选中并操作',
-  'onboarding.selectActCaption': '选中任意文本即可高亮、加标签、写笔记或建立交叉引用。',
+  'onboarding.selectActCaption': '选中任意文本即可高亮、加入汇编、写笔记或建立交叉引用。',
   'onboarding.marginTitle': '页边注释',
-  'onboarding.marginCaption': '你的标签、笔记和交叉引用都收在页边。',
+  'onboarding.marginCaption': '你的汇编、笔记和交叉引用都收在页边。',
   'onboarding.navigateTitle': '快速导航',
   'onboarding.navigateCaption': '打开目录即可在书中自由移动。',
-  'onboarding.yourTagsTitle': '你的标签',
-  'onboarding.yourTagsCaption': '按标签回顾每一段加过标签的经文。',
+  'onboarding.yourTagsTitle': '你的汇编',
+  'onboarding.yourTagsCaption': '按汇编回顾每一段收入汇编的经文。',
   'onboarding.xrefsTitle': '交叉引用',
   'onboarding.xrefsCaption': '把不同书籍与传统之间相关的段落连接起来。',
   'onboarding.shareTitle': '分享与发布',
-  'onboarding.shareCaption': '分享一段引文，或把标签发布给社区。',
+  'onboarding.shareCaption': '分享一段引文，或把汇编发布给社区。',
 
   // ── 导出面板 ──────────────────────────────────────────────────────────────
-  'export.shareTags_other': '分享 {{count}} 个标签',
-  'export.shareTagsGeneric': '分享标签',
+  'export.shareTags_other': '分享 {{count}} 个汇编',
+  'export.shareTagsGeneric': '分享汇编',
   'export.preparing': '正在准备…',
   'export.notesOn': '你为每个段落写下的笔记',
   'export.notesNone': '这些段落上没有笔记',
@@ -533,14 +535,14 @@ export const zh: LocaleTable = {
   'export.xrefsNone': '这些段落上没有交叉引用',
   'export.docxTitle': 'Word 文档（.docx）',
   'export.docxShort': 'Word（.docx）',
-  'export.docxDesc': '以标签为标题，附上引用的段落。可用 Word、Pages 或 Google 文档打开。',
+  'export.docxDesc': '以汇编为标题，附上引用的段落。可用 Word、Pages 或 Google 文档打开。',
   'export.pdfTitle': 'PDF 文档',
   'export.pdfDesc': '已排版的文档，适合打印或分享。',
   'export.csvTitle': '表格（.csv）',
   'export.csvDesc': '每个段落一行。可用 Excel、Numbers 或 Google 表格打开。',
   'export.mdTitle': 'Markdown（.md）',
   'export.mdDesc': '适用于 Obsidian、Notion 或任何纯文本工具。',
-  'export.noPassagesTagged': '（没有加过标签的段落）',
+  'export.noPassagesTagged': '（此汇编中没有段落）',
   'export.seeAlso': '另见：',
 
   // ── 阅读计划 ──────────────────────────────────────────────────────────────
@@ -574,11 +576,11 @@ export const zh: LocaleTable = {
   'nav.browsingAsGuest': '正在以访客身份浏览',
   'reader.selectBookToBegin': '选择一本书开始阅读',
   'tags.exportFailed': '导出失败',
-  'tags.couldNotExport': '无法导出标签。',
+  'tags.couldNotExport': '无法导出汇编。',
   'tags.couldNotRemoveSelection': '无法移除该选段',
-  'tags.reorderHint': '拖动手柄可调整顺序 · ⇤ ⇥ 可更改层级 · 点按标签可调整其引文顺序。',
-  'tags.swipeHint': '向右滑动标签即可设为公开或私密。',
-  'discover.publishHint': '在「标签」页面向右滑动某个标签，即可发布到这里。',
+  'tags.reorderHint': '拖动手柄可调整顺序 · ⇤ ⇥ 可更改层级 · 点按汇编可调整其引文顺序。',
+  'tags.swipeHint': '向右滑动汇编即可设为公开或私密。',
+  'discover.publishHint': '在「汇编」页面向右滑动某个汇编，即可发布到这里。',
   'reminders.notificationsOff':
     'Immerse 的通知已关闭，因此无法送达提醒。'
     + '请在设备设置中开启通知。',
@@ -615,12 +617,12 @@ export const zh: LocaleTable = {
   'onboarding.tour.librarySearch.label': '书库搜索',
   'onboarding.tour.librarySearch.caption':
     '一次搜索全部 400 多部经典。点按结果可展开，长按则直接在阅读器中打开。',
-  'onboarding.tour.searchQuickTag.label': '搜索结果快速加标签',
+  'onboarding.tour.searchQuickTag.label': '搜索结果快速加入汇编',
   'onboarding.tour.searchQuickTag.caption':
-    '选中一条或多条搜索结果，一次点按即可归入某个标签。这是从整个书库快速建立主题合集的方法。',
+    '选中一条或多条搜索结果，一次点按即可归入某个汇编。这是从整个书库快速建立主题合集的方法。',
   'onboarding.tour.home.label': '主页',
   'onboarding.tour.home.caption':
-    '主页会显示你创建了多少标签、笔记和交叉引用，以及最近读过的书。点按书名即可继续阅读。',
+    '主页会显示你创建了多少汇编、笔记和交叉引用，以及最近读过的书。点按书名即可继续阅读。',
   'onboarding.tour.homePlan.label': '主页上的阅读计划',
   'onboarding.tour.homePlan.caption':
     '养成每天阅读的习惯：按你选择的书籍和时长跟随阅读计划，或从你选定的传统中获取随机经文 — 配有每日提醒，以及一条随着阅读天数不断增长的连续记录。',
@@ -629,7 +631,7 @@ export const zh: LocaleTable = {
     '在设置中，为随机经文挑选取材的传统和你希望收到轻声提醒的时间，或者切换到阅读计划，每天读完一本书的一部分。',
   'onboarding.tour.readerSelect.label': '在阅读器中选中文本',
   'onboarding.tour.readerSelect.caption':
-    '长按任意段落即可选中。用屏幕底部的图标添加标签、笔记、交叉引用，或获取 AI 摘要。',
+    '长按任意段落即可选中。用屏幕底部的图标加入汇编、添加笔记、添加交叉引用，或获取 AI 摘要。',
   'onboarding.tour.readerNote.label': '在阅读器中查看笔记',
   'onboarding.tour.readerNote.caption':
     '笔记会附着在你选中的确切文本上。页边的金色标记让你随时找到并重新打开它们。',
@@ -642,18 +644,18 @@ export const zh: LocaleTable = {
   'onboarding.tour.readerListen.label': '阅读器的聆听模式',
   'onboarding.tour.readerListen.caption':
     '点按耳机按钮即可朗读任意书籍，阅读器会随着朗读高亮相应段落。长按耳机按钮可从多种自然语音中挑选。',
-  'onboarding.tour.tags.label': '标签页面',
+  'onboarding.tour.tags.label': '汇编页面',
   'onboarding.tour.tags.caption':
-    '标签页面按主题归类你加过标签的段落。点按标签名称即可查看其引文及完整出处。',
+    '汇编页面按主题归类你收入汇编的段落。点按汇编名称即可查看其引文及完整出处。',
   'onboarding.tour.xrefs.label': '交叉引用页面',
   'onboarding.tour.xrefs.caption':
     '交叉引用页面把你连接过的段落并排展示。长按任意一侧即可在阅读器中跳到该段落。',
   'onboarding.tour.discover.label': '「发现」页面',
   'onboarding.tour.discover.caption':
-    '在「发现」页面可以找到其他读者分享的标签合集。点按标签预览其中的段落，然后导入到你自己的书库。',
-  'onboarding.tour.tagShare.label': '标签分享面板',
+    '在「发现」页面可以找到其他读者分享的汇编。点按汇编预览其中的段落，然后导入到你自己的书库。',
+  'onboarding.tour.tagShare.label': '汇编分享面板',
   'onboarding.tour.tagShare.caption':
-    '可将任意标签合集导出为 Word 文档、PDF、表格、Markdown 等格式 — 并包含你的笔记和交叉引用。',
+    '可将任意汇编导出为 Word 文档、PDF、表格、Markdown 等格式 — 并包含你的笔记和交叉引用。',
 
   // ── Appearance (reader typography) ───────────────────────────────────────
   'appearance.title': '外观',

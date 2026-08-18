@@ -12,8 +12,10 @@ import type { LocaleTable } from './keys';
  *
  * Sentences are built so an interpolated value never needs a case suffix, since
  * the suffix Turkish would want depends on the value's own final vowel and no
- * template can know it. Terminology fixed once, here: a tag is an *etiket*, a
- * cross-reference a *çapraz referans*, a passage a *pasaj*.
+ * template can know it. Terminology fixed once, here: a tag/compilation is a
+ * *derleme* (renamed 2026-08-17 from *etiket*, a front-vowel word — watch
+ * suffix harmony: -yi/-ler/-de/-den/-ye/-nin), a cross-reference a *çapraz
+ * referans*, a passage a *pasaj*.
  */
 export const tr: LocaleTable = {
   'common.cancel': 'İptal',
@@ -57,7 +59,7 @@ export const tr: LocaleTable = {
 
   'nav.home': 'Ana sayfa',
   'nav.library': 'Kütüphane',
-  'nav.tags': 'Etiketler',
+  'nav.tags': 'Derlemeler',
   'nav.notes': 'Notlar',
   'nav.xrefs': 'Referanslar',
   'nav.discover': 'Keşfet',
@@ -96,7 +98,7 @@ export const tr: LocaleTable = {
   'library.noImportedBooks':
     'Henüz içe aktarılmış kitap yok. Kitap eklemek için arama çubuğunun yanındaki düğmeyi kullanın.',
   'library.deleteBookConfirm': '“{{title}}” silinsin mi?',
-  'library.tagAction': 'Etiketle',
+  'library.tagAction': 'Derleme',
 
   'settings.language': 'Dil',
   'settings.appLanguage': 'Uygulama dili',
@@ -154,7 +156,7 @@ export const tr: LocaleTable = {
   'settings.deleting': 'Siliniyor…',
   'settings.error': 'Hata',
   'settings.deleteAccountConfirm':
-    'Bu işlem hesabınızı ve tüm açıklamalarınızı, etiketlerinizi, notlarınızı ve okuma ilerlemenizi kalıcı olarak siler. Geri alınamaz.',
+    'Bu işlem hesabınızı ve tüm açıklamalarınızı, derlemelerinizi, notlarınızı ve okuma ilerlemenizi kalıcı olarak siler. Geri alınamaz.',
   'settings.areYouSure': 'Emin misiniz?',
   'settings.deleteAccountFinal':
     'Hesabınız ve tüm verileriniz hemen silinecek ve kurtarılamayacak.',
@@ -173,7 +175,7 @@ export const tr: LocaleTable = {
   'settings.welcomeToPro': 'Pro’ya hoş geldiniz!',
   'settings.manage': 'Yönet',
 
-  'home.tags': 'Etiketler',
+  'home.tags': 'Derlemeler',
   'home.notes': 'Notlar',
   'home.xrefs': 'Referanslar',
   'home.readingPlan': 'OKUMA PLANI',
@@ -338,36 +340,36 @@ export const tr: LocaleTable = {
   'notes.deleteConfirm': 'Not silinsin mi?',
   'notes.deleteBody': 'Vurgulanan seçim korunacak.',
 
-  'tags.title': 'Etiketler',
-  'tags.empty': 'Henüz etiket yok. Okuyucuda oluşturduğunuz etiketler burada görünecek.',
-  'tags.signInTitle': 'Etiketlerinizi görmek için giriş yapın',
+  'tags.title': 'Derlemeler',
+  'tags.empty': 'Henüz derleme yok. Okuyucuda oluşturduğunuz derlemeler burada görünecek.',
+  'tags.signInTitle': 'Derlemelerinizi görmek için giriş yapın',
   'tags.signInBody': 'Kütüphanenin her yerinden alıntı derlemeleri oluşturun ve düzenleyin.',
   'tags.organize': 'Düzenle',
-  'tags.searchPlaceholder': 'Etiketlerde ara...',
-  'tags.searchSelected': 'Seçili etiketlerde ara...',
-  'tags.noMatch': 'Aramanızla eşleşen etiket yok.',
-  'tags.deleteConfirm': 'Etiket silinsin mi?',
+  'tags.searchPlaceholder': 'Derlemelerde ara...',
+  'tags.searchSelected': 'Seçili derlemelerde ara...',
+  'tags.noMatch': 'Aramanızla eşleşen derleme yok.',
+  'tags.deleteConfirm': 'Derleme silinsin mi?',
   'tags.deleteBody': '“{{name}}” ve tüm seçimleri kaldırılacak.',
 
-  'tags.renameTitle': 'Etiketi yeniden adlandır',
+  'tags.renameTitle': 'Derlemeyi yeniden adlandır',
   'tags.setPrivate': 'Gizli yap',
   'tags.setPublic': 'Herkese açık yap',
-  'tags.publicTag': 'Herkese açık etiket',
-  'tags.removePassage': 'Etiketten kaldır',
-  'tags.removePassageConfirm': 'Bu pasaj etiketten kaldırılsın mı?',
+  'tags.publicTag': 'Herkese açık derleme',
+  'tags.removePassage': 'Derlemeden kaldır',
+  'tags.removePassageConfirm': 'Bu pasaj derlemeden kaldırılsın mı?',
   'tags.indent': 'İçeri al',
   'tags.outdent': 'Dışarı al',
   'tags.organizeHint':
-    'Sıralamak için tutamacı sürükleyin · ⇤ ⇥ ile iç içe düzeyi değiştirin · alıntıları sıralamak için bir etikete tıklayın.',
-  'tags.searchTagsPassages': 'Etiketlerde ve pasajlarda ara…',
-  'tags.exportSelected': 'Seçili etiketleri dışa aktar',
+    'Sıralamak için tutamacı sürükleyin \u00b7 \u21e4 \u21e5 ile iç içe düzeyi değiştirin \u00b7 alıntıları sıralamak için bir derlemeye tıklayın.',
+  'tags.searchTagsPassages': 'Derlemelerde ve pasajlarda ara…',
+  'tags.exportSelected': 'Seçili derlemeleri dışa aktar',
   'tags.export': 'Dışa aktar',
   'tags.exporting': 'Dışa aktarılıyor…',
   'tags.exportInclude': 'Dahil et',
-  'tags.exportNothingToInclude': 'Seçili etiketlerin hiçbirinde {{items}} yok',
+  'tags.exportNothingToInclude': 'Seçili derlemelerin hiçbirinde {{items}} yok',
 
   'panel.createAccount': 'Hesap oluştur',
-  'panel.signInToSave': 'Etiketleri, notları ve çapraz referansları kaydetmek için ücretsiz hesap oluşturun.',
+  'panel.signInToSave': 'Derlemeleri, notları ve çapraz referansları kaydetmek için ücretsiz hesap oluşturun.',
   'panel.editSelection': 'Metin seçimini düzenle',
 
   'reader.xrefMode': 'Çapraz referans modu — pasaj seçmek için uzun basın',
@@ -381,7 +383,7 @@ export const tr: LocaleTable = {
   'reader.collapseSection': 'Bölümü daralt',
   'reader.expand': 'Genişlet',
   'reader.collapse': 'Daralt',
-  'reader.actionTag': 'Etiket',
+  'reader.actionTag': 'Derleme',
   'reader.actionNote': 'Not',
   'reader.actionXref': 'Referans',
   'reader.actionAi': 'YZ',
@@ -395,7 +397,7 @@ export const tr: LocaleTable = {
   'reader.pickTargetHint': 'Bağlamak için metin seçin veya bir pasaja tıklayın',
   'reader.footnoteUnavailable': 'Dipnot metni web sürümünde bulunmuyor.',
   'reader.bookNotFound': 'Kitap bulunamadı',
-  'reader.viewTags': 'Etiketleri gör',
+  'reader.viewTags': 'Derlemeleri gör',
   'reader.viewNote': 'Notu gör',
   'reader.viewXrefs': 'Çapraz referansları gör',
   'reader.noQuotesFiled': 'Buraya henüz alıntı eklenmemiş.',
@@ -438,14 +440,14 @@ export const tr: LocaleTable = {
   'banner.install': 'Yükle',
   'banner.get': 'Al',
 
-  'tagPanel.new': 'Yeni etiket',
+  'tagPanel.new': 'Yeni derleme',
   'tagPanel.create': 'Oluştur',
-  'tagPanel.addTitle': 'Etiket ekle',
-  'tagPanel.viewTitle': 'Etiketler',
+  'tagPanel.addTitle': 'Derlemeye ekle',
+  'tagPanel.viewTitle': 'Derlemeler',
   'tagPanel.under': 'şunun altına:',
-  'tagPanel.addSubTag': 'Alt etiket ekle',
-  'tagPanel.emptyAdd': 'Henüz etiket yok — yukarıdan oluşturun',
-  'tagPanel.emptyView': 'Bu seçimde etiket yok',
+  'tagPanel.addSubTag': 'Alt derleme ekle',
+  'tagPanel.emptyAdd': 'Henüz derleme yok — yukarıdan oluşturun',
+  'tagPanel.emptyView': 'Bu seçimde derleme yok',
 
   'voice.title': 'Okuma sesi',
   'voice.onyx': 'Onyx — derin ve sıcak',
@@ -456,7 +458,7 @@ export const tr: LocaleTable = {
   'voice.marin': 'Marin — doğal ve sakin',
 
   'reader.signInRequired': 'Giriş gerekli',
-  'reader.signInBody': 'Etiketlemek, not almak ve okumanızı kaydetmek için hesap oluşturun.',
+  'reader.signInBody': 'Okurken derlemelerinizi, notlarınızı ve çapraz referanslarınızı kaydetmek için hesap oluşturun.',
   'reader.notNow': 'Şimdi değil',
   'reader.signIn': 'Giriş yap',
   'reader.pdfNotFound': 'PDF dosyası bulunamadı.',
@@ -466,27 +468,27 @@ export const tr: LocaleTable = {
 
   'discover.recent': 'SON EKLENENLER',
   'discover.trending': 'ÖNE ÇIKANLAR',
-  'discover.searchPlaceholder': 'Etiketlerde ve kullanıcılarda ara…',
-  'discover.searchSelected': 'Seçili etiketlerde ara…',
+  'discover.searchPlaceholder': 'Derlemelerde ve kullanıcılarda ara…',
+  'discover.searchSelected': 'Seçili derlemelerde ara…',
   'discover.import': 'İçe aktar',
   'discover.imported': 'İçe aktarıldı',
   'discover.import_other': '{{count}} içe aktarma',
-  'discover.noneYet': 'Henüz paylaşılmış etiket yok',
+  'discover.noneYet': 'Henüz paylaşılmış derleme yok',
   'discover.noResults': 'Sonuç yok',
   'discover.tryDifferent': 'Farklı bir arama terimi deneyin.',
   'discover.signInTitle': 'Keşfet’e erişmek için giriş yapın',
   'discover.signInBody': 'Diğer okurların tüm geleneklerde neler keşfettiğini görün.',
   'discover.anonymous': 'Anonim',
-  'discover.beFirst': 'Etiket paylaşan ilk kişi olun.',
-  'discover.ownTag': 'Bu sizin kendi etiketiniz',
+  'discover.beFirst': 'Derleme paylaşan ilk kişi olun.',
+  'discover.ownTag': 'Bu sizin kendi derlemeniz',
   'discover.alreadyImported': 'Zaten içe aktarıldı',
   'discover.importFailed': 'İçe aktarma başarısız',
   'discover.exportFailed': 'Dışa aktarma başarısız',
   'discover.unknownError': 'Bilinmeyen hata',
 
-  'usertags.autoImports': 'Bu kullanıcının herkese açık etiketlerini uygulamanıza otomatik aktarır',
-  'usertags.noTags': 'Herkese açık etiket yok',
-  'usertags.noTagsBody': 'Bu kullanıcı henüz hiç etiket paylaşmadı.',
+  'usertags.autoImports': 'Bu kullanıcının herkese açık derlemelerini uygulamanıza otomatik aktarır',
+  'usertags.noTags': 'Herkese açık derleme yok',
+  'usertags.noTagsBody': 'Bu kullanıcı henüz hiç derleme paylaşmadı.',
   'usertags.follow': 'Takip et',
   'usertags.unfollow': 'Takibi bırak',
   'usertags.share': 'Paylaş',
@@ -508,26 +510,26 @@ export const tr: LocaleTable = {
   'onboarding.libraryCaption': 'Özenle derlenmiş, birçok geleneği kapsayan bir kütüphaneye göz atın. Okumaya başlamak için bir kitaba dokunun.',
   'onboarding.searchTitle': 'Her şeyi arayın',
   'onboarding.searchCaption': 'Tüm kitaplarda aynı anda arayın ve doğrudan pasaja gidin.',
-  'onboarding.tagAsYouGoTitle': 'Okudukça etiketleyin',
-  'onboarding.tagAsYouGoCaption': 'Arama sonuçlarından doğrudan bir pasaja etiket ekleyin.',
-  'onboarding.buildTagsTitle': 'Etiketlerinizi oluşturun',
-  'onboarding.buildTagsCaption': 'Kolayca hatırlamak için pasajları kendi etiketleriniz altında toplayın.',
+  'onboarding.tagAsYouGoTitle': 'Okudukça derleyin',
+  'onboarding.tagAsYouGoCaption': 'Arama sonuçlarından doğrudan bir pasajı derlemeye ekleyin.',
+  'onboarding.buildTagsTitle': 'Derlemelerinizi oluşturun',
+  'onboarding.buildTagsCaption': 'Kolayca hatırlamak için pasajları kendi derlemeleriniz altında toplayın.',
   'onboarding.selectActTitle': 'Seçin ve harekete geçin',
-  'onboarding.selectActCaption': 'Herhangi bir metni vurgulamak, etiketlemek, not almak veya çapraz referans vermek için seçin.',
+  'onboarding.selectActCaption': 'Herhangi bir metni vurgulamak, derlemeye eklemek, not almak veya çapraz referans vermek için seçin.',
   'onboarding.marginTitle': 'Kenar açıklamaları',
-  'onboarding.marginCaption': 'Etiketleriniz, notlarınız ve çapraz referanslarınız sayfa kenarında durur.',
+  'onboarding.marginCaption': 'Derlemeleriniz, notlarınız ve çapraz referanslarınız sayfa kenarında durur.',
   'onboarding.navigateTitle': 'Hızlıca gezinin',
   'onboarding.navigateCaption': 'Kitapta dolaşmak için içindekiler bölümünü açın.',
-  'onboarding.yourTagsTitle': 'Etiketleriniz',
-  'onboarding.yourTagsCaption': 'Etiketlediğiniz her pasajı etikete göre yeniden ziyaret edin.',
+  'onboarding.yourTagsTitle': 'Derlemeleriniz',
+  'onboarding.yourTagsCaption': 'Derlemeye eklediğiniz her pasajı derlemeye göre yeniden ziyaret edin.',
   'onboarding.xrefsTitle': 'Çapraz referanslar',
   'onboarding.xrefsCaption': 'İlgili pasajları kitaplar ve gelenekler arasında bağlayın.',
   'onboarding.shareTitle': 'Paylaşın ve yayınlayın',
-  'onboarding.shareCaption': 'Bir alıntıyı paylaşın veya topluluk için bir etiket yayınlayın.',
+  'onboarding.shareCaption': 'Bir alıntıyı paylaşın veya topluluk için bir derleme yayınlayın.',
 
   // ── Dışa aktarma paneli ───────────────────────────────────────────────────
-  'export.shareTags_other': '{{count}} etiketi paylaş',
-  'export.shareTagsGeneric': 'Etiketleri paylaş',
+  'export.shareTags_other': '{{count}} derlemeyi paylaş',
+  'export.shareTagsGeneric': 'Derlemeleri paylaş',
   'export.preparing': 'Hazırlanıyor…',
   'export.notesOn': 'Her pasaj için yazdığınız notlar',
   'export.notesNone': 'Bu pasajlarda not yok',
@@ -535,14 +537,14 @@ export const tr: LocaleTable = {
   'export.xrefsNone': 'Bu pasajlarda çapraz referans yok',
   'export.docxTitle': 'Word belgesi (.docx)',
   'export.docxShort': 'Word (.docx)',
-  'export.docxDesc': 'Etiket başlıkları ve alıntılanan pasajlar. Word, Pages veya Google Dokümanlar’da açılır.',
+  'export.docxDesc': 'Derleme başlıkları ve alıntılanan pasajlar. Word, Pages veya Google Dokümanlar’da açılır.',
   'export.pdfTitle': 'PDF belgesi',
   'export.pdfDesc': 'Yazdırmak veya paylaşmak için biçimlendirilmiş belge.',
   'export.csvTitle': 'Hesap tablosu (.csv)',
   'export.csvDesc': 'Her pasaj için bir satır. Excel, Numbers veya Google E-Tablolar’da açılır.',
   'export.mdTitle': 'Markdown (.md)',
   'export.mdDesc': 'Obsidian, Notion veya herhangi bir düz metin aracı için.',
-  'export.noPassagesTagged': '(etiketlenmiş pasaj yok)',
+  'export.noPassagesTagged': '(bu derlemede pasaj yok)',
   'export.seeAlso': 'Ayrıca bakınız:',
 
   // ── Okuma planı ───────────────────────────────────────────────────────────
@@ -576,11 +578,11 @@ export const tr: LocaleTable = {
   'nav.browsingAsGuest': 'Misafir olarak geziliyor',
   'reader.selectBookToBegin': 'Okumaya başlamak için bir kitap seçin',
   'tags.exportFailed': 'Dışa aktarma başarısız',
-  'tags.couldNotExport': 'Etiketler dışa aktarılamadı.',
+  'tags.couldNotExport': 'Derlemeler dışa aktarılamadı.',
   'tags.couldNotRemoveSelection': 'Seçim kaldırılamadı',
-  'tags.reorderHint': 'Sıralamak için tutamacı sürükleyin · ⇤ ⇥ ile iç içe düzeyi değiştirin · alıntıları sıralamak için bir etikete dokunun.',
-  'tags.swipeHint': 'Bir etiketi herkese açık ya da gizli yapmak için sağa kaydırın.',
-  'discover.publishHint': 'Burada yayınlamak için Etiketler ekranında bir etiketi sağa kaydırın.',
+  'tags.reorderHint': 'Sıralamak için tutamacı sürükleyin · ⇤ ⇥ ile iç içe düzeyi değiştirin · alıntıları sıralamak için bir derlemeye dokunun.',
+  'tags.swipeHint': 'Bir derlemeyi herkese açık ya da gizli yapmak için sağa kaydırın.',
+  'discover.publishHint': 'Burada yayınlamak için Derlemeler ekranında bir derlemeyi sağa kaydırın.',
   'reminders.notificationsOff':
     'Immerse için bildirimler kapalı olduğundan hatırlatıcılar iletilemiyor. '
     + 'Cihaz ayarlarınızdan bildirimleri açın.',
@@ -617,12 +619,12 @@ export const tr: LocaleTable = {
   'onboarding.tour.librarySearch.label': 'Kütüphane araması',
   'onboarding.tour.librarySearch.caption':
     '400’den fazla metinde aynı anda arayın. Bir sonuca dokunarak genişletin, doğrudan okuyucuda açmak için uzun basın.',
-  'onboarding.tour.searchQuickTag.label': 'Arama sonucunda hızlı etiket',
+  'onboarding.tour.searchQuickTag.label': 'Arama sonucunda hızlı derleme',
   'onboarding.tour.searchQuickTag.caption':
-    'Bir ya da birçok arama sonucunu seçip tek dokunuşla bir etikete atayın. Tüm kütüphaneden tematik bir derleme kurmanın hızlı yolu.',
+    'Bir ya da birçok arama sonucunu seçip tek dokunuşla bir derlemeye ekleyin. Tüm kütüphaneden tematik bir derleme kurmanın hızlı yolu.',
   'onboarding.tour.home.label': 'Ana sayfa',
   'onboarding.tour.home.caption':
-    'Ana sayfanız kaç etiket, not ve çapraz referans oluşturduğunuzu ve son okuduğunuz kitapları gösterir. Okumaya devam etmek için bir başlığa dokunun.',
+    'Ana sayfanız kaç derleme, not ve çapraz referans oluşturduğunuzu ve son okuduğunuz kitapları gösterir. Okumaya devam etmek için bir başlığa dokunun.',
   'onboarding.tour.homePlan.label': 'Ana sayfada okuma planı',
   'onboarding.tour.homePlan.caption':
     'Günlük okuma alışkanlığı edinin: seçtiğiniz kitapta ve seçtiğiniz sürede bir okuma planı izleyin ya da belirlediğiniz geleneklerden rastgele ayetler alın — günlük hatırlatıcılar ve okuduğunuz her günle büyüyen bir seriyle.',
@@ -631,7 +633,7 @@ export const tr: LocaleTable = {
     'Ayarlar’da, rastgele ayetler için hangi geleneklerden yararlanılacağını ve nazik bir hatırlatma istediğiniz saatleri belirleyin — ya da her gün tek bir kitapta ilerlemek için okuma planına geçin.',
   'onboarding.tour.readerSelect.label': 'Okuyucuda metin seçimi',
   'onboarding.tour.readerSelect.caption':
-    'Seçmek için herhangi bir pasaja uzun basın. Etiket, not, çapraz referans eklemek veya yapay zekâ özeti almak için ekranın altındaki simgeleri kullanın.',
+    'Seçmek için herhangi bir pasaja uzun basın. Bir derlemeye eklemek, not almak, çapraz referans vermek veya yapay zekâ özeti almak için ekranın altındaki simgeleri kullanın.',
   'onboarding.tour.readerNote.label': 'Okuyucuda not görüntüleme',
   'onboarding.tour.readerNote.caption':
     'Notlar seçtiğiniz metnin tam olarak kendisine iliştirilir. Kenardaki altın işaret, onları istediğiniz zaman bulup yeniden açmanızı sağlar.',
@@ -644,18 +646,18 @@ export const tr: LocaleTable = {
   'onboarding.tour.readerListen.label': 'Okuyucuda dinleme modu',
   'onboarding.tour.readerListen.caption':
     'Herhangi bir kitabı sesli dinlemek için kulaklık düğmesine dokunun; okuyucu çalarken her pasajı vurgular. Doğal sesler arasından seçim yapmak için kulaklık düğmesine basılı tutun.',
-  'onboarding.tour.tags.label': 'Etiketler ekranı',
+  'onboarding.tour.tags.label': 'Derlemeler ekranı',
   'onboarding.tour.tags.caption':
-    'Etiketler ekranı, etiketlediğiniz pasajları temaya göre toplar. Alıntılanan pasajları tam künyeleriyle görmek için bir etiket adına dokunun.',
+    'Derlemeler ekranı, derlemelerinize eklediğiniz pasajları temaya göre toplar. Alıntılanan pasajları tam künyeleriyle görmek için bir derleme adına dokunun.',
   'onboarding.tour.xrefs.label': 'Çapraz referanslar ekranı',
   'onboarding.tour.xrefs.caption':
     'Çapraz referanslar ekranı bağladığınız tüm pasajları yan yana gösterir. O pasaja okuyucuda gitmek için iki taraftan birine uzun basın.',
   'onboarding.tour.discover.label': 'Keşfet ekranı',
   'onboarding.tour.discover.caption':
-    'Keşfet ekranında diğer okurların paylaştığı etiket derlemelerini bulun. Pasajlarına göz atmak için bir etikete dokunun, sonra kendi kütüphanenize aktarın.',
-  'onboarding.tour.tagShare.label': 'Etiket paylaşma paneli',
+    'Keşfet ekranında diğer okurların paylaştığı derlemeleri bulun. Pasajlarına göz atmak için bir derlemeye dokunun, sonra kendi kütüphanenize aktarın.',
+  'onboarding.tour.tagShare.label': 'Derleme paylaşma paneli',
   'onboarding.tour.tagShare.caption':
-    'Herhangi bir etiket derlemesini Word belgesi, PDF, hesap tablosu, Markdown ve daha fazlası olarak dışa aktarın — notlarınız ve çapraz referanslarınız dahil.',
+    'Herhangi bir derlemeyi Word belgesi, PDF, hesap tablosu, Markdown ve daha fazlası olarak dışa aktarın — notlarınız ve çapraz referanslarınız dahil.',
 
   // ── Appearance (reader typography) ───────────────────────────────────────
   'appearance.title': 'Görünüm',

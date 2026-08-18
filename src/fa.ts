@@ -18,10 +18,11 @@ import type { LocaleTable } from './keys';
  * the question mark. Arrows that mean "forward" point left, because in this
  * script forward *is* left — the one place an English arrow cannot be copied.
  *
- * Terminology fixed once, here: a tag is a *برچسب*, a note a *یادداشت*, a
- * cross-reference an *ارجاع متقابل*, a passage a *بند*, the reader itself the
- * *کتاب‌خوان*. An x-ref's own label is an *عنوان*, never a *برچسب*, so the two
- * annotation kinds stay tellable apart.
+ * Terminology fixed once, here: a tag/compilation is a *گزیده* (renamed
+ * 2026-08-17 from *برچسب*), a note a *یادداشت*, a cross-reference an *ارجاع
+ * متقابل*, a passage a *بند*, the reader itself the *کتاب‌خوان*. An x-ref's
+ * own label is an *عنوان*, never a *گزیده*, so the two annotation kinds stay
+ * tellable apart.
  */
 export const fa: LocaleTable = {
   'common.cancel': 'لغو',
@@ -65,7 +66,7 @@ export const fa: LocaleTable = {
 
   'nav.home': 'خانه',
   'nav.library': 'کتابخانه',
-  'nav.tags': 'برچسب‌ها',
+  'nav.tags': 'گزیده‌ها',
   'nav.notes': 'یادداشت‌ها',
   'nav.xrefs': 'ارجاعات',
   'nav.discover': 'کشف',
@@ -104,7 +105,7 @@ export const fa: LocaleTable = {
   'library.noImportedBooks':
     'هنوز کتابی وارد نشده است. برای وارد کردن کتاب از دکمهٔ کنار نوار جستجو استفاده کنید.',
   'library.deleteBookConfirm': '«{{title}}» حذف شود؟',
-  'library.tagAction': 'برچسب',
+  'library.tagAction': 'گزیده',
 
   'settings.language': 'زبان',
   'settings.appLanguage': 'زبان برنامه',
@@ -162,7 +163,7 @@ export const fa: LocaleTable = {
   'settings.deleting': 'در حال حذف…',
   'settings.error': 'خطا',
   'settings.deleteAccountConfirm':
-    'این کار حساب شما و همهٔ حاشیه‌نویسی‌ها، برچسب‌ها، یادداشت‌ها و پیشرفت مطالعه‌تان را برای همیشه حذف می‌کند. این کار برگشت‌پذیر نیست.',
+    'این کار حساب شما و همهٔ حاشیه‌نویسی‌ها، گزیده‌ها، یادداشت‌ها و پیشرفت مطالعه‌تان را برای همیشه حذف می‌کند. این کار برگشت‌پذیر نیست.',
   'settings.areYouSure': 'مطمئن هستید؟',
   'settings.deleteAccountFinal':
     'حساب و همهٔ داده‌های شما بی‌درنگ حذف می‌شود و قابل بازیابی نخواهد بود.',
@@ -181,7 +182,7 @@ export const fa: LocaleTable = {
   'settings.welcomeToPro': 'به پرو خوش آمدید!',
   'settings.manage': 'مدیریت',
 
-  'home.tags': 'برچسب‌ها',
+  'home.tags': 'گزیده‌ها',
   'home.notes': 'یادداشت‌ها',
   'home.xrefs': 'ارجاعات',
   'home.readingPlan': 'برنامهٔ مطالعه',
@@ -346,36 +347,36 @@ export const fa: LocaleTable = {
   'notes.deleteConfirm': 'یادداشت حذف شود؟',
   'notes.deleteBody': 'بند برجسته‌شده نگه داشته می‌شود.',
 
-  'tags.title': 'برچسب‌ها',
-  'tags.empty': 'هنوز برچسبی نیست. برچسب‌هایی که در کتاب‌خوان می‌سازید اینجا نمایان می‌شوند.',
-  'tags.signInTitle': 'برای دیدن برچسب‌های خود وارد شوید',
+  'tags.title': 'گزیده‌ها',
+  'tags.empty': 'هنوز گزیده‌ای نیست. گزیده‌هایی که در کتاب‌خوان می‌سازید اینجا نمایان می‌شوند.',
+  'tags.signInTitle': 'برای دیدن گزیده‌های خود وارد شوید',
   'tags.signInBody': 'مجموعه‌های نقل‌قول را از سراسر کتابخانه بسازید و سامان دهید.',
   'tags.organize': 'سامان‌دهی',
-  'tags.searchPlaceholder': 'جستجوی برچسب‌ها...',
-  'tags.searchSelected': 'جستجو در برچسب‌های انتخاب‌شده...',
-  'tags.noMatch': 'هیچ برچسبی با جستجوی شما مطابقت ندارد.',
-  'tags.deleteConfirm': 'برچسب حذف شود؟',
+  'tags.searchPlaceholder': 'جستجوی گزیده‌ها...',
+  'tags.searchSelected': 'جستجو در گزیده‌های انتخاب‌شده...',
+  'tags.noMatch': 'هیچ گزیده‌ای با جستجوی شما مطابقت ندارد.',
+  'tags.deleteConfirm': 'گزیده حذف شود؟',
   'tags.deleteBody': '«{{name}}» و همهٔ انتخاب‌هایش برداشته می‌شوند.',
 
-  'tags.renameTitle': 'تغییر نام برچسب',
+  'tags.renameTitle': 'تغییر نام گزیده',
   'tags.setPrivate': 'خصوصی کردن',
   'tags.setPublic': 'عمومی کردن',
-  'tags.publicTag': 'برچسب عمومی',
-  'tags.removePassage': 'برداشتن از برچسب',
-  'tags.removePassageConfirm': 'این بند از برچسب برداشته شود؟',
+  'tags.publicTag': 'گزیدهٔ عمومی',
+  'tags.removePassage': 'برداشتن از گزیده',
+  'tags.removePassageConfirm': 'این بند از گزیده برداشته شود؟',
   'tags.indent': 'تورفتگی',
   'tags.outdent': 'بیرون‌بردگی',
   'tags.organizeHint':
-    'برای تغییر ترتیب، دستگیره را بکشید · ⇤ ⇥ برای تغییر سطح · برای تغییر ترتیب نقل‌قول‌ها روی برچسب کلیک کنید.',
-  'tags.searchTagsPassages': 'جستجوی برچسب‌ها و بندها…',
-  'tags.exportSelected': 'برون‌بری برچسب‌های انتخاب‌شده',
+    'برای تغییر ترتیب، دستگیره را بکشید \u00b7 \u21e4 \u21e5 برای تغییر سطح \u00b7 برای تغییر ترتیب نقل‌قول‌ها روی گزیده کلیک کنید.',
+  'tags.searchTagsPassages': 'جستجوی گزیده‌ها و بندها…',
+  'tags.exportSelected': 'برون‌بری گزیده‌های انتخاب‌شده',
   'tags.export': 'برون‌بری',
   'tags.exporting': 'در حال برون‌بری…',
   'tags.exportInclude': 'شامل',
-  'tags.exportNothingToInclude': 'هیچ‌یک از برچسب‌های انتخاب‌شده {{items}} ندارند',
+  'tags.exportNothingToInclude': 'هیچ‌یک از گزیده‌های انتخاب‌شده {{items}} ندارند',
 
   'panel.createAccount': 'ایجاد حساب',
-  'panel.signInToSave': 'برای ذخیرهٔ برچسب‌ها، یادداشت‌ها و ارجاعات، حساب رایگان بسازید.',
+  'panel.signInToSave': 'برای ذخیرهٔ گزیده‌ها، یادداشت‌ها و ارجاعات، حساب رایگان بسازید.',
   'panel.editSelection': 'ویرایش متن انتخاب‌شده',
 
   'reader.xrefMode': 'حالت ارجاع — برای انتخاب بند، لمس طولانی کنید',
@@ -389,7 +390,7 @@ export const fa: LocaleTable = {
   'reader.collapseSection': 'جمع کردن بخش',
   'reader.expand': 'باز کردن',
   'reader.collapse': 'جمع کردن',
-  'reader.actionTag': 'برچسب',
+  'reader.actionTag': 'گزیده',
   'reader.actionNote': 'یادداشت',
   'reader.actionXref': 'ارجاع',
   'reader.actionAi': 'هوش مصنوعی',
@@ -403,7 +404,7 @@ export const fa: LocaleTable = {
   'reader.pickTargetHint': 'متنی را انتخاب کنید یا برای پیوند روی بندی کلیک کنید',
   'reader.footnoteUnavailable': 'متن پانویس در نسخهٔ وب در دسترس نیست.',
   'reader.bookNotFound': 'کتاب پیدا نشد',
-  'reader.viewTags': 'مشاهدهٔ برچسب‌ها',
+  'reader.viewTags': 'مشاهدهٔ گزیده‌ها',
   'reader.viewNote': 'مشاهدهٔ یادداشت',
   'reader.viewXrefs': 'مشاهدهٔ ارجاعات متقابل',
   'reader.noQuotesFiled': 'هیچ نقل‌قولی اینجا ثبت نشده است.',
@@ -446,14 +447,14 @@ export const fa: LocaleTable = {
   'banner.install': 'نصب',
   'banner.get': 'دریافت',
 
-  'tagPanel.new': 'برچسب جدید',
+  'tagPanel.new': 'گزیدهٔ جدید',
   'tagPanel.create': 'ایجاد',
-  'tagPanel.addTitle': 'افزودن برچسب',
-  'tagPanel.viewTitle': 'برچسب‌ها',
+  'tagPanel.addTitle': 'افزودن به گزیده',
+  'tagPanel.viewTitle': 'گزیده‌ها',
   'tagPanel.under': 'زیر',
-  'tagPanel.addSubTag': 'افزودن زیربرچسب',
-  'tagPanel.emptyAdd': 'هنوز برچسبی نیست — در بالا یکی بسازید',
-  'tagPanel.emptyView': 'برچسبی روی این انتخاب نیست',
+  'tagPanel.addSubTag': 'افزودن زیرگزیده',
+  'tagPanel.emptyAdd': 'هنوز گزیده‌ای نیست — در بالا یکی بسازید',
+  'tagPanel.emptyView': 'گزیده‌ای روی این انتخاب نیست',
 
   'voice.title': 'صدای خواندن',
   'voice.onyx': 'اونیکس — ژرف و گرم',
@@ -464,7 +465,7 @@ export const fa: LocaleTable = {
   'voice.marin': 'مارین — طبیعی و ملایم',
 
   'reader.signInRequired': 'ورود لازم است',
-  'reader.signInBody': 'برای برچسب‌زدن، حاشیه‌نویسی و ذخیرهٔ مطالعه‌تان حساب بسازید.',
+  'reader.signInBody': 'برای ذخیرهٔ گزیده‌ها، یادداشت‌ها و ارجاعات هنگام مطالعه، حساب بسازید.',
   'reader.notNow': 'الان نه',
   'reader.signIn': 'ورود',
   'reader.pdfNotFound': 'فایل PDF پیدا نشد.',
@@ -474,27 +475,27 @@ export const fa: LocaleTable = {
 
   'discover.recent': 'اخیر',
   'discover.trending': 'پرطرفدار',
-  'discover.searchPlaceholder': 'جستجوی برچسب‌ها و کاربران…',
-  'discover.searchSelected': 'جستجو در برچسب‌های انتخاب‌شده…',
+  'discover.searchPlaceholder': 'جستجوی گزیده‌ها و کاربران…',
+  'discover.searchSelected': 'جستجو در گزیده‌های انتخاب‌شده…',
   'discover.import': 'وارد کردن',
   'discover.imported': 'وارد شد',
   'discover.import_other': '{{count}} بار وارد شده',
-  'discover.noneYet': 'هنوز برچسبِ هم‌رسانی‌شده‌ای نیست',
+  'discover.noneYet': 'هنوز گزیدهٔ هم‌رسانی‌شده‌ای نیست',
   'discover.noResults': 'نتیجه‌ای نیست',
   'discover.tryDifferent': 'عبارت جستجوی دیگری را امتحان کنید.',
   'discover.signInTitle': 'برای دسترسی به کشف وارد شوید',
   'discover.signInBody': 'ببینید دیگر خوانندگان در همهٔ سنت‌ها چه کشف می‌کنند.',
   'discover.anonymous': 'ناشناس',
-  'discover.beFirst': 'نخستین کسی باشید که برچسبی هم‌رسانی می‌کند.',
-  'discover.ownTag': 'این برچسب خودتان است',
+  'discover.beFirst': 'نخستین کسی باشید که گزیده‌ای هم‌رسانی می‌کند.',
+  'discover.ownTag': 'این گزیده خودتان است',
   'discover.alreadyImported': 'قبلاً وارد شده',
   'discover.importFailed': 'وارد کردن ناموفق بود',
   'discover.exportFailed': 'برون‌بری ناموفق بود',
   'discover.unknownError': 'خطای ناشناخته',
 
-  'usertags.autoImports': 'برچسب‌های عمومی کاربر را به‌طور خودکار به برنامهٔ شما وارد می‌کند',
-  'usertags.noTags': 'برچسب عمومی نیست',
-  'usertags.noTagsBody': 'این کاربر هنوز برچسبی هم‌رسانی نکرده است.',
+  'usertags.autoImports': 'گزیده‌های عمومی کاربر را به‌طور خودکار به برنامهٔ شما وارد می‌کند',
+  'usertags.noTags': 'گزیدهٔ عمومی نیست',
+  'usertags.noTagsBody': 'این کاربر هنوز گزیده‌ای هم‌رسانی نکرده است.',
   'usertags.follow': 'دنبال کردن',
   'usertags.unfollow': 'لغو دنبال کردن',
   'usertags.share': 'هم‌رسانی',
@@ -516,25 +517,25 @@ export const fa: LocaleTable = {
   'onboarding.libraryCaption': 'کتابخانه‌ای گزیده از سنت‌های گوناگون را مرور کنید. برای شروع مطالعه روی هر کتابی ضربه بزنید.',
   'onboarding.searchTitle': 'جستجو در همه چیز',
   'onboarding.searchCaption': 'در همهٔ کتاب‌ها یکجا جستجو کنید و مستقیم به بند مورد نظر بروید.',
-  'onboarding.tagAsYouGoTitle': 'همان‌جا برچسب بزنید',
-  'onboarding.tagAsYouGoCaption': 'از همان نتایج جستجو، به یک بند برچسب بیفزایید.',
-  'onboarding.buildTagsTitle': 'برچسب‌های خود را بسازید',
-  'onboarding.buildTagsCaption': 'بندها را زیر برچسب‌های خودتان گرد آورید تا آسان بازیابید.',
+  'onboarding.tagAsYouGoTitle': 'همان‌جا گزیده بسازید',
+  'onboarding.tagAsYouGoCaption': 'از همان نتایج جستجو، یک بند را به گزیده‌ای بیفزایید.',
+  'onboarding.buildTagsTitle': 'گزیده‌های خود را بسازید',
+  'onboarding.buildTagsCaption': 'بندها را زیر گزیده‌های خودتان گرد آورید تا آسان بازیابید.',
   'onboarding.selectActTitle': 'انتخاب و اقدام',
-  'onboarding.selectActCaption': 'هر متنی را انتخاب کنید تا آن را برجسته، برچسب‌گذاری، یادداشت یا ارجاع دهید.',
+  'onboarding.selectActCaption': 'هر متنی را انتخاب کنید تا آن را برجسته کنید، به گزیده‌ای بیفزایید، یادداشت یا ارجاع دهید.',
   'onboarding.marginTitle': 'حاشیه‌نویسی‌های کناری',
-  'onboarding.marginCaption': 'برچسب‌ها، یادداشت‌ها و ارجاعات شما در حاشیه جای دارند.',
+  'onboarding.marginCaption': 'گزیده‌ها، یادداشت‌ها و ارجاعات شما در حاشیه جای دارند.',
   'onboarding.navigateTitle': 'جابه‌جایی سریع',
   'onboarding.navigateCaption': 'برای گشتن در کتاب، فهرست مطالب را باز کنید.',
-  'onboarding.yourTagsTitle': 'برچسب‌های شما',
-  'onboarding.yourTagsCaption': 'هر بند برچسب‌خورده را، مرتب‌شده بر پایهٔ برچسب، دوباره ببینید.',
+  'onboarding.yourTagsTitle': 'گزیده‌های شما',
+  'onboarding.yourTagsCaption': 'هر بندِ افزوده‌شده به گزیده را، مرتب‌شده بر پایهٔ گزیده، دوباره ببینید.',
   'onboarding.xrefsTitle': 'ارجاعات متقابل',
   'onboarding.xrefsCaption': 'بندهای مرتبط را در میان کتاب‌ها و سنت‌ها به هم پیوند دهید.',
   'onboarding.shareTitle': 'هم‌رسانی و انتشار',
-  'onboarding.shareCaption': 'نقل‌قولی را هم‌رسانی کنید یا برچسبی را برای انجمن منتشر کنید.',
+  'onboarding.shareCaption': 'نقل‌قولی را هم‌رسانی کنید یا گزیده‌ای را برای انجمن منتشر کنید.',
 
-  'export.shareTags_other': 'هم‌رسانی {{count}} برچسب',
-  'export.shareTagsGeneric': 'هم‌رسانی برچسب‌ها',
+  'export.shareTags_other': 'هم‌رسانی {{count}} گزیده',
+  'export.shareTagsGeneric': 'هم‌رسانی گزیده‌ها',
   'export.preparing': 'در حال آماده‌سازی…',
   'export.notesOn': 'یادداشت‌های نوشتهٔ شما روی هر بند',
   'export.notesNone': 'یادداشتی روی این بندها نیست',
@@ -542,14 +543,14 @@ export const fa: LocaleTable = {
   'export.xrefsNone': 'ارجاع متقابلی روی این بندها نیست',
   'export.docxTitle': 'سند Word (.docx)',
   'export.docxShort': 'ورد (.docx)',
-  'export.docxDesc': 'سرعنوان برچسب‌ها همراه با بندهای نقل‌شده. در Word، Pages یا Google Docs باز می‌شود.',
+  'export.docxDesc': 'سرعنوان گزیده‌ها همراه با بندهای نقل‌شده. در Word، Pages یا Google Docs باز می‌شود.',
   'export.pdfTitle': 'سند PDF',
   'export.pdfDesc': 'سندی قالب‌بندی‌شده برای چاپ یا هم‌رسانی.',
   'export.csvTitle': 'صفحه‌گسترده (.csv)',
   'export.csvDesc': 'هر بند در یک سطر. در Excel، Numbers یا Google Sheets باز می‌شود.',
   'export.mdTitle': 'مارک‌داون (.md)',
   'export.mdDesc': 'برای Obsidian، Notion یا هر ابزار متن ساده.',
-  'export.noPassagesTagged': '(بندی برچسب نخورده است)',
+  'export.noPassagesTagged': '(بندی در این گزیده نیست)',
   'export.seeAlso': 'همچنین ببینید:',
 
   'plan.chooseBook': 'یک کتاب انتخاب کنید',
@@ -581,11 +582,11 @@ export const fa: LocaleTable = {
   'nav.browsingAsGuest': 'مرور به‌عنوان مهمان',
   'reader.selectBookToBegin': 'برای شروع مطالعه، کتابی را انتخاب کنید',
   'tags.exportFailed': 'برون‌بری ناموفق بود',
-  'tags.couldNotExport': 'برون‌بری برچسب‌ها ممکن نشد.',
+  'tags.couldNotExport': 'برون‌بری گزیده‌ها ممکن نشد.',
   'tags.couldNotRemoveSelection': 'برداشتن انتخاب ممکن نشد',
-  'tags.reorderHint': 'برای تغییر ترتیب، دستگیره را بکشید · ⇤ ⇥ برای تغییر سطح · برای تغییر ترتیب نقل‌قول‌ها روی برچسب ضربه بزنید.',
-  'tags.swipeHint': 'برای عمومی یا خصوصی کردن برچسب، آن را به راست بکشید.',
-  'discover.publishHint': 'برای انتشار برچسب در اینجا، در صفحهٔ برچسب‌ها آن را به راست بکشید.',
+  'tags.reorderHint': 'برای تغییر ترتیب، دستگیره را بکشید · ⇤ ⇥ برای تغییر سطح · برای تغییر ترتیب نقل‌قول‌ها روی گزیده ضربه بزنید.',
+  'tags.swipeHint': 'برای عمومی یا خصوصی کردن گزیده، آن را به راست بکشید.',
+  'discover.publishHint': 'برای انتشار گزیده در اینجا، در صفحهٔ گزیده‌ها آن را به راست بکشید.',
   'reminders.notificationsOff':
     'اعلان‌ها برای Immerse خاموش است، بنابراین یادآورها نمی‌توانند فرستاده شوند. '
     + 'آن‌ها را در تنظیمات دستگاه خود فعال کنید.',
@@ -621,12 +622,12 @@ export const fa: LocaleTable = {
   'onboarding.tour.librarySearch.label': 'جستجوی کتابخانه',
   'onboarding.tour.librarySearch.caption':
     'در بیش از ۴۰۰ متن یکجا جستجو کنید. برای باز شدن نتیجه روی آن ضربه بزنید — برای باز کردن مستقیم در کتاب‌خوان لمس طولانی کنید.',
-  'onboarding.tour.searchQuickTag.label': 'برچسب سریع نتیجهٔ جستجو',
+  'onboarding.tour.searchQuickTag.label': 'گزیدهٔ سریع نتیجهٔ جستجو',
   'onboarding.tour.searchQuickTag.caption':
-    'یک یا چند نتیجهٔ جستجو را انتخاب کنید و با یک ضربه به برچسبی نسبت دهید. راهی سریع برای ساختن مجموعه‌ای موضوعی از سراسر کتابخانه.',
+    'یک یا چند نتیجهٔ جستجو را انتخاب کنید و با یک ضربه به گزیده‌ای بیفزایید. راهی سریع برای ساختن مجموعه‌ای موضوعی از سراسر کتابخانه.',
   'onboarding.tour.home.label': 'صفحهٔ خانه',
   'onboarding.tour.home.caption':
-    'صفحهٔ خانهٔ شما نشان می‌دهد چند برچسب، یادداشت و ارجاع ساخته‌اید، به‌همراه کتاب‌هایی که اخیراً خوانده‌اید. برای ادامهٔ مطالعه روی هر عنوان ضربه بزنید.',
+    'صفحهٔ خانهٔ شما نشان می‌دهد چند گزیده، یادداشت و ارجاع ساخته‌اید، به‌همراه کتاب‌هایی که اخیراً خوانده‌اید. برای ادامهٔ مطالعه روی هر عنوان ضربه بزنید.',
   'onboarding.tour.homePlan.label': 'برنامهٔ مطالعه در صفحهٔ خانه',
   'onboarding.tour.homePlan.caption':
     'عادت مطالعهٔ روزانه بسازید: برنامهٔ مطالعه‌ای را در کتاب دلخواه و به مدت دلخواه دنبال کنید، یا آیات تصادفی از سنت‌های برگزیدهٔ خود دریافت کنید — با یادآورهای روزانه و شمار روزهای پیاپی که با هر روز مطالعه بیشتر می‌شود.',
@@ -635,7 +636,7 @@ export const fa: LocaleTable = {
     'در تنظیمات، آیات تصادفی را با برگزیدن سنت‌های منبع و ساعت‌هایی که دوست دارید یادآوری ملایمی دریافت کنید تنظیم کنید — یا به برنامهٔ مطالعه بروید تا هر روز یک کتاب را پیش ببرید.',
   'onboarding.tour.readerSelect.label': 'انتخاب متن در کتاب‌خوان',
   'onboarding.tour.readerSelect.caption':
-    'برای انتخاب هر بند، لمس طولانی کنید. از نمادهای پایین صفحه برای افزودن برچسب، یادداشت، ارجاع متقابل یا گرفتن خلاصهٔ هوش مصنوعی استفاده کنید.',
+    'برای انتخاب هر بند، لمس طولانی کنید. از نمادهای پایین صفحه برای افزودن به گزیده، یادداشت، ارجاع متقابل یا گرفتن خلاصهٔ هوش مصنوعی استفاده کنید.',
   'onboarding.tour.readerNote.label': 'مشاهدهٔ یادداشت در کتاب‌خوان',
   'onboarding.tour.readerNote.caption':
     'یادداشت‌ها به همان متنی که انتخاب کرده‌اید می‌چسبند. نشانگر طلایی در حاشیه به شما امکان می‌دهد هر زمان آن‌ها را بیابید و دوباره باز کنید.',
@@ -648,18 +649,18 @@ export const fa: LocaleTable = {
   'onboarding.tour.readerListen.label': 'حالت شنیدن در کتاب‌خوان',
   'onboarding.tour.readerListen.caption':
     'برای شنیدن هر کتاب، روی دکمهٔ هدفون ضربه بزنید — کتاب‌خوان هر بند را هنگام پخش برجسته می‌کند. برای برگزیدن از میان صداهای طبیعی، دکمهٔ هدفون را لمس کنید و نگه دارید.',
-  'onboarding.tour.tags.label': 'صفحهٔ برچسب‌ها',
+  'onboarding.tour.tags.label': 'صفحهٔ گزیده‌ها',
   'onboarding.tour.tags.caption':
-    'صفحهٔ برچسب‌ها بندهای برچسب‌خوردهٔ شما را بر پایهٔ موضوع گرد می‌آورد. برای دیدن بندهای نقل‌شده با ارجاع کامل، روی نام برچسب ضربه بزنید.',
+    'صفحهٔ گزیده‌ها بندهای افزوده‌شده به گزیده‌های شما را بر پایهٔ موضوع گرد می‌آورد. برای دیدن بندهای نقل‌شده با ارجاع کامل، روی نام گزیده ضربه بزنید.',
   'onboarding.tour.xrefs.label': 'صفحهٔ ارجاعات متقابل',
   'onboarding.tour.xrefs.caption':
     'صفحهٔ ارجاعات متقابل همهٔ بندهای پیونددادهٔ شما را کنار هم نشان می‌دهد. برای رفتن به هر بند در کتاب‌خوان، روی هر سو لمس طولانی کنید.',
   'onboarding.tour.discover.label': 'صفحهٔ کشف',
   'onboarding.tour.discover.caption':
-    'در صفحهٔ کشف، مجموعه‌برچسب‌هایی را بیابید که دیگر خوانندگان هم‌رسانی کرده‌اند. برای پیش‌نمایش بندهای یک برچسب روی آن ضربه بزنید، سپس آن را به کتابخانهٔ خود وارد کنید.',
-  'onboarding.tour.tagShare.label': 'پنل هم‌رسانی برچسب',
+    'در صفحهٔ کشف، گزیده‌هایی را بیابید که دیگر خوانندگان هم‌رسانی کرده‌اند. برای پیش‌نمایش بندهای یک گزیده روی آن ضربه بزنید، سپس آن را به کتابخانهٔ خود وارد کنید.',
+  'onboarding.tour.tagShare.label': 'پنل هم‌رسانی گزیده',
   'onboarding.tour.tagShare.caption':
-    'هر مجموعه‌برچسبی را به‌صورت سند Word، PDF، صفحه‌گسترده، مارک‌داون و بیشتر برون‌بری کنید — همراه با یادداشت‌ها و ارجاعات شما.',
+    'هر گزیده‌ای را به‌صورت سند Word، PDF، صفحه‌گسترده، مارک‌داون و بیشتر برون‌بری کنید — همراه با یادداشت‌ها و ارجاعات شما.',
 
   // ── Appearance (reader typography) ───────────────────────────────────────
   'appearance.title': 'ظاهر',

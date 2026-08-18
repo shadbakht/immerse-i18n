@@ -8,8 +8,10 @@ import type { LocaleTable } from './keys';
  * ever showing `settings.appLanguage` to a user.
  *
  * Terminology fixed once, here: a cross-reference is a *renvoi* (the word the
- * French scriptural apparatus already uses), a tag is an *étiquette*. Both
- * recur across a dozen screens, so they are worth settling before translating.
+ * French scriptural apparatus already uses), a tag/compilation is a
+ * *compilation* (renamed 2026-08-17 from *étiquette*, kept as the internal
+ * key names' English gloss only). Both recur across a dozen screens, so they
+ * are worth settling before translating.
  */
 export const fr: LocaleTable = {
   'common.cancel': 'Annuler',
@@ -55,7 +57,7 @@ export const fr: LocaleTable = {
 
   'nav.home': 'Accueil',
   'nav.library': 'Bibliothèque',
-  'nav.tags': 'Étiquettes',
+  'nav.tags': 'Compilations',
   'nav.notes': 'Notes',
   'nav.xrefs': 'Renvois',
   'nav.discover': 'Découvrir',
@@ -96,7 +98,7 @@ export const fr: LocaleTable = {
   'library.noImportedBooks':
     'Aucun livre importé pour l’instant. Utilisez le bouton près de la barre de recherche pour en importer un.',
   'library.deleteBookConfirm': 'Supprimer « {{title}} » ?',
-  'library.tagAction': 'Étiqueter',
+  'library.tagAction': 'Compilation',
 
   'settings.language': 'Langue',
   'settings.appLanguage': 'Langue de l’application',
@@ -154,7 +156,7 @@ export const fr: LocaleTable = {
   'settings.deleting': 'Suppression…',
   'settings.error': 'Erreur',
   'settings.deleteAccountConfirm':
-    'Cela supprimera définitivement votre compte ainsi que toutes vos annotations, étiquettes, notes et votre progression de lecture. Cette action est irréversible.',
+    'Cela supprimera définitivement votre compte ainsi que toutes vos annotations, compilations, notes et votre progression de lecture. Cette action est irréversible.',
   'settings.areYouSure': 'Êtes-vous sûr ?',
   'settings.deleteAccountFinal':
     'Votre compte et toutes vos données seront supprimés immédiatement et ne pourront pas être récupérés.',
@@ -173,7 +175,7 @@ export const fr: LocaleTable = {
   'settings.welcomeToPro': 'Bienvenue dans Pro !',
   'settings.manage': 'Gérer',
 
-  'home.tags': 'Étiquettes',
+  'home.tags': 'Compilations',
   'home.notes': 'Notes',
   'home.xrefs': 'Renvois',
   'home.readingPlan': 'PLAN DE LECTURE',
@@ -340,36 +342,36 @@ export const fr: LocaleTable = {
   'notes.deleteConfirm': 'Supprimer la note ?',
   'notes.deleteBody': 'La sélection surlignée sera conservée.',
 
-  'tags.title': 'Étiquettes',
-  'tags.empty': 'Aucune étiquette pour l’instant. Les étiquettes que vous créez dans le lecteur apparaîtront ici.',
-  'tags.signInTitle': 'Connectez-vous pour voir vos étiquettes',
+  'tags.title': 'Compilations',
+  'tags.empty': 'Aucune compilation pour l’instant. Les compilations que vous créez dans le lecteur apparaîtront ici.',
+  'tags.signInTitle': 'Connectez-vous pour voir vos compilations',
   'tags.signInBody': 'Créez et organisez des recueils de citations puisés dans toute la bibliothèque.',
   'tags.organize': 'Organiser',
-  'tags.searchPlaceholder': 'Rechercher des étiquettes...',
-  'tags.searchSelected': 'Rechercher dans les étiquettes sélectionnées...',
-  'tags.noMatch': 'Aucune étiquette ne correspond à votre recherche.',
-  'tags.deleteConfirm': 'Supprimer l’étiquette ?',
+  'tags.searchPlaceholder': 'Rechercher des compilations...',
+  'tags.searchSelected': 'Rechercher dans les compilations sélectionnées...',
+  'tags.noMatch': 'Aucune compilation ne correspond à votre recherche.',
+  'tags.deleteConfirm': 'Supprimer la compilation ?',
   'tags.deleteBody': '« {{name}} » et toutes ses sélections seront supprimées.',
 
-  'tags.renameTitle': 'Renommer l’étiquette',
+  'tags.renameTitle': 'Renommer la compilation',
   'tags.setPrivate': 'Rendre privée',
   'tags.setPublic': 'Rendre publique',
-  'tags.publicTag': 'Étiquette publique',
-  'tags.removePassage': 'Retirer de l’étiquette',
-  'tags.removePassageConfirm': 'Retirer ce passage de l’étiquette ?',
+  'tags.publicTag': 'Compilation publique',
+  'tags.removePassage': 'Retirer de la compilation',
+  'tags.removePassageConfirm': 'Retirer ce passage de la compilation ?',
   'tags.indent': 'Indenter',
   'tags.outdent': 'Désindenter',
   'tags.organizeHint':
-    'Faites glisser la poignée pour réorganiser · ⇤ ⇥ pour changer le niveau · cliquez sur une étiquette pour réordonner ses citations.',
-  'tags.searchTagsPassages': 'Rechercher étiquettes et passages…',
-  'tags.exportSelected': 'Exporter les étiquettes sélectionnées',
+    'Faites glisser la poignée pour réorganiser \u00b7 \u21e4 \u21e5 pour changer le niveau \u00b7 cliquez sur une compilation pour réordonner ses citations.',
+  'tags.searchTagsPassages': 'Rechercher compilations et passages…',
+  'tags.exportSelected': 'Exporter les compilations sélectionnées',
   'tags.export': 'Exporter',
   'tags.exporting': 'Exportation…',
   'tags.exportInclude': 'Inclure',
-  'tags.exportNothingToInclude': 'Aucune des étiquettes sélectionnées n’a de {{items}}',
+  'tags.exportNothingToInclude': 'Aucune des compilations sélectionnées n’a de {{items}}',
 
   'panel.createAccount': 'Créer un compte',
-  'panel.signInToSave': 'Créez un compte gratuit pour enregistrer étiquettes, notes et renvois.',
+  'panel.signInToSave': 'Créez un compte gratuit pour enregistrer compilations, notes et renvois.',
   'panel.editSelection': 'Modifier la sélection de texte',
 
   'reader.xrefMode': 'Mode renvoi — appui long pour choisir un passage',
@@ -383,7 +385,7 @@ export const fr: LocaleTable = {
   'reader.collapseSection': 'Réduire la section',
   'reader.expand': 'Développer',
   'reader.collapse': 'Réduire',
-  'reader.actionTag': 'Étiquette',
+  'reader.actionTag': 'Compilation',
   'reader.actionNote': 'Note',
   'reader.actionXref': 'Renvoi',
   'reader.actionAi': 'IA',
@@ -397,7 +399,7 @@ export const fr: LocaleTable = {
   'reader.pickTargetHint': 'Sélectionnez du texte ou cliquez sur un passage à relier',
   'reader.footnoteUnavailable': 'Le texte de la note n’est pas disponible dans la version web.',
   'reader.bookNotFound': 'Livre introuvable',
-  'reader.viewTags': 'Voir les étiquettes',
+  'reader.viewTags': 'Voir les compilations',
   'reader.viewNote': 'Voir la note',
   'reader.viewXrefs': 'Voir les renvois',
   'reader.noQuotesFiled': 'Aucune citation classée ici.',
@@ -440,14 +442,14 @@ export const fr: LocaleTable = {
   'banner.install': 'Installer',
   'banner.get': 'Obtenir',
 
-  'tagPanel.new': 'Nouvelle étiquette',
+  'tagPanel.new': 'Nouvelle compilation',
   'tagPanel.create': 'Créer',
-  'tagPanel.addTitle': 'Ajouter des étiquettes',
-  'tagPanel.viewTitle': 'Étiquettes',
+  'tagPanel.addTitle': 'Ajouter à une compilation',
+  'tagPanel.viewTitle': 'Compilations',
   'tagPanel.under': 'sous',
-  'tagPanel.addSubTag': 'Ajouter une sous-étiquette',
-  'tagPanel.emptyAdd': 'Aucune étiquette — créez-en une ci-dessus',
-  'tagPanel.emptyView': 'Aucune étiquette sur cette sélection',
+  'tagPanel.addSubTag': 'Ajouter une sous-compilation',
+  'tagPanel.emptyAdd': 'Aucune compilation — créez-en une ci-dessus',
+  'tagPanel.emptyView': 'Aucune compilation sur cette sélection',
 
   'voice.title': 'Voix de lecture',
   'voice.onyx': 'Onyx — grave et chaleureuse',
@@ -458,7 +460,7 @@ export const fr: LocaleTable = {
   'voice.marin': 'Marin — naturelle et posée',
 
   'reader.signInRequired': 'Connexion requise',
-  'reader.signInBody': 'Créez un compte pour étiqueter, annoter et enregistrer vos lectures.',
+  'reader.signInBody': 'Créez un compte pour enregistrer compilations, notes et renvois au fil de votre lecture.',
   'reader.notNow': 'Plus tard',
   'reader.signIn': 'Se connecter',
   'reader.pdfNotFound': 'Impossible de localiser le fichier PDF.',
@@ -468,28 +470,28 @@ export const fr: LocaleTable = {
 
   'discover.recent': 'RÉCENTS',
   'discover.trending': 'TENDANCES',
-  'discover.searchPlaceholder': 'Rechercher étiquettes et utilisateurs…',
-  'discover.searchSelected': 'Rechercher dans les étiquettes sélectionnées…',
+  'discover.searchPlaceholder': 'Rechercher compilations et utilisateurs…',
+  'discover.searchSelected': 'Rechercher dans les compilations sélectionnées…',
   'discover.import': 'Importer',
   'discover.imported': 'Importée',
   'discover.import_one': '{{count}} import',
   'discover.import_other': '{{count}} imports',
-  'discover.noneYet': 'Aucune étiquette partagée pour l’instant',
+  'discover.noneYet': 'Aucune compilation partagée pour l’instant',
   'discover.noResults': 'Aucun résultat',
   'discover.tryDifferent': 'Essayez un autre terme de recherche.',
   'discover.signInTitle': 'Connectez-vous pour accéder à Découvrir',
   'discover.signInBody': 'Voyez ce que d’autres lecteurs découvrent dans toutes les traditions.',
   'discover.anonymous': 'Anonyme',
-  'discover.beFirst': 'Soyez le premier à partager une étiquette.',
-  'discover.ownTag': 'C’est votre propre étiquette',
+  'discover.beFirst': 'Soyez le premier à partager une compilation.',
+  'discover.ownTag': 'C’est votre propre compilation',
   'discover.alreadyImported': 'Déjà importée',
   'discover.importFailed': 'Échec de l’importation',
   'discover.exportFailed': 'Échec de l’exportation',
   'discover.unknownError': 'Erreur inconnue',
 
-  'usertags.autoImports': 'Importe automatiquement les étiquettes publiques de cet utilisateur dans votre app',
-  'usertags.noTags': 'Aucune étiquette publique',
-  'usertags.noTagsBody': 'Cet utilisateur n’a encore partagé aucune étiquette.',
+  'usertags.autoImports': 'Importe automatiquement les compilations publiques de cet utilisateur dans votre app',
+  'usertags.noTags': 'Aucune compilation publique',
+  'usertags.noTagsBody': 'Cet utilisateur n’a encore partagé aucune compilation.',
   'usertags.follow': 'Suivre',
   'usertags.unfollow': 'Ne plus suivre',
   'usertags.share': 'Partager',
@@ -511,27 +513,27 @@ export const fr: LocaleTable = {
   'onboarding.libraryCaption': 'Parcourez une bibliothèque multi-traditions soigneusement composée. Touchez un livre pour commencer à lire.',
   'onboarding.searchTitle': 'Cherchez partout',
   'onboarding.searchCaption': 'Cherchez dans tous les livres à la fois et allez droit au passage.',
-  'onboarding.tagAsYouGoTitle': 'Étiquetez au fil de la lecture',
-  'onboarding.tagAsYouGoCaption': 'Ajoutez une étiquette à un passage directement depuis les résultats de recherche.',
-  'onboarding.buildTagsTitle': 'Construisez vos étiquettes',
-  'onboarding.buildTagsCaption': 'Regroupez des passages sous vos propres étiquettes pour les retrouver facilement.',
+  'onboarding.tagAsYouGoTitle': 'Compilez au fil de la lecture',
+  'onboarding.tagAsYouGoCaption': 'Ajoutez un passage à une compilation directement depuis les résultats de recherche.',
+  'onboarding.buildTagsTitle': 'Construisez vos compilations',
+  'onboarding.buildTagsCaption': 'Regroupez des passages sous vos propres compilations pour les retrouver facilement.',
   'onboarding.selectActTitle': 'Sélectionnez et agissez',
-  'onboarding.selectActCaption': 'Sélectionnez n’importe quel texte pour le surligner, l’étiqueter, l’annoter ou le relier.',
+  'onboarding.selectActCaption': 'Sélectionnez n’importe quel texte pour le surligner, le compiler, l’annoter ou le relier.',
   'onboarding.marginTitle': 'Annotations en marge',
-  'onboarding.marginCaption': 'Vos étiquettes, notes et renvois vivent dans la marge.',
+  'onboarding.marginCaption': 'Vos compilations, notes et renvois vivent dans la marge.',
   'onboarding.navigateTitle': 'Naviguez rapidement',
   'onboarding.navigateCaption': 'Ouvrez la table des matières pour vous déplacer dans un livre.',
-  'onboarding.yourTagsTitle': 'Vos étiquettes',
-  'onboarding.yourTagsCaption': 'Retrouvez chaque passage étiqueté, classé par étiquette.',
+  'onboarding.yourTagsTitle': 'Vos compilations',
+  'onboarding.yourTagsCaption': 'Retrouvez chaque passage compilé, classé par compilation.',
   'onboarding.xrefsTitle': 'Renvois',
   'onboarding.xrefsCaption': 'Reliez des passages entre livres et traditions.',
   'onboarding.shareTitle': 'Partagez et publiez',
-  'onboarding.shareCaption': 'Partagez une citation ou publiez une étiquette pour la communauté.',
+  'onboarding.shareCaption': 'Partagez une citation ou publiez une compilation pour la communauté.',
 
   // ── Feuille d’export ──────────────────────────────────────────────────────
-  'export.shareTags_one': 'Partager {{count}} étiquette',
-  'export.shareTags_other': 'Partager {{count}} étiquettes',
-  'export.shareTagsGeneric': 'Partager les étiquettes',
+  'export.shareTags_one': 'Partager {{count}} compilation',
+  'export.shareTags_other': 'Partager {{count}} compilations',
+  'export.shareTagsGeneric': 'Partager les compilations',
   'export.preparing': 'Préparation…',
   'export.notesOn': 'Vos notes écrites sur chaque passage',
   'export.notesNone': 'Aucune note sur ces passages',
@@ -539,14 +541,14 @@ export const fr: LocaleTable = {
   'export.xrefsNone': 'Aucun renvoi sur ces passages',
   'export.docxTitle': 'Document Word (.docx)',
   'export.docxShort': 'Word (.docx)',
-  'export.docxDesc': 'Titres d’étiquettes avec les passages cités. S’ouvre dans Word, Pages ou Google Docs.',
+  'export.docxDesc': 'Titres de compilation avec les passages cités. S’ouvre dans Word, Pages ou Google Docs.',
   'export.pdfTitle': 'Document PDF',
   'export.pdfDesc': 'Document mis en forme pour l’impression ou le partage.',
   'export.csvTitle': 'Tableur (.csv)',
   'export.csvDesc': 'Une ligne par passage. S’ouvre dans Excel, Numbers ou Google Sheets.',
   'export.mdTitle': 'Markdown (.md)',
   'export.mdDesc': 'Pour Obsidian, Notion ou tout outil en texte brut.',
-  'export.noPassagesTagged': '(aucun passage étiqueté)',
+  'export.noPassagesTagged': '(aucun passage dans cette compilation)',
   'export.seeAlso': 'Voir aussi :',
 
   // ── Plan de lecture ───────────────────────────────────────────────────────
@@ -582,11 +584,11 @@ export const fr: LocaleTable = {
   'nav.browsingAsGuest': 'Navigation en tant qu’invité',
   'reader.selectBookToBegin': 'Sélectionnez un livre pour commencer à lire',
   'tags.exportFailed': 'Échec de l’exportation',
-  'tags.couldNotExport': 'Impossible d’exporter les étiquettes.',
+  'tags.couldNotExport': 'Impossible d’exporter les compilations.',
   'tags.couldNotRemoveSelection': 'Impossible de retirer la sélection',
-  'tags.reorderHint': 'Faites glisser la poignée pour réorganiser · ⇤ ⇥ pour changer le niveau · touchez une étiquette pour réordonner ses citations.',
-  'tags.swipeHint': 'Faites glisser une étiquette vers la droite pour la rendre publique ou privée.',
-  'discover.publishHint': 'Faites glisser une étiquette vers la droite dans votre écran Étiquettes pour la publier ici.',
+  'tags.reorderHint': 'Faites glisser la poignée pour réorganiser · ⇤ ⇥ pour changer le niveau · touchez une compilation pour réordonner ses citations.',
+  'tags.swipeHint': 'Faites glisser une compilation vers la droite pour la rendre publique ou privée.',
+  'discover.publishHint': 'Faites glisser une compilation vers la droite dans votre écran Compilations pour la publier ici.',
   'reminders.notificationsOff':
     'Les notifications sont désactivées pour Immerse, les rappels ne peuvent donc pas être délivrés. '
     + 'Activez-les dans les réglages de votre appareil.',
@@ -625,12 +627,12 @@ export const fr: LocaleTable = {
   'onboarding.tour.librarySearch.label': 'Recherche dans la bibliothèque',
   'onboarding.tour.librarySearch.caption':
     'Cherchez dans les 400 textes et plus à la fois. Touchez un résultat pour le développer, ou faites un appui long pour l’ouvrir directement dans le lecteur.',
-  'onboarding.tour.searchQuickTag.label': 'Étiquetage rapide des résultats',
+  'onboarding.tour.searchQuickTag.label': 'Compilation rapide des résultats',
   'onboarding.tour.searchQuickTag.caption':
-    'Sélectionnez un ou plusieurs résultats de recherche et attribuez-les à une étiquette d’un seul geste. Un moyen rapide de bâtir une collection thématique à partir de toute la bibliothèque.',
+    'Sélectionnez un ou plusieurs résultats de recherche et attribuez-les à une compilation d’un seul geste. Un moyen rapide de bâtir une collection thématique à partir de toute la bibliothèque.',
   'onboarding.tour.home.label': 'Écran d’accueil',
   'onboarding.tour.home.caption':
-    'Votre écran d’accueil indique combien d’étiquettes, de notes et de renvois vous avez créés, ainsi que vos livres lus récemment. Touchez un titre pour poursuivre votre lecture.',
+    'Votre écran d’accueil indique combien de compilations, de notes et de renvois vous avez créés, ainsi que vos livres lus récemment. Touchez un titre pour poursuivre votre lecture.',
   'onboarding.tour.homePlan.label': 'Plan de lecture sur l’accueil',
   'onboarding.tour.homePlan.caption':
     'Prenez l’habitude de lire chaque jour : suivez un plan de lecture dans le livre de votre choix et pour la durée de votre choix, ou recevez des versets aléatoires tirés des traditions que vous sélectionnez, avec des rappels quotidiens et une série qui s’allonge chaque jour où vous lisez.',
@@ -639,7 +641,7 @@ export const fr: LocaleTable = {
     'Dans les Réglages, configurez les versets aléatoires en choisissant les traditions où puiser et les heures auxquelles vous souhaitez un rappel discret, ou passez à un plan de lecture pour avancer chaque jour dans un livre.',
   'onboarding.tour.readerSelect.label': 'Sélection de texte dans le lecteur',
   'onboarding.tour.readerSelect.caption':
-    'Appuyez longuement sur un passage pour le sélectionner. Utilisez les icônes en bas de l’écran pour ajouter une étiquette, une note, un renvoi ou obtenir un résumé IA.',
+    'Appuyez longuement sur un passage pour le sélectionner. Utilisez les icônes en bas de l’écran pour l’ajouter à une compilation, une note, un renvoi ou obtenir un résumé IA.',
   'onboarding.tour.readerNote.label': 'Note dans le lecteur',
   'onboarding.tour.readerNote.caption':
     'Les notes s’attachent au texte exact que vous avez sélectionné. Le repère doré dans la marge vous permet de les retrouver et de les rouvrir à tout moment.',
@@ -652,18 +654,18 @@ export const fr: LocaleTable = {
   'onboarding.tour.readerListen.label': 'Mode écoute du lecteur',
   'onboarding.tour.readerListen.caption':
     'Touchez le bouton casque pour écouter n’importe quel livre à voix haute : le lecteur surligne chaque passage au fil de la lecture. Maintenez le bouton casque pour choisir parmi une sélection de voix naturelles.',
-  'onboarding.tour.tags.label': 'Écran Étiquettes',
+  'onboarding.tour.tags.label': 'Écran Compilations',
   'onboarding.tour.tags.caption':
-    'L’écran Étiquettes regroupe par thème les passages que vous avez étiquetés. Touchez le nom d’une étiquette pour voir ses passages cités avec leurs références complètes.',
+    'L’écran Compilations regroupe par thème les passages que vous avez compilés. Touchez le nom d’une compilation pour voir ses passages cités avec leurs références complètes.',
   'onboarding.tour.xrefs.label': 'Écran Renvois',
   'onboarding.tour.xrefs.caption':
     'L’écran Renvois montre tous vos passages reliés côte à côte. Appuyez longuement sur l’un des deux côtés pour accéder à ce passage dans le lecteur.',
   'onboarding.tour.discover.label': 'Écran Découvrir',
   'onboarding.tour.discover.caption':
-    'Dans l’écran Découvrir, trouvez des collections d’étiquettes partagées par d’autres lecteurs. Touchez une étiquette pour prévisualiser ses passages, puis importez-la dans votre propre bibliothèque.',
-  'onboarding.tour.tagShare.label': 'Panneau de partage d’étiquette',
+    'Dans l’écran Découvrir, trouvez des compilations partagées par d’autres lecteurs. Touchez une compilation pour prévisualiser ses passages, puis importez-la dans votre propre bibliothèque.',
+  'onboarding.tour.tagShare.label': 'Panneau de partage de compilation',
   'onboarding.tour.tagShare.caption':
-    'Exportez n’importe quelle collection d’étiquettes en document Word, PDF, tableur, Markdown et plus encore, avec vos notes et vos renvois inclus.',
+    'Exportez n’importe quelle compilation en document Word, PDF, tableur, Markdown et plus encore, avec vos notes et vos renvois inclus.',
 
   // ── Appearance (reader typography) ───────────────────────────────────────
   'appearance.title': 'Apparence',
