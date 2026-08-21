@@ -599,6 +599,7 @@ export const ru: LocaleTable = {
   // ── Остальное по библиотеке ───────────────────────────────────────────────
   'library.selectPassageForXref': 'Выберите отрывок для перекрёстной ссылки',
   'library.findingRelated': 'Ищем похожие отрывки…',
+  'library.aiSearchOffline': 'Для поиска по вопросу требуется подключение к интернету',
   'library.importFailedTitle': 'Не удалось импортировать',
   'library.couldNotImport': 'Не удалось импортировать файл.',
   'library.bookAdded': 'Книга добавлена',
