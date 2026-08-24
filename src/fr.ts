@@ -124,7 +124,7 @@ export const fr: LocaleTable = {
   'settings.plan': 'Formule',
   'settings.fontSize': 'Taille du texte',
   'settings.fontPreview': 'Aperçu du texte en taille {{size}}. Ce réglage est synchronisé sur tous vos appareils.',
-  'settings.dailyReadings': 'Lectures quotidiennes',
+  'settings.dailyReadings': 'Notifications',
   'settings.randomVersesAndPlan': 'Versets aléatoires et plan de lecture',
   'settings.readingMorningEvening': 'Une lecture chaque matin et chaque soir',
   'settings.appearance': 'Apparence',

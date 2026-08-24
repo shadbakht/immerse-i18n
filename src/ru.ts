@@ -135,7 +135,7 @@ export const ru: LocaleTable = {
   'settings.plan': 'Тариф',
   'settings.fontSize': 'Размер текста',
   'settings.fontPreview': 'Пример текста размера {{size}}. Эта настройка синхронизируется на всех ваших устройствах.',
-  'settings.dailyReadings': 'Ежедневные чтения',
+  'settings.dailyReadings': 'Уведомления',
   'settings.randomVersesAndPlan': 'Случайные стихи и план чтения',
   'settings.readingMorningEvening': 'Чтение каждое утро и каждый вечер',
   'settings.appearance': 'Оформление',

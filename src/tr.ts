@@ -124,7 +124,7 @@ export const tr: LocaleTable = {
   'settings.plan': 'Plan',
   'settings.fontSize': 'Yazı boyutu',
   'settings.fontPreview': '{{size}} boyutunda önizleme metni. Bu ayar tüm cihazlarınızda eşitlenir.',
-  'settings.dailyReadings': 'Günlük okumalar',
+  'settings.dailyReadings': 'Bildirimler',
   'settings.randomVersesAndPlan': 'Rastgele ayetler ve okuma planı',
   'settings.readingMorningEvening': 'Her sabah ve her akşam bir okuma',
   'settings.appearance': 'Görünüm',

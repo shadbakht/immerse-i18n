@@ -131,7 +131,7 @@ export const fa: LocaleTable = {
   'settings.plan': 'اشتراک',
   'settings.fontSize': 'اندازهٔ متن',
   'settings.fontPreview': 'پیش‌نمایش متن در اندازهٔ {{size}}. این تنظیم در همهٔ دستگاه‌های شما هماهنگ می‌شود.',
-  'settings.dailyReadings': 'مطالعهٔ روزانه',
+  'settings.dailyReadings': 'اعلان‌ها',
   'settings.randomVersesAndPlan': 'آیات تصادفی و برنامهٔ مطالعه',
   'settings.readingMorningEvening': 'یک مطالعه هر صبح و هر شب',
   'settings.appearance': 'ظاهر',

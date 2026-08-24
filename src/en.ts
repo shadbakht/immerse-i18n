@@ -128,7 +128,7 @@ export const en = {
   'settings.plan': 'Plan',
   'settings.fontSize': 'Font Size',
   'settings.fontPreview': 'Preview text at {{size}} size. This setting syncs across all your devices.',
-  'settings.dailyReadings': 'Daily Readings',
+  'settings.dailyReadings': 'Notifications',
   'settings.randomVersesAndPlan': 'Random Verses and Reading Plan',
   'settings.readingMorningEvening': 'A reading each morning and evening',
   'settings.appearance': 'Appearance',

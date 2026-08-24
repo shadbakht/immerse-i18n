@@ -122,7 +122,7 @@ export const zh: LocaleTable = {
   'settings.plan': '方案',
   'settings.fontSize': '字号',
   'settings.fontPreview': '这是 {{size}} 字号的预览文本。此设置会同步到你的所有设备。',
-  'settings.dailyReadings': '每日阅读',
+  'settings.dailyReadings': '通知',
   'settings.randomVersesAndPlan': '随机经文与阅读计划',
   'settings.readingMorningEvening': '每天早晚各一段阅读',
   'settings.appearance': '外观',

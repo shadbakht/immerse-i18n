@@ -120,7 +120,7 @@ export const es: LocaleTable = {
   'settings.plan': 'Plan',
   'settings.fontSize': 'Tamaño de letra',
   'settings.fontPreview': 'Texto de muestra en tamaño {{size}}. Este ajuste se sincroniza en todos tus dispositivos.',
-  'settings.dailyReadings': 'Lecturas diarias',
+  'settings.dailyReadings': 'Notificaciones',
   'settings.randomVersesAndPlan': 'Versículos aleatorios y plan de lectura',
   'settings.readingMorningEvening': 'Una lectura por la mañana y por la noche',
   'settings.appearance': 'Apariencia',
