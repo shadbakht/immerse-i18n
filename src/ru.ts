@@ -740,4 +740,10 @@ export const ru: LocaleTable = {
   'appearance.appTheme': 'Тема приложения',
   'appearance.appThemeHint': 'Применяется вне читалки.',
   'appearance.reset': 'Сбросить настройки',
+
+  // ── Названия собраний для ссылок ──────────────────────────────────────────
+  'citation.bible': 'Библия',
+  'citation.tanakh': 'Танах',
+  'citation.quran': 'Коран',
+  'citation.guruGranthSahib': 'Гуру Грантх Сахиб',
 };

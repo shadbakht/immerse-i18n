@@ -703,4 +703,10 @@ export const zh: LocaleTable = {
   'appearance.appTheme': '应用主题',
   'appearance.appThemeHint': '应用于阅读器之外的界面。',
   'appearance.reset': '恢复默认',
+
+  // ── 引用出处名称 ──────────────────────────────────────────────────────────
+  'citation.bible': '圣经',
+  'citation.tanakh': '塔纳赫',
+  'citation.quran': '古兰经',
+  'citation.guruGranthSahib': '古鲁·格兰特·萨希卜',
 };

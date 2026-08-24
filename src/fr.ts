@@ -713,4 +713,10 @@ export const fr: LocaleTable = {
   'appearance.appTheme': 'Thème de l’app',
   'appearance.appThemeHint': 'S’applique en dehors du lecteur.',
   'appearance.reset': 'Rétablir les valeurs par défaut',
+
+  // ── Libellés de collection pour les citations ─────────────────────────────
+  'citation.bible': 'La Bible',
+  'citation.tanakh': 'Tanakh',
+  'citation.quran': 'Le Coran',
+  'citation.guruGranthSahib': 'Guru Granth Sahib',
 };

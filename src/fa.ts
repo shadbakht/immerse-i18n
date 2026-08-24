@@ -708,4 +708,10 @@ export const fa: LocaleTable = {
   'appearance.appTheme': 'پوستهٔ برنامه',
   'appearance.appThemeHint': 'بیرون از صفحهٔ خواندن اعمال می‌شود.',
   'appearance.reset': 'بازنشانی به پیش‌فرض',
+
+  // ── برچسب‌های مجموعه برای ارجاع ───────────────────────────────────────────
+  'citation.bible': 'کتاب مقدس',
+  'citation.tanakh': 'تنخ',
+  'citation.quran': 'قرآن',
+  'citation.guruGranthSahib': 'گورو گرانت صاحب',
 };

@@ -705,4 +705,13 @@ export const tr: LocaleTable = {
   'appearance.appTheme': 'Uygulama teması',
   'appearance.appThemeHint': 'Okuyucu dışında geçerlidir.',
   'appearance.reset': 'Varsayılanlara dön',
+
+  // ── Alıntılar için koleksiyon adları ──────────────────────────────────────
+  // "Kutsal Kitap" is the whole Bible; the shelf's own title is "İncil
+  // (Yorumsuz Türkçe Çeviri)", but İncil strictly means the Gospel/New
+  // Testament and the shelf carries both testaments.
+  'citation.bible': 'Kutsal Kitap',
+  'citation.tanakh': 'Tanah',
+  'citation.quran': 'Kur’an',
+  'citation.guruGranthSahib': 'Guru Granth Sahib',
 };

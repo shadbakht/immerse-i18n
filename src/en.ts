@@ -756,6 +756,24 @@ export const en = {
   'appearance.appTheme': 'App theme',
   'appearance.appThemeHint': 'Applies outside the reader.',
   'appearance.reset': 'Reset to defaults',
+
+  // ── Citation collection labels ────────────────────────────────────────────
+  // The short name a scripture is cited under: "The Bible, Genesis 3:16".
+  //
+  // These are translated because the citation sits INSIDE the passage's own
+  // language — a Persian reader quoting a Persian Bible was getting
+  // Latin-script "The Bible" in the middle of an RTL line. Both apps branch on
+  // the book's `citation_format` identifier and then look up one of these; the
+  // branch is never on the rendered string.
+  //
+  // Tanakh and Guru Granth Sahib are English-only shelves today, so their
+  // translations exist for table parity rather than because anything renders
+  // them. That is deliberate: a shelf should not have to touch i18n the day it
+  // gains a second language.
+  'citation.bible': 'The Bible',
+  'citation.tanakh': 'Tanakh',
+  'citation.quran': 'The Qur’an',
+  'citation.guruGranthSahib': 'Guru Granth Sahib',
 } as const;
 
 /** Keys exactly as written above, including the `_one` / `_other` variants. */
