@@ -174,6 +174,7 @@ export const tr: LocaleTable = {
 
   'settings.welcomeToPro': 'Pro’ya hoş geldiniz!',
   'settings.manage': 'Yönet',
+  'settings.subscribeToPro': 'Pro’ya Abone Ol',
 
   'home.tags': 'Derlemeler',
   'home.notes': 'Notlar',

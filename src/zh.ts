@@ -172,6 +172,7 @@ export const zh: LocaleTable = {
 
   'settings.welcomeToPro': '欢迎使用 Pro！',
   'settings.manage': '管理',
+  'settings.subscribeToPro': '订阅 Pro',
 
   'home.tags': '汇编',
   'home.notes': '笔记',

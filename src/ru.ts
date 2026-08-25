@@ -185,6 +185,7 @@ export const ru: LocaleTable = {
 
   'settings.welcomeToPro': 'Добро пожаловать в Pro!',
   'settings.manage': 'Управлять',
+  'settings.subscribeToPro': 'Подписаться на Pro',
 
   'home.tags': 'Подборки',
   'home.notes': 'Заметки',

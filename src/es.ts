@@ -169,6 +169,7 @@ export const es: LocaleTable = {
   'settings.planTrial': 'Pro (prueba)',
   'settings.welcomeToPro': '¡Bienvenido a Pro!',
   'settings.manage': 'Gestionar',
+  'settings.subscribeToPro': 'Suscribirse a Pro',
 
   'home.tags': 'Compilaciones',
   'home.notes': 'Notas',

@@ -181,6 +181,7 @@ export const en = {
   // RevenueCat and the App Store).
   'settings.welcomeToPro': 'Welcome to Pro!',
   'settings.manage': 'Manage',
+  'settings.subscribeToPro': 'Subscribe to Pro',
 
   'home.tags': 'Compilations',
   'home.notes': 'Notes',

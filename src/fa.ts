@@ -181,6 +181,7 @@ export const fa: LocaleTable = {
 
   'settings.welcomeToPro': 'به پرو خوش آمدید!',
   'settings.manage': 'مدیریت',
+  'settings.subscribeToPro': 'اشتراک پرو',
 
   'home.tags': 'گزیده‌ها',
   'home.notes': 'یادداشت‌ها',

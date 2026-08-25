@@ -174,6 +174,7 @@ export const fr: LocaleTable = {
 
   'settings.welcomeToPro': 'Bienvenue dans Pro !',
   'settings.manage': 'Gérer',
+  'settings.subscribeToPro': 'S’abonner à Pro',
 
   'home.tags': 'Compilations',
   'home.notes': 'Notes',
