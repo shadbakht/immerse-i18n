@@ -148,6 +148,7 @@ export const zh: LocaleTable = {
   'settings.watchFeatureVideo': '观看完整功能视频',
   'settings.accountActions': '账户操作',
   'settings.legal': '法律信息',
+  'settings.contactSupport': '联系支持',
   'settings.communityGuidelines': '社区准则',
   'settings.signOut': '退出登录',
   'settings.deleteAccount': '删除账户',

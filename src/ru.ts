@@ -161,6 +161,7 @@ export const ru: LocaleTable = {
   'settings.watchFeatureVideo': 'Посмотреть полное видео',
   'settings.accountActions': 'Действия с аккаунтом',
   'settings.legal': 'Правовая информация',
+  'settings.contactSupport': 'Связаться с поддержкой',
   'settings.communityGuidelines': 'Правила сообщества',
   'settings.signOut': 'Выйти',
   'settings.deleteAccount': 'Удалить аккаунт',

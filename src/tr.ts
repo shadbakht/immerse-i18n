@@ -150,6 +150,7 @@ export const tr: LocaleTable = {
   'settings.watchFeatureVideo': 'Tüm özellikler videosunu izle',
   'settings.accountActions': 'Hesap işlemleri',
   'settings.legal': 'Yasal',
+  'settings.contactSupport': 'Destekle İletişime Geç',
   'settings.communityGuidelines': 'Topluluk kuralları',
   'settings.signOut': 'Çıkış yap',
   'settings.deleteAccount': 'Hesabı sil',

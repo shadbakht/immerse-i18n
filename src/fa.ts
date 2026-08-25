@@ -157,6 +157,7 @@ export const fa: LocaleTable = {
   'settings.watchFeatureVideo': 'تماشای ویدیوی کامل قابلیت‌ها',
   'settings.accountActions': 'اقدامات حساب',
   'settings.legal': 'حقوقی',
+  'settings.contactSupport': 'تماس با پشتیبانی',
   'settings.communityGuidelines': 'قواعد انجمن',
   'settings.signOut': 'خروج',
   'settings.deleteAccount': 'حذف حساب',

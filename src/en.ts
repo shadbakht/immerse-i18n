@@ -154,6 +154,7 @@ export const en = {
   'settings.watchFeatureVideo': 'Watch Full Feature Video',
   'settings.accountActions': 'Account Actions',
   'settings.legal': 'Legal',
+  'settings.contactSupport': 'Contact Support',
   'settings.communityGuidelines': 'Community Guidelines',
   'settings.signOut': 'Sign Out',
   'settings.deleteAccount': 'Delete Account',

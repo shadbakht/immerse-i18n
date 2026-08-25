@@ -146,6 +146,7 @@ export const es: LocaleTable = {
   'settings.watchFeatureVideo': 'Ver el vídeo completo de funciones',
   'settings.accountActions': 'Acciones de la cuenta',
   'settings.legal': 'Legal',
+  'settings.contactSupport': 'Contactar con soporte',
   'settings.communityGuidelines': 'Normas de la comunidad',
   'settings.signOut': 'Cerrar sesión',
   'settings.deleteAccount': 'Eliminar cuenta',
