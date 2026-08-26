@@ -18,7 +18,7 @@ export const es: LocaleTable = {
   'common.tryAgain': 'Inténtalo de nuevo.',
   'common.delete': 'Eliminar',
   'common.clear': 'Borrar',
-  'common.signInCreate': 'Iniciar sesión o crear cuenta',
+  'common.signInCreate': 'Iniciar sesión / Registrarse',
   'common.book_one': '{{count}} libro',
   'common.book_other': '{{count}} libros',
   'common.saving': 'Guardando…',

@@ -27,7 +27,7 @@ export const ru: LocaleTable = {
   'common.tryAgain': 'Пожалуйста, попробуйте ещё раз.',
   'common.delete': 'Удалить',
   'common.clear': 'Очистить',
-  'common.signInCreate': 'Войти или создать аккаунт',
+  'common.signInCreate': 'Войти / Зарегистрироваться',
   'common.book_one': '{{count}} книга',
   'common.book_few': '{{count}} книги',
   'common.book_many': '{{count}} книг',

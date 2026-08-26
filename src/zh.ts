@@ -26,7 +26,7 @@ export const zh: LocaleTable = {
   'common.tryAgain': '请重试。',
   'common.delete': '删除',
   'common.clear': '清除',
-  'common.signInCreate': '登录或创建账户',
+  'common.signInCreate': '登录 / 注册',
   'common.book_other': '{{count}} 本书',
   'common.saving': '正在保存…',
   'common.loading': '正在加载…',

@@ -35,7 +35,7 @@ export const fa: LocaleTable = {
   'common.tryAgain': 'لطفاً دوباره تلاش کنید.',
   'common.delete': 'حذف',
   'common.clear': 'پاک کردن',
-  'common.signInCreate': 'ورود یا ایجاد حساب',
+  'common.signInCreate': 'ورود / ثبت‌نام',
   'common.book_other': '{{count}} کتاب',
   'common.saving': 'در حال ذخیره…',
   'common.loading': 'در حال بارگذاری…',

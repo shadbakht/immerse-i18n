@@ -24,7 +24,7 @@ export const fr: LocaleTable = {
   'common.tryAgain': 'Veuillez réessayer.',
   'common.delete': 'Supprimer',
   'common.clear': 'Effacer',
-  'common.signInCreate': 'Se connecter ou créer un compte',
+  'common.signInCreate': 'Se connecter / S’inscrire',
   'common.book_one': '{{count}} livre',
   'common.book_other': '{{count}} livres',
   'common.saving': 'Enregistrement…',

@@ -22,7 +22,7 @@ export const en = {
   'common.tryAgain': 'Please try again.',
   'common.delete': 'Delete',
   'common.clear': 'Clear',
-  'common.signInCreate': 'Sign In or Create Account',
+  'common.signInCreate': 'Sign In / Sign Up',
   'common.book_one': '{{count}} book',
   'common.book_other': '{{count}} books',
   'common.saving': 'Saving…',
@@ -200,7 +200,7 @@ export const en = {
   'home.recentlyViewed': 'Recently Viewed',
   'home.removeFromRecent': 'Remove from Recently Viewed',
   'home.removeFromRecentBody': 'Remove “{{title}}” and reset reading progress to 0%?',
-  'home.signInCreate': 'Sign in / Sign up',
+  'home.signInCreate': 'Sign In / Sign Up',
   'home.startReadingHint': 'Start reading to see your recent books here.',
   'home.viewLibrary': 'VIEW LIBRARY',
 

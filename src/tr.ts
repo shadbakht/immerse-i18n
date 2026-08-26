@@ -28,7 +28,7 @@ export const tr: LocaleTable = {
   'common.tryAgain': 'Lütfen tekrar deneyin.',
   'common.delete': 'Sil',
   'common.clear': 'Temizle',
-  'common.signInCreate': 'Giriş yapın veya hesap oluşturun',
+  'common.signInCreate': 'Giriş yap / Kaydol',
   'common.book_other': '{{count}} kitap',
   'common.saving': 'Kaydediliyor…',
   'common.loading': 'Yükleniyor…',
