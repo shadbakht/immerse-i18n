@@ -193,7 +193,7 @@ export const fr: LocaleTable = {
   'home.recentlyViewed': 'Consultés récemment',
   'home.removeFromRecent': 'Retirer des consultés récemment',
   'home.removeFromRecentBody': 'Retirer « {{title}} » et remettre la progression à 0 % ?',
-  'home.signInCreate': 'Se connecter / Créer un compte',
+  'home.signInCreate': 'Se connecter / S’inscrire',
   'home.startReadingHint': 'Commencez à lire pour retrouver vos livres récents ici.',
   'home.viewLibrary': 'VOIR LA BIBLIOTHÈQUE',
 

@@ -188,7 +188,7 @@ export const es: LocaleTable = {
   'home.recentlyViewed': 'Visto recientemente',
   'home.removeFromRecent': 'Quitar de Visto recientemente',
   'home.removeFromRecentBody': '¿Quitar «{{title}}» y restablecer el progreso de lectura a 0 %?',
-  'home.signInCreate': 'Iniciar sesión / Crear cuenta',
+  'home.signInCreate': 'Iniciar sesión / Registrarse',
   'home.startReadingHint': 'Empieza a leer para ver aquí tus libros recientes.',
   'home.viewLibrary': 'VER BIBLIOTECA',
   'home.signInBlurb': 'Inicia sesión para ver tus libros vistos recientemente, tus anotaciones y más en todos tus dispositivos.',

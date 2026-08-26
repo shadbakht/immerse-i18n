@@ -199,7 +199,7 @@ export const fa: LocaleTable = {
   'home.recentlyViewed': 'اخیراً مشاهده‌شده',
   'home.removeFromRecent': 'برداشتن از موارد اخیر',
   'home.removeFromRecentBody': '«{{title}}» برداشته و پیشرفت مطالعه به ۰٪ بازنشانی شود؟',
-  'home.signInCreate': 'ورود / ایجاد حساب',
+  'home.signInCreate': 'ورود / ثبت‌نام',
   'home.startReadingHint': 'برای دیدن کتاب‌های اخیرتان در اینجا، مطالعه را آغاز کنید.',
   'home.viewLibrary': 'مشاهدهٔ کتابخانه',
 

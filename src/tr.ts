@@ -192,7 +192,7 @@ export const tr: LocaleTable = {
   'home.recentlyViewed': 'Son görüntülenenler',
   'home.removeFromRecent': 'Son görüntülenenlerden kaldır',
   'home.removeFromRecentBody': '“{{title}}” kaldırılsın ve okuma ilerlemesi %0’a sıfırlansın mı?',
-  'home.signInCreate': 'Giriş yap / Hesap oluştur',
+  'home.signInCreate': 'Giriş yap / Kaydol',
   'home.startReadingHint': 'Okumaya başlayın; son kitaplarınız burada görünsün.',
   'home.viewLibrary': 'KÜTÜPHANEYİ GÖR',
 

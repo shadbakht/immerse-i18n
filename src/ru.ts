@@ -206,7 +206,7 @@ export const ru: LocaleTable = {
   'home.recentlyViewed': 'Недавно открытые',
   'home.removeFromRecent': 'Убрать из недавних',
   'home.removeFromRecentBody': 'Убрать «{{title}}» и сбросить прогресс до 0 %?',
-  'home.signInCreate': 'Войти / Создать аккаунт',
+  'home.signInCreate': 'Войти / Зарегистрироваться',
   'home.startReadingHint': 'Начните читать, и ваши недавние книги появятся здесь.',
   'home.viewLibrary': 'ОТКРЫТЬ БИБЛИОТЕКУ',
 

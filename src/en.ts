@@ -200,7 +200,7 @@ export const en = {
   'home.recentlyViewed': 'Recently Viewed',
   'home.removeFromRecent': 'Remove from Recently Viewed',
   'home.removeFromRecentBody': 'Remove “{{title}}” and reset reading progress to 0%?',
-  'home.signInCreate': 'Sign In / Create Account',
+  'home.signInCreate': 'Sign in / Sign up',
   'home.startReadingHint': 'Start reading to see your recent books here.',
   'home.viewLibrary': 'VIEW LIBRARY',
 

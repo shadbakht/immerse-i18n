@@ -190,7 +190,7 @@ export const zh: LocaleTable = {
   'home.recentlyViewed': '最近阅读',
   'home.removeFromRecent': '从最近阅读中移除',
   'home.removeFromRecentBody': '移除“{{title}}”并将阅读进度重置为 0%？',
-  'home.signInCreate': '登录 / 创建账户',
+  'home.signInCreate': '登录 / 注册',
   'home.startReadingHint': '开始阅读后，最近读过的书会显示在这里。',
   'home.viewLibrary': '查看书库',
 
