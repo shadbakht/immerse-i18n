@@ -363,6 +363,7 @@ export const zh: LocaleTable = {
     '拖动手柄可调整顺序 · ⇤ ⇥ 可更改层级 · 点击汇编可调整其引文顺序。',
   'tags.searchTagsPassages': '搜索汇编和段落…',
   'tags.exportSelected': '导出所选汇编',
+  'xrefs.exportSelected': '导出所选交叉引用',
   'tags.export': '导出',
   'tags.exporting': '正在导出…',
   'tags.exportInclude': '包含',
@@ -530,6 +531,7 @@ export const zh: LocaleTable = {
   // ── 导出面板 ──────────────────────────────────────────────────────────────
   'export.shareTags_other': '分享 {{count}} 个汇编',
   'export.shareTagsGeneric': '分享汇编',
+  'export.shareXrefs_other': '分享 {{count}} 条交叉引用',
   'export.preparing': '正在准备…',
   'export.notesOn': '你为每个段落写下的笔记',
   'export.notesNone': '这些段落上没有笔记',

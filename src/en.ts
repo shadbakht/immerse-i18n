@@ -380,6 +380,7 @@ export const en = {
   // where mobile opens its ExportFormatPanel sheet.
   'tags.searchTagsPassages': 'Search compilations and passages…',
   'tags.exportSelected': 'Export selected compilations',
+  'xrefs.exportSelected': 'Export selected cross-references',
   'tags.export': 'Export',
   'tags.exporting': 'Exporting\u2026',
   'tags.exportInclude': 'Include',
@@ -561,6 +562,8 @@ export const en = {
   'export.shareTags_one': 'Share {{count}} compilation',
   'export.shareTags_other': 'Share {{count}} compilations',
   'export.shareTagsGeneric': 'Share Compilations',
+  'export.shareXrefs_one': 'Share {{count}} cross-reference',
+  'export.shareXrefs_other': 'Share {{count}} cross-references',
   'export.preparing': 'Preparing…',
   'export.notesOn': 'Your written notes on each passage',
   'export.notesNone': 'No notes on these passages',

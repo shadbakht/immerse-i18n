@@ -365,6 +365,7 @@ export const tr: LocaleTable = {
     'Sıralamak için tutamacı sürükleyin \u00b7 \u21e4 \u21e5 ile iç içe düzeyi değiştirin \u00b7 alıntıları sıralamak için bir derlemeye tıklayın.',
   'tags.searchTagsPassages': 'Derlemelerde ve pasajlarda ara…',
   'tags.exportSelected': 'Seçili derlemeleri dışa aktar',
+  'xrefs.exportSelected': 'Seçili çapraz referansları dışa aktar',
   'tags.export': 'Dışa aktar',
   'tags.exporting': 'Dışa aktarılıyor…',
   'tags.exportInclude': 'Dahil et',
@@ -532,6 +533,7 @@ export const tr: LocaleTable = {
   // ── Dışa aktarma paneli ───────────────────────────────────────────────────
   'export.shareTags_other': '{{count}} derlemeyi paylaş',
   'export.shareTagsGeneric': 'Derlemeleri paylaş',
+  'export.shareXrefs_other': '{{count}} çapraz referansı paylaş',
   'export.preparing': 'Hazırlanıyor…',
   'export.notesOn': 'Her pasaj için yazdığınız notlar',
   'export.notesNone': 'Bu pasajlarda not yok',

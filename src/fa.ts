@@ -372,6 +372,7 @@ export const fa: LocaleTable = {
     'برای تغییر ترتیب، دستگیره را بکشید \u00b7 \u21e4 \u21e5 برای تغییر سطح \u00b7 برای تغییر ترتیب نقل‌قول‌ها روی گزیده کلیک کنید.',
   'tags.searchTagsPassages': 'جستجوی گزیده‌ها و بندها…',
   'tags.exportSelected': 'برون‌بری گزیده‌های انتخاب‌شده',
+  'xrefs.exportSelected': 'برون‌بری ارجاعات متقابل انتخاب‌شده',
   'tags.export': 'برون‌بری',
   'tags.exporting': 'در حال برون‌بری…',
   'tags.exportInclude': 'شامل',
@@ -538,6 +539,7 @@ export const fa: LocaleTable = {
 
   'export.shareTags_other': 'هم‌رسانی {{count}} گزیده',
   'export.shareTagsGeneric': 'هم‌رسانی گزیده‌ها',
+  'export.shareXrefs_other': 'هم‌رسانی {{count}} ارجاع متقابل',
   'export.preparing': 'در حال آماده‌سازی…',
   'export.notesOn': 'یادداشت‌های نوشتهٔ شما روی هر بند',
   'export.notesNone': 'یادداشتی روی این بندها نیست',
