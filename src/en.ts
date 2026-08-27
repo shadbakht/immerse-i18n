@@ -465,10 +465,9 @@ export const en = {
   'banner.get': 'Get',
 
   'tagPanel.new': 'New Compilation',
-  'tagPanel.create': 'Create',
+  'tagPanel.createWithin': 'Create a compilation within “{{parent}}”',
   'tagPanel.addTitle': 'Add to Compilation',
   'tagPanel.viewTitle': 'Compilations',
-  'tagPanel.under': 'under',
   'tagPanel.addSubTag': 'Add sub-compilation',
   'tagPanel.emptyAdd': 'No compilations yet — create one above',
   'tagPanel.emptyView': 'No compilations on this selection',

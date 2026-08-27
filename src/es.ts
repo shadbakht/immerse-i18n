@@ -439,10 +439,9 @@ export const es: LocaleTable = {
   'banner.get': 'Obtener',
 
   'tagPanel.new': 'Nueva compilación',
-  'tagPanel.create': 'Crear',
+  'tagPanel.createWithin': 'Crear una compilación dentro de «{{parent}}»',
   'tagPanel.addTitle': 'Añadir a una compilación',
   'tagPanel.viewTitle': 'Compilaciones',
-  'tagPanel.under': 'dentro de',
   'tagPanel.addSubTag': 'Añadir subcompilación',
   'tagPanel.emptyAdd': 'Aún no hay compilaciones: crea una arriba',
   'tagPanel.emptyView': 'Esta selección no tiene compilaciones',

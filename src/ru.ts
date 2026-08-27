@@ -461,10 +461,9 @@ export const ru: LocaleTable = {
   'banner.get': 'Получить',
 
   'tagPanel.new': 'Новая подборка',
-  'tagPanel.create': 'Создать',
+  'tagPanel.createWithin': 'Создать подборку в «{{parent}}»',
   'tagPanel.addTitle': 'Добавить в подборку',
   'tagPanel.viewTitle': 'Подборки',
-  'tagPanel.under': 'в',
   'tagPanel.addSubTag': 'Добавить вложенную подборку',
   'tagPanel.emptyAdd': 'Подборок пока нет — создайте выше',
   'tagPanel.emptyView': 'На этом выделении нет подборок',

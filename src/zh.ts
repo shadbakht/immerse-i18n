@@ -442,10 +442,9 @@ export const zh: LocaleTable = {
   'banner.get': '获取',
 
   'tagPanel.new': '新建汇编',
-  'tagPanel.create': '创建',
+  'tagPanel.createWithin': '在“{{parent}}”中创建汇编',
   'tagPanel.addTitle': '加入汇编',
   'tagPanel.viewTitle': '汇编',
-  'tagPanel.under': '归入',
   'tagPanel.addSubTag': '添加子汇编',
   'tagPanel.emptyAdd': '还没有汇编 — 请在上方创建',
   'tagPanel.emptyView': '此选段上没有汇编',

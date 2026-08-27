@@ -444,10 +444,9 @@ export const tr: LocaleTable = {
   'banner.get': 'Al',
 
   'tagPanel.new': 'Yeni derleme',
-  'tagPanel.create': 'Oluştur',
+  'tagPanel.createWithin': '“{{parent}}” içinde derleme oluştur',
   'tagPanel.addTitle': 'Derlemeye ekle',
   'tagPanel.viewTitle': 'Derlemeler',
-  'tagPanel.under': 'şunun altına:',
   'tagPanel.addSubTag': 'Alt derleme ekle',
   'tagPanel.emptyAdd': 'Henüz derleme yok — yukarıdan oluşturun',
   'tagPanel.emptyView': 'Bu seçimde derleme yok',

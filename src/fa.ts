@@ -451,10 +451,9 @@ export const fa: LocaleTable = {
   'banner.get': 'دریافت',
 
   'tagPanel.new': 'گزیدهٔ جدید',
-  'tagPanel.create': 'ایجاد',
+  'tagPanel.createWithin': 'ایجاد گزیده‌ای در «{{parent}}»',
   'tagPanel.addTitle': 'افزودن به گزیده',
   'tagPanel.viewTitle': 'گزیده‌ها',
-  'tagPanel.under': 'زیر',
   'tagPanel.addSubTag': 'افزودن زیرگزیده',
   'tagPanel.emptyAdd': 'هنوز گزیده‌ای نیست — در بالا یکی بسازید',
   'tagPanel.emptyView': 'گزیده‌ای روی این انتخاب نیست',
