@@ -434,6 +434,15 @@ export const es: LocaleTable = {
   'xref.to': 'Hasta',
   'xref.linksTo': 'enlaza con',
 
+  'xref.suggestMatch': 'Sugerir una coincidencia',
+  'xref.suggesting': 'Buscando pasajes relacionados…',
+  'xref.suggestError': 'No se pudieron obtener sugerencias ahora mismo',
+  'xref.noMatches': 'No se encontraron coincidencias. Elige uno tú mismo.',
+  'xref.looseMatch': 'coincidencia aproximada',
+  'xref.useThisPassage': 'Usar este pasaje',
+  'xref.inCompilation': 'En tu compilación «{{name}}»',
+  'xref.youNotedThis': 'Tienes una nota en este pasaje',
+
   'banner.googlePlay': 'Disponible en Google Play',
   'banner.appStore': 'Descárgala en el App Store',
   'banner.install': 'Instalar',

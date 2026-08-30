@@ -456,6 +456,15 @@ export const ru: LocaleTable = {
   'xref.to': 'Куда',
   'xref.linksTo': 'ссылается на',
 
+  'xref.suggestMatch': 'Предложить совпадение',
+  'xref.suggesting': 'Ищем похожие отрывки…',
+  'xref.suggestError': 'Не удалось получить предложения',
+  'xref.noMatches': 'Совпадений не найдено. Выберите отрывок сами.',
+  'xref.looseMatch': 'приблизительно',
+  'xref.useThisPassage': 'Использовать этот отрывок',
+  'xref.inCompilation': 'В вашей подборке «{{name}}»',
+  'xref.youNotedThis': 'Вы добавили заметку к этому отрывку',
+
   'banner.googlePlay': 'Доступно в Google Play',
   'banner.appStore': 'Загрузить в App Store',
   'banner.install': 'Установить',

@@ -446,6 +446,15 @@ export const fa: LocaleTable = {
   'xref.to': 'به',
   'xref.linksTo': 'پیوند دارد به',
 
+  'xref.suggestMatch': 'پیشنهاد یک مورد مرتبط',
+  'xref.suggesting': 'در حال یافتن بندهای مرتبط…',
+  'xref.suggestError': 'در حال حاضر دریافت پیشنهاد ممکن نشد',
+  'xref.noMatches': 'موردی یافت نشد. خودتان یکی را انتخاب کنید.',
+  'xref.looseMatch': 'تطابق تقریبی',
+  'xref.useThisPassage': 'استفاده از این بند',
+  'xref.inCompilation': 'در گزیدهٔ «{{name}}» شما',
+  'xref.youNotedThis': 'برای این بند یادداشت دارید',
+
   'banner.googlePlay': 'دریافت از Google Play',
   'banner.appStore': 'دانلود از App Store',
   'banner.install': 'نصب',

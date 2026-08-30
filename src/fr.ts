@@ -441,6 +441,15 @@ export const fr: LocaleTable = {
   'xref.to': 'À',
   'xref.linksTo': 'renvoie à',
 
+  'xref.suggestMatch': 'Suggérer une correspondance',
+  'xref.suggesting': 'Recherche de passages liés…',
+  'xref.suggestError': 'Impossible d’obtenir des suggestions pour le moment',
+  'xref.noMatches': 'Aucune correspondance trouvée. Choisissez-en un vous-même.',
+  'xref.looseMatch': 'correspondance approximative',
+  'xref.useThisPassage': 'Utiliser ce passage',
+  'xref.inCompilation': 'Dans votre compilation « {{name}} »',
+  'xref.youNotedThis': 'Vous avez annoté ce passage',
+
   'banner.googlePlay': 'Disponible sur Google Play',
   'banner.appStore': 'Télécharger dans l’App Store',
   'banner.install': 'Installer',

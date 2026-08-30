@@ -439,6 +439,15 @@ export const tr: LocaleTable = {
   'xref.to': 'Hedef',
   'xref.linksTo': 'şuna bağlanır:',
 
+  'xref.suggestMatch': 'Eşleşme öner',
+  'xref.suggesting': 'İlgili pasajlar aranıyor…',
+  'xref.suggestError': 'Şu anda öneri alınamadı',
+  'xref.noMatches': 'Eşleşme bulunamadı. Kendiniz seçin.',
+  'xref.looseMatch': 'yaklaşık eşleşme',
+  'xref.useThisPassage': 'Bu pasajı kullan',
+  'xref.inCompilation': '“{{name}}” derlemenizde',
+  'xref.youNotedThis': 'Bu pasaja not aldınız',
+
   'banner.googlePlay': 'Google Play’den alın',
   'banner.appStore': 'App Store’dan indirin',
   'banner.install': 'Yükle',

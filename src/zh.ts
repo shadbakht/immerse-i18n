@@ -437,6 +437,15 @@ export const zh: LocaleTable = {
   'xref.to': '到',
   'xref.linksTo': '连接到',
 
+  'xref.suggestMatch': '推荐匹配段落',
+  'xref.suggesting': '正在查找相关段落…',
+  'xref.suggestError': '暂时无法获取推荐',
+  'xref.noMatches': '未找到匹配项。请自行选择。',
+  'xref.looseMatch': '大致匹配',
+  'xref.useThisPassage': '使用此段落',
+  'xref.inCompilation': '已在你的汇编“{{name}}”中',
+  'xref.youNotedThis': '你已为此段落添加笔记',
+
   'banner.googlePlay': '在 Google Play 上获取',
   'banner.appStore': '在 App Store 下载',
   'banner.install': '安装',

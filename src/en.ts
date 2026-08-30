@@ -459,6 +459,17 @@ export const en = {
   'xref.to': 'To',
   'xref.linksTo': 'links to',
 
+  // "Suggest a match" flow in the cross-reference tool: the reader asks for
+  // AI-suggested passages, then picks one (or falls back to picking manually).
+  'xref.suggestMatch': 'Suggest a match',
+  'xref.suggesting': 'Finding related passages…',
+  'xref.suggestError': "Couldn't get suggestions right now",
+  'xref.noMatches': 'No matches found. Pick one yourself.',
+  'xref.looseMatch': 'loose match',
+  'xref.useThisPassage': 'Use this passage',
+  'xref.inCompilation': 'In your Compilation "{{name}}"',
+  'xref.youNotedThis': 'You noted this passage',
+
   // Web-only: the install banner shown on mobile browsers.
   'banner.googlePlay': 'Get it on Google Play',
   'banner.appStore': 'Download on the App Store',
