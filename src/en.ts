@@ -592,6 +592,16 @@ export const en = {
   'sharePage.signInToSave': 'Sign in to save this to your Compilations.',
   'sharePage.footer': 'Read more in Immerse',
 
+  // ── Share links: cross-references (Phase 8) ───────────────────────────────
+  // The xref analogue of the compilation share links above. Same URL shape
+  // (/c/<id>), but a shared set of cross-references rendered side by side.
+  'share.createLinkXrefHint': 'A private web page showing these cross-references. Not shown in Discover.',
+  'sharePage.xrefEyebrow': 'Shared cross-references',
+  'sharePage.saveXrefs': 'Save to my Cross-References',
+  'sharePage.savedXrefs': 'Saved to your Cross-References',
+  'sharePage.savedXrefsPartial': 'Saved {{saved}} of {{total}} — {{skipped}} need content you don’t have',
+  'sharePage.xrefsGone': 'These cross-references are no longer available',
+
   // ── Export sheet ──────────────────────────────────────────────────────────
   // Mobile-only. The web exports through its own panel, which reuses `tags.*`.
   // `Include`, and the two toggle titles, come from `tags.exportInclude`,

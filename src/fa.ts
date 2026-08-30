@@ -569,6 +569,14 @@ export const fa: LocaleTable = {
   'sharePage.signInToSave': 'برای ذخیرهٔ این در گزیده‌هایتان وارد شوید.',
   'sharePage.footer': 'در Immerse بیشتر بخوانید',
 
+  // ── Share links: cross-references (Phase 8) ───────────────────────────────
+  'share.createLinkXrefHint': 'یک صفحهٔ وب خصوصی که این ارجاعات متقابل را نشان می‌دهد. در کشف نمایش داده نمی‌شود.',
+  'sharePage.xrefEyebrow': 'ارجاعات متقابل هم‌رسانی‌شده',
+  'sharePage.saveXrefs': 'ذخیره در ارجاعات متقابل من',
+  'sharePage.savedXrefs': 'در ارجاعات متقابل شما ذخیره شد',
+  'sharePage.savedXrefsPartial': '{{saved}} از {{total}} ذخیره شد — {{skipped}} مورد به محتوایی نیاز دارد که ندارید',
+  'sharePage.xrefsGone': 'این ارجاعات متقابل دیگر در دسترس نیستند',
+
   'export.shareTags_other': 'هم‌رسانی {{count}} گزیده',
   'export.shareTagsGeneric': 'هم‌رسانی گزیده‌ها',
   'export.shareXrefs_other': 'هم‌رسانی {{count}} ارجاع متقابل',

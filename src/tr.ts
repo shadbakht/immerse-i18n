@@ -562,6 +562,14 @@ export const tr: LocaleTable = {
   'sharePage.signInToSave': 'Bunu derlemelerine kaydetmek için giriş yap.',
   'sharePage.footer': 'Immerse’te daha fazlasını oku',
 
+  // ── Share links: cross-references (Phase 8) ───────────────────────────────
+  'share.createLinkXrefHint': 'Bu çapraz referansları gösteren özel bir web sayfası. Keşfet’te gösterilmez.',
+  'sharePage.xrefEyebrow': 'Paylaşılan çapraz referanslar',
+  'sharePage.saveXrefs': 'Çapraz referanslarıma kaydet',
+  'sharePage.savedXrefs': 'Çapraz referanslarınıza kaydedildi',
+  'sharePage.savedXrefsPartial': '{{total}} referanstan {{saved}} tanesi kaydedildi — {{skipped}} tanesi sizde olmayan içerik gerektiriyor',
+  'sharePage.xrefsGone': 'Bu çapraz referanslar artık kullanılamıyor',
+
   // ── Dışa aktarma paneli ───────────────────────────────────────────────────
   'export.shareTags_other': '{{count}} derlemeyi paylaş',
   'export.shareTagsGeneric': 'Derlemeleri paylaş',

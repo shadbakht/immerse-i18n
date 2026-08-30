@@ -582,6 +582,14 @@ export const ru: LocaleTable = {
   'sharePage.signInToSave': 'Войдите, чтобы сохранить это в свои подборки.',
   'sharePage.footer': 'Читать больше в Immerse',
 
+  // ── Share links: cross-references (Phase 8) ───────────────────────────────
+  'share.createLinkXrefHint': 'Частная веб-страница с этими перекрёстными ссылками. Не отображается в «Обзоре».',
+  'sharePage.xrefEyebrow': 'Общие перекрёстные ссылки',
+  'sharePage.saveXrefs': 'Сохранить в мои перекрёстные ссылки',
+  'sharePage.savedXrefs': 'Сохранено в ваши перекрёстные ссылки',
+  'sharePage.savedXrefsPartial': 'Сохранено {{saved}} из {{total}} — для {{skipped}} нужен контент, которого у вас нет',
+  'sharePage.xrefsGone': 'Эти перекрёстные ссылки больше недоступны',
+
   // ── Экспорт ───────────────────────────────────────────────────────────────
   'export.shareTags_one': 'Поделиться {{count}} подборкой',
   'export.shareTags_few': 'Поделиться {{count}} подборками',

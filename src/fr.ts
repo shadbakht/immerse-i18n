@@ -565,6 +565,14 @@ export const fr: LocaleTable = {
   'sharePage.signInToSave': 'Connectez-vous pour l’enregistrer dans vos compilations.',
   'sharePage.footer': 'Lire plus dans Immerse',
 
+  // ── Share links: cross-references (Phase 8) ───────────────────────────────
+  'share.createLinkXrefHint': 'Une page web privée présentant ces renvois. N’apparaît pas dans Découvrir.',
+  'sharePage.xrefEyebrow': 'Renvois partagés',
+  'sharePage.saveXrefs': 'Enregistrer dans mes renvois',
+  'sharePage.savedXrefs': 'Enregistrés dans vos renvois',
+  'sharePage.savedXrefsPartial': '{{saved}} sur {{total}} enregistrés — {{skipped}} nécessitent du contenu que vous n’avez pas',
+  'sharePage.xrefsGone': 'Ces renvois ne sont plus disponibles',
+
   // ── Feuille d’export ──────────────────────────────────────────────────────
   'export.shareTags_one': 'Partager {{count}} compilation',
   'export.shareTags_other': 'Partager {{count}} compilations',

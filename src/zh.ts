@@ -560,6 +560,14 @@ export const zh: LocaleTable = {
   'sharePage.signInToSave': '登录后即可将其保存到你的汇编。',
   'sharePage.footer': '在 Immerse 中阅读更多',
 
+  // ── Share links: cross-references (Phase 8) ───────────────────────────────
+  'share.createLinkXrefHint': '一个私密网页，展示这些交叉引用。不会出现在「发现」中。',
+  'sharePage.xrefEyebrow': '共享的交叉引用',
+  'sharePage.saveXrefs': '保存到我的交叉引用',
+  'sharePage.savedXrefs': '已保存到你的交叉引用',
+  'sharePage.savedXrefsPartial': '已保存 {{total}} 条中的 {{saved}} 条 — {{skipped}} 条需要你没有的内容',
+  'sharePage.xrefsGone': '这些交叉引用已不再可用',
+
   // ── 导出面板 ──────────────────────────────────────────────────────────────
   'export.shareTags_other': '分享 {{count}} 个汇编',
   'export.shareTagsGeneric': '分享汇编',
