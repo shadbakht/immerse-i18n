@@ -555,6 +555,32 @@ export const en = {
   'onboarding.shareTitle': 'Share & publish',
   'onboarding.shareCaption': 'Share a quote or publish a compilation for the community.',
 
+  // ── Share links (Phase 5) ────────────────────────────────────────────────
+  // A share link is a private web page for one compilation — link-only, never
+  // listed in Discover. Publishing to Discover is the separate, public path.
+  // `share.*` is the in-app share sheet; `sharePage.*` is the public web page.
+  'share.createLink': 'Create share link',
+  'share.createLinkHint': 'A private web page. Not shown in Discover.',
+  'share.linkReady': 'Link ready',
+  'share.linkCopied': 'Link copied',
+  'share.copyLink': 'Copy link',
+  'share.shareVia': 'Share…',
+  'share.revoke': 'Revoke',
+  'share.revokeConfirm': 'Revoke this link? Anyone who has it will lose access.',
+  'share.discoverToggle': 'Publish to Discover',
+  'share.discoverToggleHint': 'Anyone can find and save this compilation.',
+  'share.stopDiscover': 'Remove from Discover',
+  'share.publishedNote': 'Published to Discover — turn off the toggle to stop sharing.',
+  'share.selectOne': 'Select one compilation to create a link.',
+  'sharePage.eyebrow': 'Shared compilation',
+  'sharePage.openInReader': 'Open in reader',
+  'sharePage.save': 'Save to my Compilations',
+  'sharePage.saving': 'Saving…',
+  'sharePage.saved': 'Saved to your Compilations',
+  'sharePage.saveHint': 'Opens the Immerse app, or sign in to save on the web.',
+  'sharePage.signInToSave': 'Sign in to save this to your Compilations.',
+  'sharePage.footer': 'Read more in Immerse',
+
   // ── Export sheet ──────────────────────────────────────────────────────────
   // Mobile-only. The web exports through its own panel, which reuses `tags.*`.
   // `Include`, and the two toggle titles, come from `tags.exportInclude`,
