@@ -206,7 +206,7 @@ export const fa: LocaleTable = {
   'home.signInBlurb': 'وارد شوید تا کتاب‌های اخیر، حاشیه‌نویسی‌ها و بیشتر را روی همهٔ دستگاه‌هایتان ببینید.',
 
   'auth.tagline': 'کتاب‌خوان و پژوهش بین‌ادیانی',
-  'auth.usernamePlaceholder': 'نام کاربری *',
+  'auth.usernamePlaceholder': 'نام کاربری ID *',
   'auth.fullNamePlaceholder': 'نام کامل',
   'auth.emailPlaceholder': 'ایمیل *',
   'auth.passwordPlaceholder': 'گذرواژه *',
@@ -634,7 +634,7 @@ export const fa: LocaleTable = {
 
   'auth.passwordTooShortTitle': 'گذرواژه بسیار کوتاه است',
   'auth.passwordsMustMatch': 'لطفاً مطمئن شوید هر دو گذرواژه یکسان‌اند.',
-  'auth.usernamePlain': 'نام کاربری',
+  'auth.usernamePlain': 'نام کاربری ID',
   'auth.fullNameOptional': 'نام کامل (اختیاری)',
   'auth.emailPlain': 'ایمیل',
   'auth.passwordPlain': 'گذرواژه',

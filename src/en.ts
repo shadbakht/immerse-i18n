@@ -209,7 +209,7 @@ export const en = {
   'home.signInBlurb': 'Sign in to see your recently viewed books, annotations, and more across all your devices.',
 
   'auth.tagline': 'Interfaith E-Reader & Research',
-  'auth.usernamePlaceholder': 'Username *',
+  'auth.usernamePlaceholder': 'Username ID *',
   'auth.fullNamePlaceholder': 'Full Name',
   'auth.emailPlaceholder': 'Email *',
   'auth.passwordPlaceholder': 'Password *',
@@ -676,7 +676,7 @@ export const en = {
   // keys without silently changing the English.
   'auth.passwordTooShortTitle': 'Password too short',
   'auth.passwordsMustMatch': 'Please make sure both passwords are the same.',
-  'auth.usernamePlain': 'Username',
+  'auth.usernamePlain': 'Username ID',
   'auth.fullNameOptional': 'Full Name (optional)',
   'auth.emailPlain': 'Email',
   'auth.passwordPlain': 'Password',

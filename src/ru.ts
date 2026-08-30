@@ -213,7 +213,7 @@ export const ru: LocaleTable = {
   'home.signInBlurb': 'Войдите, чтобы видеть недавно открытые книги, аннотации и многое другое на всех своих устройствах.',
 
   'auth.tagline': 'Чтение и исследование священных текстов',
-  'auth.usernamePlaceholder': 'Имя пользователя *',
+  'auth.usernamePlaceholder': 'Имя пользователя ID *',
   'auth.fullNamePlaceholder': 'Полное имя',
   'auth.emailPlaceholder': 'Эл. почта *',
   'auth.passwordPlaceholder': 'Пароль *',
@@ -668,7 +668,7 @@ export const ru: LocaleTable = {
 
   'auth.passwordTooShortTitle': 'Слишком короткий пароль',
   'auth.passwordsMustMatch': 'Убедитесь, что оба пароля совпадают.',
-  'auth.usernamePlain': 'Имя пользователя',
+  'auth.usernamePlain': 'Имя пользователя ID',
   'auth.fullNameOptional': 'Полное имя (необязательно)',
   'auth.emailPlain': 'Эл. почта',
   'auth.passwordPlain': 'Пароль',

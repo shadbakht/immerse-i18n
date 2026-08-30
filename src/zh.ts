@@ -197,7 +197,7 @@ export const zh: LocaleTable = {
   'home.signInBlurb': '登录后即可在所有设备上查看最近阅读的书籍、注释等内容。',
 
   'auth.tagline': '跨信仰电子阅读与研究',
-  'auth.usernamePlaceholder': '用户名 *',
+  'auth.usernamePlaceholder': '用户名 ID *',
   'auth.fullNamePlaceholder': '姓名',
   'auth.emailPlaceholder': '电子邮箱 *',
   'auth.passwordPlaceholder': '密码 *',
@@ -628,7 +628,7 @@ export const zh: LocaleTable = {
 
   'auth.passwordTooShortTitle': '密码太短',
   'auth.passwordsMustMatch': '请确保两次输入的密码一致。',
-  'auth.usernamePlain': '用户名',
+  'auth.usernamePlain': '用户名 ID',
   'auth.fullNameOptional': '姓名（可选）',
   'auth.emailPlain': '电子邮箱',
   'auth.passwordPlain': '密码',

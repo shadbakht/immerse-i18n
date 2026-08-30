@@ -199,7 +199,7 @@ export const tr: LocaleTable = {
   'home.signInBlurb': 'Son görüntülediğiniz kitapları, açıklamalarınızı ve daha fazlasını tüm cihazlarınızda görmek için giriş yapın.',
 
   'auth.tagline': 'Dinler arası e-okuyucu ve araştırma',
-  'auth.usernamePlaceholder': 'Kullanıcı adı *',
+  'auth.usernamePlaceholder': 'Kullanıcı adı ID *',
   'auth.fullNamePlaceholder': 'Ad soyad',
   'auth.emailPlaceholder': 'E-posta *',
   'auth.passwordPlaceholder': 'Parola *',
@@ -630,7 +630,7 @@ export const tr: LocaleTable = {
 
   'auth.passwordTooShortTitle': 'Parola çok kısa',
   'auth.passwordsMustMatch': 'Lütfen iki parolanın da aynı olduğundan emin olun.',
-  'auth.usernamePlain': 'Kullanıcı adı',
+  'auth.usernamePlain': 'Kullanıcı adı ID',
   'auth.fullNameOptional': 'Ad soyad (isteğe bağlı)',
   'auth.emailPlain': 'E-posta',
   'auth.passwordPlain': 'Parola',

@@ -194,7 +194,7 @@ export const es: LocaleTable = {
   'home.signInBlurb': 'Inicia sesión para ver tus libros vistos recientemente, tus anotaciones y más en todos tus dispositivos.',
 
   'auth.tagline': 'Lectura e investigación interreligiosa',
-  'auth.usernamePlaceholder': 'Nombre de usuario *',
+  'auth.usernamePlaceholder': 'Nombre de usuario ID *',
   'auth.fullNamePlaceholder': 'Nombre completo',
   'auth.emailPlaceholder': 'Correo electrónico *',
   'auth.passwordPlaceholder': 'Contraseña *',
@@ -632,7 +632,7 @@ export const es: LocaleTable = {
 
   'auth.passwordTooShortTitle': 'Contraseña demasiado corta',
   'auth.passwordsMustMatch': 'Asegúrate de que ambas contraseñas sean iguales.',
-  'auth.usernamePlain': 'Nombre de usuario',
+  'auth.usernamePlain': 'Nombre de usuario ID',
   'auth.fullNameOptional': 'Nombre completo (opcional)',
   'auth.emailPlain': 'Correo electrónico',
   'auth.passwordPlain': 'Contraseña',
