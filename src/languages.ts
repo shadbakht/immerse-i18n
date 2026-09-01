@@ -14,6 +14,7 @@
  */
 export const LANGUAGE_LABELS: Record<string, string> = {
   en: 'English',
+  de: 'Deutsch',
   es: 'Español',
   pt: 'Português',
   fr: 'Français',
