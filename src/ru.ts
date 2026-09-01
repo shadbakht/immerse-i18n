@@ -748,6 +748,7 @@ export const ru: LocaleTable = {
   'appearance.reading': 'Чтение',
   'appearance.preview': 'Предпросмотр',
   'appearance.previewText': 'Чтение — это тихий разговор, проходящий сквозь века.',
+  'appearance.previewHeading': 'Глава первая',
   'appearance.typeface': 'Шрифт',
   'appearance.typefaceSystem': 'Системный',
   'appearance.typefaceLiterataBlurb': 'Создан для долгого чтения. Подстраивается под размер.',

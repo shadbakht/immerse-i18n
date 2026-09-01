@@ -710,6 +710,7 @@ export const tr: LocaleTable = {
   'appearance.reading': 'Okuma',
   'appearance.preview': 'Önizleme',
   'appearance.previewText': 'Okumak, yüzyılları aşan sessiz bir sohbettir.',
+  'appearance.previewHeading': 'Birinci Bölüm',
   'appearance.typeface': 'Yazı tipi',
   'appearance.typefaceSystem': 'Sistem',
   'appearance.typefaceLiterataBlurb': 'Uzun okuma için tasarlandı. Boyuta uyum sağlar.',

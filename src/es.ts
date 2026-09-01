@@ -712,6 +712,7 @@ export const es: LocaleTable = {
   'appearance.reading': 'Lectura',
   'appearance.preview': 'Vista previa',
   'appearance.previewText': 'La lectura es una conversación serena que atraviesa los siglos.',
+  'appearance.previewHeading': 'Capítulo Uno',
   'appearance.typeface': 'Tipografía',
   'appearance.typefaceSystem': 'Sistema',
   'appearance.typefaceLiterataBlurb': 'Creada para lecturas largas. Se adapta al tamaño.',

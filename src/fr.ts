@@ -719,6 +719,7 @@ export const fr: LocaleTable = {
   'appearance.reading': 'Lecture',
   'appearance.preview': 'Aperçu',
   'appearance.previewText': 'La lecture est une conversation paisible qui traverse les siècles.',
+  'appearance.previewHeading': 'Chapitre Un',
   'appearance.typeface': 'Police',
   'appearance.typefaceSystem': 'Système',
   'appearance.typefaceLiterataBlurb': 'Conçue pour la lecture prolongée. S’adapte à la taille.',

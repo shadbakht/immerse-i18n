@@ -769,6 +769,7 @@ export const en = {
   'appearance.reading': 'Reading',
   'appearance.preview': 'Preview',
   'appearance.previewText': 'Reading is a quiet conversation that reaches across centuries.',
+  'appearance.previewHeading': 'Chapter One',
   'appearance.typeface': 'Typeface',
   'appearance.typefaceSystem': 'System',
   'appearance.typefaceLiterataBlurb': 'Made for long reading. Adapts to size.',

@@ -713,6 +713,7 @@ export const fa: LocaleTable = {
   'appearance.reading': 'خواندن',
   'appearance.preview': 'پیش‌نمایش',
   'appearance.previewText': 'خواندن گفت‌وگویی آرام است که از میان قرن‌ها می‌گذرد.',
+  'appearance.previewHeading': 'فصل اول',
   'appearance.typeface': 'قلم',
   'appearance.typefaceSystem': 'پیش‌فرض دستگاه',
   'appearance.typefaceLiterataBlurb': 'ساخته‌شده برای خواندن طولانی. با اندازه سازگار می‌شود.',

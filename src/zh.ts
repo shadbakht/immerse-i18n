@@ -708,6 +708,7 @@ export const zh: LocaleTable = {
   'appearance.reading': '阅读',
   'appearance.preview': '预览',
   'appearance.previewText': '阅读是一场跨越世纪的静默交谈。',
+  'appearance.previewHeading': '第一章',
   'appearance.typeface': '字体',
   'appearance.typefaceSystem': '系统',
   'appearance.typefaceLiterataBlurb': '为长时间阅读而设计，随字号自动调整。',
