@@ -540,6 +540,8 @@ export const zh: LocaleTable = {
   // ── 分享链接（第 5 阶段）─────────────────────────────────────────────────
   'share.createLink': '创建分享链接',
   'share.createLinkHint': '一个私密网页，不会出现在「发现」中。',
+  'share.createLinkMultiHint': '一个私密网页，包含所有已选合辑。不会出现在「发现」中。',
+  'share.bundleTitle': '共享合辑',
   'share.linkReady': '链接已就绪',
   'share.linkCopied': '链接已复制',
   'share.copyLink': '复制链接',

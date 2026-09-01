@@ -537,6 +537,8 @@ export const es: LocaleTable = {
   // ── Enlaces para compartir (Fase 5) ──────────────────────────────────────
   'share.createLink': 'Crear enlace para compartir',
   'share.createLinkHint': 'Una página web privada. No aparece en Descubrir.',
+  'share.createLinkMultiHint': 'Una página web privada con todas las compilaciones seleccionadas. No aparece en Descubrir.',
+  'share.bundleTitle': 'Compilaciones compartidas',
   'share.linkReady': 'Enlace listo',
   'share.linkCopied': 'Enlace copiado',
   'share.copyLink': 'Copiar enlace',

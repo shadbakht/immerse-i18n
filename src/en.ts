@@ -572,6 +572,8 @@ export const en = {
   // `share.*` is the in-app share sheet; `sharePage.*` is the public web page.
   'share.createLink': 'Create share link',
   'share.createLinkHint': 'A private web page. Not shown in Discover.',
+  'share.createLinkMultiHint': 'A private web page with every selected compilation. Not shown in Discover.',
+  'share.bundleTitle': 'Shared compilations',
   'share.linkReady': 'Link ready',
   'share.linkCopied': 'Link copied',
   'share.copyLink': 'Copy link',

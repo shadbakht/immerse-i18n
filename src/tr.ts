@@ -542,6 +542,8 @@ export const tr: LocaleTable = {
   // ── Paylaşım bağlantıları (Aşama 5) ──────────────────────────────────────
   'share.createLink': 'Paylaşım bağlantısı oluştur',
   'share.createLinkHint': 'Özel bir web sayfası. Keşfet’te gösterilmez.',
+  'share.createLinkMultiHint': 'Seçili tüm derlemeleri içeren özel bir web sayfası. Keşfet’te gösterilmez.',
+  'share.bundleTitle': 'Paylaşılan derlemeler',
   'share.linkReady': 'Bağlantı hazır',
   'share.linkCopied': 'Bağlantı kopyalandı',
   'share.copyLink': 'Bağlantıyı kopyala',

@@ -562,6 +562,8 @@ export const ru: LocaleTable = {
   // ── Ссылки для общего доступа (этап 5) ───────────────────────────────────
   'share.createLink': 'Создать ссылку',
   'share.createLinkHint': 'Частная веб-страница. Не отображается в «Обзоре».',
+  'share.createLinkMultiHint': 'Частная веб-страница со всеми выбранными подборками. Не отображается в «Обзоре».',
+  'share.bundleTitle': 'Общие подборки',
   'share.linkReady': 'Ссылка готова',
   'share.linkCopied': 'Ссылка скопирована',
   'share.copyLink': 'Копировать ссылку',
