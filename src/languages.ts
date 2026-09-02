@@ -67,6 +67,7 @@ export function directionOf(code: string | null | undefined): 'rtl' | 'ltr' {
  */
 export const UI_LANGUAGES: ReadonlyArray<{ code: string; label: string }> = [
   { code: 'en', label: LANGUAGE_LABELS.en },
+  { code: 'de', label: LANGUAGE_LABELS.de },
   { code: 'es', label: LANGUAGE_LABELS.es },
   { code: 'fr', label: LANGUAGE_LABELS.fr },
   { code: 'ru', label: LANGUAGE_LABELS.ru },

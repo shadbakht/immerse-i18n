@@ -17,6 +17,7 @@
  * translation therefore degrades to English rather than showing a raw key.
  */
 
+import { de } from './de';
 import { en } from './en';
 import { es } from './es';
 import { fa } from './fa';
@@ -38,7 +39,7 @@ export type { TranslationKey, LocaleKey, LocaleTable, PluralCategory } from './k
  * the same guarantees generically — the parity checks used to name `es`, which
  * silently left any third locale unguarded.
  */
-export const LOCALES: Record<string, LocaleTable> = { en, es, fa, fr, ru, tr, zh };
+export const LOCALES: Record<string, LocaleTable> = { en, de, es, fa, fr, ru, tr, zh };
 
 export const SUPPORTED_UI_LANGUAGES = Object.keys(LOCALES);
 
