@@ -23,7 +23,7 @@ import type { LocaleTable } from './keys';
  * German plurals are English-shaped (one/other), so every group carries both
  * variants; a count of 0 resolves through `_other`, as in English.
  *
- * German quotation marks are „…" (low-high).
+ * German quotation marks are „…“ — opening „ (U+201E), closing “ (U+201C).
  */
 export const de: LocaleTable = {
   'common.cancel': 'Abbrechen',
@@ -94,7 +94,7 @@ export const de: LocaleTable = {
   'library.searchAll': 'Alle Bücher durchsuchen…',
   'library.searchSelected_one': '{{count}} ausgewähltes Buch durchsuchen…',
   'library.searchSelected_other': '{{count}} ausgewählte Bücher durchsuchen…',
-  'library.noResultsFor': 'Keine Ergebnisse für „{{query}}".',
+  'library.noResultsFor': 'Keine Ergebnisse für „{{query}}“.',
   'library.result_one': '{{count}} Ergebnis',
   'library.result_other': '{{count}} Ergebnisse',
   'library.relatedPassages': 'Verwandte Textstellen',
@@ -106,10 +106,10 @@ export const de: LocaleTable = {
   'library.importProFeature':
     'Der Buchimport ist eine Pro-Funktion. Führen Sie in den Einstellungen ein Upgrade durch, um eigene Bücher zu importieren.',
   'library.importFailed': 'Import fehlgeschlagen.',
-  'library.importSucceeded': '„{{title}}" wurde erfolgreich importiert.',
+  'library.importSucceeded': '„{{title}}“ wurde erfolgreich importiert.',
   'library.noImportedBooks':
     'Noch keine importierten Bücher. Nutzen Sie die Schaltfläche neben der Suchleiste, um ein Buch zu importieren.',
-  'library.deleteBookConfirm': '„{{title}}" löschen?',
+  'library.deleteBookConfirm': '„{{title}}“ löschen?',
   'library.tagAction': 'Zusammenstellung',
 
   'settings.language': 'Sprache',
@@ -203,8 +203,8 @@ export const de: LocaleTable = {
   'home.tapToContinue': 'Zum Fortfahren tippen',
   'home.planFinished': 'Abgeschlossen – wählen Sie Ihr nächstes Buch',
   'home.recentlyViewed': 'Zuletzt angesehen',
-  'home.removeFromRecent': 'Aus „Zuletzt angesehen" entfernen',
-  'home.removeFromRecentBody': '„{{title}}" entfernen und den Lesefortschritt auf 0 % zurücksetzen?',
+  'home.removeFromRecent': 'Aus „Zuletzt angesehen“ entfernen',
+  'home.removeFromRecentBody': '„{{title}}“ entfernen und den Lesefortschritt auf 0 % zurücksetzen?',
   'home.signInCreate': 'Anmelden / Registrieren',
   'home.startReadingHint': 'Beginnen Sie zu lesen, um Ihre zuletzt gelesenen Bücher hier zu sehen.',
   'home.viewLibrary': 'BIBLIOTHEK ANSEHEN',
@@ -365,7 +365,7 @@ export const de: LocaleTable = {
   'tags.searchSelected': 'Ausgewählte Zusammenstellungen durchsuchen…',
   'tags.noMatch': 'Keine Zusammenstellungen entsprechen Ihrer Suche.',
   'tags.deleteConfirm': 'Zusammenstellung löschen?',
-  'tags.deleteBody': '„{{name}}" und alle darin enthaltenen Auswahlen werden entfernt.',
+  'tags.deleteBody': '„{{name}}“ und alle darin enthaltenen Auswahlen werden entfernt.',
 
   'tags.renameTitle': 'Zusammenstellung umbenennen',
   'tags.setPrivate': 'Auf privat setzen',
@@ -459,7 +459,7 @@ export const de: LocaleTable = {
   'xref.noMatches': 'Keine Entsprechungen gefunden. Wählen Sie selbst eine aus.',
   'xref.looseMatch': 'lose Entsprechung',
   'xref.useThisPassage': 'Diese Textstelle verwenden',
-  'xref.inCompilation': 'In Ihrer Zusammenstellung „{{name}}"',
+  'xref.inCompilation': 'In Ihrer Zusammenstellung „{{name}}“',
   'xref.youNotedThis': 'Sie haben diese Textstelle mit einer Notiz versehen',
 
   'banner.googlePlay': 'Bei Google Play herunterladen',
@@ -468,7 +468,7 @@ export const de: LocaleTable = {
   'banner.get': 'Holen',
 
   'tagPanel.new': 'Neue Zusammenstellung',
-  'tagPanel.createWithin': 'Eine Zusammenstellung innerhalb von „{{parent}}" erstellen',
+  'tagPanel.createWithin': 'Eine Zusammenstellung innerhalb von „{{parent}}“ erstellen',
   'tagPanel.addTitle': 'Zu Zusammenstellung hinzufügen',
   'tagPanel.viewTitle': 'Zusammenstellungen',
   'tagPanel.addSubTag': 'Unter-Zusammenstellung hinzufügen',
@@ -524,11 +524,11 @@ export const de: LocaleTable = {
 
   'onboarding.chooseLanguage': 'Wählen Sie Ihre Sprache',
   'onboarding.changeLaterSettings': 'Sie können dies später in den Einstellungen ändern.',
-  'onboarding.libraryDownloadHint': 'Um die Bibliothek in {{language}} herunterzuladen, tippen Sie auf das ⌄ neben „Bibliothek" im Bibliotheksbildschirm.',
+  'onboarding.libraryDownloadHint': 'Um die Bibliothek in {{language}} herunterzuladen, tippen Sie auf das ⌄ neben „Bibliothek“ im Bibliotheksbildschirm.',
   'onboarding.continue': 'Weiter',
   'onboarding.chooseTextSize': 'Wählen Sie die Textgröße',
   'onboarding.fontPreviewQuote':
-    '„Suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan."',
+    '„Suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan.“',
   'onboarding.getStarted': 'Loslegen',
 
   'onboarding.closeIntro': 'Einführung schließen',
@@ -609,7 +609,7 @@ export const de: LocaleTable = {
 
   'plan.chooseBook': 'Ein Buch wählen',
   'plan.searchBooks': 'Bücher durchsuchen…',
-  'plan.noBooksMatch': 'Keine Bücher entsprechen „{{query}}".',
+  'plan.noBooksMatch': 'Keine Bücher entsprechen „{{query}}“.',
   'plan.readingComplete': 'Lesung abgeschlossen',
   'plan.morningSession': 'Morgensitzung',
   'plan.eveningSession': 'Abendsitzung',
@@ -633,7 +633,7 @@ export const de: LocaleTable = {
   'library.importFailedTitle': 'Import fehlgeschlagen',
   'library.couldNotImport': 'Die Datei konnte nicht importiert werden.',
   'library.bookAdded': 'Buch hinzugefügt',
-  'library.bookAddedBody': '„{{title}}" ist jetzt in „Meine Bücher".',
+  'library.bookAddedBody': '„{{title}}“ ist jetzt in „Meine Bücher“.',
   'library.importErrorTitle': 'Importfehler',
   'library.unexpectedError': 'Ein unerwarteter Fehler ist aufgetreten.',
   'nav.browsingAsGuest': 'Als Gast unterwegs',
@@ -643,7 +643,7 @@ export const de: LocaleTable = {
   'tags.couldNotRemoveSelection': 'Auswahl konnte nicht entfernt werden',
   'tags.reorderHint': 'Ziehen Sie am Griff zum Umsortieren · ⇤ ⇥ zum Ändern der Verschachtelung · tippen Sie auf eine Zusammenstellung, um ihre Zitate umzusortieren.',
   'tags.swipeHint': 'Wischen Sie auf einer Zusammenstellung nach rechts, um sie öffentlich oder privat zu machen.',
-  'discover.publishHint': 'Wischen Sie im Bildschirm „Zusammenstellungen" auf einer Zusammenstellung nach rechts, um sie hier zu veröffentlichen.',
+  'discover.publishHint': 'Wischen Sie im Bildschirm „Zusammenstellungen“ auf einer Zusammenstellung nach rechts, um sie hier zu veröffentlichen.',
   'reminders.notificationsOff':
     'Benachrichtigungen für Immerse sind ausgeschaltet, daher können keine Erinnerungen zugestellt werden. '
     + 'Aktivieren Sie sie in Ihren Geräteeinstellungen.',
@@ -658,7 +658,7 @@ export const de: LocaleTable = {
   'library.deleteBookImportedBody': 'Dieses Buch und alle seine Anmerkungen werden dauerhaft entfernt.',
   'library.deleteBookBundledBody':
     'Dieses Buch und alle seine Anmerkungen werden entfernt. Es kehrt zurück, wenn die Bibliothek das nächste Mal aktualisiert wird.',
-  'library.deleteCategoryConfirm': '„{{name}}" löschen?',
+  'library.deleteCategoryConfirm': '„{{name}}“ löschen?',
   'library.deleteCategoryBody_one': 'Dadurch werden auch {{count}} Buch und alle seine Anmerkungen entfernt.',
   'library.deleteCategoryBody_other': 'Dadurch werden auch {{count}} Bücher und alle ihre Anmerkungen entfernt.',
   'library.deleteCategoryEmptyBody': 'Diese Kategorie wird dauerhaft entfernt.',
