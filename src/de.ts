@@ -189,7 +189,9 @@ export const de: LocaleTable = {
   'settings.manage': 'Verwalten',
   'settings.subscribeToPro': 'Pro abonnieren',
 
-  'home.tags': 'Zusammenstellungen',
+  // Home stat-tile label only (not the shelf name / nav). Truncated like
+  // 'home.xrefs' — "Zusammenstellungen" is too long for the tile on small phones.
+  'home.tags': 'Zusammenst.',
   'home.notes': 'Notizen',
   'home.xrefs': 'Querverw.',
   'home.readingPlan': 'LESEPLAN',
