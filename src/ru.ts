@@ -583,6 +583,8 @@ export const ru: LocaleTable = {
   'sharePage.saveHint': 'Откроется приложение Immerse, или войдите, чтобы сохранить в вебе.',
   'sharePage.signInToSave': 'Войдите, чтобы сохранить это в свои подборки.',
   'sharePage.footer': 'Читать больше в Immerse',
+  'sharePage.needLanguagePack':
+    'Эта цитата из библиотеки на языке {{language}}. Загрузите её через меню языков в разделе «Библиотека», чтобы прочитать здесь.',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Частная веб-страница с этими перекрёстными ссылками. Не отображается в «Обзоре».',

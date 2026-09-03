@@ -563,6 +563,8 @@ export const tr: LocaleTable = {
   'sharePage.saveHint': 'Immerse uygulamasını açar veya web’de kaydetmek için giriş yapın.',
   'sharePage.signInToSave': 'Bunu derlemelerine kaydetmek için giriş yap.',
   'sharePage.footer': 'Immerse’te daha fazlasını oku',
+  'sharePage.needLanguagePack':
+    'Bu alıntı {{language}} kitaplığından. Burada okumak için Kitaplık’taki dil menüsünden indirin.',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Bu çapraz referansları gösteren özel bir web sayfası. Keşfet’te gösterilmez.',

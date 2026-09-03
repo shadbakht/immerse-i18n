@@ -593,6 +593,8 @@ export const en = {
   'sharePage.saveHint': 'Opens the Immerse app, or sign in to save on the web.',
   'sharePage.signInToSave': 'Sign in to save this to your Compilations.',
   'sharePage.footer': 'Read more in Immerse',
+  'sharePage.needLanguagePack':
+    'This quote is from the {{language}} library. Download it from the language menu in Library to read it here.',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   // The xref analogue of the compilation share links above. Same URL shape

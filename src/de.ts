@@ -577,6 +577,8 @@ export const de: LocaleTable = {
   'sharePage.saveHint': 'Öffnet die Immerse-App, oder melden Sie sich an, um im Web zu speichern.',
   'sharePage.signInToSave': 'Melden Sie sich an, um dies in Ihren Zusammenstellungen zu speichern.',
   'sharePage.footer': 'Mehr lesen in Immerse',
+  'sharePage.needLanguagePack':
+    'Dieses Zitat stammt aus der Bibliothek {{language}}. Laden Sie sie über das Sprachmenü in „Bibliothek“ herunter, um es hier zu lesen.',
 
   'share.createLinkXrefHint': 'Eine private Webseite, die diese Querverweise zeigt. Wird nicht in Entdecken angezeigt.',
   'sharePage.xrefEyebrow': 'Geteilte Querverweise',

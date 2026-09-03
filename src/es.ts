@@ -558,6 +558,8 @@ export const es: LocaleTable = {
   'sharePage.saveHint': 'Abre la app de Immerse, o inicia sesión para guardarla en la web.',
   'sharePage.signInToSave': 'Inicia sesión para guardar esto en tus compilaciones.',
   'sharePage.footer': 'Lee más en Immerse',
+  'sharePage.needLanguagePack':
+    'Esta cita es de la biblioteca en {{language}}. Descárgala desde el menú de idioma en Biblioteca para leerla aquí.',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Una página web privada que muestra estas remisiones. No aparece en Descubrir.',

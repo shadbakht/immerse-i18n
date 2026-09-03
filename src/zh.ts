@@ -561,6 +561,8 @@ export const zh: LocaleTable = {
   'sharePage.saveHint': '将打开 Immerse 应用，或登录后在网页端保存。',
   'sharePage.signInToSave': '登录后即可将其保存到你的汇编。',
   'sharePage.footer': '在 Immerse 中阅读更多',
+  'sharePage.needLanguagePack':
+    '此引文来自{{language}}文库。请在“文库”的语言菜单中下载该语言以在此阅读。',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': '一个私密网页，展示这些交叉引用。不会出现在「发现」中。',

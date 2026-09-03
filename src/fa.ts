@@ -570,6 +570,8 @@ export const fa: LocaleTable = {
   'sharePage.saveHint': 'برنامهٔ Immerse را باز می‌کند، یا برای ذخیره در وب وارد شوید.',
   'sharePage.signInToSave': 'برای ذخیرهٔ این در گزیده‌هایتان وارد شوید.',
   'sharePage.footer': 'در Immerse بیشتر بخوانید',
+  'sharePage.needLanguagePack':
+    'این نقل‌قول از کتابخانهٔ {{language}} است. برای خواندن آن در اینجا، از منوی زبان در بخش کتابخانه آن را دانلود کنید.',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'یک صفحهٔ وب خصوصی که این ارجاعات متقابل را نشان می‌دهد. در کشف نمایش داده نمی‌شود.',
