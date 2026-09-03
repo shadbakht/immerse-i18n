@@ -196,7 +196,7 @@ export const es: LocaleTable = {
   'auth.tagline': 'Lectura e investigación interreligiosa',
   'auth.usernamePlaceholder': 'Nombre de usuario ID *',
   'auth.fullNamePlaceholder': 'Nombre completo',
-  'auth.emailPlaceholder': 'Correo electrónico *',
+  'auth.emailPlaceholder': 'Dirección de correo *',
   'auth.passwordPlaceholder': 'Contraseña *',
   'auth.emailAddressPlaceholder': 'Dirección de correo *',
   'auth.signIn': 'Iniciar sesión',
@@ -401,6 +401,8 @@ export const es: LocaleTable = {
   'reader.viewNote': 'Ver la nota',
   'reader.viewXrefs': 'Ver las remisiones',
   'reader.noQuotesFiled': 'Aqu\u00ed no hay citas archivadas.',
+  'reader.importedStubBody':
+    'Este libro no est\u00e1 en este dispositivo. Vuelve a importar el archivo para leerlo aqu\u00ed; tus notas y compilaciones sobre \u00e9l est\u00e1n a salvo.',
 
   'ai.summary': 'Resumen con IA',
   'ai.upgradeBlurb': 'Hazte Immerse Pro por solo 0,99 USD para usar los resúmenes con IA y otras funciones Pro.',
@@ -494,6 +496,17 @@ export const es: LocaleTable = {
   'discover.exportFailed': 'Error al exportar',
   'discover.unknownError': 'Error desconocido',
 
+  // ── Libros importados: Discover / enlaces para compartir (Plan B) ─────────
+  'discover.importedDroppedTitle': 'Aviso',
+  'discover.importedDroppedNotice_one':
+    'Se omitió {{count}} cita de un libro importado: los libros importados no se muestran públicamente.',
+  'discover.importedDroppedNotice_other':
+    'Se omitieron {{count}} citas de libros importados: los libros importados no se muestran públicamente.',
+  'discover.publishBlockedTitle': 'No se puede publicar',
+  'discover.publishFailed': 'No se pudo publicar esta compilación.',
+  'discover.importedOnlyError':
+    'Las citas de esta compilación provienen todas de libros importados, que no se pueden publicar en Discover.',
+
   'usertags.autoImports': 'Importa automáticamente las compilaciones públicas del usuario a tu app',
   'usertags.noTags': 'Sin compilaciones públicas',
   'usertags.noTagsBody': 'Este usuario aún no ha compartido ninguna compilación.',
@@ -560,6 +573,8 @@ export const es: LocaleTable = {
   'sharePage.footer': 'Lee más en Immerse',
   'sharePage.needLanguagePack':
     'Esta cita es de la biblioteca en {{language}}. Descárgala desde el menú de idioma en Biblioteca para leerla aquí.',
+  'sharePage.viewOnly': 'Esta compilación compartida es de solo lectura.',
+  'sharePage.fromPrivateImport': 'de una importación privada',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Una página web privada que muestra estas remisiones. No aparece en Descubrir.',
@@ -650,6 +665,17 @@ export const es: LocaleTable = {
   'library.deleteCategoryBody_one': 'Esto también eliminará {{count}} libro y todas sus anotaciones.',
   'library.deleteCategoryBody_other': 'Esto también eliminará {{count}} libros y todas sus anotaciones.',
   'library.deleteCategoryEmptyBody': 'Esta categoría se eliminará permanentemente.',
+
+  // ── Libros importados: reimportar e importación múltiple (Plan B) ─────────
+  'library.reimportToRead': 'Vuelve a importar para leerlo aquí',
+  'library.importFinishedTitle': 'Importación completa',
+  'library.multiImportSummary_one': 'Se importó {{count}} libro.',
+  'library.multiImportSummary_other': 'Se importaron {{count}} libros.',
+  'library.multiImportFailed_one': 'No se pudo leer {{count}} archivo: {{names}}.',
+  'library.multiImportFailed_other': 'No se pudieron leer {{count}} archivos: {{names}}.',
+  'library.stubNotFound': 'Ese libro ya no está en tu biblioteca.',
+  'library.stubNotImported': 'Ese no es un libro importado.',
+  'library.stubAlreadyHasContent': 'Este libro ya tiene contenido en este dispositivo.',
 
   'auth.passwordTooShortTitle': 'Contraseña demasiado corta',
   'auth.passwordsMustMatch': 'Asegúrate de que ambas contraseñas sean iguales.',

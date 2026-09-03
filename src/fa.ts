@@ -208,7 +208,7 @@ export const fa: LocaleTable = {
   'auth.tagline': 'کتاب‌خوان و پژوهش بین‌ادیانی',
   'auth.usernamePlaceholder': 'نام کاربری ID *',
   'auth.fullNamePlaceholder': 'نام کامل',
-  'auth.emailPlaceholder': 'ایمیل *',
+  'auth.emailPlaceholder': 'نشانی ایمیل *',
   'auth.passwordPlaceholder': 'گذرواژه *',
   'auth.emailAddressPlaceholder': 'نشانی ایمیل *',
   'auth.signIn': 'ورود',
@@ -412,6 +412,8 @@ export const fa: LocaleTable = {
   'reader.viewNote': 'مشاهدهٔ یادداشت',
   'reader.viewXrefs': 'مشاهدهٔ ارجاعات متقابل',
   'reader.noQuotesFiled': 'هیچ نقل‌قولی اینجا ثبت نشده است.',
+  'reader.importedStubBody':
+    'این کتاب روی این دستگاه نیست. برای خواندن آن در اینجا، فایل را دوباره وارد کنید — یادداشت‌ها و گزیده‌های شما دربارهٔ آن حفظ می‌شوند.',
 
   'ai.summary': 'خلاصهٔ هوش مصنوعی',
   'ai.upgradeBlurb': 'برای استفاده از خلاصه‌های هوش مصنوعی و دیگر قابلیت‌های پرو، تنها با $0.99 به Immerse پرو ارتقا دهید.',
@@ -505,6 +507,15 @@ export const fa: LocaleTable = {
   'discover.exportFailed': 'برون‌بری ناموفق بود',
   'discover.unknownError': 'خطای ناشناخته',
 
+  // ── کتاب‌های وارد‌شده: کشف / پیوندهای هم‌رسانی (Plan B) ───────────────────
+  'discover.importedDroppedTitle': 'توجه',
+  'discover.importedDroppedNotice_other':
+    '{{count}} نقل‌قول از کتاب‌های وارد‌شده کنار گذاشته شد — کتاب‌های وارد‌شده به‌صورت عمومی نمایش داده نمی‌شوند.',
+  'discover.publishBlockedTitle': 'امکان انتشار نیست',
+  'discover.publishFailed': 'انتشار این گزیده ممکن نشد.',
+  'discover.importedOnlyError':
+    'همهٔ نقل‌قول‌های این گزیده از کتاب‌های وارد‌شده است که نمی‌توان آن‌ها را در کشف منتشر کرد.',
+
   'usertags.autoImports': 'گزیده‌های عمومی کاربر را به‌طور خودکار به برنامهٔ شما وارد می‌کند',
   'usertags.noTags': 'گزیدهٔ عمومی نیست',
   'usertags.noTagsBody': 'این کاربر هنوز گزیده‌ای هم‌رسانی نکرده است.',
@@ -572,6 +583,8 @@ export const fa: LocaleTable = {
   'sharePage.footer': 'در Immerse بیشتر بخوانید',
   'sharePage.needLanguagePack':
     'این نقل‌قول از کتابخانهٔ {{language}} است. برای خواندن آن در اینجا، از منوی زبان در بخش کتابخانه آن را دانلود کنید.',
+  'sharePage.viewOnly': 'این گزیدهٔ هم‌رسانی‌شده فقط برای مشاهده است.',
+  'sharePage.fromPrivateImport': 'از یک وارد کردن خصوصی',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'یک صفحهٔ وب خصوصی که این ارجاعات متقابل را نشان می‌دهد. در کشف نمایش داده نمی‌شود.',
@@ -652,6 +665,15 @@ export const fa: LocaleTable = {
   'library.deleteCategoryConfirm': '«{{name}}» حذف شود؟',
   'library.deleteCategoryBody_other': 'این کار {{count}} کتاب و همهٔ حاشیه‌نویسی‌هایشان را نیز برمی‌دارد.',
   'library.deleteCategoryEmptyBody': 'این دسته برای همیشه برداشته می‌شود.',
+
+  // ── کتاب‌های وارد‌شده: وارد کردن دوباره و وارد کردن چندتایی (Plan B) ──────
+  'library.reimportToRead': 'برای خواندن در اینجا دوباره وارد کنید',
+  'library.importFinishedTitle': 'وارد کردن کامل شد',
+  'library.multiImportSummary_other': '{{count}} کتاب وارد شد.',
+  'library.multiImportFailed_other': 'خواندن {{count}} فایل ممکن نشد: {{names}}.',
+  'library.stubNotFound': 'این کتاب دیگر در کتابخانهٔ شما نیست.',
+  'library.stubNotImported': 'این یک کتاب وارد‌شده نیست.',
+  'library.stubAlreadyHasContent': 'این کتاب از قبل روی این دستگاه محتوا دارد.',
 
   'auth.passwordTooShortTitle': 'گذرواژه بسیار کوتاه است',
   'auth.passwordsMustMatch': 'لطفاً مطمئن شوید هر دو گذرواژه یکسان‌اند.',

@@ -211,7 +211,7 @@ export const en = {
   'auth.tagline': 'Interfaith E-Reader & Research',
   'auth.usernamePlaceholder': 'Username ID *',
   'auth.fullNamePlaceholder': 'Full Name',
-  'auth.emailPlaceholder': 'Email *',
+  'auth.emailPlaceholder': 'Email address *',
   'auth.passwordPlaceholder': 'Password *',
   'auth.emailAddressPlaceholder': 'Email address *',
   'auth.signIn': 'Sign In',
@@ -422,6 +422,10 @@ export const en = {
   'reader.viewNote': 'View note',
   'reader.viewXrefs': 'View cross-references',
   'reader.noQuotesFiled': 'No quotes filed here.',
+  // Shown in the reader when an imported book's file is missing on this device
+  // (its annotations survived a sync but the content did not).
+  'reader.importedStubBody':
+    "This book isn't on this device. Re-import the file to read it here — your notes and compilations for it are safe.",
 
   'ai.summary': 'AI Summary',
   'ai.upgradeBlurb': 'Upgrade to Immerse Pro for only $0.99 to use AI summaries, and other Pro features.',
@@ -522,6 +526,19 @@ export const en = {
   'discover.exportFailed': 'Export failed',
   'discover.unknownError': 'Unknown error',
 
+  // ── Imported books: Discover / share links (Plan B) ───────────────────────
+  // Imported books are private to the reader who added them, so their quotes
+  // are dropped from anything public and kept read-only on a share link.
+  'discover.importedDroppedTitle': 'Heads up',
+  'discover.importedDroppedNotice_one':
+    "{{count}} quote from an imported book was left out — imported books aren't shown publicly.",
+  'discover.importedDroppedNotice_other':
+    "{{count}} quotes from imported books were left out — imported books aren't shown publicly.",
+  'discover.publishBlockedTitle': "Can't publish",
+  'discover.publishFailed': "Couldn't publish this compilation.",
+  'discover.importedOnlyError':
+    "This compilation's quotes are all from imported books, which can't be published to Discover.",
+
   'usertags.autoImports': "Auto-imports user's public compilations to your app",
   'usertags.noTags': 'No public compilations',
   'usertags.noTagsBody': "This user hasn't shared any compilations yet.",
@@ -595,6 +612,10 @@ export const en = {
   'sharePage.footer': 'Read more in Immerse',
   'sharePage.needLanguagePack':
     'This quote is from the {{language}} library. Download it from the language menu in Library to read it here.',
+  // Shown when the shared compilation contains only imported-book quotes, so
+  // it cannot be copied — the reader can look but not save.
+  'sharePage.viewOnly': 'This shared compilation is view-only.',
+  'sharePage.fromPrivateImport': 'from a private import',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   // The xref analogue of the compilation share links above. Same URL shape
@@ -695,6 +716,17 @@ export const en = {
   'library.deleteCategoryBody_one': 'This will also remove {{count}} book and all its annotations.',
   'library.deleteCategoryBody_other': 'This will also remove {{count}} books and all their annotations.',
   'library.deleteCategoryEmptyBody': 'This category will be permanently removed.',
+
+  // ── Imported books: re-import & multi-import (Plan B) ─────────────────────
+  'library.reimportToRead': 'Re-import to read here',
+  'library.importFinishedTitle': 'Import complete',
+  'library.multiImportSummary_one': 'Imported {{count}} book.',
+  'library.multiImportSummary_other': 'Imported {{count}} books.',
+  'library.multiImportFailed_one': "{{count}} file couldn't be read: {{names}}.",
+  'library.multiImportFailed_other': "{{count}} files couldn't be read: {{names}}.",
+  'library.stubNotFound': 'That book is no longer in your library.',
+  'library.stubNotImported': "That isn't an imported book.",
+  'library.stubAlreadyHasContent': 'This book already has content on this device.',
 
   // Onboarding's sign-up form omits the asterisk the standalone auth screens
   // use to mark a required field, so these cannot reuse the `auth.*Placeholder`

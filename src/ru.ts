@@ -215,7 +215,7 @@ export const ru: LocaleTable = {
   'auth.tagline': 'Чтение и исследование священных текстов',
   'auth.usernamePlaceholder': 'Имя пользователя ID *',
   'auth.fullNamePlaceholder': 'Полное имя',
-  'auth.emailPlaceholder': 'Эл. почта *',
+  'auth.emailPlaceholder': 'Адрес эл. почты *',
   'auth.passwordPlaceholder': 'Пароль *',
   'auth.emailAddressPlaceholder': 'Адрес эл. почты *',
   'auth.signIn': 'Войти',
@@ -422,6 +422,8 @@ export const ru: LocaleTable = {
   'reader.viewNote': 'Показать заметку',
   'reader.viewXrefs': 'Показать перекрёстные ссылки',
   'reader.noQuotesFiled': 'Сюда пока не добавлено ни одной цитаты.',
+  'reader.importedStubBody':
+    'Этой книги нет на этом устройстве. Импортируйте файл заново, чтобы читать её здесь — ваши заметки и подборки по ней сохранятся.',
 
   'ai.summary': 'Пересказ с ИИ',
   'ai.upgradeBlurb': 'Перейдите на Immerse Pro всего за 0,99 $, чтобы пользоваться пересказами с ИИ и другими возможностями Pro.',
@@ -518,6 +520,21 @@ export const ru: LocaleTable = {
   'discover.exportFailed': 'Не удалось экспортировать',
   'discover.unknownError': 'Неизвестная ошибка',
 
+  // ── Импортированные книги: «Обзор» / ссылки для доступа (Plan B) ─────────
+  'discover.importedDroppedTitle': 'Обратите внимание',
+  'discover.importedDroppedNotice_one':
+    '{{count}} цитата из импортированной книги была исключена — импортированные книги не показываются публично.',
+  'discover.importedDroppedNotice_few':
+    '{{count}} цитаты из импортированных книг были исключены — импортированные книги не показываются публично.',
+  'discover.importedDroppedNotice_many':
+    '{{count}} цитат из импортированных книг были исключены — импортированные книги не показываются публично.',
+  'discover.importedDroppedNotice_other':
+    '{{count}} цитаты из импортированных книг были исключены — импортированные книги не показываются публично.',
+  'discover.publishBlockedTitle': 'Не удаётся опубликовать',
+  'discover.publishFailed': 'Не удалось опубликовать эту подборку.',
+  'discover.importedOnlyError':
+    'Все цитаты в этой подборке взяты из импортированных книг, которые нельзя опубликовать в «Обзоре».',
+
   'usertags.autoImports': 'Автоматически добавляет общие подборки этого пользователя в ваше приложение',
   'usertags.noTags': 'Общих подборок нет',
   'usertags.noTagsBody': 'Этот пользователь пока не поделился ни одной подборкой.',
@@ -585,6 +602,8 @@ export const ru: LocaleTable = {
   'sharePage.footer': 'Читать больше в Immerse',
   'sharePage.needLanguagePack':
     'Эта цитата из библиотеки на языке {{language}}. Загрузите её через меню языков в разделе «Библиотека», чтобы прочитать здесь.',
+  'sharePage.viewOnly': 'Эта общая подборка доступна только для просмотра.',
+  'sharePage.fromPrivateImport': 'из частного импорта',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Частная веб-страница с этими перекрёстными ссылками. Не отображается в «Обзоре».',
@@ -686,6 +705,21 @@ export const ru: LocaleTable = {
   'library.deleteCategoryBody_many': 'Также будут удалены {{count}} книг и все их аннотации.',
   'library.deleteCategoryBody_other': 'Также будут удалены {{count}} книги и все их аннотации.',
   'library.deleteCategoryEmptyBody': 'Эта категория будет удалена навсегда.',
+
+  // ── Импортированные книги: повторный импорт и массовый импорт (Plan B) ───
+  'library.reimportToRead': 'Импортировать заново для чтения',
+  'library.importFinishedTitle': 'Импорт завершён',
+  'library.multiImportSummary_one': 'Импортирована {{count}} книга.',
+  'library.multiImportSummary_few': 'Импортировано {{count}} книги.',
+  'library.multiImportSummary_many': 'Импортировано {{count}} книг.',
+  'library.multiImportSummary_other': 'Импортировано {{count}} книги.',
+  'library.multiImportFailed_one': 'Не удалось прочитать {{count}} файл: {{names}}.',
+  'library.multiImportFailed_few': 'Не удалось прочитать {{count}} файла: {{names}}.',
+  'library.multiImportFailed_many': 'Не удалось прочитать {{count}} файлов: {{names}}.',
+  'library.multiImportFailed_other': 'Не удалось прочитать {{count}} файла: {{names}}.',
+  'library.stubNotFound': 'Этой книги больше нет в вашей библиотеке.',
+  'library.stubNotImported': 'Это не импортированная книга.',
+  'library.stubAlreadyHasContent': 'На этом устройстве у этой книги уже есть содержимое.',
 
   'auth.passwordTooShortTitle': 'Слишком короткий пароль',
   'auth.passwordsMustMatch': 'Убедитесь, что оба пароля совпадают.',

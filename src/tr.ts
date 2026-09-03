@@ -201,7 +201,7 @@ export const tr: LocaleTable = {
   'auth.tagline': 'Dinler arası e-okuyucu ve araştırma',
   'auth.usernamePlaceholder': 'Kullanıcı adı ID *',
   'auth.fullNamePlaceholder': 'Ad soyad',
-  'auth.emailPlaceholder': 'E-posta *',
+  'auth.emailPlaceholder': 'E-posta adresi *',
   'auth.passwordPlaceholder': 'Parola *',
   'auth.emailAddressPlaceholder': 'E-posta adresi *',
   'auth.signIn': 'Giriş yap',
@@ -405,6 +405,8 @@ export const tr: LocaleTable = {
   'reader.viewNote': 'Notu gör',
   'reader.viewXrefs': 'Çapraz referansları gör',
   'reader.noQuotesFiled': 'Buraya henüz alıntı eklenmemiş.',
+  'reader.importedStubBody':
+    'Bu kitap bu cihazda değil. Burada okumak için dosyayı yeniden içe aktarın — ona ait notlarınız ve derlemeleriniz güvende.',
 
   'ai.summary': 'Yapay zekâ özeti',
   'ai.upgradeBlurb': 'Yapay zekâ özetlerini ve diğer Pro özelliklerini kullanmak için yalnızca 0,99 $ ile Immerse Pro’ya geçin.',
@@ -498,6 +500,15 @@ export const tr: LocaleTable = {
   'discover.exportFailed': 'Dışa aktarma başarısız',
   'discover.unknownError': 'Bilinmeyen hata',
 
+  // ── İçe aktarılan kitaplar: Keşfet / paylaşım bağlantıları (Plan B) ──────
+  'discover.importedDroppedTitle': 'Not',
+  'discover.importedDroppedNotice_other':
+    'İçe aktarılmış kitaplardan {{count}} alıntı dışarıda bırakıldı — içe aktarılan kitaplar herkese açık gösterilmez.',
+  'discover.publishBlockedTitle': 'Yayınlanamıyor',
+  'discover.publishFailed': 'Bu derleme yayınlanamadı.',
+  'discover.importedOnlyError':
+    'Bu derlemedeki alıntıların tümü, Keşfet’te yayınlanamayan içe aktarılmış kitaplardan.',
+
   'usertags.autoImports': 'Bu kullanıcının herkese açık derlemelerini uygulamanıza otomatik aktarır',
   'usertags.noTags': 'Herkese açık derleme yok',
   'usertags.noTagsBody': 'Bu kullanıcı henüz hiç derleme paylaşmadı.',
@@ -565,6 +576,8 @@ export const tr: LocaleTable = {
   'sharePage.footer': 'Immerse’te daha fazlasını oku',
   'sharePage.needLanguagePack':
     'Bu alıntı {{language}} kitaplığından. Burada okumak için Kitaplık’taki dil menüsünden indirin.',
+  'sharePage.viewOnly': 'Bu paylaşılan derleme yalnızca görüntülenebilir.',
+  'sharePage.fromPrivateImport': 'özel bir içe aktarmadan',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Bu çapraz referansları gösteren özel bir web sayfası. Keşfet’te gösterilmez.',
@@ -648,6 +661,15 @@ export const tr: LocaleTable = {
   'library.deleteCategoryConfirm': '“{{name}}” silinsin mi?',
   'library.deleteCategoryBody_other': 'Bu ayrıca {{count}} kitabı ve tüm açıklamalarını kaldırır.',
   'library.deleteCategoryEmptyBody': 'Bu kategori kalıcı olarak kaldırılacak.',
+
+  // ── İçe aktarılan kitaplar: yeniden içe aktarma ve toplu içe aktarma (Plan B) ──
+  'library.reimportToRead': 'Burada okumak için yeniden içe aktar',
+  'library.importFinishedTitle': 'İçe aktarma tamamlandı',
+  'library.multiImportSummary_other': '{{count}} kitap içe aktarıldı.',
+  'library.multiImportFailed_other': '{{count}} dosya okunamadı: {{names}}.',
+  'library.stubNotFound': 'Bu kitap artık kitaplığınızda değil.',
+  'library.stubNotImported': 'Bu, içe aktarılmış bir kitap değil.',
+  'library.stubAlreadyHasContent': 'Bu kitabın bu cihazda zaten içeriği var.',
 
   'auth.passwordTooShortTitle': 'Parola çok kısa',
   'auth.passwordsMustMatch': 'Lütfen iki parolanın da aynı olduğundan emin olun.',

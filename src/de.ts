@@ -216,7 +216,7 @@ export const de: LocaleTable = {
   'auth.tagline': 'Interreligiöser E-Reader & Recherche',
   'auth.usernamePlaceholder': 'Benutzername-ID *',
   'auth.fullNamePlaceholder': 'Vollständiger Name',
-  'auth.emailPlaceholder': 'E-Mail *',
+  'auth.emailPlaceholder': 'E-Mail-Adresse *',
   'auth.passwordPlaceholder': 'Passwort *',
   'auth.emailAddressPlaceholder': 'E-Mail-Adresse *',
   'auth.signIn': 'Anmelden',
@@ -421,6 +421,8 @@ export const de: LocaleTable = {
   'reader.viewNote': 'Notiz ansehen',
   'reader.viewXrefs': 'Querverweise ansehen',
   'reader.noQuotesFiled': 'Hier sind keine Zitate abgelegt.',
+  'reader.importedStubBody':
+    'Dieses Buch ist nicht auf diesem Gerät. Importieren Sie die Datei erneut, um es hier zu lesen — Ihre Notizen und Zusammenstellungen dazu bleiben erhalten.',
 
   'ai.summary': 'KI-Zusammenfassung',
   'ai.upgradeBlurb': 'Führen Sie für nur 0,99 $ ein Upgrade auf Immerse Pro durch, um KI-Zusammenfassungen und weitere Pro-Funktionen zu nutzen.',
@@ -515,6 +517,17 @@ export const de: LocaleTable = {
   'discover.exportFailed': 'Export fehlgeschlagen',
   'discover.unknownError': 'Unbekannter Fehler',
 
+  // ── Importierte Bücher: Entdecken / Freigabelinks (Plan B) ────────────────
+  'discover.importedDroppedTitle': 'Hinweis',
+  'discover.importedDroppedNotice_one':
+    '{{count}} Zitat aus einem importierten Buch wurde ausgelassen — importierte Bücher werden nicht öffentlich angezeigt.',
+  'discover.importedDroppedNotice_other':
+    '{{count}} Zitate aus importierten Büchern wurden ausgelassen — importierte Bücher werden nicht öffentlich angezeigt.',
+  'discover.publishBlockedTitle': 'Veröffentlichen nicht möglich',
+  'discover.publishFailed': 'Diese Zusammenstellung konnte nicht veröffentlicht werden.',
+  'discover.importedOnlyError':
+    'Die Zitate dieser Zusammenstellung stammen alle aus importierten Büchern, die nicht in Entdecken veröffentlicht werden können.',
+
   'usertags.autoImports': 'Importiert automatisch die öffentlichen Zusammenstellungen der Nutzerin oder des Nutzers in Ihre App',
   'usertags.noTags': 'Keine öffentlichen Zusammenstellungen',
   'usertags.noTagsBody': 'Diese Person hat noch keine Zusammenstellungen geteilt.',
@@ -581,6 +594,8 @@ export const de: LocaleTable = {
   'sharePage.footer': 'Mehr lesen in Immerse',
   'sharePage.needLanguagePack':
     'Dieses Zitat stammt aus der Bibliothek {{language}}. Laden Sie sie über das Sprachmenü in „Bibliothek“ herunter, um es hier zu lesen.',
+  'sharePage.viewOnly': 'Diese geteilte Zusammenstellung kann nur angesehen werden.',
+  'sharePage.fromPrivateImport': 'aus einem privaten Import',
 
   'share.createLinkXrefHint': 'Eine private Webseite, die diese Querverweise zeigt. Wird nicht in Entdecken angezeigt.',
   'sharePage.xrefEyebrow': 'Geteilte Querverweise',
@@ -666,6 +681,17 @@ export const de: LocaleTable = {
   'library.deleteCategoryBody_one': 'Dadurch werden auch {{count}} Buch und alle seine Anmerkungen entfernt.',
   'library.deleteCategoryBody_other': 'Dadurch werden auch {{count}} Bücher und alle ihre Anmerkungen entfernt.',
   'library.deleteCategoryEmptyBody': 'Diese Kategorie wird dauerhaft entfernt.',
+
+  // ── Importierte Bücher: erneuter Import & Mehrfachimport (Plan B) ─────────
+  'library.reimportToRead': 'Zum Lesen erneut importieren',
+  'library.importFinishedTitle': 'Import abgeschlossen',
+  'library.multiImportSummary_one': '{{count}} Buch importiert.',
+  'library.multiImportSummary_other': '{{count}} Bücher importiert.',
+  'library.multiImportFailed_one': '{{count}} Datei konnte nicht gelesen werden: {{names}}.',
+  'library.multiImportFailed_other': '{{count}} Dateien konnten nicht gelesen werden: {{names}}.',
+  'library.stubNotFound': 'Dieses Buch ist nicht mehr in Ihrer Bibliothek.',
+  'library.stubNotImported': 'Das ist kein importiertes Buch.',
+  'library.stubAlreadyHasContent': 'Dieses Buch hat auf diesem Gerät bereits Inhalte.',
 
   'auth.passwordTooShortTitle': 'Passwort zu kurz',
   'auth.passwordsMustMatch': 'Bitte stellen Sie sicher, dass beide Passwörter gleich sind.',

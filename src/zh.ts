@@ -199,7 +199,7 @@ export const zh: LocaleTable = {
   'auth.tagline': '跨信仰电子阅读与研究',
   'auth.usernamePlaceholder': '用户名 ID *',
   'auth.fullNamePlaceholder': '姓名',
-  'auth.emailPlaceholder': '电子邮箱 *',
+  'auth.emailPlaceholder': '电子邮箱地址 *',
   'auth.passwordPlaceholder': '密码 *',
   'auth.emailAddressPlaceholder': '电子邮箱地址 *',
   'auth.signIn': '登录',
@@ -403,6 +403,8 @@ export const zh: LocaleTable = {
   'reader.viewNote': '查看笔记',
   'reader.viewXrefs': '查看交叉引用',
   'reader.noQuotesFiled': '这里还没有归入任何引文。',
+  'reader.importedStubBody':
+    '这本书不在此设备上。重新导入文件即可在此阅读——你为它所做的笔记和汇编都已妥善保存。',
 
   'ai.summary': 'AI 摘要',
   'ai.upgradeBlurb': '只需 $0.99 升级到 Immerse Pro，即可使用 AI 摘要及其他 Pro 功能。',
@@ -496,6 +498,15 @@ export const zh: LocaleTable = {
   'discover.exportFailed': '导出失败',
   'discover.unknownError': '未知错误',
 
+  // ── 导入的书籍：「发现」/ 分享链接（Plan B） ─────────────────────────────
+  'discover.importedDroppedTitle': '请注意',
+  'discover.importedDroppedNotice_other':
+    '有 {{count}} 条引用出自导入的书籍，已被略去——导入的书籍不会公开显示。',
+  'discover.publishBlockedTitle': '无法发布',
+  'discover.publishFailed': '无法发布此汇编。',
+  'discover.importedOnlyError':
+    '此汇编的引用全部出自导入的书籍，无法发布到「发现」。',
+
   'usertags.autoImports': '自动将该用户的公开汇编导入你的应用',
   'usertags.noTags': '没有公开汇编',
   'usertags.noTagsBody': '该用户尚未分享任何汇编。',
@@ -563,6 +574,8 @@ export const zh: LocaleTable = {
   'sharePage.footer': '在 Immerse 中阅读更多',
   'sharePage.needLanguagePack':
     '此引文来自{{language}}文库。请在“文库”的语言菜单中下载该语言以在此阅读。',
+  'sharePage.viewOnly': '此共享汇编仅供查看。',
+  'sharePage.fromPrivateImport': '出自私人导入',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': '一个私密网页，展示这些交叉引用。不会出现在「发现」中。',
@@ -646,6 +659,15 @@ export const zh: LocaleTable = {
   'library.deleteCategoryConfirm': '删除“{{name}}”？',
   'library.deleteCategoryBody_other': '这还会移除 {{count}} 本书及其全部注释。',
   'library.deleteCategoryEmptyBody': '此分类将被永久移除。',
+
+  // ── 导入的书籍：重新导入与批量导入（Plan B） ───────────────────────────
+  'library.reimportToRead': '重新导入以在此阅读',
+  'library.importFinishedTitle': '导入完成',
+  'library.multiImportSummary_other': '已导入 {{count}} 本书。',
+  'library.multiImportFailed_other': '有 {{count}} 个文件无法读取：{{names}}。',
+  'library.stubNotFound': '这本书已不在你的文库中。',
+  'library.stubNotImported': '这不是导入的书籍。',
+  'library.stubAlreadyHasContent': '这本书在此设备上已有内容。',
 
   'auth.passwordTooShortTitle': '密码太短',
   'auth.passwordsMustMatch': '请确保两次输入的密码一致。',
