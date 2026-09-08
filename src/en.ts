@@ -827,6 +827,17 @@ export const en = {
   'appearance.typefaceGaramondBlurb': 'Classical old-style. Lighter on the page.',
   'appearance.typefaceSystemBlurb': 'Whatever this device provides.',
   'appearance.textSize': 'Text size',
+  // Size-step labels for the text-size picker, keyed by the internal size name.
+  // The picker shifts the scale down a notch — the smallest step reads "XS", not
+  // "S" — so these do not match the key names. Phones show the first four;
+  // tablets add the last two. Garment-size codes (XS/S/M/L/XL/XXL) are the
+  // international standard and stay Latin in most locales.
+  'appearance.textSizeSmall': 'XS',
+  'appearance.textSizeMedium': 'S',
+  'appearance.textSizeLarge': 'M',
+  'appearance.textSizeXL': 'L',
+  'appearance.textSizeXXL': 'XL',
+  'appearance.textSizeXXXL': 'XXL',
   'appearance.lineSpacing': 'Line spacing',
   'appearance.lineSpacingTight': 'Tight',
   'appearance.lineSpacingNormal': 'Normal',
