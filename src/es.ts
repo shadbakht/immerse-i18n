@@ -524,6 +524,16 @@ export const es: LocaleTable = {
   'onboarding.fontPreviewQuote':
     '«Buscad y hallaréis; llamad y se os abrirá.»',
   'onboarding.getStarted': 'Comenzar',
+
+  'proTrialIntro.title': '¡Te damos la bienvenida a Immerse!',
+  'proTrialIntro.lede': 'Empiezas con la cuenta Pro, gratis durante 30 días.',
+  'proTrialIntro.body':
+    'Disfruta de todas las funciones Pro sin coste. Cuando terminen tus 30 días de prueba, tu cuenta pasará automáticamente a la cuenta Estándar gratuita. No se te cobrará nada a menos que decidas cambiar a Pro.',
+  'proTrialIntro.priceLine': 'Pro cuesta solo 0,99 USD al mes si decides conservar las funciones adicionales:',
+  'proTrialIntro.featureAiSummary': 'Resumen de textos con IA',
+  'proTrialIntro.featureImport': 'Importa tus propios libros a la biblioteca',
+  'proTrialIntro.featureVoices': 'Voces premium con sonido natural para la lectura en voz alta',
+  'proTrialIntro.cta': 'Empezar a explorar',
   'onboarding.closeIntro': 'Cerrar introducción',
   'onboarding.goToStep': 'Ir al paso {{number}}',
   'onboarding.libraryTitle': 'La Biblioteca',

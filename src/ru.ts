@@ -553,6 +553,16 @@ export const ru: LocaleTable = {
     '«Ищите — и найдёте; стучите — и отворят вам».',
   'onboarding.getStarted': 'Начать',
 
+  'proTrialIntro.title': 'Добро пожаловать в Immerse!',
+  'proTrialIntro.lede': 'Вы начинаете с аккаунта Pro — бесплатно на 30 дней.',
+  'proTrialIntro.body':
+    'Пользуйтесь всеми возможностями Pro бесплатно. После 30-дневного пробного периода ваш аккаунт автоматически переключится на бесплатный аккаунт «Стандарт». Плата не взимается, если вы сами не решите перейти на Pro.',
+  'proTrialIntro.priceLine': 'Pro стоит всего 0,99 $ в месяц, если вы захотите сохранить дополнительные возможности:',
+  'proTrialIntro.featureAiSummary': 'Краткий пересказ текстов с ИИ',
+  'proTrialIntro.featureImport': 'Импорт своих книг в библиотеку',
+  'proTrialIntro.featureVoices': 'Премиальные естественно звучащие голоса для чтения вслух',
+  'proTrialIntro.cta': 'Начать знакомство',
+
   'onboarding.closeIntro': 'Закрыть знакомство',
   'onboarding.goToStep': 'Перейти к шагу {{number}}',
   'onboarding.libraryTitle': 'Библиотека',

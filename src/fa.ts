@@ -534,6 +534,16 @@ export const fa: LocaleTable = {
     '«بجویید تا بیابید؛ بکوبید تا در به رویتان گشوده شود.»',
   'onboarding.getStarted': 'شروع کنیم',
 
+  'proTrialIntro.title': 'به Immerse خوش آمدید!',
+  'proTrialIntro.lede': 'شما با حساب پرو آغاز می‌کنید — ۳۰ روز رایگان.',
+  'proTrialIntro.body':
+    'از همهٔ امکانات پرو بدون هزینه بهره‌مند شوید. پس از دورهٔ آزمایشی ۳۰ روزه، حساب شما به‌طور خودکار به حساب رایگان استاندارد تغییر می‌کند. هیچ هزینه‌ای دریافت نمی‌شود مگر اینکه خودتان ارتقا به پرو را انتخاب کنید.',
+  'proTrialIntro.priceLine': 'اگر بخواهید امکانات اضافی را نگه دارید، پرو تنها ماهانه $0.99 است:',
+  'proTrialIntro.featureAiSummary': 'خلاصهٔ متن‌ها با هوش مصنوعی',
+  'proTrialIntro.featureImport': 'وارد کردن کتاب‌های خودتان به کتابخانه',
+  'proTrialIntro.featureVoices': 'صداهای ویژه و طبیعی برای بلندخوانی',
+  'proTrialIntro.cta': 'شروع به کاوش',
+
   'onboarding.closeIntro': 'بستن معرفی',
   'onboarding.goToStep': 'رفتن به گام {{number}}',
   'onboarding.libraryTitle': 'کتابخانه',

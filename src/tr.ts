@@ -527,6 +527,16 @@ export const tr: LocaleTable = {
     '“Arayın, bulacaksınız; kapıyı çalın, size açılacaktır.”',
   'onboarding.getStarted': 'Başlayın',
 
+  'proTrialIntro.title': 'Immerse’e hoş geldiniz!',
+  'proTrialIntro.lede': 'Pro hesapla başlıyorsunuz — 30 gün boyunca ücretsiz.',
+  'proTrialIntro.body':
+    'Tüm Pro özelliklerini ücretsiz kullanın. 30 günlük deneme süreniz bittiğinde hesabınız otomatik olarak ücretsiz Standart hesaba geçer. Pro’ya yükseltmeyi seçmediğiniz sürece sizden hiçbir ücret alınmaz.',
+  'proTrialIntro.priceLine': 'Ek özellikleri korumak isterseniz Pro yalnızca ayda 0,99 $’dır:',
+  'proTrialIntro.featureAiSummary': 'Metinlerin yapay zekâ özeti',
+  'proTrialIntro.featureImport': 'Kendi kitaplarınızı kitaplığa aktarın',
+  'proTrialIntro.featureVoices': 'Sesli okuma için doğal, insan sesine yakın premium sesler',
+  'proTrialIntro.cta': 'Keşfetmeye başlayın',
+
   'onboarding.closeIntro': 'Tanıtımı kapat',
   'onboarding.goToStep': '{{number}}. adıma git',
   'onboarding.libraryTitle': 'Kütüphane',

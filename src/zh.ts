@@ -525,6 +525,16 @@ export const zh: LocaleTable = {
     '“寻找，就寻见；叩门，就给你们开门。”',
   'onboarding.getStarted': '开始使用',
 
+  'proTrialIntro.title': '欢迎使用 Immerse！',
+  'proTrialIntro.lede': '你将以 Pro 账户开始使用——免费 30 天。',
+  'proTrialIntro.body':
+    '免费畅享所有 Pro 功能。30 天试用期结束后，你的账户会自动切换为免费的标准版账户。除非你选择升级到 Pro，否则不会产生任何费用。',
+  'proTrialIntro.priceLine': '如果你想保留这些额外功能，Pro 每月仅需 $0.99：',
+  'proTrialIntro.featureAiSummary': 'AI 文本摘要',
+  'proTrialIntro.featureImport': '将自己的书籍导入书库',
+  'proTrialIntro.featureVoices': '用于朗读功能的优质自然人声',
+  'proTrialIntro.cta': '开始探索',
+
   'onboarding.closeIntro': '关闭导览',
   'onboarding.goToStep': '前往第 {{number}} 步',
   'onboarding.libraryTitle': '书库',

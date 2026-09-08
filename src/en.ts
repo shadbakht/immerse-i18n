@@ -557,6 +557,20 @@ export const en = {
     '“Seek and you will find; knock and the door will be opened to you.”',
   'onboarding.getStarted': 'Get Started',
 
+  // First-login Pro-trial intro — a full onboarding step (STEP_TRIAL) shown once
+  // to a new signed-in user after the font step. Not shown to guests, or to an
+  // account whose 30-day trial is already spent. See docs/superpowers/specs/
+  // 2026-09-08-first-login-pro-trial-popup-design.md in the mobile repo.
+  'proTrialIntro.title': 'Welcome to Immerse!',
+  'proTrialIntro.lede': 'You’re starting with the Pro account — free for 30 days.',
+  'proTrialIntro.body':
+    'Enjoy all Pro features at no cost. After your 30-day trial, your account automatically switches to the free Standard account. There’s no charge unless you choose to upgrade to Pro.',
+  'proTrialIntro.priceLine': 'Pro is just $0.99/month if you decide you’d like to keep the extra features:',
+  'proTrialIntro.featureAiSummary': 'AI summary of texts',
+  'proTrialIntro.featureImport': 'Import your own books into the library',
+  'proTrialIntro.featureVoices': 'Premium natural-sounding voices for reading aloud',
+  'proTrialIntro.cta': 'Start exploring',
+
   // Web-only: the intro screenshot walkthrough replayed from Settings → About.
   // NOTE the screenshots themselves are English captures, so a Spanish caption
   // sits under an English image until localised screenshots exist.
