@@ -78,4 +78,8 @@ export const UI_LANGUAGES: ReadonlyArray<{ code: string; label: string }> = [
   // declare each book's own direction, or a Persian interface renders every
   // left-to-right book right-to-left.
   { code: 'fa', label: LANGUAGE_LABELS.fa },
+  // The second right-to-left interface language. Like Persian it needs no app
+  // code — both platforms mirror from `isRTL` — and `ar` was already in
+  // RTL_LANGUAGES and LANGUAGE_LABELS before the interface was translated.
+  { code: 'ar', label: LANGUAGE_LABELS.ar },
 ];
