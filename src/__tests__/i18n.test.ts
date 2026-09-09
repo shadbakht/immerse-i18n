@@ -85,6 +85,18 @@ test('the shipped tables count the way their own language counts', () => {
   assert.equal(translate('fa', 'common.book', { count: 0 }), '0 کتاب');
   assert.equal(translate('fa', 'common.book', { count: 1 }), '1 کتاب');
   assert.equal(translate('fa', 'common.book', { count: 5 }), '5 کتاب');
+
+  // Arabic is the fifth shape and the widest: six CLDR categories where every
+  // other shipped table needs at most four. `common.book` is written out in all
+  // six, so 2 must reach the dual, 3–10 the plural, and 11–99 the accusative
+  // singular — none of them falling through to English or to ar's own `_other`.
+  // (0, 1 and 100 legitimately share the singular form in Arabic.)
+  assert.equal(translate('ar', 'common.book', { count: 0 }), '0 كتاب');
+  assert.equal(translate('ar', 'common.book', { count: 1 }), '1 كتاب');
+  assert.equal(translate('ar', 'common.book', { count: 2 }), '2 كتابان');
+  assert.equal(translate('ar', 'common.book', { count: 3 }), '3 كتب');
+  assert.equal(translate('ar', 'common.book', { count: 11 }), '11 كتابًا');
+  assert.equal(translate('ar', 'common.book', { count: 100 }), '100 كتاب');
 });
 
 test('treats zero as plural', () => {
