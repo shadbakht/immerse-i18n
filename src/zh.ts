@@ -176,12 +176,9 @@ export const zh: LocaleTable = {
   'settings.subscribeToPro': '订阅 Pro',
 
   // Update prompt
-  'update.title': '有可用更新',
-  'update.message': '{{version}} 版本现已推出，包含最新的改进和修复。',
+  'update.available': '有新的更新可用。',
   'update.update': '更新',
   'update.ignore': '忽略',
-  'update.forcedTitle': '需要更新',
-  'update.forcedMessage': '此版本已不再受支持。请更新到最新版本以继续使用。',
 
   'home.tags': '汇编',
   'home.notes': '笔记',

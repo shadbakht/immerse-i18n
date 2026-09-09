@@ -173,12 +173,9 @@ export const es: LocaleTable = {
   'settings.subscribeToPro': 'Suscribirse a Pro',
 
   // Update prompt
-  'update.title': 'Actualización disponible',
-  'update.message': 'La versión {{version}} ya está disponible, con las últimas mejoras y correcciones.',
+  'update.available': 'Hay una nueva actualización disponible.',
   'update.update': 'Actualizar',
   'update.ignore': 'Ignorar',
-  'update.forcedTitle': 'Actualización necesaria',
-  'update.forcedMessage': 'Esta versión ya no es compatible. Actualiza a la última versión para continuar.',
 
   'home.tags': 'Compilaciones',
   'home.notes': 'Notas',

@@ -178,12 +178,9 @@ export const tr: LocaleTable = {
   'settings.subscribeToPro': 'Pro’ya Abone Ol',
 
   // Update prompt
-  'update.title': 'Güncelleme mevcut',
-  'update.message': '{{version}} sürümü, en son iyileştirmeler ve düzeltmelerle birlikte kullanıma sunuldu.',
+  'update.available': 'Yeni bir güncelleme mevcut.',
   'update.update': 'Güncelle',
   'update.ignore': 'Yoksay',
-  'update.forcedTitle': 'Güncelleme gerekli',
-  'update.forcedMessage': 'Bu sürüm artık desteklenmiyor. Devam etmek için lütfen en son sürüme güncelleyin.',
 
   'home.tags': 'Derlemeler',
   'home.notes': 'Notlar',

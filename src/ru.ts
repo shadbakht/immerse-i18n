@@ -189,12 +189,9 @@ export const ru: LocaleTable = {
   'settings.subscribeToPro': 'Подписаться на Pro',
 
   // Update prompt
-  'update.title': 'Доступно обновление',
-  'update.message': 'Доступна версия {{version}} с последними улучшениями и исправлениями.',
+  'update.available': 'Доступно новое обновление.',
   'update.update': 'Обновить',
   'update.ignore': 'Пропустить',
-  'update.forcedTitle': 'Требуется обновление',
-  'update.forcedMessage': 'Эта версия больше не поддерживается. Чтобы продолжить, обновите приложение до последней версии.',
 
   'home.tags': 'Подборки',
   'home.notes': 'Заметки',
