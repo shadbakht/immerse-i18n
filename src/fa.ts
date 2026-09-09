@@ -184,6 +184,14 @@ export const fa: LocaleTable = {
   'settings.manage': 'مدیریت',
   'settings.subscribeToPro': 'اشتراک پرو',
 
+  // Update prompt
+  'update.title': 'به‌روزرسانی در دسترس است',
+  'update.message': 'نسخهٔ {{version}} با آخرین بهبودها و رفع اشکال‌ها در دسترس است.',
+  'update.update': 'به‌روزرسانی',
+  'update.ignore': 'نادیده گرفتن',
+  'update.forcedTitle': 'به‌روزرسانی الزامی است',
+  'update.forcedMessage': 'این نسخه دیگر پشتیبانی نمی‌شود. برای ادامه، لطفاً به آخرین نسخه به‌روزرسانی کنید.',
+
   'home.tags': 'گزیده‌ها',
   'home.notes': 'یادداشت‌ها',
   'home.xrefs': 'ارجاعات',

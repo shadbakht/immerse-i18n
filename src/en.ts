@@ -184,6 +184,14 @@ export const en = {
   'settings.manage': 'Manage',
   'settings.subscribeToPro': 'Subscribe to Pro',
 
+  // Update prompt
+  'update.title': 'Update available',
+  'update.message': 'Version {{version}} is available, with the latest improvements and fixes.',
+  'update.update': 'Update',
+  'update.ignore': 'Ignore',
+  'update.forcedTitle': 'Update required',
+  'update.forcedMessage': 'This version is no longer supported. Please update to the latest version to continue.',
+
   'home.tags': 'Compilations',
   'home.notes': 'Notes',
   'home.xrefs': 'X-Refs',

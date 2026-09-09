@@ -189,6 +189,14 @@ export const de: LocaleTable = {
   'settings.manage': 'Verwalten',
   'settings.subscribeToPro': 'Pro abonnieren',
 
+  // Update prompt
+  'update.title': 'Update verfügbar',
+  'update.message': 'Version {{version}} ist verfügbar – mit den neuesten Verbesserungen und Fehlerbehebungen.',
+  'update.update': 'Aktualisieren',
+  'update.ignore': 'Ignorieren',
+  'update.forcedTitle': 'Update erforderlich',
+  'update.forcedMessage': 'Diese Version wird nicht mehr unterstützt. Bitte aktualisieren Sie auf die neueste Version, um fortzufahren.',
+
   // Home stat-tile label only (not the shelf name / nav). Truncated like
   // 'home.xrefs' — "Zusammenstellungen" is too long for the tile on small phones.
   'home.tags': 'Zusammenst.',
