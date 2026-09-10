@@ -838,6 +838,10 @@ export const en = {
   'appearance.typefaceCharisBlurb': 'A Charter descendant. Sturdy when small.',
   'appearance.typefaceGaramondBlurb': 'Classical old-style. Lighter on the page.',
   'appearance.typefaceSystemBlurb': 'Whatever this device provides.',
+  'appearance.faceAmiriBlurb': 'A revived Naskh book face. Warm and even.',
+  'appearance.faceScheherazadeBlurb': 'Traditional Naskh. Runs a touch larger.',
+  'appearance.faceLxgwBlurb': 'A brush-drawn regular script. Gentle strokes.',
+  'appearance.faceNotoSerifScBlurb': 'An even printed serif. Neutral and clear.',
   'appearance.textSize': 'Text size',
   // Size-step labels for the text-size picker, keyed by the internal size name.
   // The picker shifts the scale down a notch — the smallest step reads "XS", not

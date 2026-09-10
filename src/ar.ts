@@ -910,6 +910,10 @@ export const ar: LocaleTable = {
   'appearance.typefaceCharisBlurb': 'سليل خط Charter. متين في الأحجام الصغيرة.',
   'appearance.typefaceGaramondBlurb': 'كلاسيكي بالطراز القديم. أخفّ على الصفحة.',
   'appearance.typefaceSystemBlurb': 'أيًّا كان ما يوفره هذا الجهاز.',
+  'appearance.faceAmiriBlurb': 'خط نسخ كتابي مُحيًّا. دافئ ومتساوٍ.',
+  'appearance.faceScheherazadeBlurb': 'نسخ تقليدي. أكبر قليلًا في السطر.',
+  'appearance.faceLxgwBlurb': 'خط صيني منتظم مرسوم بالفرشاة. لمسات لطيفة.',
+  'appearance.faceNotoSerifScBlurb': 'خط صيني مطبعي منتظم. محايد وواضح.',
   'appearance.textSize': 'حجم النص',
   // Size-step labels for the text-size picker, keyed by the internal size name.
   // The picker shifts the scale down a notch — the smallest step reads "XS",
