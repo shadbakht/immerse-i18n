@@ -22,7 +22,7 @@ import type { LocaleTable } from './keys';
  * rather than being rewritten as Arabic-Indic numerals, so a counted string
  * never mixes two numeral systems in one sentence — matching fa.ts.
  *
- * Terminology fixed once, here: a tag/compilation is a *تجميعة*, a note a
+ * Terminology fixed once, here: a tag/compilation is a *مجموعة*, a note a
  * *ملاحظة*, a cross-reference an *إحالة مرجعية* (shortened to *إحالة* in the
  * nav tiles and the reader's action bar, where the full term does not fit),
  * a passage a *فقرة*, Discover is *استكشاف*, the reader itself *القارئ*.
@@ -85,7 +85,7 @@ export const ar: LocaleTable = {
   // mobile the same destinations are the drawer's screen titles.
   'nav.home': 'الرئيسية',
   'nav.library': 'المكتبة',
-  'nav.tags': 'التجميعات',
+  'nav.tags': 'المجموعات',
   'nav.notes': 'الملاحظات',
   // 'nav.xrefs' / 'home.xrefs' — the full «الإحالات المرجعية» does not fit a
   // nav item or a Home tile on a small phone, so both use the short form.
@@ -101,7 +101,7 @@ export const ar: LocaleTable = {
   'library.availableToDownload': 'متاحة للتنزيل',
   'library.downloading': 'جارٍ التنزيل {{percent}}%',
   'library.verifying': 'جارٍ التحقق…',
-  'library.importing': 'جارٍ الاستيراد…',
+  'library.importing': 'جارٍ الإضافة…',
   'library.cleaning': 'جارٍ الإنهاء…',
   'library.downloadFailed': 'فشل التنزيل',
   'library.updateAvailable': 'يتوفر تحديث',
@@ -128,15 +128,15 @@ export const ar: LocaleTable = {
   'library.relatedPrefix': 'ذات صلة',
   'library.booksAndSections': 'الكتب والأقسام',
   'library.tapToOpenHint': 'اضغط للفتح',
-  'library.importTitle': 'استيراد كتاب (TXT، EPUB، DOCX، RTF، PDF)',
+  'library.importTitle': 'إضافة كتاب (TXT، EPUB، DOCX، RTF، PDF)',
   'library.importProFeature':
-    'استيراد الكتب ميزة برو. رقِّ حسابك من الإعدادات لاستيراد كتبك الخاصة.',
-  'library.importFailed': 'فشل الاستيراد.',
-  'library.importSucceeded': 'تم استيراد «{{title}}» بنجاح.',
+    'إضافة الكتب ميزة Pro. رقِّ حسابك من الإعدادات لإضافة كتبك الخاصة.',
+  'library.importFailed': 'فشلت الإضافة.',
+  'library.importSucceeded': 'تمت إضافة «{{title}}» بنجاح.',
   'library.noImportedBooks':
-    'لا توجد كتب مستوردة بعد. استخدم الزر المجاور لشريط البحث لاستيراد كتاب.',
+    'لا توجد كتب مُضافة بعد. استخدم الزر المجاور لشريط البحث لإضافة كتاب.',
   'library.deleteBookConfirm': 'حذف «{{title}}»؟',
-  'library.tagAction': 'تجميعة',
+  'library.tagAction': 'مجموعة',
 
   'settings.language': 'اللغة',
   'settings.appLanguage': 'لغة التطبيق',
@@ -173,12 +173,12 @@ export const ar: LocaleTable = {
   'settings.appearanceDark': 'داكن',
   'settings.appearanceSystem': 'النظام',
   'settings.upgrade': 'ترقية',
-  'settings.upgradeCta': 'الترقية إلى برو — 0.99 دولار شهريًا',
+  'settings.upgradeCta': 'الترقية إلى Pro — 0.99 دولار شهريًا',
   'settings.upgradeBlurb':
-    'افتح ملخصات الذكاء الاصطناعي وأصوات الاستماع المتميزة واستيراد كتبك الخاصة. 0.99 دولار شهريًا.',
+    'افتح ملخصات الذكاء الاصطناعي وأصوات الاستماع المتميزة وإضافة كتبك الخاصة. 0.99 دولار شهريًا.',
   'settings.purchases': 'المشتريات',
   'settings.restorePurchase': 'استعادة الشراء',
-  'settings.restorePurchaseHint': 'يستعيد اشتراك برو الذي دفعت ثمنه من قبل — على App Store أو Google Play أو الويب.',
+  'settings.restorePurchaseHint': 'يستعيد اشتراك Pro الذي دفعت ثمنه من قبل — على App Store أو Google Play أو الويب.',
   'settings.about': 'حول التطبيق',
   'settings.version': 'الإصدار',
   'settings.privacyPolicy': 'سياسة الخصوصية',
@@ -198,35 +198,35 @@ export const ar: LocaleTable = {
   'settings.deleting': 'جارٍ الحذف…',
   'settings.error': 'خطأ',
   'settings.deleteAccountConfirm':
-    'سيؤدي هذا إلى حذف حسابك نهائيًا مع جميع تعليقاتك التوضيحية وتجميعاتك وملاحظاتك وتقدُّم قراءتك. لا يمكن التراجع عن هذا الإجراء.',
+    'سيؤدي هذا إلى حذف حسابك نهائيًا مع جميع تعليقاتك التوضيحية ومجموعاتك وملاحظاتك وتقدُّم قراءتك. لا يمكن التراجع عن هذا الإجراء.',
   'settings.areYouSure': 'هل أنت متأكد؟',
   'settings.deleteAccountFinal':
     'سيُحذف حسابك وجميع بياناتك فورًا ولا يمكن استرجاعها.',
   'settings.deletePermanently': 'نعم، احذف نهائيًا',
   'settings.restoreFailed': 'فشلت الاستعادة',
-  'settings.proRestored': 'تمت استعادة برو!',
+  'settings.proRestored': 'تمت استعادة اشتراك Pro!',
   'settings.proRestoredBody': 'اشتراكك نشط الآن.',
   'settings.noSubscription': 'لم يُعثر على اشتراك',
   'settings.noSubscriptionBody':
     'لم نتمكن من العثور على اشتراك نشط مرتبط بهذا الحساب.',
   'settings.planGuest': 'ضيف',
   'settings.planStandard': 'عادي',
-  'settings.planPro': 'برو',
-  'settings.planTrial': 'برو (تجريبي)',
+  'settings.planPro': 'Pro',
+  'settings.planTrial': 'Pro (تجريبي)',
 
   // Web-only: the subscription-management link and the post-checkout banner
   // are Stripe flows that exist only on web (mobile purchases go through
   // RevenueCat and the App Store).
-  'settings.welcomeToPro': 'مرحبًا بك في برو!',
+  'settings.welcomeToPro': 'مرحبًا بك في Pro!',
   'settings.manage': 'إدارة',
-  'settings.subscribeToPro': 'الاشتراك في برو',
+  'settings.subscribeToPro': 'الاشتراك في Pro',
 
   // Update prompt
   'update.available': 'يتوفر تحديث جديد.',
   'update.update': 'تحديث',
   'update.ignore': 'تجاهل',
 
-  'home.tags': 'التجميعات',
+  'home.tags': 'المجموعات',
   'home.notes': 'الملاحظات',
   'home.xrefs': 'الإحالات',
   'home.readingPlan': 'خطة القراءة',
@@ -368,13 +368,13 @@ export const ar: LocaleTable = {
   'reminders.todayEveningDone': 'المساء ✓',
   'reminders.todayEveningPending': 'المساء قيد الانتظار',
 
-  'paywall.heading': 'Immerse برو',
+  'paywall.heading': 'Immerse Pro',
   'paywall.subheading': 'اقرأ بعمق أكبر. واربط أكثر.',
   'paywall.featureAiLabel': 'ملخصات الفقرات بالذكاء الاصطناعي',
   'paywall.featureAiDesc': 'اطلب شروحًا وتعليقات على أي فقرة',
   'paywall.featureVoicesLabel': 'أصوات استماع متميزة',
   'paywall.featureVoicesDesc': 'سرد طبيعي ومعبِّر بالصوت الذي تختاره',
-  'paywall.featureImportLabel': 'استورد كتبك الخاصة',
+  'paywall.featureImportLabel': 'أضِف كتبك الخاصة',
   'paywall.featureImportDesc': 'أضِف ملفات EPUB وPDF وDOCX إلى مكتبتك',
   'paywall.subscribe': 'اشترك — {{price}}/شهريًا',
   'paywall.cancelNote': 'يمكن الإلغاء في أي وقت · فوترة شهرية',
@@ -383,7 +383,7 @@ export const ar: LocaleTable = {
   'paywall.privacy': 'سياسة الخصوصية',
   'paywall.notAvailable': 'غير متاح',
   'paywall.notAvailableBody': 'لم تُهيَّأ عمليات الشراء داخل التطبيق في هذه النسخة بعد. تحقَّق مرة أخرى بعد الإصدار على App Store.',
-  'paywall.welcome': 'مرحبًا بك في برو!',
+  'paywall.welcome': 'مرحبًا بك في Pro!',
   'paywall.welcomeBody': 'اشتراكك نشط الآن.',
   'paywall.purchaseFailed': 'فشل الشراء',
   'paywall.restoreFailed': 'فشلت الاستعادة',
@@ -412,39 +412,39 @@ export const ar: LocaleTable = {
   'notes.deleteConfirm': 'حذف الملاحظة؟',
   'notes.deleteBody': 'سيُحتفظ بالتحديد المظلَّل.',
 
-  'tags.title': 'التجميعات',
-  'tags.empty': 'لا توجد تجميعات بعد. ستظهر هنا التجميعات التي تنشئها في القارئ.',
-  'tags.signInTitle': 'سجِّل الدخول لعرض تجميعاتك',
-  'tags.signInBody': 'أنشئ تجميعات اقتباسات من المكتبة بأكملها ونظِّمها.',
+  'tags.title': 'المجموعات',
+  'tags.empty': 'لا توجد مجموعات بعد. ستظهر هنا المجموعات التي تنشئها في القارئ.',
+  'tags.signInTitle': 'سجِّل الدخول لعرض مجموعاتك',
+  'tags.signInBody': 'أنشئ مجموعات اقتباسات من المكتبة بأكملها ونظِّمها.',
   'tags.organize': 'تنظيم',
-  'tags.searchPlaceholder': 'ابحث في التجميعات...',
-  'tags.searchSelected': 'ابحث في التجميعات المحددة...',
-  'tags.noMatch': 'لا توجد تجميعات تطابق بحثك.',
-  'tags.deleteConfirm': 'حذف التجميعة؟',
+  'tags.searchPlaceholder': 'ابحث في المجموعات...',
+  'tags.searchSelected': 'ابحث في المجموعات المحددة...',
+  'tags.noMatch': 'لا توجد مجموعات تطابق بحثك.',
+  'tags.deleteConfirm': 'حذف المجموعة؟',
   'tags.deleteBody': 'ستُزال «{{name}}» وجميع تحديداتها.',
 
-  'tags.renameTitle': 'إعادة تسمية التجميعة',
+  'tags.renameTitle': 'إعادة تسمية المجموعة',
   'tags.setPrivate': 'جعلها خاصة',
   'tags.setPublic': 'جعلها عامة',
-  'tags.publicTag': 'تجميعة عامة',
-  'tags.removePassage': 'إزالة من التجميعة',
-  'tags.removePassageConfirm': 'إزالة هذه الفقرة من التجميعة؟',
+  'tags.publicTag': 'مجموعة عامة',
+  'tags.removePassage': 'إزالة من المجموعة',
+  'tags.removePassageConfirm': 'إزالة هذه الفقرة من المجموعة؟',
   'tags.indent': 'زيادة المسافة البادئة',
   'tags.outdent': 'تقليل المسافة البادئة',
   'tags.organizeHint':
-    'اسحب المقبض لإعادة الترتيب · ⇤ ⇥ لتغيير التداخل · انقر تجميعة لإعادة ترتيب اقتباساتها.',
+    'اسحب المقبض لإعادة الترتيب · ⇤ ⇥ لتغيير التداخل · انقر مجموعة لإعادة ترتيب اقتباساتها.',
   // Web-only: the web exports straight from a dropdown on the Tags header,
   // where mobile opens its ExportFormatPanel sheet.
-  'tags.searchTagsPassages': 'ابحث في التجميعات والفقرات…',
-  'tags.exportSelected': 'تصدير التجميعات المحددة',
+  'tags.searchTagsPassages': 'ابحث في المجموعات والفقرات…',
+  'tags.exportSelected': 'تصدير المجموعات المحددة',
   'xrefs.exportSelected': 'تصدير الإحالات المرجعية المحددة',
   'tags.export': 'تصدير',
   'tags.exporting': 'جارٍ التصدير…',
   'tags.exportInclude': 'تضمين',
-  'tags.exportNothingToInclude': 'لا تحتوي أي من التجميعات المحددة على {{items}}',
+  'tags.exportNothingToInclude': 'لا تحتوي أي من المجموعات المحددة على {{items}}',
 
   'panel.createAccount': 'إنشاء حساب',
-  'panel.signInToSave': 'أنشئ حسابًا مجانيًا لحفظ التجميعات والملاحظات والإحالات المرجعية.',
+  'panel.signInToSave': 'أنشئ حسابًا مجانيًا لحفظ المجموعات والملاحظات والإحالات المرجعية.',
   'panel.editSelection': 'تحرير تحديد النص',
 
   'reader.xrefMode': 'وضع الإحالة المرجعية — اضغط مطولًا لاختيار فقرة',
@@ -461,7 +461,7 @@ export const ar: LocaleTable = {
   'reader.collapseSection': 'طيّ القسم',
   'reader.expand': 'توسيع',
   'reader.collapse': 'طيّ',
-  'reader.actionTag': 'تجميعة',
+  'reader.actionTag': 'مجموعة',
   'reader.actionNote': 'ملاحظة',
   'reader.actionXref': 'إحالة',
   'reader.actionAi': 'الذكاء الاصطناعي',
@@ -475,18 +475,18 @@ export const ar: LocaleTable = {
   'reader.pickTargetHint': 'حدِّد نصًا أو انقر فقرة لربطها',
   'reader.footnoteUnavailable': 'نص الحاشية غير متاح في نسخة الويب.',
   'reader.bookNotFound': 'لم يُعثر على الكتاب',
-  'reader.viewTags': 'عرض التجميعات',
+  'reader.viewTags': 'عرض المجموعات',
   'reader.viewNote': 'عرض الملاحظة',
   'reader.viewXrefs': 'عرض الإحالات المرجعية',
   'reader.noQuotesFiled': 'لا توجد اقتباسات محفوظة هنا.',
   // Shown in the reader when an imported book's file is missing on this device
   // (its annotations survived a sync but the content did not).
   'reader.importedStubBody':
-    'هذا الكتاب غير موجود على هذا الجهاز. أعِد استيراد الملف لقراءته هنا — ملاحظاتك وتجميعاتك الخاصة به في أمان.',
+    'هذا الكتاب غير موجود على هذا الجهاز. أعِد إضافة الملف لقراءته هنا — ملاحظاتك ومجموعاتك الخاصة به في أمان.',
 
   'ai.summary': 'ملخص الذكاء الاصطناعي',
-  'ai.upgradeBlurb': 'رقِّ حسابك إلى Immerse برو بـ 0.99 دولار فقط لاستخدام ملخصات الذكاء الاصطناعي وغيرها من ميزات برو.',
-  'ai.upgradeBtn': 'الترقية إلى برو — 0.99 دولار شهريًا',
+  'ai.upgradeBlurb': 'رقِّ حسابك إلى Immerse Pro بـ 0.99 دولار فقط لاستخدام ملخصات الذكاء الاصطناعي وغيرها من ميزات Pro.',
+  'ai.upgradeBtn': 'الترقية إلى Pro — 0.99 دولار شهريًا',
   'ai.thinking': 'جارٍ التفكير…',
   'ai.error': 'تعذَّر الحصول على ملخص الذكاء الاصطناعي. يُرجى التحقق من اتصالك والمحاولة مرة أخرى.',
   'ai.copied': '✓ تم النسخ',
@@ -528,7 +528,7 @@ export const ar: LocaleTable = {
   'xref.noMatches': 'لم يُعثر على تطابقات. اختر واحدة بنفسك.',
   'xref.looseMatch': 'تطابق تقريبي',
   'xref.useThisPassage': 'استخدم هذه الفقرة',
-  'xref.inCompilation': 'في تجميعتك «{{name}}»',
+  'xref.inCompilation': 'في مجموعتك «{{name}}»',
   'xref.youNotedThis': 'لقد دوَّنت ملاحظة على هذه الفقرة',
 
   // Web-only: the install banner shown on mobile browsers.
@@ -537,13 +537,13 @@ export const ar: LocaleTable = {
   'banner.install': 'تثبيت',
   'banner.get': 'احصل عليه',
 
-  'tagPanel.new': 'تجميعة جديدة',
-  'tagPanel.createWithin': 'أنشئ تجميعة داخل «{{parent}}»',
-  'tagPanel.addTitle': 'إضافة إلى تجميعة',
-  'tagPanel.viewTitle': 'التجميعات',
-  'tagPanel.addSubTag': 'إضافة تجميعة فرعية',
-  'tagPanel.emptyAdd': 'لا توجد تجميعات بعد — أنشئ واحدة أعلاه',
-  'tagPanel.emptyView': 'لا توجد تجميعات على هذا التحديد',
+  'tagPanel.new': 'مجموعة جديدة',
+  'tagPanel.createWithin': 'أنشئ مجموعة داخل «{{parent}}»',
+  'tagPanel.addTitle': 'إضافة إلى مجموعة',
+  'tagPanel.viewTitle': 'المجموعات',
+  'tagPanel.addSubTag': 'إضافة مجموعة فرعية',
+  'tagPanel.emptyAdd': 'لا توجد مجموعات بعد — أنشئ واحدة أعلاه',
+  'tagPanel.emptyView': 'لا توجد مجموعات على هذا التحديد',
 
   'voice.title': 'صوت القراءة',
   'voice.onyx': 'Onyx — عميق ودافئ',
@@ -554,7 +554,7 @@ export const ar: LocaleTable = {
   'voice.marin': 'Marin — طبيعي ولطيف',
 
   'reader.signInRequired': 'تسجيل الدخول مطلوب',
-  'reader.signInBody': 'أنشئ حسابًا لحفظ التجميعات والملاحظات والإحالات المرجعية أثناء القراءة.',
+  'reader.signInBody': 'أنشئ حسابًا لحفظ المجموعات والملاحظات والإحالات المرجعية أثناء القراءة.',
   'reader.notNow': 'ليس الآن',
   'reader.signIn': 'تسجيل الدخول',
   'reader.pdfNotFound': 'تعذَّر تحديد موقع ملف PDF.',
@@ -564,26 +564,26 @@ export const ar: LocaleTable = {
 
   'discover.recent': 'الأحدث',
   'discover.trending': 'الرائج',
-  'discover.searchPlaceholder': 'ابحث في التجميعات والمستخدمين…',
-  'discover.searchSelected': 'ابحث في التجميعات المحددة…',
-  'discover.import': 'استيراد',
-  'discover.imported': 'تم الاستيراد',
-  'discover.import_zero': '{{count}} عملية استيراد',
-  'discover.import_one': '{{count}} عملية استيراد',
-  'discover.import_two': '{{count}} عمليتا استيراد',
-  'discover.import_few': '{{count}} عمليات استيراد',
-  'discover.import_many': '{{count}} عملية استيراد',
-  'discover.import_other': '{{count}} عملية استيراد',
-  'discover.noneYet': 'لا توجد تجميعات مشتركة بعد',
+  'discover.searchPlaceholder': 'ابحث في المجموعات والمستخدمين…',
+  'discover.searchSelected': 'ابحث في المجموعات المحددة…',
+  'discover.import': 'إضافة',
+  'discover.imported': 'تمت الإضافة',
+  'discover.import_zero': '{{count}} إضافة',
+  'discover.import_one': '{{count}} إضافة',
+  'discover.import_two': '{{count}} إضافتان',
+  'discover.import_few': '{{count}} إضافات',
+  'discover.import_many': '{{count}} إضافة',
+  'discover.import_other': '{{count}} إضافة',
+  'discover.noneYet': 'لا توجد مجموعات مشتركة بعد',
   'discover.noResults': 'لا نتائج',
   'discover.tryDifferent': 'جرِّب مصطلح بحث مختلفًا.',
   'discover.signInTitle': 'سجِّل الدخول للوصول إلى استكشاف',
   'discover.signInBody': 'اطَّلِع على ما يكتشفه القرّاء الآخرون عبر جميع التقاليد.',
   'discover.anonymous': 'مجهول',
-  'discover.beFirst': 'كن أول من يشارك تجميعة.',
-  'discover.ownTag': 'هذه تجميعتك أنت',
-  'discover.alreadyImported': 'تم استيرادها بالفعل',
-  'discover.importFailed': 'فشل الاستيراد',
+  'discover.beFirst': 'كن أول من يشارك مجموعة.',
+  'discover.ownTag': 'هذه مجموعتك أنت',
+  'discover.alreadyImported': 'تمت إضافتها بالفعل',
+  'discover.importFailed': 'فشلت الإضافة',
   'discover.exportFailed': 'فشل التصدير',
   'discover.unknownError': 'خطأ غير معروف',
 
@@ -592,25 +592,25 @@ export const ar: LocaleTable = {
   // are dropped from anything public and kept read-only on a share link.
   'discover.importedDroppedTitle': 'تنبيه',
   'discover.importedDroppedNotice_zero':
-    'تم استبعاد {{count}} اقتباس من الكتب المستوردة — الكتب المستوردة لا تُعرض علنًا.',
+    'تم استبعاد {{count}} اقتباس من الكتب المُضافة — الكتب المُضافة لا تُعرض علنًا.',
   'discover.importedDroppedNotice_one':
-    'تم استبعاد {{count}} اقتباس من كتاب مستورد — الكتب المستوردة لا تُعرض علنًا.',
+    'تم استبعاد {{count}} اقتباس من كتاب مُضاف — الكتب المُضافة لا تُعرض علنًا.',
   'discover.importedDroppedNotice_two':
-    'تم استبعاد {{count}} اقتباسين من الكتب المستوردة — الكتب المستوردة لا تُعرض علنًا.',
+    'تم استبعاد {{count}} اقتباسين من الكتب المُضافة — الكتب المُضافة لا تُعرض علنًا.',
   'discover.importedDroppedNotice_few':
-    'تم استبعاد {{count}} اقتباسات من الكتب المستوردة — الكتب المستوردة لا تُعرض علنًا.',
+    'تم استبعاد {{count}} اقتباسات من الكتب المُضافة — الكتب المُضافة لا تُعرض علنًا.',
   'discover.importedDroppedNotice_many':
-    'تم استبعاد {{count}} اقتباسًا من الكتب المستوردة — الكتب المستوردة لا تُعرض علنًا.',
+    'تم استبعاد {{count}} اقتباسًا من الكتب المُضافة — الكتب المُضافة لا تُعرض علنًا.',
   'discover.importedDroppedNotice_other':
-    'تم استبعاد {{count}} اقتباس من الكتب المستوردة — الكتب المستوردة لا تُعرض علنًا.',
+    'تم استبعاد {{count}} اقتباس من الكتب المُضافة — الكتب المُضافة لا تُعرض علنًا.',
   'discover.publishBlockedTitle': 'تعذَّر النشر',
-  'discover.publishFailed': 'تعذَّر نشر هذه التجميعة.',
+  'discover.publishFailed': 'تعذَّر نشر هذه المجموعة.',
   'discover.importedOnlyError':
-    'جميع اقتباسات هذه التجميعة من كتب مستوردة، ولا يمكن نشرها في استكشاف.',
+    'جميع اقتباسات هذه المجموعة من كتب مُضافة، ولا يمكن نشرها في استكشاف.',
 
-  'usertags.autoImports': 'يستورد تلقائيًا التجميعات العامة لهذا المستخدم إلى تطبيقك',
-  'usertags.noTags': 'لا توجد تجميعات عامة',
-  'usertags.noTagsBody': 'لم يشارك هذا المستخدم أي تجميعات بعد.',
+  'usertags.autoImports': 'يضيف تلقائيًا المجموعات العامة لهذا المستخدم إلى تطبيقك',
+  'usertags.noTags': 'لا توجد مجموعات عامة',
+  'usertags.noTagsBody': 'لم يشارك هذا المستخدم أي مجموعات بعد.',
   'usertags.follow': 'متابعة',
   'usertags.unfollow': 'إلغاء المتابعة',
   'usertags.share': 'مشاركة',
@@ -630,12 +630,12 @@ export const ar: LocaleTable = {
   // to a new signed-in user after the font step. Not shown to guests, or to an
   // account whose 30-day trial is already spent.
   'proTrialIntro.title': 'مرحبًا بك في Immerse!',
-  'proTrialIntro.lede': 'تبدأ بحساب برو — مجانًا لمدة 30 يومًا.',
+  'proTrialIntro.lede': 'تبدأ بحساب Pro — مجانًا لمدة 30 يومًا.',
   'proTrialIntro.body':
-    'استمتع بجميع ميزات برو دون أي تكلفة. وبعد انتهاء فترتك التجريبية البالغة 30 يومًا، يتحوَّل حسابك تلقائيًا إلى الحساب العادي المجاني. ولا توجد أي رسوم إلا إذا اخترت الترقية إلى برو.',
-  'proTrialIntro.priceLine': 'اشتراك برو بـ 0.99 دولار شهريًا فقط إذا قررت الاحتفاظ بالميزات الإضافية:',
+    'استمتع بجميع ميزات Pro دون أي تكلفة. وبعد انتهاء فترتك التجريبية البالغة 30 يومًا، يتحوَّل حسابك تلقائيًا إلى الحساب العادي المجاني. ولا توجد أي رسوم إلا إذا اخترت الترقية إلى Pro.',
+  'proTrialIntro.priceLine': 'اشتراك Pro بـ 0.99 دولار شهريًا فقط إذا قررت الاحتفاظ بالميزات الإضافية:',
   'proTrialIntro.featureAiSummary': 'ملخص النصوص بالذكاء الاصطناعي',
-  'proTrialIntro.featureImport': 'استيراد كتبك الخاصة إلى المكتبة',
+  'proTrialIntro.featureImport': 'إضافة كتبك الخاصة إلى المكتبة',
   'proTrialIntro.featureVoices': 'أصوات متميزة طبيعية للقراءة بصوت مسموع',
   'proTrialIntro.cta': 'ابدأ الاستكشاف',
 
@@ -647,29 +647,29 @@ export const ar: LocaleTable = {
   'onboarding.searchTitle': 'ابحث في كل شيء',
   'onboarding.searchCaption': 'ابحث في كل الكتب دفعة واحدة وانتقل مباشرة إلى الفقرة.',
   'onboarding.tagAsYouGoTitle': 'جمِّع أثناء القراءة',
-  'onboarding.tagAsYouGoCaption': 'أضِف فقرة إلى تجميعة مباشرة من نتائج البحث.',
-  'onboarding.buildTagsTitle': 'ابنِ تجميعاتك',
-  'onboarding.buildTagsCaption': 'اجمع الفقرات ضمن تجميعاتك الخاصة لاسترجاعها بسهولة.',
+  'onboarding.tagAsYouGoCaption': 'أضِف فقرة إلى مجموعة مباشرة من نتائج البحث.',
+  'onboarding.buildTagsTitle': 'ابنِ مجموعاتك',
+  'onboarding.buildTagsCaption': 'اجمع الفقرات ضمن مجموعاتك الخاصة لاسترجاعها بسهولة.',
   'onboarding.selectActTitle': 'حدِّد ونفِّذ',
-  'onboarding.selectActCaption': 'حدِّد أي نص لتظليله أو إضافته إلى تجميعة أو كتابة ملاحظة عليه أو ربطه بإحالة مرجعية.',
+  'onboarding.selectActCaption': 'حدِّد أي نص لتظليله أو إضافته إلى مجموعة أو كتابة ملاحظة عليه أو ربطه بإحالة مرجعية.',
   'onboarding.marginTitle': 'التعليقات الهامشية',
-  'onboarding.marginCaption': 'تجميعاتك وملاحظاتك وإحالاتك المرجعية تعيش كلها في الهامش.',
+  'onboarding.marginCaption': 'مجموعاتك وملاحظاتك وإحالاتك المرجعية تعيش كلها في الهامش.',
   'onboarding.navigateTitle': 'تنقَّل بسرعة',
   'onboarding.navigateCaption': 'افتح جدول المحتويات للتنقل داخل الكتاب.',
-  'onboarding.yourTagsTitle': 'تجميعاتك',
-  'onboarding.yourTagsCaption': 'عُد إلى كل فقرة جمَّعتها، مرتَّبة حسب التجميعة.',
+  'onboarding.yourTagsTitle': 'مجموعاتك',
+  'onboarding.yourTagsCaption': 'عُد إلى كل فقرة جمَّعتها، مرتَّبة حسب المجموعة.',
   'onboarding.xrefsTitle': 'الإحالات المرجعية',
   'onboarding.xrefsCaption': 'اربط الفقرات ذات الصلة عبر الكتب والتقاليد.',
   'onboarding.shareTitle': 'المشاركة والنشر',
-  'onboarding.shareCaption': 'شارك اقتباسًا أو انشر تجميعة للمجتمع.',
+  'onboarding.shareCaption': 'شارك اقتباسًا أو انشر مجموعة للمجتمع.',
 
   // ── Share links (Phase 5) ────────────────────────────────────────────────
   // A share link is a private web page for one compilation — link-only, never
   // listed in Discover. Publishing to Discover is the separate, public path.
   'share.createLink': 'إنشاء رابط مشاركة',
   'share.createLinkHint': 'صفحة ويب خاصة. لا تظهر في استكشاف.',
-  'share.createLinkMultiHint': 'صفحة ويب خاصة تضم كل التجميعات المحددة. لا تظهر في استكشاف.',
-  'share.bundleTitle': 'تجميعات مشتركة',
+  'share.createLinkMultiHint': 'صفحة ويب خاصة تضم كل المجموعات المحددة. لا تظهر في استكشاف.',
+  'share.bundleTitle': 'مجموعات مشتركة',
   'share.linkReady': 'الرابط جاهز',
   'share.linkCopied': 'تم نسخ الرابط',
   'share.copyLink': 'نسخ الرابط',
@@ -677,24 +677,24 @@ export const ar: LocaleTable = {
   'share.revoke': 'إبطال',
   'share.revokeConfirm': 'إبطال هذا الرابط؟ سيفقد كل من يملكه إمكانية الوصول.',
   'share.discoverToggle': 'النشر في استكشاف',
-  'share.discoverToggleHint': 'يمكن لأي شخص العثور على هذه التجميعة وحفظها.',
+  'share.discoverToggleHint': 'يمكن لأي شخص العثور على هذه المجموعة وحفظها.',
   'share.stopDiscover': 'إزالة من استكشاف',
   'share.publishedNote': 'منشورة في استكشاف — أوقف المفتاح لإيقاف المشاركة.',
-  'share.selectOne': 'اختر تجميعة واحدة لإنشاء رابط.',
-  'sharePage.eyebrow': 'تجميعة مشتركة',
+  'share.selectOne': 'اختر مجموعة واحدة لإنشاء رابط.',
+  'sharePage.eyebrow': 'مجموعة مشتركة',
   'sharePage.openInReader': 'فتح في القارئ',
-  'sharePage.save': 'حفظ في تجميعاتي',
+  'sharePage.save': 'حفظ في مجموعاتي',
   'sharePage.saving': 'جارٍ الحفظ…',
-  'sharePage.saved': 'تم الحفظ في تجميعاتك',
+  'sharePage.saved': 'تم الحفظ في مجموعاتك',
   'sharePage.saveHint': 'يفتح تطبيق Immerse، أو سجِّل الدخول للحفظ على الويب.',
-  'sharePage.signInToSave': 'سجِّل الدخول لحفظ هذه التجميعة في تجميعاتك.',
+  'sharePage.signInToSave': 'سجِّل الدخول لحفظ هذه المجموعة في مجموعاتك.',
   'sharePage.footer': 'اقرأ المزيد في Immerse',
   'sharePage.needLanguagePack':
     'هذا الاقتباس من مكتبة {{language}}. نزِّلها من قائمة اللغات في المكتبة لقراءته هنا.',
   // Shown when the shared compilation contains only imported-book quotes, so
   // it cannot be copied — the reader can look but not save.
-  'sharePage.viewOnly': 'هذه التجميعة المشتركة للعرض فقط.',
-  'sharePage.fromPrivateImport': 'من استيراد خاص',
+  'sharePage.viewOnly': 'هذه المجموعة المشتركة للعرض فقط.',
+  'sharePage.fromPrivateImport': 'من إضافة خاصة',
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'صفحة ويب خاصة تعرض هذه الإحالات المرجعية. لا تظهر في استكشاف.',
@@ -705,13 +705,13 @@ export const ar: LocaleTable = {
   'sharePage.xrefsGone': 'لم تعد هذه الإحالات المرجعية متاحة',
 
   // ── Export sheet ──────────────────────────────────────────────────────────
-  'export.shareTags_zero': 'مشاركة {{count}} تجميعة',
-  'export.shareTags_one': 'مشاركة {{count}} تجميعة',
-  'export.shareTags_two': 'مشاركة {{count}} تجميعتين',
-  'export.shareTags_few': 'مشاركة {{count}} تجميعات',
-  'export.shareTags_many': 'مشاركة {{count}} تجميعة',
-  'export.shareTags_other': 'مشاركة {{count}} تجميعة',
-  'export.shareTagsGeneric': 'مشاركة التجميعات',
+  'export.shareTags_zero': 'مشاركة {{count}} مجموعة',
+  'export.shareTags_one': 'مشاركة {{count}} مجموعة',
+  'export.shareTags_two': 'مشاركة {{count}} مجموعتين',
+  'export.shareTags_few': 'مشاركة {{count}} مجموعات',
+  'export.shareTags_many': 'مشاركة {{count}} مجموعة',
+  'export.shareTags_other': 'مشاركة {{count}} مجموعة',
+  'export.shareTagsGeneric': 'مشاركة المجموعات',
   'export.shareXrefs_zero': 'مشاركة {{count}} إحالة مرجعية',
   'export.shareXrefs_one': 'مشاركة {{count}} إحالة مرجعية',
   'export.shareXrefs_two': 'مشاركة {{count}} إحالتين مرجعيتين',
@@ -726,7 +726,7 @@ export const ar: LocaleTable = {
   'export.docxTitle': 'مستند Word (.docx)',
   // The web's export menu uses a shorter label than mobile's format sheet.
   'export.docxShort': 'Word (.docx)',
-  'export.docxDesc': 'عناوين التجميعات مع الفقرات المقتبسة. يُفتح في Word أو Pages أو Google Docs.',
+  'export.docxDesc': 'عناوين المجموعات مع الفقرات المقتبسة. يُفتح في Word أو Pages أو Google Docs.',
   'export.pdfTitle': 'مستند PDF',
   'export.pdfDesc': 'مستند منسَّق للطباعة أو المشاركة.',
   'export.csvTitle': 'جدول بيانات (.csv)',
@@ -735,7 +735,7 @@ export const ar: LocaleTable = {
   'export.mdDesc': 'لـ Obsidian أو Notion أو أي أداة نص عادي.',
   // Inside the exported document itself, which is written in the reader's
   // language like everything else.
-  'export.noPassagesTagged': '(لا توجد فقرات في هذه التجميعة)',
+  'export.noPassagesTagged': '(لا توجد فقرات في هذه المجموعة)',
   'export.seeAlso': 'انظر أيضًا:',
 
   // ── Reading plan ──────────────────────────────────────────────────────────
@@ -771,20 +771,20 @@ export const ar: LocaleTable = {
   'library.selectPassageForXref': 'حدِّد فقرة للإحالة المرجعية',
   'library.findingRelated': 'جارٍ البحث عن فقرات ذات صلة…',
   'library.aiSearchOffline': 'يلزم اتصال بالإنترنت للبحث بطرح سؤال',
-  'library.importFailedTitle': 'فشل الاستيراد',
-  'library.couldNotImport': 'تعذَّر استيراد الملف.',
+  'library.importFailedTitle': 'فشلت الإضافة',
+  'library.couldNotImport': 'تعذَّرت إضافة الملف.',
   'library.bookAdded': 'تمت إضافة الكتاب',
   'library.bookAddedBody': '«{{title}}» أصبح الآن في «كتبي».',
-  'library.importErrorTitle': 'خطأ في الاستيراد',
+  'library.importErrorTitle': 'خطأ في الإضافة',
   'library.unexpectedError': 'حدث خطأ غير متوقع.',
   'nav.browsingAsGuest': 'التصفح كضيف',
   'reader.selectBookToBegin': 'اختر كتابًا لتبدأ القراءة',
   'tags.exportFailed': 'فشل التصدير',
-  'tags.couldNotExport': 'تعذَّر تصدير التجميعات.',
+  'tags.couldNotExport': 'تعذَّر تصدير المجموعات.',
   'tags.couldNotRemoveSelection': 'تعذَّرت إزالة التحديد',
-  'tags.reorderHint': 'اسحب المقبض لإعادة الترتيب · ⇤ ⇥ لتغيير التداخل · اضغط تجميعة لإعادة ترتيب اقتباساتها.',
-  'tags.swipeHint': 'اسحب التجميعة إلى اليمين لجعلها عامة أو خاصة.',
-  'discover.publishHint': 'اسحب تجميعة إلى اليمين في شاشة التجميعات لنشرها هنا.',
+  'tags.reorderHint': 'اسحب المقبض لإعادة الترتيب · ⇤ ⇥ لتغيير التداخل · اضغط مجموعة لإعادة ترتيب اقتباساتها.',
+  'tags.swipeHint': 'اسحب المجموعة إلى اليمين لجعلها عامة أو خاصة.',
+  'discover.publishHint': 'اسحب مجموعة إلى اليمين في شاشة المجموعات لنشرها هنا.',
   'reminders.notificationsOff':
     'الإشعارات مُعطَّلة لتطبيق Immerse، لذا لا يمكن تسليم التذكيرات. '
     + 'فعِّلها من إعدادات جهازك.',
@@ -815,14 +815,14 @@ export const ar: LocaleTable = {
   'library.deleteCategoryEmptyBody': 'ستُزال هذه الفئة نهائيًا.',
 
   // ── Imported books: re-import & multi-import (Plan B) ─────────────────────
-  'library.reimportToRead': 'أعِد الاستيراد للقراءة هنا',
-  'library.importFinishedTitle': 'اكتمل الاستيراد',
-  'library.multiImportSummary_zero': 'تم استيراد {{count}} كتاب.',
-  'library.multiImportSummary_one': 'تم استيراد {{count}} كتاب.',
-  'library.multiImportSummary_two': 'تم استيراد {{count}} كتابين.',
-  'library.multiImportSummary_few': 'تم استيراد {{count}} كتب.',
-  'library.multiImportSummary_many': 'تم استيراد {{count}} كتابًا.',
-  'library.multiImportSummary_other': 'تم استيراد {{count}} كتاب.',
+  'library.reimportToRead': 'أعِد الإضافة للقراءة هنا',
+  'library.importFinishedTitle': 'اكتملت الإضافة',
+  'library.multiImportSummary_zero': 'تمت إضافة {{count}} كتاب.',
+  'library.multiImportSummary_one': 'تمت إضافة {{count}} كتاب.',
+  'library.multiImportSummary_two': 'تمت إضافة {{count}} كتابين.',
+  'library.multiImportSummary_few': 'تمت إضافة {{count}} كتب.',
+  'library.multiImportSummary_many': 'تمت إضافة {{count}} كتابًا.',
+  'library.multiImportSummary_other': 'تمت إضافة {{count}} كتاب.',
   'library.multiImportFailed_zero': 'تعذَّرت قراءة {{count}} ملف: {{names}}.',
   'library.multiImportFailed_one': 'تعذَّرت قراءة {{count}} ملف: {{names}}.',
   'library.multiImportFailed_two': 'تعذَّرت قراءة {{count}} ملفين: {{names}}.',
@@ -830,7 +830,7 @@ export const ar: LocaleTable = {
   'library.multiImportFailed_many': 'تعذَّرت قراءة {{count}} ملفًا: {{names}}.',
   'library.multiImportFailed_other': 'تعذَّرت قراءة {{count}} ملف: {{names}}.',
   'library.stubNotFound': 'لم يعد هذا الكتاب في مكتبتك.',
-  'library.stubNotImported': 'هذا ليس كتابًا مستوردًا.',
+  'library.stubNotImported': 'هذا ليس كتابًا مُضافًا.',
   'library.stubAlreadyHasContent': 'هذا الكتاب يحتوي بالفعل على محتوى على هذا الجهاز.',
 
   // Onboarding's sign-up form omits the asterisk the standalone auth screens
@@ -857,12 +857,12 @@ export const ar: LocaleTable = {
   'onboarding.tour.librarySearch.label': 'بحث المكتبة',
   'onboarding.tour.librarySearch.caption':
     'ابحث في أكثر من 400 نص دفعة واحدة. اضغط على نتيجة لتوسيعها — واضغط مطولًا لفتحها مباشرة في القارئ.',
-  'onboarding.tour.searchQuickTag.label': 'تجميعة سريعة من نتائج البحث',
+  'onboarding.tour.searchQuickTag.label': 'مجموعة سريعة من نتائج البحث',
   'onboarding.tour.searchQuickTag.caption':
-    'حدِّد نتيجة بحث واحدة أو عدة نتائج وأسندها إلى تجميعة بضغطة واحدة. طريقة سريعة لبناء مجموعة موضوعية من المكتبة بأكملها.',
+    'حدِّد نتيجة بحث واحدة أو عدة نتائج وأسندها إلى مجموعة بضغطة واحدة. طريقة سريعة لبناء مجموعة موضوعية من المكتبة بأكملها.',
   'onboarding.tour.home.label': 'الشاشة الرئيسية',
   'onboarding.tour.home.caption':
-    'تعرض شاشتك الرئيسية عدد التجميعات والملاحظات والإحالات المرجعية التي أنشأتها، إضافة إلى كتبك المقروءة مؤخرًا. اضغط على أي عنوان لمتابعة القراءة.',
+    'تعرض شاشتك الرئيسية عدد المجموعات والملاحظات والإحالات المرجعية التي أنشأتها، إضافة إلى كتبك المقروءة مؤخرًا. اضغط على أي عنوان لمتابعة القراءة.',
   'onboarding.tour.homePlan.label': 'خطة القراءة في الشاشة الرئيسية',
   'onboarding.tour.homePlan.caption':
     'كوِّن عادة قراءة يومية: اتبع خطة قراءة في أي كتاب تختاره وبالمدة التي تختارها، أو استقبل آيات عشوائية من التقاليد التي تحددها — مع تذكيرات يومية وسلسلة تنمو كل يوم تقرأ فيه.',
@@ -871,7 +871,7 @@ export const ar: LocaleTable = {
     'في الإعدادات، هيِّئ الآيات العشوائية باختيار التقاليد التي تُستقى منها وأوقات اليوم التي تودّ أن يصلك فيها تذكير لطيف — أو انتقل إلى خطة قراءة لتقرأ كتابًا واحدًا يوميًا.',
   'onboarding.tour.readerSelect.label': 'تحديد النص في القارئ',
   'onboarding.tour.readerSelect.caption':
-    'اضغط مطولًا على أي فقرة لتحديدها. استخدم الأيقونات في أسفل الشاشة لإضافتها إلى تجميعة أو كتابة ملاحظة أو إنشاء إحالة مرجعية أو الحصول على ملخص بالذكاء الاصطناعي.',
+    'اضغط مطولًا على أي فقرة لتحديدها. استخدم الأيقونات في أسفل الشاشة لإضافتها إلى مجموعة أو كتابة ملاحظة أو إنشاء إحالة مرجعية أو الحصول على ملخص بالذكاء الاصطناعي.',
   'onboarding.tour.readerNote.label': 'عرض ملاحظة في القارئ',
   'onboarding.tour.readerNote.caption':
     'ترتبط الملاحظات بالنص الذي حددته بالضبط. وتتيح لك العلامة الذهبية في الهامش العثور عليها وإعادة فتحها في أي وقت.',
@@ -884,18 +884,18 @@ export const ar: LocaleTable = {
   'onboarding.tour.readerListen.label': 'وضع الاستماع في القارئ',
   'onboarding.tour.readerListen.caption':
     'اضغط على زر السماعات ليُقرأ أي كتاب بصوت مسموع — ويظلِّل القارئ كل فقرة أثناء تشغيلها. اضغط مطولًا على زر السماعات لاختيار صوت من مجموعة أصوات طبيعية.',
-  'onboarding.tour.tags.label': 'شاشة التجميعات',
+  'onboarding.tour.tags.label': 'شاشة المجموعات',
   'onboarding.tour.tags.caption':
-    'تجمع شاشة التجميعات فقراتك المجمَّعة حسب الموضوع. اضغط على اسم تجميعة لعرض فقراتها المقتبسة مع الاستشهادات الكاملة.',
+    'تجمع شاشة المجموعات فقراتك المجمَّعة حسب الموضوع. اضغط على اسم مجموعة لعرض فقراتها المقتبسة مع الاستشهادات الكاملة.',
   'onboarding.tour.xrefs.label': 'شاشة الإحالات المرجعية',
   'onboarding.tour.xrefs.caption':
     'تعرض شاشة الإحالات المرجعية جميع فقراتك المرتبطة جنبًا إلى جنب. اضغط مطولًا على أي من الجانبين للانتقال إلى تلك الفقرة في القارئ.',
   'onboarding.tour.discover.label': 'شاشة استكشاف',
   'onboarding.tour.discover.caption':
-    'في شاشة استكشاف، اعثر على تجميعات شاركها قرّاء آخرون. اضغط على تجميعة لمعاينة فقراتها، ثم استوردها إلى مكتبتك.',
-  'onboarding.tour.tagShare.label': 'لوحة مشاركة التجميعة',
+    'في شاشة استكشاف، اعثر على مجموعات شاركها قرّاء آخرون. اضغط على مجموعة لمعاينة فقراتها، ثم أضِفها إلى مكتبتك.',
+  'onboarding.tour.tagShare.label': 'لوحة مشاركة المجموعة',
   'onboarding.tour.tagShare.caption':
-    'صدِّر أي تجميعة كمستند Word أو PDF أو جدول بيانات أو Markdown وغيرها — مع ملاحظاتك وإحالاتك المرجعية.',
+    'صدِّر أي مجموعة كمستند Word أو PDF أو جدول بيانات أو Markdown وغيرها — مع ملاحظاتك وإحالاتك المرجعية.',
 
   // ── Appearance (reader typography) ───────────────────────────────────────
   'appearance.title': 'المظهر',
