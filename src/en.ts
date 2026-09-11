@@ -507,6 +507,11 @@ export const en = {
   'voice.nova': 'Nova — bright',
   'voice.shimmer': 'Shimmer — soft',
   'voice.marin': 'Marin — natural & gentle',
+  'voice.system': 'System voice — available offline',
+
+  'listen.connectionLostTitle': 'Connection Lost',
+  'listen.connectionLostBody': "We couldn't reach your premium voice. Try again, or switch to the offline system voice for now.",
+  'listen.useSystemVoice': 'Use System Voice',
 
   'reader.signInRequired': 'Sign in required',
   'reader.signInBody': 'Create an account to save compilations, notes, and cross-references as you read.',

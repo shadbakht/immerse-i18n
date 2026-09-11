@@ -489,6 +489,11 @@ export const fa: LocaleTable = {
   'voice.nova': 'نوا — روشن',
   'voice.shimmer': 'شیمر — نرم',
   'voice.marin': 'مارین — طبیعی و ملایم',
+  'voice.system': 'صدای سیستم — بدون اینترنت هم در دسترس',
+
+  'listen.connectionLostTitle': 'اتصال قطع شد',
+  'listen.connectionLostBody': 'دسترسی به صدای ویژهٔ شما ممکن نشد. دوباره تلاش کنید یا فعلاً به صدای سیستم (بدون نیاز به اینترنت) تغییر دهید.',
+  'listen.useSystemVoice': 'استفاده از صدای سیستم',
 
   'reader.signInRequired': 'ورود لازم است',
   'reader.signInBody': 'برای ذخیرهٔ گزیده‌ها، یادداشت‌ها و ارجاعات هنگام مطالعه، حساب بسازید.',

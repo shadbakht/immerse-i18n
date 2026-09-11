@@ -552,6 +552,11 @@ export const ar: LocaleTable = {
   'voice.nova': 'Nova — مشرق',
   'voice.shimmer': 'Shimmer — ناعم',
   'voice.marin': 'Marin — طبيعي ولطيف',
+  'voice.system': 'صوت النظام — متاح دون اتصال',
+
+  'listen.connectionLostTitle': 'انقطع الاتصال',
+  'listen.connectionLostBody': 'تعذّر الوصول إلى الصوت المميز. حاول مرة أخرى، أو انتقل إلى صوت النظام المتاح دون اتصال بالإنترنت.',
+  'listen.useSystemVoice': 'استخدام صوت النظام',
 
   'reader.signInRequired': 'تسجيل الدخول مطلوب',
   'reader.signInBody': 'أنشئ حسابًا لحفظ المجموعات والملاحظات والإحالات المرجعية أثناء القراءة.',

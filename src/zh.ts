@@ -480,6 +480,11 @@ export const zh: LocaleTable = {
   'voice.nova': 'Nova — 明亮',
   'voice.shimmer': 'Shimmer — 柔和',
   'voice.marin': 'Marin — 自然轻缓',
+  'voice.system': '系统语音 — 离线可用',
+
+  'listen.connectionLostTitle': '连接已断开',
+  'listen.connectionLostBody': '无法连接到高级语音。请重试，或暂时切换到系统语音（离线可用）。',
+  'listen.useSystemVoice': '使用系统语音',
 
   'reader.signInRequired': '需要登录',
   'reader.signInBody': '创建账户即可保存汇编、笔记和交叉引用。',

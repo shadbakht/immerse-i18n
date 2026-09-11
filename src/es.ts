@@ -477,6 +477,11 @@ export const es: LocaleTable = {
   'voice.nova': 'Nova — brillante',
   'voice.shimmer': 'Shimmer — suave',
   'voice.marin': 'Marin — natural y suave',
+  'voice.system': 'Voz del sistema — disponible sin conexión',
+
+  'listen.connectionLostTitle': 'Conexión perdida',
+  'listen.connectionLostBody': 'No se pudo conectar con tu voz premium. Inténtalo de nuevo o cambia por ahora a la voz del sistema (disponible sin conexión).',
+  'listen.useSystemVoice': 'Usar voz del sistema',
 
   'reader.signInRequired': 'Se requiere iniciar sesión',
   'reader.signInBody': 'Crea una cuenta para guardar compilaciones, notas y remisiones mientras lees.',

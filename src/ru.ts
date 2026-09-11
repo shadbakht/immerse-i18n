@@ -499,6 +499,11 @@ export const ru: LocaleTable = {
   'voice.nova': 'Nova — звонкий',
   'voice.shimmer': 'Shimmer — мягкий',
   'voice.marin': 'Marin — естественный и спокойный',
+  'voice.system': 'Системный голос — доступен офлайн',
+
+  'listen.connectionLostTitle': 'Соединение потеряно',
+  'listen.connectionLostBody': 'Не удалось подключиться к премиум-голосу. Повторите попытку или временно переключитесь на системный голос (доступен офлайн).',
+  'listen.useSystemVoice': 'Использовать системный голос',
 
   'reader.signInRequired': 'Требуется вход',
   'reader.signInBody': 'Создайте аккаунт, чтобы сохранять подборки, заметки и историю чтения.',

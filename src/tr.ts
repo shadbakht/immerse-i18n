@@ -482,6 +482,11 @@ export const tr: LocaleTable = {
   'voice.nova': 'Nova — parlak',
   'voice.shimmer': 'Shimmer — yumuşak',
   'voice.marin': 'Marin — doğal ve sakin',
+  'voice.system': 'Sistem sesi — çevrimdışı kullanılabilir',
+
+  'listen.connectionLostTitle': 'Bağlantı kesildi',
+  'listen.connectionLostBody': 'Premium sesinize ulaşılamadı. Tekrar deneyin veya şimdilik çevrimdışı kullanılabilen sistem sesine geçin.',
+  'listen.useSystemVoice': 'Sistem sesini kullan',
 
   'reader.signInRequired': 'Giriş gerekli',
   'reader.signInBody': 'Okurken derlemelerinizi, notlarınızı ve çapraz referanslarınızı kaydetmek için hesap oluşturun.',

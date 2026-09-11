@@ -498,6 +498,11 @@ export const de: LocaleTable = {
   'voice.nova': 'Nova – hell',
   'voice.shimmer': 'Shimmer – weich',
   'voice.marin': 'Marin – natürlich & sanft',
+  'voice.system': 'Systemstimme – offline verfügbar',
+
+  'listen.connectionLostTitle': 'Verbindung verloren',
+  'listen.connectionLostBody': 'Ihre Premium-Stimme konnte nicht erreicht werden. Versuchen Sie es erneut, oder wechseln Sie vorübergehend zur Systemstimme (offline verfügbar).',
+  'listen.useSystemVoice': 'Systemstimme verwenden',
 
   'reader.signInRequired': 'Anmeldung erforderlich',
   'reader.signInBody': 'Erstellen Sie ein Konto, um Zusammenstellungen, Notizen und Querverweise beim Lesen zu speichern.',
