@@ -491,6 +491,8 @@ export const fa: LocaleTable = {
   'voice.marin': 'مارین — طبیعی و ملایم',
   'voice.system': 'صدای سیستم — بدون اینترنت هم در دسترس',
   'voice.previewHint': 'این صداها را می‌توانید در تنظیمات امتحان کنید',
+  'voice.previewPlay': 'پخش پیش‌نمایش',
+  'voice.previewPause': 'توقف پیش‌نمایش',
 
   'listen.connectionLostTitle': 'اتصال قطع شد',
   'listen.connectionLostBody': 'دسترسی به صدای ویژهٔ شما ممکن نشد. دوباره تلاش کنید یا فعلاً به صدای سیستم (بدون نیاز به اینترنت) تغییر دهید.',

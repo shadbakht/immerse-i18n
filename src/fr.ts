@@ -486,6 +486,8 @@ export const fr: LocaleTable = {
   'voice.marin': 'Marin — naturelle et posée',
   'voice.system': 'Voix du système — disponible hors ligne',
   'voice.previewHint': 'Essayez ces voix dans les Réglages',
+  'voice.previewPlay': 'Lire l\'aperçu',
+  'voice.previewPause': 'Arrêter l\'aperçu',
 
   'listen.connectionLostTitle': 'Connexion perdue',
   'listen.connectionLostBody': "Impossible d'accéder à votre voix premium. Réessayez, ou passez pour l'instant à la voix du système (disponible hors ligne).",

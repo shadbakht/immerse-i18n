@@ -482,6 +482,8 @@ export const zh: LocaleTable = {
   'voice.marin': 'Marin — 自然轻缓',
   'voice.system': '系统语音 — 离线可用',
   'voice.previewHint': '您可以在设置中试听这些语音',
+  'voice.previewPlay': '播放预览',
+  'voice.previewPause': '停止预览',
 
   'listen.connectionLostTitle': '连接已断开',
   'listen.connectionLostBody': '无法连接到高级语音。请重试，或暂时切换到系统语音（离线可用）。',

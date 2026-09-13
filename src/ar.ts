@@ -554,6 +554,8 @@ export const ar: LocaleTable = {
   'voice.marin': 'Marin — طبيعي ولطيف',
   'voice.system': 'صوت النظام — متاح دون اتصال',
   'voice.previewHint': 'جرّب هذه الأصوات في الإعدادات',
+  'voice.previewPlay': 'تشغيل المعاينة',
+  'voice.previewPause': 'إيقاف المعاينة',
 
   'listen.connectionLostTitle': 'انقطع الاتصال',
   'listen.connectionLostBody': 'تعذّر الوصول إلى الصوت المميز. حاول مرة أخرى، أو انتقل إلى صوت النظام المتاح دون اتصال بالإنترنت.',

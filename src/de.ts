@@ -500,6 +500,8 @@ export const de: LocaleTable = {
   'voice.marin': 'Marin – natürlich & sanft',
   'voice.system': 'Systemstimme – offline verfügbar',
   'voice.previewHint': 'Diese Stimmen können Sie in den Einstellungen testen',
+  'voice.previewPlay': 'Vorschau abspielen',
+  'voice.previewPause': 'Vorschau stoppen',
 
   'listen.connectionLostTitle': 'Verbindung verloren',
   'listen.connectionLostBody': 'Ihre Premium-Stimme konnte nicht erreicht werden. Versuchen Sie es erneut, oder wechseln Sie vorübergehend zur Systemstimme (offline verfügbar).',

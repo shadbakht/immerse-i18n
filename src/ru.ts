@@ -501,6 +501,8 @@ export const ru: LocaleTable = {
   'voice.marin': 'Marin — естественный и спокойный',
   'voice.system': 'Системный голос — доступен офлайн',
   'voice.previewHint': 'Опробуйте эти голоса в Настройках',
+  'voice.previewPlay': 'Прослушать пример',
+  'voice.previewPause': 'Остановить пример',
 
   'listen.connectionLostTitle': 'Соединение потеряно',
   'listen.connectionLostBody': 'Не удалось подключиться к премиум-голосу. Повторите попытку или временно переключитесь на системный голос (доступен офлайн).',

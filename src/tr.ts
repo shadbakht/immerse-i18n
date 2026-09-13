@@ -484,6 +484,8 @@ export const tr: LocaleTable = {
   'voice.marin': 'Marin — doğal ve sakin',
   'voice.system': 'Sistem sesi — çevrimdışı kullanılabilir',
   'voice.previewHint': 'Bu sesleri Ayarlar\'dan deneyebilirsiniz',
+  'voice.previewPlay': 'Önizlemeyi çal',
+  'voice.previewPause': 'Önizlemeyi durdur',
 
   'listen.connectionLostTitle': 'Bağlantı kesildi',
   'listen.connectionLostBody': 'Premium sesinize ulaşılamadı. Tekrar deneyin veya şimdilik çevrimdışı kullanılabilen sistem sesine geçin.',
