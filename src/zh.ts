@@ -773,6 +773,7 @@ export const zh: LocaleTable = {
   'appearance.typefaceSystemBlurb': '使用本设备自带的字体。',
   'appearance.faceAmiriBlurb': '复兴的纳斯赫体书写字体，温润匀整。',
   'appearance.faceScheherazadeBlurb': '传统纳斯赫体，字面略大。',
+  'appearance.faceIranNastaliqBlurb': '波斯传统纳斯塔利克体，倾斜流畅。',
   'appearance.faceLxgwBlurb': '毛笔书写的楷体，笔触柔和。',
   'appearance.faceNotoSerifScBlurb': '匀整的宋体印刷字，中性清晰。',
   'appearance.textSize': '文字大小',

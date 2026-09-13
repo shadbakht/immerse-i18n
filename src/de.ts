@@ -795,6 +795,7 @@ export const de: LocaleTable = {
   'appearance.typefaceSystemBlurb': 'Was auch immer dieses Gerät bereitstellt.',
   'appearance.faceAmiriBlurb': 'Eine wiederbelebte Naschī-Buchschrift. Warm und gleichmäßig.',
   'appearance.faceScheherazadeBlurb': 'Traditionelles Naschī. Etwas größer im Satz.',
+  'appearance.faceIranNastaliqBlurb': 'Die traditionelle persische Nastaliq-Schrift. Geneigt und fließend.',
   'appearance.faceLxgwBlurb': 'Eine pinselgezeichnete Regelschrift. Sanfte Striche.',
   'appearance.faceNotoSerifScBlurb': 'Eine gleichmäßige Druckserife. Neutral und klar.',
   'appearance.textSize': 'Textgröße',

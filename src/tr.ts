@@ -775,6 +775,7 @@ export const tr: LocaleTable = {
   'appearance.typefaceSystemBlurb': 'Bu cihazın sağladığı yazı tipi.',
   'appearance.faceAmiriBlurb': 'Yeniden canlandırılmış nesih kitap yazısı. Sıcak ve düzenli.',
   'appearance.faceScheherazadeBlurb': 'Geleneksel nesih. Biraz daha iri.',
+  'appearance.faceIranNastaliqBlurb': 'Geleneksel Fars nestalik yazısı. Eğik ve akıcı.',
   'appearance.faceLxgwBlurb': 'Fırçayla çizilmiş düzenli yazı. Yumuşak vuruşlar.',
   'appearance.faceNotoSerifScBlurb': 'Düzenli matbaa serifi. Nötr ve net.',
   'appearance.textSize': 'Metin boyutu',

@@ -920,6 +920,7 @@ export const ar: LocaleTable = {
   'appearance.typefaceSystemBlurb': 'أيًّا كان ما يوفره هذا الجهاز.',
   'appearance.faceAmiriBlurb': 'خط نسخ كتابي مُحيًّا. دافئ ومتساوٍ.',
   'appearance.faceScheherazadeBlurb': 'نسخ تقليدي. أكبر قليلًا في السطر.',
+  'appearance.faceIranNastaliqBlurb': 'خط النستعليق الفارسي التقليدي. مائل ومتدفق.',
   'appearance.faceLxgwBlurb': 'خط صيني منتظم مرسوم بالفرشاة. لمسات لطيفة.',
   'appearance.faceNotoSerifScBlurb': 'خط صيني مطبعي منتظم. محايد وواضح.',
   'appearance.textSize': 'حجم النص',

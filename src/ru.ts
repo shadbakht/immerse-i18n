@@ -825,6 +825,7 @@ export const ru: LocaleTable = {
   'appearance.typefaceSystemBlurb': 'Тот, что предоставляет устройство.',
   'appearance.faceAmiriBlurb': 'Возрождённый книжный насх. Тёплый и ровный.',
   'appearance.faceScheherazadeBlurb': 'Традиционный насх. Чуть крупнее.',
+  'appearance.faceIranNastaliqBlurb': 'Традиционный персидский насталик. Наклонный и плавный.',
   'appearance.faceLxgwBlurb': 'Кистевое уставное письмо. Мягкие штрихи.',
   'appearance.faceNotoSerifScBlurb': 'Ровная печатная антиква. Нейтральная и чёткая.',
   'appearance.textSize': 'Размер текста',

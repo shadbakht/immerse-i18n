@@ -788,6 +788,7 @@ export const fr: LocaleTable = {
   'appearance.typefaceSystemBlurb': 'Celle fournie par cet appareil.',
   'appearance.faceAmiriBlurb': 'Un caractère de labeur naskhi ressuscité. Chaud et régulier.',
   'appearance.faceScheherazadeBlurb': 'Naskhi traditionnel. Un peu plus grand.',
+  'appearance.faceIranNastaliqBlurb': 'Le nastaliq persan traditionnel. Incliné et fluide.',
   'appearance.faceLxgwBlurb': 'Une écriture régulière au pinceau. Traits doux.',
   'appearance.faceNotoSerifScBlurb': 'Une serif d’imprimerie régulière. Neutre et claire.',
   'appearance.textSize': 'Taille du texte',

@@ -848,6 +848,7 @@ export const en = {
   'appearance.typefaceSystemBlurb': 'Whatever this device provides.',
   'appearance.faceAmiriBlurb': 'A revived Naskh book face. Warm and even.',
   'appearance.faceScheherazadeBlurb': 'Traditional Naskh. Runs a touch larger.',
+  'appearance.faceIranNastaliqBlurb': 'The traditional Persian Nastaʿlīq hand. Sloped and flowing.',
   'appearance.faceLxgwBlurb': 'A brush-drawn regular script. Gentle strokes.',
   'appearance.faceNotoSerifScBlurb': 'An even printed serif. Neutral and clear.',
   'appearance.textSize': 'Text size',

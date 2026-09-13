@@ -778,6 +778,7 @@ export const fa: LocaleTable = {
   'appearance.typefaceSystemBlurb': 'هر قلمی که این دستگاه دارد.',
   'appearance.faceAmiriBlurb': 'نسخِ کتابیِ احیاشده. گرم و یکدست.',
   'appearance.faceScheherazadeBlurb': 'نسخِ سنتی. کمی درشت‌تر.',
+  'appearance.faceIranNastaliqBlurb': 'خط سنتی نستعلیق فارسی. کشیده و روان.',
   'appearance.faceLxgwBlurb': 'خط کای‌شوی چینی، قلم‌مویی. ضرب‌قلم‌های نرم.',
   'appearance.faceNotoSerifScBlurb': 'سریفِ چاپیِ چینی، یکدست. خنثی و روشن.',
   'appearance.textSize': 'اندازهٔ متن',
