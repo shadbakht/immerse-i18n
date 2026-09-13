@@ -499,6 +499,7 @@ export const de: LocaleTable = {
   'voice.shimmer': 'Shimmer – weich',
   'voice.marin': 'Marin – natürlich & sanft',
   'voice.system': 'Systemstimme – offline verfügbar',
+  'voice.previewHint': 'Diese Stimmen können Sie in den Einstellungen testen',
 
   'listen.connectionLostTitle': 'Verbindung verloren',
   'listen.connectionLostBody': 'Ihre Premium-Stimme konnte nicht erreicht werden. Versuchen Sie es erneut, oder wechseln Sie vorübergehend zur Systemstimme (offline verfügbar).',

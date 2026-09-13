@@ -478,6 +478,7 @@ export const es: LocaleTable = {
   'voice.shimmer': 'Shimmer — suave',
   'voice.marin': 'Marin — natural y suave',
   'voice.system': 'Voz del sistema — disponible sin conexión',
+  'voice.previewHint': 'Prueba estas voces en Ajustes',
 
   'listen.connectionLostTitle': 'Conexión perdida',
   'listen.connectionLostBody': 'No se pudo conectar con tu voz premium. Inténtalo de nuevo o cambia por ahora a la voz del sistema (disponible sin conexión).',

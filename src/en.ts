@@ -508,6 +508,7 @@ export const en = {
   'voice.shimmer': 'Shimmer — soft',
   'voice.marin': 'Marin — natural & gentle',
   'voice.system': 'System voice — available offline',
+  'voice.previewHint': 'Test out these voices in Settings',
 
   'listen.connectionLostTitle': 'Connection Lost',
   'listen.connectionLostBody': "We couldn't reach your premium voice. Try again, or switch to the offline system voice for now.",

@@ -500,6 +500,7 @@ export const ru: LocaleTable = {
   'voice.shimmer': 'Shimmer — мягкий',
   'voice.marin': 'Marin — естественный и спокойный',
   'voice.system': 'Системный голос — доступен офлайн',
+  'voice.previewHint': 'Опробуйте эти голоса в Настройках',
 
   'listen.connectionLostTitle': 'Соединение потеряно',
   'listen.connectionLostBody': 'Не удалось подключиться к премиум-голосу. Повторите попытку или временно переключитесь на системный голос (доступен офлайн).',

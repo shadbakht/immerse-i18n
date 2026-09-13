@@ -483,6 +483,7 @@ export const tr: LocaleTable = {
   'voice.shimmer': 'Shimmer — yumuşak',
   'voice.marin': 'Marin — doğal ve sakin',
   'voice.system': 'Sistem sesi — çevrimdışı kullanılabilir',
+  'voice.previewHint': 'Bu sesleri Ayarlar\'dan deneyebilirsiniz',
 
   'listen.connectionLostTitle': 'Bağlantı kesildi',
   'listen.connectionLostBody': 'Premium sesinize ulaşılamadı. Tekrar deneyin veya şimdilik çevrimdışı kullanılabilen sistem sesine geçin.',

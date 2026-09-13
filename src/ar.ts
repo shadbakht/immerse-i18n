@@ -553,6 +553,7 @@ export const ar: LocaleTable = {
   'voice.shimmer': 'Shimmer — ناعم',
   'voice.marin': 'Marin — طبيعي ولطيف',
   'voice.system': 'صوت النظام — متاح دون اتصال',
+  'voice.previewHint': 'جرّب هذه الأصوات في الإعدادات',
 
   'listen.connectionLostTitle': 'انقطع الاتصال',
   'listen.connectionLostBody': 'تعذّر الوصول إلى الصوت المميز. حاول مرة أخرى، أو انتقل إلى صوت النظام المتاح دون اتصال بالإنترنت.',
