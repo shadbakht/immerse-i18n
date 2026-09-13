@@ -99,7 +99,7 @@ export const fa: LocaleTable = {
   'library.tapToOpenHint': 'برای باز کردن ضربه بزنید',
   'library.importTitle': 'وارد کردن کتاب (TXT، EPUB، DOCX، RTF، PDF)',
   'library.importProFeature':
-    'وارد کردن کتاب یک قابلیت پرو است. برای وارد کردن کتاب‌های خودتان، در تنظیمات ارتقا دهید.',
+    'وارد کردن کتاب یک قابلیت Pro است. برای وارد کردن کتاب‌های خودتان، در تنظیمات ارتقا دهید.',
   'library.importFailed': 'وارد کردن ناموفق بود.',
   'library.importSucceeded': '«{{title}}» با موفقیت وارد شد.',
   'library.noImportedBooks':
@@ -139,7 +139,7 @@ export const fa: LocaleTable = {
   'settings.appearanceDark': 'تیره',
   'settings.appearanceSystem': 'سیستم',
   'settings.upgrade': 'ارتقا',
-  'settings.upgradeCta': 'ارتقا به پرو — ماهانه $0.99',
+  'settings.upgradeCta': 'ارتقا به Pro — ماهانه $0.99',
   'settings.upgradeBlurb':
     'خلاصه‌های هوش مصنوعی، صداهای ویژهٔ گوینده و وارد کردن کتاب‌های خودتان را باز کنید. ماهانه $0.99.',
   'settings.purchases': 'خریدها',
@@ -170,19 +170,19 @@ export const fa: LocaleTable = {
     'حساب و همهٔ داده‌های شما بی‌درنگ حذف می‌شود و قابل بازیابی نخواهد بود.',
   'settings.deletePermanently': 'بله، برای همیشه حذف کن',
   'settings.restoreFailed': 'بازیابی ناموفق بود',
-  'settings.proRestored': 'پرو بازیابی شد!',
+  'settings.proRestored': 'Pro بازیابی شد!',
   'settings.proRestoredBody': 'اشتراک شما اکنون فعال است.',
   'settings.noSubscription': 'اشتراکی یافت نشد',
   'settings.noSubscriptionBody':
     'اشتراک فعالی مرتبط با این حساب پیدا نکردیم.',
   'settings.planGuest': 'مهمان',
   'settings.planStandard': 'استاندارد',
-  'settings.planPro': 'پرو',
-  'settings.planTrial': 'پرو (آزمایشی)',
+  'settings.planPro': 'Pro',
+  'settings.planTrial': 'Pro (آزمایشی)',
 
-  'settings.welcomeToPro': 'به پرو خوش آمدید!',
+  'settings.welcomeToPro': 'به Pro خوش آمدید!',
   'settings.manage': 'مدیریت',
-  'settings.subscribeToPro': 'اشتراک پرو',
+  'settings.subscribeToPro': 'ارتقا به Pro',
 
   // Update prompt
   'update.available': 'به‌روزرسانی جدیدی در دسترس است.',
@@ -317,7 +317,7 @@ export const fa: LocaleTable = {
   'reminders.todayEveningDone': 'شب ✓',
   'reminders.todayEveningPending': 'شب در انتظار',
 
-  'paywall.heading': 'Immerse پرو',
+  'paywall.heading': 'Immerse Pro',
   'paywall.subheading': 'ژرف‌تر بخوانید. بیشتر پیوند بزنید.',
   'paywall.featureAiLabel': 'خلاصه‌های هوش مصنوعی برای بندها',
   'paywall.featureAiDesc': 'برای هر بند توضیح و شرح بخواهید',
@@ -325,14 +325,14 @@ export const fa: LocaleTable = {
   'paywall.featureVoicesDesc': 'روایت طبیعی و گویا با صدای دلخواه شما',
   'paywall.featureImportLabel': 'وارد کردن کتاب‌های خودتان',
   'paywall.featureImportDesc': 'فایل‌های EPUB، PDF و DOCX را به کتابخانهٔ خود بیفزایید',
-  'paywall.subscribe': 'اشتراک — {{price}} در ماه',
+  'paywall.subscribe': 'ارتقا به Pro — {{price}} در ماه',
   'paywall.cancelNote': 'لغو در هر زمان · صورت‌حساب ماهانه',
   'paywall.restore': 'بازیابی خریدها',
   'paywall.terms': 'شرایط استفاده',
   'paywall.privacy': 'سیاست حریم خصوصی',
   'paywall.notAvailable': 'در دسترس نیست',
   'paywall.notAvailableBody': 'خرید درون‌برنامه‌ای هنوز در این نسخه پیکربندی نشده است. پس از انتشار در App Store دوباره سر بزنید.',
-  'paywall.welcome': 'به پرو خوش آمدید!',
+  'paywall.welcome': 'به Pro خوش آمدید!',
   'paywall.welcomeBody': 'اشتراک شما اکنون فعال است.',
   'paywall.purchaseFailed': 'خرید ناموفق بود',
   'paywall.restoreFailed': 'بازیابی ناموفق بود',
@@ -428,8 +428,8 @@ export const fa: LocaleTable = {
     'این کتاب روی این دستگاه نیست. برای خواندن آن در اینجا، فایل را دوباره وارد کنید — یادداشت‌ها و گزیده‌های شما دربارهٔ آن حفظ می‌شوند.',
 
   'ai.summary': 'خلاصهٔ هوش مصنوعی',
-  'ai.upgradeBlurb': 'برای استفاده از خلاصه‌های هوش مصنوعی و دیگر قابلیت‌های پرو، تنها با $0.99 به Immerse پرو ارتقا دهید.',
-  'ai.upgradeBtn': 'ارتقا به پرو — ماهانه $0.99',
+  'ai.upgradeBlurb': 'برای استفاده از خلاصه‌های هوش مصنوعی و دیگر قابلیت‌های Pro، تنها با $0.99 به Immerse Pro ارتقا دهید.',
+  'ai.upgradeBtn': 'ارتقا به Pro — ماهانه $0.99',
   'ai.thinking': 'در حال اندیشیدن…',
   'ai.error': 'دریافت خلاصهٔ هوش مصنوعی ممکن نشد. لطفاً اتصال خود را بررسی کنید و دوباره تلاش کنید.',
   'ai.copied': '✓ کپی شد',
@@ -555,10 +555,10 @@ export const fa: LocaleTable = {
   'onboarding.getStarted': 'شروع کنیم',
 
   'proTrialIntro.title': 'به Immerse خوش آمدید!',
-  'proTrialIntro.lede': 'شما با حساب پرو آغاز می‌کنید — ۳۰ روز رایگان.',
+  'proTrialIntro.lede': 'شما با حساب Pro آغاز می‌کنید — ۳۰ روز رایگان.',
   'proTrialIntro.body':
-    'از همهٔ امکانات پرو بدون هزینه بهره‌مند شوید. پس از دورهٔ آزمایشی ۳۰ روزه، حساب شما به‌طور خودکار به حساب رایگان استاندارد تغییر می‌کند. هیچ هزینه‌ای دریافت نمی‌شود مگر اینکه خودتان ارتقا به پرو را انتخاب کنید.',
-  'proTrialIntro.priceLine': 'اگر بخواهید امکانات اضافی را نگه دارید، پرو تنها ماهانه $0.99 است:',
+    'از همهٔ امکانات Pro بدون هزینه بهره‌مند شوید. پس از دورهٔ آزمایشی ۳۰ روزه، حساب شما به‌طور خودکار به حساب رایگان استاندارد تغییر می‌کند. هیچ هزینه‌ای دریافت نمی‌شود مگر اینکه خودتان ارتقا به Pro را انتخاب کنید.',
+  'proTrialIntro.priceLine': 'اگر بخواهید امکانات اضافی را نگه دارید، Pro تنها ماهانه $0.99 است:',
   'proTrialIntro.featureAiSummary': 'خلاصهٔ متن‌ها با هوش مصنوعی',
   'proTrialIntro.featureImport': 'وارد کردن کتاب‌های خودتان به کتابخانه',
   'proTrialIntro.featureVoices': 'صداهای ویژه و طبیعی برای بلندخوانی',

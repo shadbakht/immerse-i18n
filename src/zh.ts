@@ -173,7 +173,7 @@ export const zh: LocaleTable = {
 
   'settings.welcomeToPro': '欢迎使用 Pro！',
   'settings.manage': '管理',
-  'settings.subscribeToPro': '订阅 Pro',
+  'settings.subscribeToPro': '升级到 Pro',
 
   // Update prompt
   'update.available': '有新的更新可用。',
@@ -316,7 +316,7 @@ export const zh: LocaleTable = {
   'paywall.featureVoicesDesc': '自然、富有表现力的朗读，语音由你挑选',
   'paywall.featureImportLabel': '导入自己的书籍',
   'paywall.featureImportDesc': '将 EPUB、PDF 和 DOCX 文件加入你的书库',
-  'paywall.subscribe': '订阅 — 每月 {{price}}',
+  'paywall.subscribe': '升级到 Pro — 每月 {{price}}',
   'paywall.cancelNote': '可随时取消 · 按月计费',
   'paywall.restore': '恢复购买',
   'paywall.terms': '服务条款',

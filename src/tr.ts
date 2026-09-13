@@ -175,7 +175,7 @@ export const tr: LocaleTable = {
 
   'settings.welcomeToPro': 'Pro’ya hoş geldiniz!',
   'settings.manage': 'Yönet',
-  'settings.subscribeToPro': 'Pro’ya Abone Ol',
+  'settings.subscribeToPro': 'Pro’ya geçin',
 
   // Update prompt
   'update.available': 'Yeni bir güncelleme mevcut.',
@@ -318,7 +318,7 @@ export const tr: LocaleTable = {
   'paywall.featureVoicesDesc': 'Seçtiğiniz sesle doğal ve etkileyici anlatım',
   'paywall.featureImportLabel': 'Kendi kitaplarınızı aktarın',
   'paywall.featureImportDesc': 'Kütüphanenize EPUB, PDF ve DOCX dosyaları ekleyin',
-  'paywall.subscribe': 'Abone ol — ayda {{price}}',
+  'paywall.subscribe': 'Pro’ya geçin — ayda {{price}}',
   'paywall.cancelNote': 'İstediğiniz zaman iptal · Aylık faturalandırma',
   'paywall.restore': 'Satın alımları geri yükle',
   'paywall.terms': 'Kullanım Koşulları',

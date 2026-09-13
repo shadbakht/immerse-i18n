@@ -219,7 +219,7 @@ export const ar: LocaleTable = {
   // RevenueCat and the App Store).
   'settings.welcomeToPro': 'مرحبًا بك في Pro!',
   'settings.manage': 'إدارة',
-  'settings.subscribeToPro': 'الاشتراك في Pro',
+  'settings.subscribeToPro': 'الترقية إلى Pro',
 
   // Update prompt
   'update.available': 'يتوفر تحديث جديد.',
@@ -376,7 +376,7 @@ export const ar: LocaleTable = {
   'paywall.featureVoicesDesc': 'سرد طبيعي ومعبِّر بالصوت الذي تختاره',
   'paywall.featureImportLabel': 'أضِف كتبك الخاصة',
   'paywall.featureImportDesc': 'أضِف ملفات EPUB وPDF وDOCX إلى مكتبتك',
-  'paywall.subscribe': 'اشترك — {{price}}/شهريًا',
+  'paywall.subscribe': 'الترقية إلى Pro — {{price}}/شهريًا',
   'paywall.cancelNote': 'يمكن الإلغاء في أي وقت · فوترة شهرية',
   'paywall.restore': 'استعادة المشتريات',
   'paywall.terms': 'شروط الخدمة',

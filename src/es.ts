@@ -170,7 +170,7 @@ export const es: LocaleTable = {
   'settings.planTrial': 'Pro (prueba)',
   'settings.welcomeToPro': '¡Bienvenido a Pro!',
   'settings.manage': 'Gestionar',
-  'settings.subscribeToPro': 'Suscribirse a Pro',
+  'settings.subscribeToPro': 'Cambia a Pro',
 
   // Update prompt
   'update.available': 'Hay una nueva actualización disponible.',
@@ -314,7 +314,7 @@ export const es: LocaleTable = {
   'paywall.featureVoicesDesc': 'Narración natural y expresiva con la voz que elijas',
   'paywall.featureImportLabel': 'Importa tus propios libros',
   'paywall.featureImportDesc': 'Añade archivos EPUB, PDF y DOCX a tu biblioteca',
-  'paywall.subscribe': 'Suscribirse — {{price}}/mes',
+  'paywall.subscribe': 'Cambia a Pro — {{price}}/mes',
   'paywall.cancelNote': 'Cancela cuando quieras · Facturación mensual',
   'paywall.restore': 'Restaurar compras',
   'paywall.terms': 'Términos del servicio',

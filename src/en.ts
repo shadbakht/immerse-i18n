@@ -182,7 +182,7 @@ export const en = {
   // RevenueCat and the App Store).
   'settings.welcomeToPro': 'Welcome to Pro!',
   'settings.manage': 'Manage',
-  'settings.subscribeToPro': 'Subscribe to Pro',
+  'settings.subscribeToPro': 'Upgrade to Pro',
 
   // Update prompt
   'update.available': "There's a new update available.",
@@ -331,7 +331,7 @@ export const en = {
   'paywall.featureVoicesDesc': 'Natural, expressive narration in the voice of your choice',
   'paywall.featureImportLabel': 'Import your own books',
   'paywall.featureImportDesc': 'Add EPUB, PDF, and DOCX files to your library',
-  'paywall.subscribe': 'Subscribe — {{price}}/month',
+  'paywall.subscribe': 'Upgrade to Pro — {{price}}/mo',
   'paywall.cancelNote': 'Cancel anytime · Billed monthly',
   'paywall.restore': 'Restore Purchases',
   'paywall.terms': 'Terms of Service',

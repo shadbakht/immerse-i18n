@@ -186,7 +186,7 @@ export const ru: LocaleTable = {
 
   'settings.welcomeToPro': 'Добро пожаловать в Pro!',
   'settings.manage': 'Управлять',
-  'settings.subscribeToPro': 'Подписаться на Pro',
+  'settings.subscribeToPro': 'Оформить Pro',
 
   // Update prompt
   'update.available': 'Доступно новое обновление.',
@@ -335,7 +335,7 @@ export const ru: LocaleTable = {
   'paywall.featureVoicesDesc': 'Естественное, выразительное чтение голосом на ваш выбор',
   'paywall.featureImportLabel': 'Импорт своих книг',
   'paywall.featureImportDesc': 'Добавляйте в библиотеку файлы EPUB, PDF и DOCX',
-  'paywall.subscribe': 'Оформить — {{price}} в месяц',
+  'paywall.subscribe': 'Оформить Pro — {{price}} в месяц',
   'paywall.cancelNote': 'Отмена в любой момент · Оплата ежемесячно',
   'paywall.restore': 'Восстановить покупки',
   'paywall.terms': 'Условия использования',
