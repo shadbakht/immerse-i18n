@@ -388,6 +388,8 @@ export const zh: LocaleTable = {
   'reader.xrefMode': '交叉引用模式 — 长按以选取段落',
   'reader.error': '阅读器错误',
   'reader.opening': '正在打开书籍…',
+  'reader.loadingCount_other': '已加载 {{count}} 段…',
+  'reader.loadingMoreBanner': '正在加载本书其余部分…',
   'reader.footnote': '脚注',
 
   'reader.selectBook': '选择一本书开始阅读',

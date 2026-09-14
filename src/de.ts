@@ -406,6 +406,9 @@ export const de: LocaleTable = {
   'reader.xrefMode': 'Querverweis-Modus – lange drücken, um eine Textstelle zu wählen',
   'reader.error': 'Fehler in der Leseansicht',
   'reader.opening': 'Buch wird geöffnet…',
+  'reader.loadingCount_one': '{{count}} Abschnitt bisher geladen…',
+  'reader.loadingCount_other': '{{count}} Abschnitte bisher geladen…',
+  'reader.loadingMoreBanner': 'Der Rest des Buches wird geladen…',
   'reader.footnote': 'Fußnote',
 
   'reader.selectBook': 'Wählen Sie ein Buch, um mit dem Lesen zu beginnen',

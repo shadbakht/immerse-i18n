@@ -450,6 +450,13 @@ export const ar: LocaleTable = {
   'reader.xrefMode': 'وضع الإحالة المرجعية — اضغط مطولًا لاختيار فقرة',
   'reader.error': 'خطأ في القارئ',
   'reader.opening': 'جارٍ فتح الكتاب…',
+  'reader.loadingCount_zero': 'تم تحميل {{count}} فقرة حتى الآن…',
+  'reader.loadingCount_one': 'تم تحميل {{count}} فقرة حتى الآن…',
+  'reader.loadingCount_two': 'تم تحميل {{count}} فقرتان حتى الآن…',
+  'reader.loadingCount_few': 'تم تحميل {{count}} فقرات حتى الآن…',
+  'reader.loadingCount_many': 'تم تحميل {{count}} فقرةً حتى الآن…',
+  'reader.loadingCount_other': 'تم تحميل {{count}} فقرة حتى الآن…',
+  'reader.loadingMoreBanner': 'جارٍ تحميل بقية الكتاب…',
   'reader.footnote': 'حاشية',
 
   // Web-only: the web reader is a DOM view with its own chrome, where mobile

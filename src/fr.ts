@@ -392,6 +392,9 @@ export const fr: LocaleTable = {
   'reader.xrefMode': 'Mode renvoi — appui long pour choisir un passage',
   'reader.error': 'Erreur du lecteur',
   'reader.opening': 'Ouverture du livre…',
+  'reader.loadingCount_one': '{{count}} passage chargé pour l’instant…',
+  'reader.loadingCount_other': '{{count}} passages chargés pour l’instant…',
+  'reader.loadingMoreBanner': 'Chargement du reste du livre…',
   'reader.footnote': 'Note de bas de page',
 
   'reader.selectBook': 'Sélectionnez un livre pour commencer à lire',

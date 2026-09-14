@@ -397,6 +397,8 @@ export const fa: LocaleTable = {
   'reader.xrefMode': 'حالت ارجاع — برای انتخاب بند، لمس طولانی کنید',
   'reader.error': 'خطای کتاب‌خوان',
   'reader.opening': 'در حال باز کردن کتاب…',
+  'reader.loadingCount_other': 'تاکنون {{count}} بند بارگذاری شده…',
+  'reader.loadingMoreBanner': 'در حال بارگذاری بقیهٔ کتاب…',
   'reader.footnote': 'پانویس',
 
   'reader.selectBook': 'برای شروع مطالعه، کتابی را انتخاب کنید',

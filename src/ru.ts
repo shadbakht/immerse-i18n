@@ -407,6 +407,11 @@ export const ru: LocaleTable = {
   'reader.xrefMode': 'Режим ссылки — нажмите и удерживайте, чтобы выбрать отрывок',
   'reader.error': 'Ошибка читалки',
   'reader.opening': 'Открываем книгу…',
+  'reader.loadingCount_one': 'Загружен {{count}} отрывок…',
+  'reader.loadingCount_few': 'Загружено {{count}} отрывка…',
+  'reader.loadingCount_many': 'Загружено {{count}} отрывков…',
+  'reader.loadingCount_other': 'Загружено {{count}} отрывка…',
+  'reader.loadingMoreBanner': 'Загружается остальная часть книги…',
   'reader.footnote': 'Сноска',
 
   'reader.selectBook': 'Выберите книгу, чтобы начать читать',

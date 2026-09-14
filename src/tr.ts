@@ -390,6 +390,8 @@ export const tr: LocaleTable = {
   'reader.xrefMode': 'Çapraz referans modu — pasaj seçmek için uzun basın',
   'reader.error': 'Okuyucu hatası',
   'reader.opening': 'Kitap açılıyor…',
+  'reader.loadingCount_other': 'Şimdiye kadar {{count}} pasaj yüklendi…',
+  'reader.loadingMoreBanner': 'Kitabın geri kalanı yükleniyor…',
   'reader.footnote': 'Dipnot',
 
   'reader.selectBook': 'Okumaya başlamak için bir kitap seçin',

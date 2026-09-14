@@ -405,6 +405,14 @@ export const en = {
   'reader.xrefMode': 'X-ref mode — long-press to pick a passage',
   'reader.error': 'Reader Error',
   'reader.opening': 'Opening book…',
+  // Shown under the "Opening book…" spinner for a book whose full fetch
+  // takes a while (this corpus's two largest books, so far — دیوان شمس/
+  // شاهنامه), so the wait doesn't read as hung. Also shown as a small banner
+  // once the reader has revealed the book's start and is streaming the rest
+  // in behind it — see ReaderPanel's progressive reveal.
+  'reader.loadingCount_one': '{{count}} passage loaded so far…',
+  'reader.loadingCount_other': '{{count}} passages loaded so far…',
+  'reader.loadingMoreBanner': 'Loading the rest of the book…',
   'reader.footnote': 'Footnote',
 
   // Web-only: the web reader is a DOM view with its own chrome, where mobile
