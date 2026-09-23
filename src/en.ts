@@ -454,6 +454,9 @@ export const en = {
   'ai.error': 'Could not get AI summary. Please check your connection and try again.',
   'ai.copied': '✓ Copied',
   'ai.copyHint': 'Long press to copy',
+  // Shown only under a summary of a Bahá'í-shelf passage — never implies the
+  // AI's output carries any institutional or authoritative standing.
+  'ai.bahaiDisclaimer': 'AI-generated — not an authoritative interpretation of the Bahá’í Writings.',
 
   'note.title': 'Note',
   'note.addTitle': 'Add Note',
