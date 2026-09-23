@@ -216,6 +216,7 @@ export const zh: LocaleTable = {
   'auth.guestAccess': '访客访问',
   'auth.continueWithGoogle': '使用 Google 继续',
   'auth.continueWithApple': '使用 Apple 继续',
+  'auth.continueWithDiscord': '使用 Discord 继续',
   'auth.orContinueWith': '或继续使用',
   'auth.chooseUsernameTitle': '选择一个用户名',
   'auth.chooseUsernameBlurb': '这是您在「发现」中呈现给他人的方式。',

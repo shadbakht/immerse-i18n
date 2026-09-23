@@ -218,6 +218,7 @@ export const tr: LocaleTable = {
   'auth.guestAccess': 'Misafir erişimi',
   'auth.continueWithGoogle': 'Google ile devam et',
   'auth.continueWithApple': 'Apple ile devam et',
+  'auth.continueWithDiscord': 'Discord ile devam et',
   'auth.orContinueWith': 'veya şununla devam et',
   'auth.chooseUsernameTitle': 'Bir kullanıcı adı seçin',
   'auth.chooseUsernameBlurb': 'Keşfet bölümünde diğerleri sizi böyle görecek.',

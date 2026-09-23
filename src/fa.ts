@@ -225,6 +225,7 @@ export const fa: LocaleTable = {
   'auth.guestAccess': 'دسترسی مهمان',
   'auth.continueWithGoogle': 'ادامه با Google',
   'auth.continueWithApple': 'ادامه با Apple',
+  'auth.continueWithDiscord': 'ادامه با Discord',
   'auth.orContinueWith': 'یا ادامه با',
   'auth.chooseUsernameTitle': 'یک نام کاربری انتخاب کنید',
   'auth.chooseUsernameBlurb': 'دیگران شما را در «کشف» این‌گونه خواهند دید.',

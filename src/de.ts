@@ -233,6 +233,7 @@ export const de: LocaleTable = {
   'auth.guestAccess': 'Gastzugang',
   'auth.continueWithGoogle': 'Mit Google fortfahren',
   'auth.continueWithApple': 'Mit Apple fortfahren',
+  'auth.continueWithDiscord': 'Mit Discord fortfahren',
   'auth.orContinueWith': 'oder fortfahren mit',
   'auth.chooseUsernameTitle': 'Wählen Sie einen Benutzernamen',
   'auth.chooseUsernameBlurb': 'So werden Sie für andere in Entdecken angezeigt.',

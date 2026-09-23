@@ -269,6 +269,7 @@ export const ar: LocaleTable = {
   'auth.guestAccess': 'الوصول كضيف',
   'auth.continueWithGoogle': 'المتابعة باستخدام Google',
   'auth.continueWithApple': 'المتابعة باستخدام Apple',
+  'auth.continueWithDiscord': 'المتابعة باستخدام Discord',
   'auth.orContinueWith': 'أو المتابعة باستخدام',
   'auth.chooseUsernameTitle': 'اختر اسم مستخدم',
   'auth.chooseUsernameBlurb': 'هكذا سيراك الآخرون في استكشاف.',

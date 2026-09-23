@@ -228,6 +228,7 @@ export const en = {
   'auth.guestAccess': 'Guest Access',
   'auth.continueWithGoogle': 'Continue with Google',
   'auth.continueWithApple': 'Continue with Apple',
+  'auth.continueWithDiscord': 'Continue with Discord',
   'auth.orContinueWith': 'or continue with',
   'auth.chooseUsernameTitle': 'Choose a username',
   'auth.chooseUsernameBlurb': "This is how you'll appear to others in Discover.",

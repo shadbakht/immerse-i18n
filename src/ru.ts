@@ -232,6 +232,7 @@ export const ru: LocaleTable = {
   'auth.guestAccess': 'Гостевой доступ',
   'auth.continueWithGoogle': 'Продолжить через Google',
   'auth.continueWithApple': 'Продолжить через Apple',
+  'auth.continueWithDiscord': 'Продолжить через Discord',
   'auth.orContinueWith': 'или продолжить через',
   'auth.chooseUsernameTitle': 'Выберите имя пользователя',
   'auth.chooseUsernameBlurb': 'Именно так вас увидят другие в разделе «Обзор».',
