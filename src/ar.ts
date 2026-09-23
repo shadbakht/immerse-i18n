@@ -272,6 +272,8 @@ export const ar: LocaleTable = {
   'auth.orContinueWith': 'أو المتابعة باستخدام',
   'auth.chooseUsernameTitle': 'اختر اسم مستخدم',
   'auth.chooseUsernameBlurb': 'هكذا سيراك الآخرون في استكشاف.',
+  'auth.alreadyHaveAccount': 'هل لديك حساب Immerse بالفعل؟',
+  'auth.linkAccountBlurb': 'أدخِل البريد الإلكتروني لحسابك الحالي — سنرسل رمزًا لتأكيد ملكيتك له، ثم نربط عملية تسجيل الدخول هذه به.',
   'auth.resetPassword': 'إعادة تعيين كلمة المرور',
   'auth.sendResetLink': 'إرسال رابط إعادة التعيين',
   'auth.createPasswordPlaceholder': 'إنشاء كلمة مرور *',

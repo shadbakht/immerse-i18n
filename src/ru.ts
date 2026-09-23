@@ -235,6 +235,8 @@ export const ru: LocaleTable = {
   'auth.orContinueWith': 'или продолжить через',
   'auth.chooseUsernameTitle': 'Выберите имя пользователя',
   'auth.chooseUsernameBlurb': 'Именно так вас увидят другие в разделе «Обзор».',
+  'auth.alreadyHaveAccount': 'Уже есть аккаунт Immerse?',
+  'auth.linkAccountBlurb': 'Введите email своего существующего аккаунта — мы отправим код для подтверждения и привяжем этот вход к нему.',
   'auth.resetPassword': 'Сброс пароля',
   'auth.sendResetLink': 'Отправить ссылку',
   'auth.createPasswordPlaceholder': 'Придумайте пароль *',

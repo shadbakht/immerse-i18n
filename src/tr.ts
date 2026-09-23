@@ -221,6 +221,8 @@ export const tr: LocaleTable = {
   'auth.orContinueWith': 'veya şununla devam et',
   'auth.chooseUsernameTitle': 'Bir kullanıcı adı seçin',
   'auth.chooseUsernameBlurb': 'Keşfet bölümünde diğerleri sizi böyle görecek.',
+  'auth.alreadyHaveAccount': 'Zaten bir Immerse hesabınız var mı?',
+  'auth.linkAccountBlurb': 'Mevcut hesabınızın e-postasını girin — sizin olduğunu doğrulamak için bir kod göndereceğiz, ardından bu girişi ona bağlayacağız.',
   'auth.resetPassword': 'Parolayı sıfırla',
   'auth.sendResetLink': 'Sıfırlama bağlantısı gönder',
   'auth.createPasswordPlaceholder': 'Parola oluştur *',

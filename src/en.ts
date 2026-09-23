@@ -231,6 +231,8 @@ export const en = {
   'auth.orContinueWith': 'or continue with',
   'auth.chooseUsernameTitle': 'Choose a username',
   'auth.chooseUsernameBlurb': "This is how you'll appear to others in Discover.",
+  'auth.alreadyHaveAccount': 'Already have an Immerse account?',
+  'auth.linkAccountBlurb': "Enter your existing account's email — we'll send a code to confirm it's yours, then connect this sign-in to it.",
   'auth.resetPassword': 'Reset Password',
   'auth.sendResetLink': 'Send Reset Link',
   'auth.createPasswordPlaceholder': 'Create Password *',

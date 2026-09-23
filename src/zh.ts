@@ -219,6 +219,8 @@ export const zh: LocaleTable = {
   'auth.orContinueWith': '或继续使用',
   'auth.chooseUsernameTitle': '选择一个用户名',
   'auth.chooseUsernameBlurb': '这是您在「发现」中呈现给他人的方式。',
+  'auth.alreadyHaveAccount': '已经有 Immerse 账户了？',
+  'auth.linkAccountBlurb': '输入您现有账户的邮箱地址——我们会发送验证码确认该账户属于您，然后将此次登录与其关联。',
   'auth.resetPassword': '重置密码',
   'auth.sendResetLink': '发送重置链接',
   'auth.createPasswordPlaceholder': '设置密码 *',

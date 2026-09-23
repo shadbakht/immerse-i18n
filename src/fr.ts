@@ -222,6 +222,8 @@ export const fr: LocaleTable = {
   'auth.orContinueWith': 'ou continuer avec',
   'auth.chooseUsernameTitle': "Choisissez un nom d’utilisateur",
   'auth.chooseUsernameBlurb': "C’est ainsi que les autres vous verront dans Découvrir.",
+  'auth.alreadyHaveAccount': 'Vous avez déjà un compte Immerse ?',
+  'auth.linkAccountBlurb': "Indiquez l’e-mail de votre compte existant — nous vous envoyons un code pour confirmer qu’il vous appartient, puis nous y relions cette connexion.",
   'auth.resetPassword': 'Réinitialiser le mot de passe',
   'auth.sendResetLink': 'Envoyer le lien',
   'auth.createPasswordPlaceholder': 'Créer un mot de passe *',

@@ -228,6 +228,8 @@ export const fa: LocaleTable = {
   'auth.orContinueWith': 'یا ادامه با',
   'auth.chooseUsernameTitle': 'یک نام کاربری انتخاب کنید',
   'auth.chooseUsernameBlurb': 'دیگران شما را در «کشف» این‌گونه خواهند دید.',
+  'auth.alreadyHaveAccount': 'قبلاً حساب Immerse دارید؟',
+  'auth.linkAccountBlurb': 'ایمیل حساب موجود خود را وارد کنید — کدی برای تأیید مالکیت آن برایتان می‌فرستیم و سپس این ورود را به آن متصل می‌کنیم.',
   'auth.resetPassword': 'بازنشانی گذرواژه',
   'auth.sendResetLink': 'ارسال پیوند بازنشانی',
   'auth.createPasswordPlaceholder': 'ساخت گذرواژه *',
