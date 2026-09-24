@@ -465,7 +465,7 @@ export const en = {
   'ai.copyHint': 'Long press to copy',
   // Shown only under a summary of a Bahá'í-shelf passage — never implies the
   // AI's output carries any institutional or authoritative standing.
-  'ai.bahaiDisclaimer': 'AI-generated — not an authoritative interpretation of the Bahá’í Writings.',
+  'ai.bahaiDisclaimer': 'Not an authoritative interpretation of the Bahá’í Writings.',
 
   'note.title': 'Note',
   'note.addTitle': 'Add Note',

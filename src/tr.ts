@@ -438,7 +438,7 @@ export const tr: LocaleTable = {
   'ai.error': 'Yapay zekâ özeti alınamadı. Lütfen bağlantınızı kontrol edip tekrar deneyin.',
   'ai.copied': '✓ Kopyalandı',
   'ai.copyHint': 'Kopyalamak için uzun basın',
-  'ai.bahaiDisclaimer': 'Yapay zekâ tarafından oluşturuldu — Bahá’í Yazılarının yetkili bir yorumu değildir.',
+  'ai.bahaiDisclaimer': 'Bahá’í Yazılarının yetkili bir yorumu değildir.',
 
   'note.title': 'Not',
   'note.addTitle': 'Not ekle',

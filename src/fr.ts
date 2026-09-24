@@ -441,7 +441,7 @@ export const fr: LocaleTable = {
   'ai.error': 'Impossible d’obtenir le résumé IA. Vérifiez votre connexion et réessayez.',
   'ai.copied': '✓ Copié',
   'ai.copyHint': 'Appui long pour copier',
-  'ai.bahaiDisclaimer': 'Généré par IA — ceci n’est pas une interprétation faisant autorité des Écrits bahá’ís.',
+  'ai.bahaiDisclaimer': 'Ceci n’est pas une interprétation faisant autorité des Écrits bahá’ís.',
 
   'note.title': 'Note',
   'note.addTitle': 'Ajouter une note',

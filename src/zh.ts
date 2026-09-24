@@ -436,7 +436,7 @@ export const zh: LocaleTable = {
   'ai.error': '无法获取 AI 摘要。请检查网络连接后重试。',
   'ai.copied': '✓ 已复制',
   'ai.copyHint': '长按以复制',
-  'ai.bahaiDisclaimer': 'AI 生成 — 并非对巴哈伊经典的权威解释。',
+  'ai.bahaiDisclaimer': '并非对巴哈伊经典的权威解释。',
 
   'note.title': '笔记',
   'note.addTitle': '添加笔记',
