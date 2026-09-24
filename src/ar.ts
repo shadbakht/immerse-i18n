@@ -795,6 +795,7 @@ export const ar: LocaleTable = {
   // ── Library leftovers ─────────────────────────────────────────────────────
   'library.selectPassageForXref': 'حدِّد فقرة للإحالة المرجعية',
   'library.findingRelated': 'جارٍ البحث عن فقرات ذات صلة…',
+  'library.showMore': 'عرض المزيد من النتائج',
   'library.aiSearchOffline': 'يلزم اتصال بالإنترنت للبحث بطرح سؤال',
   'library.importFailedTitle': 'فشلت الإضافة',
   'library.couldNotImport': 'تعذَّرت إضافة الملف.',

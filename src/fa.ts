@@ -676,6 +676,7 @@ export const fa: LocaleTable = {
 
   'library.selectPassageForXref': 'بند را برای ارجاع متقابل انتخاب کنید',
   'library.findingRelated': 'در حال یافتن بندهای مرتبط…',
+  'library.showMore': 'نمایش نتایج بیشتر',
   'library.aiSearchOffline': 'برای جست‌وجو با پرسش به اتصال اینترنت نیاز است',
   'library.importFailedTitle': 'وارد کردن ناموفق بود',
   'library.couldNotImport': 'وارد کردن فایل ممکن نشد.',

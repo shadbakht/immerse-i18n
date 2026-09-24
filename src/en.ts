@@ -735,6 +735,7 @@ export const en = {
   // ── Library leftovers ─────────────────────────────────────────────────────
   'library.selectPassageForXref': 'Select passage for cross-reference',
   'library.findingRelated': 'Finding related passages…',
+  'library.showMore': 'Show more results',
   'library.aiSearchOffline': 'Internet connection required to search by question',
   'library.importFailedTitle': 'Import failed',
   'library.couldNotImport': 'Could not import the file.',

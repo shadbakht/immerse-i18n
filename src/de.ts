@@ -691,6 +691,7 @@ export const de: LocaleTable = {
 
   'library.selectPassageForXref': 'Textstelle für Querverweis auswählen',
   'library.findingRelated': 'Verwandte Textstellen werden gesucht…',
+  'library.showMore': 'Mehr Ergebnisse anzeigen',
   'library.aiSearchOffline': 'Für die Suche per Frage ist eine Internetverbindung erforderlich',
   'library.importFailedTitle': 'Import fehlgeschlagen',
   'library.couldNotImport': 'Die Datei konnte nicht importiert werden.',

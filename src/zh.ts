@@ -670,6 +670,7 @@ export const zh: LocaleTable = {
   // ── 书库其余部分 ──────────────────────────────────────────────────────────
   'library.selectPassageForXref': '选择用于交叉引用的段落',
   'library.findingRelated': '正在查找相关段落…',
+  'library.showMore': '显示更多结果',
   'library.aiSearchOffline': '以提问方式搜索需要互联网连接',
   'library.importFailedTitle': '导入失败',
   'library.couldNotImport': '无法导入该文件。',

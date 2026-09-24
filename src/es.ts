@@ -674,6 +674,7 @@ export const es: LocaleTable = {
   // ── Biblioteca ────────────────────────────────────────────────────────────
   'library.selectPassageForXref': 'Selecciona el pasaje para la remisión',
   'library.findingRelated': 'Buscando pasajes relacionados…',
+  'library.showMore': 'Mostrar más resultados',
   'library.aiSearchOffline': 'Se requiere conexión a Internet para buscar mediante preguntas',
   'library.importFailedTitle': 'Error al importar',
   'library.couldNotImport': 'No se pudo importar el archivo.',

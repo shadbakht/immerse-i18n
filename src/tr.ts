@@ -672,6 +672,7 @@ export const tr: LocaleTable = {
   // ── Kütüphaneden geri kalanlar ────────────────────────────────────────────
   'library.selectPassageForXref': 'Çapraz referans için pasaj seçin',
   'library.findingRelated': 'İlgili pasajlar aranıyor…',
+  'library.showMore': 'Daha fazla sonuç göster',
   'library.aiSearchOffline': 'Soru sorarak arama yapmak için internet bağlantısı gerekir',
   'library.importFailedTitle': 'İçe aktarma başarısız',
   'library.couldNotImport': 'Dosya içe aktarılamadı.',
