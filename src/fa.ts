@@ -193,7 +193,7 @@ export const fa: LocaleTable = {
   'home.notes': 'یادداشت‌ها',
   'home.xrefs': 'ارجاعات',
   'home.readingPlan': 'برنامهٔ مطالعه',
-  'home.dailyVerses': 'آیات روزانه',
+  'home.dailyVerses': 'مطالعهٔ روزانه',
   'home.dayStreak_other': '{{count}} روز پیاپی',
   'home.dailyReading': 'مطالعهٔ روزانه',
   'home.dailyReadingsTitle': 'مطالعهٔ روزانه',

@@ -197,7 +197,7 @@ export const ru: LocaleTable = {
   'home.notes': 'Заметки',
   'home.xrefs': 'Ссылки',
   'home.readingPlan': 'ПЛАН ЧТЕНИЯ',
-  'home.dailyVerses': 'СТИХИ ДНЯ',
+  'home.dailyVerses': 'ЧТЕНИЕ ДНЯ',
   'home.dayStreak_one': '{{count}} день подряд',
   'home.dayStreak_few': '{{count}} дня подряд',
   'home.dayStreak_many': '{{count}} дней подряд',

@@ -184,7 +184,7 @@ export const zh: LocaleTable = {
   'home.notes': '笔记',
   'home.xrefs': '引用',
   'home.readingPlan': '阅读计划',
-  'home.dailyVerses': '每日经文',
+  'home.dailyVerses': '每日阅读',
   'home.dayStreak_other': '连续 {{count}} 天',
   'home.dailyReading': '每日阅读',
   'home.dailyReadingsTitle': '每日阅读',

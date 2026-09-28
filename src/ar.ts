@@ -230,7 +230,7 @@ export const ar: LocaleTable = {
   'home.notes': 'الملاحظات',
   'home.xrefs': 'الإحالات',
   'home.readingPlan': 'خطة القراءة',
-  'home.dailyVerses': 'آيات يومية',
+  'home.dailyVerses': 'القراءة اليومية',
   'home.dayStreak_zero': 'سلسلة {{count}} يوم',
   'home.dayStreak_one': 'سلسلة {{count}} يوم',
   'home.dayStreak_two': 'سلسلة {{count}} يومين',

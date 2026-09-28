@@ -186,7 +186,7 @@ export const fr: LocaleTable = {
   'home.notes': 'Notes',
   'home.xrefs': 'Renvois',
   'home.readingPlan': 'PLAN DE LECTURE',
-  'home.dailyVerses': 'VERSETS DU JOUR',
+  'home.dailyVerses': 'LECTURE DU JOUR',
   'home.dayStreak_one': 'série de {{count}} jour',
   'home.dayStreak_other': 'série de {{count}} jours',
   'home.dailyReading': 'Lecture du jour',

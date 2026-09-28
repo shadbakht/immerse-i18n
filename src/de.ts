@@ -200,7 +200,7 @@ export const de: LocaleTable = {
   'home.notes': 'Notizen',
   'home.xrefs': 'Querverw.',
   'home.readingPlan': 'LESEPLAN',
-  'home.dailyVerses': 'TÄGLICHE VERSE',
+  'home.dailyVerses': 'TÄGLICHE LESUNG',
   'home.dayStreak_one': 'Serie: {{count}} Tag',
   'home.dayStreak_other': 'Serie: {{count}} Tage',
   'home.dailyReading': 'Tägliche Lesung',

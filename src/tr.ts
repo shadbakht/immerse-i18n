@@ -186,7 +186,7 @@ export const tr: LocaleTable = {
   'home.notes': 'Notlar',
   'home.xrefs': 'Referanslar',
   'home.readingPlan': 'OKUMA PLANI',
-  'home.dailyVerses': 'GÜNÜN AYETLERİ',
+  'home.dailyVerses': 'GÜNLÜK OKUMA',
   'home.dayStreak_other': '{{count}} günlük seri',
   'home.dailyReading': 'Günlük okuma',
   'home.dailyReadingsTitle': 'Günlük okumalar',

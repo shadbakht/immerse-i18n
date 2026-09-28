@@ -193,7 +193,7 @@ export const en = {
   'home.notes': 'Notes',
   'home.xrefs': 'X-Refs',
   'home.readingPlan': 'READING PLAN',
-  'home.dailyVerses': 'DAILY VERSES',
+  'home.dailyVerses': 'DAILY READING',
   'home.dayStreak_one': '{{count}}-day streak',
   'home.dayStreak_other': '{{count}}-day streak',
   'home.dailyReading': 'Daily Reading',
