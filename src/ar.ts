@@ -827,6 +827,8 @@ export const ar: LocaleTable = {
   'plan.awaitsMorning': '{{book}} في انتظارك — قراءة الصباح',
   'plan.awaitsEvening': '{{book}} في انتظارك — قراءة المساء',
   'reminders.dailyReadingFrom': 'القراءة اليومية · {{source}}',
+  'reminders.shareCard': 'مشاركة',
+  'reminders.viewSource': 'عرض المصدر',
   'library.tapToExpandHint': 'اضغط للتوسيع · اضغط مطولًا للفتح في القارئ',
   'library.deleteBookImportedBody': 'سيُزال هذا الكتاب وجميع تعليقاته التوضيحية نهائيًا.',
   'library.deleteBookBundledBody':

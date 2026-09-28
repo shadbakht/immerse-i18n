@@ -701,6 +701,8 @@ export const fa: LocaleTable = {
   'plan.awaitsMorning': '{{book}} در انتظار است — مطالعهٔ صبح',
   'plan.awaitsEvening': '{{book}} در انتظار است — مطالعهٔ شب',
   'reminders.dailyReadingFrom': 'مطالعهٔ روزانه · {{source}}',
+  'reminders.shareCard': 'هم‌رسانی',
+  'reminders.viewSource': 'مشاهدهٔ منبع',
   'library.tapToExpandHint': 'برای باز شدن ضربه بزنید · برای باز کردن در کتاب‌خوان نگه دارید',
   'library.deleteBookImportedBody': 'این کتاب و همهٔ حاشیه‌نویسی‌هایش برای همیشه برداشته می‌شوند.',
   'library.deleteBookBundledBody':

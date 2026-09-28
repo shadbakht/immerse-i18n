@@ -741,6 +741,8 @@ export const ru: LocaleTable = {
   'plan.awaitsMorning': '{{book}} ждёт — утреннее чтение',
   'plan.awaitsEvening': '{{book}} ждёт — вечернее чтение',
   'reminders.dailyReadingFrom': 'Чтение дня · {{source}}',
+  'reminders.shareCard': 'Поделиться',
+  'reminders.viewSource': 'Открыть источник',
   'library.tapToExpandHint': 'Нажмите, чтобы развернуть · Удерживайте, чтобы открыть в читалке',
   'library.deleteBookImportedBody': 'Эта книга и все её аннотации будут удалены навсегда.',
   'library.deleteBookBundledBody':

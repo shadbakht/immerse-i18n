@@ -695,6 +695,8 @@ export const zh: LocaleTable = {
   'plan.awaitsMorning': '{{book}}在等你 — 早间阅读',
   'plan.awaitsEvening': '{{book}}在等你 — 晚间阅读',
   'reminders.dailyReadingFrom': '每日阅读 · {{source}}',
+  'reminders.shareCard': '分享',
+  'reminders.viewSource': '查看来源',
   'library.tapToExpandHint': '点按展开 · 长按在阅读器中打开',
   'library.deleteBookImportedBody': '这本书及其全部注释将被永久移除。',
   'library.deleteBookBundledBody':

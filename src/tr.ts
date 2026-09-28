@@ -697,6 +697,8 @@ export const tr: LocaleTable = {
   'plan.awaitsMorning': '{{book}} sizi bekliyor — sabah okuması',
   'plan.awaitsEvening': '{{book}} sizi bekliyor — akşam okuması',
   'reminders.dailyReadingFrom': 'Günlük okuma · {{source}}',
+  'reminders.shareCard': 'Paylaş',
+  'reminders.viewSource': 'Kaynağı görüntüle',
   'library.tapToExpandHint': 'Genişletmek için dokunun · Okuyucuda açmak için basılı tutun',
   'library.deleteBookImportedBody': 'Bu kitap ve tüm açıklamaları kalıcı olarak kaldırılacak.',
   'library.deleteBookBundledBody':

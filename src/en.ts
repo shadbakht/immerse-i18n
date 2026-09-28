@@ -763,6 +763,8 @@ export const en = {
   'plan.awaitsMorning': '{{book}} awaits — morning reading',
   'plan.awaitsEvening': '{{book}} awaits — evening reading',
   'reminders.dailyReadingFrom': 'Daily Reading · {{source}}',
+  'reminders.shareCard': 'Share',
+  'reminders.viewSource': 'View Source',
   'library.tapToExpandHint': 'Tap to expand · Hold to open in reader',
   'library.deleteBookImportedBody': 'This book and all its annotations will be permanently removed.',
   'library.deleteBookBundledBody':

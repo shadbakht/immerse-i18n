@@ -701,6 +701,8 @@ export const es: LocaleTable = {
   'plan.awaitsMorning': '{{book}} te espera — lectura de la mañana',
   'plan.awaitsEvening': '{{book}} te espera — lectura de la tarde',
   'reminders.dailyReadingFrom': 'Lectura diaria · {{source}}',
+  'reminders.shareCard': 'Compartir',
+  'reminders.viewSource': 'Ver fuente',
   'library.tapToExpandHint': 'Toca para desplegar · Mantén pulsado para abrir en el lector',
   'library.deleteBookImportedBody': 'Este libro y todas sus anotaciones se eliminarán permanentemente.',
   'library.deleteBookBundledBody':
