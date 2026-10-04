@@ -158,7 +158,7 @@ export const ru: LocaleTable = {
   'settings.fullFeatureVideo': 'Полное видео о возможностях',
   'settings.replayOnboarding': 'Пересмотреть вводные экраны',
   'settings.view': 'Открыть',
-  'settings.watchFeatureVideo': 'Посмотреть полное видео',
+  'settings.watchFeatureVideo': 'Посмотреть обучающее видео',
   'settings.accountActions': 'Действия с аккаунтом',
   'settings.legal': 'Правовая информация',
   'settings.contactSupport': 'Связаться с поддержкой',
@@ -458,6 +458,8 @@ export const ru: LocaleTable = {
   'ai.error': 'Не удалось получить пересказ. Проверьте подключение и попробуйте ещё раз.',
   'ai.copied': '✓ Скопировано',
   'ai.copyHint': 'Нажмите и удерживайте, чтобы скопировать',
+  'ai.listenSummary': 'Прослушать пересказ',
+  'ai.pauseSummary': 'Пауза',
   'ai.bahaiDisclaimer': 'Не является авторитетным толкованием Писаний Бахаи.',
 
   'note.title': 'Заметка',

@@ -159,7 +159,7 @@ export const de: LocaleTable = {
   'settings.fullFeatureVideo': 'Vollständiges Funktionsvideo',
   'settings.replayOnboarding': 'Einführungs-Screenshots erneut ansehen',
   'settings.view': 'Ansehen',
-  'settings.watchFeatureVideo': 'Vollständiges Funktionsvideo ansehen',
+  'settings.watchFeatureVideo': 'Anleitungsvideo ansehen',
   'settings.accountActions': 'Kontoaktionen',
   'settings.legal': 'Rechtliches',
   'settings.contactSupport': 'Support kontaktieren',
@@ -455,6 +455,8 @@ export const de: LocaleTable = {
   'ai.error': 'KI-Zusammenfassung konnte nicht abgerufen werden. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut.',
   'ai.copied': '✓ Kopiert',
   'ai.copyHint': 'Zum Kopieren lange drücken',
+  'ai.listenSummary': 'Zusammenfassung anhören',
+  'ai.pauseSummary': 'Pause',
   'ai.bahaiDisclaimer': 'Keine autorisierte Auslegung der Bahá’í-Schriften.',
 
   'note.title': 'Notiz',

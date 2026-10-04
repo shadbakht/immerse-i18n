@@ -151,7 +151,7 @@ export const en = {
   'settings.fullFeatureVideo': 'Full Feature Video',
   'settings.replayOnboarding': 'Replay on-boarding screenshots',
   'settings.view': 'View',
-  'settings.watchFeatureVideo': 'Watch Full Feature Video',
+  'settings.watchFeatureVideo': 'Watch instructional video',
   'settings.accountActions': 'Account Actions',
   'settings.legal': 'Legal',
   'settings.contactSupport': 'Contact Support',
@@ -463,6 +463,8 @@ export const en = {
   'ai.error': 'Could not get AI summary. Please check your connection and try again.',
   'ai.copied': '✓ Copied',
   'ai.copyHint': 'Long press to copy',
+  'ai.listenSummary': 'Listen to summary',
+  'ai.pauseSummary': 'Pause',
   // Shown only under a summary of a Bahá'í-shelf passage — never implies the
   // AI's output carries any institutional or authoritative standing.
   'ai.bahaiDisclaimer': 'Not an authoritative interpretation of the Bahá’í Writings.',

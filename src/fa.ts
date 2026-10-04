@@ -154,7 +154,7 @@ export const fa: LocaleTable = {
   'settings.fullFeatureVideo': 'ویدیوی کامل قابلیت‌ها',
   'settings.replayOnboarding': 'پخش دوبارهٔ تصاویر معرفی',
   'settings.view': 'مشاهده',
-  'settings.watchFeatureVideo': 'تماشای ویدیوی کامل قابلیت‌ها',
+  'settings.watchFeatureVideo': 'تماشای ویدیوی آموزشی',
   'settings.accountActions': 'اقدامات حساب',
   'settings.legal': 'حقوقی',
   'settings.contactSupport': 'تماس با پشتیبانی',
@@ -445,6 +445,8 @@ export const fa: LocaleTable = {
   'ai.error': 'دریافت خلاصهٔ هوش مصنوعی ممکن نشد. لطفاً اتصال خود را بررسی کنید و دوباره تلاش کنید.',
   'ai.copied': '✓ کپی شد',
   'ai.copyHint': 'برای کپی، لمس طولانی کنید',
+  'ai.listenSummary': 'گوش دادن به خلاصه',
+  'ai.pauseSummary': 'توقف',
   'ai.bahaiDisclaimer': 'تفسیری معتبر از آثار بهائی نیست.',
 
   'note.title': 'یادداشت',

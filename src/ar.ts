@@ -188,7 +188,7 @@ export const ar: LocaleTable = {
   'settings.fullFeatureVideo': 'الفيديو التعريفي الكامل',
   'settings.replayOnboarding': 'إعادة عرض لقطات التعريف',
   'settings.view': 'عرض',
-  'settings.watchFeatureVideo': 'مشاهدة الفيديو التعريفي الكامل',
+  'settings.watchFeatureVideo': 'مشاهدة الفيديو التعليمي',
   'settings.accountActions': 'إجراءات الحساب',
   'settings.legal': 'الشؤون القانونية',
   'settings.contactSupport': 'التواصل مع الدعم',
@@ -507,6 +507,8 @@ export const ar: LocaleTable = {
   'ai.error': 'تعذَّر الحصول على ملخص الذكاء الاصطناعي. يُرجى التحقق من اتصالك والمحاولة مرة أخرى.',
   'ai.copied': '✓ تم النسخ',
   'ai.copyHint': 'اضغط مطولًا للنسخ',
+  'ai.listenSummary': 'الاستماع إلى الملخص',
+  'ai.pauseSummary': 'إيقاف مؤقت',
   'ai.bahaiDisclaimer': 'ليس تفسيرًا معتمدًا للآثار البهائية.',
 
   'note.title': 'ملاحظة',

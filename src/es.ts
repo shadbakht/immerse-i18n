@@ -143,7 +143,7 @@ export const es: LocaleTable = {
   'settings.fullFeatureVideo': 'V\u00eddeo completo de funciones',
   'settings.replayOnboarding': 'Volver a ver la introducción',
   'settings.view': 'Ver',
-  'settings.watchFeatureVideo': 'Ver el vídeo completo de funciones',
+  'settings.watchFeatureVideo': 'Ver el vídeo instructivo',
   'settings.accountActions': 'Acciones de la cuenta',
   'settings.legal': 'Legal',
   'settings.contactSupport': 'Contactar con soporte',
@@ -435,6 +435,8 @@ export const es: LocaleTable = {
   'ai.error': 'No se pudo obtener el resumen con IA. Comprueba tu conexión e inténtalo de nuevo.',
   'ai.copied': '✓ Copiado',
   'ai.copyHint': 'Mantén pulsado para copiar',
+  'ai.listenSummary': 'Escuchar el resumen',
+  'ai.pauseSummary': 'Pausar',
   'ai.bahaiDisclaimer': 'No es una interpretación autorizada de los Escritos bahá’ís.',
 
   'note.title': 'Nota',

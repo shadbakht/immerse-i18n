@@ -145,7 +145,7 @@ export const zh: LocaleTable = {
   'settings.fullFeatureVideo': '完整功能视频',
   'settings.replayOnboarding': '重看引导截图',
   'settings.view': '查看',
-  'settings.watchFeatureVideo': '观看完整功能视频',
+  'settings.watchFeatureVideo': '观看教学视频',
   'settings.accountActions': '账户操作',
   'settings.legal': '法律信息',
   'settings.contactSupport': '联系支持',
@@ -436,6 +436,8 @@ export const zh: LocaleTable = {
   'ai.error': '无法获取 AI 摘要。请检查网络连接后重试。',
   'ai.copied': '✓ 已复制',
   'ai.copyHint': '长按以复制',
+  'ai.listenSummary': '收听摘要',
+  'ai.pauseSummary': '暂停',
   'ai.bahaiDisclaimer': '并非对巴哈伊经典的权威解释。',
 
   'note.title': '笔记',

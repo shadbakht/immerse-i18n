@@ -147,7 +147,7 @@ export const fr: LocaleTable = {
   'settings.fullFeatureVideo': 'Vidéo de présentation complète',
   'settings.replayOnboarding': 'Revoir les captures de bienvenue',
   'settings.view': 'Voir',
-  'settings.watchFeatureVideo': 'Regarder la vidéo de présentation',
+  'settings.watchFeatureVideo': 'Regarder la vidéo explicative',
   'settings.accountActions': 'Actions sur le compte',
   'settings.legal': 'Mentions légales',
   'settings.contactSupport': 'Contacter le support',
@@ -441,6 +441,8 @@ export const fr: LocaleTable = {
   'ai.error': 'Impossible d’obtenir le résumé IA. Vérifiez votre connexion et réessayez.',
   'ai.copied': '✓ Copié',
   'ai.copyHint': 'Appui long pour copier',
+  'ai.listenSummary': 'Écouter le résumé',
+  'ai.pauseSummary': 'Pause',
   'ai.bahaiDisclaimer': 'Ceci n’est pas une interprétation faisant autorité des Écrits bahá’ís.',
 
   'note.title': 'Note',
