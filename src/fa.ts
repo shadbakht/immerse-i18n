@@ -296,6 +296,7 @@ export const fa: LocaleTable = {
   'reminders.readingsLanguage': 'زبان خوانش‌ها',
   'reminders.readingsLanguageLibrary': 'همانند کتابخانه ({{language}})',
   'reminders.readingsPreparing': 'در حال آماده‌سازی خوانش‌ها…',
+  'reminders.readingsUnavailable': 'خوانش‌های روزانه هنوز به {{language}} در دسترس نیست. در زیر انگلیسی را انتخاب کنید.',
   'reminders.readingsLanguageHint': 'نمایش نقل‌قول‌های روزانه به انگلیسی به‌جای زبان کتابخانهٔ شما.',
   'reminders.randomVerses': 'آیات تصادفی',
   'reminders.readingPlan': 'برنامهٔ مطالعه',

@@ -340,6 +340,7 @@ export const ar: LocaleTable = {
   'reminders.readingsLanguage': 'لغة القراءات',
   'reminders.readingsLanguageLibrary': 'مثل المكتبة ({{language}})',
   'reminders.readingsPreparing': 'جارٍ تجهيز القراءات…',
+  'reminders.readingsUnavailable': 'القراءات اليومية غير متوفرة بعد باللغة {{language}}. اختر الإنجليزية أدناه.',
   'reminders.readingsLanguageHint': 'عرض الاقتباسات اليومية بالإنجليزية بدلاً من لغة مكتبتك.',
   'reminders.randomVerses': 'آيات عشوائية',
   'reminders.readingPlan': 'خطة قراءة',

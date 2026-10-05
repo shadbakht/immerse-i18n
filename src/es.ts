@@ -284,6 +284,7 @@ export const es: LocaleTable = {
   'reminders.readingsLanguage': 'Idioma de las lecturas',
   'reminders.readingsLanguageLibrary': 'Igual que la biblioteca ({{language}})',
   'reminders.readingsPreparing': 'Preparando las lecturas…',
+  'reminders.readingsUnavailable': 'Las lecturas diarias aún no están disponibles en {{language}}. Elige inglés abajo.',
   'reminders.readingsLanguageHint': 'Mostrar las citas diarias en inglés en lugar del idioma de tu biblioteca.',
   'reminders.randomVerses': 'Versículos aleatorios',
   'reminders.readingPlan': 'Plan de lectura',

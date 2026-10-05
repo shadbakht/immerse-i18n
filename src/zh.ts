@@ -287,6 +287,7 @@ export const zh: LocaleTable = {
   'reminders.readingsLanguage': '读经语言',
   'reminders.readingsLanguageLibrary': '与书库相同（{{language}}）',
   'reminders.readingsPreparing': '正在准备读经…',
+  'reminders.readingsUnavailable': '每日读经暂不提供{{language}}版本。请在下方选择英文。',
   'reminders.readingsLanguageHint': '以英文而非书库语言显示每日经文。',
   'reminders.randomVerses': '随机经文',
   'reminders.readingPlan': '阅读计划',

@@ -299,6 +299,7 @@ export const en = {
   'reminders.readingsLanguage': 'Readings language',
   'reminders.readingsLanguageLibrary': 'Same as library ({{language}})',
   'reminders.readingsPreparing': 'Preparing readings…',
+  'reminders.readingsUnavailable': 'Daily readings aren\'t available in {{language}} yet. Choose English below.',
   'reminders.readingsLanguageHint': 'Show daily quotes in English instead of your library language.',
   'reminders.randomVerses': 'Random verses',
   'reminders.readingPlan': 'Reading plan',

@@ -303,6 +303,7 @@ export const ru: LocaleTable = {
   'reminders.readingsLanguage': 'Язык чтений',
   'reminders.readingsLanguageLibrary': 'Как в библиотеке ({{language}})',
   'reminders.readingsPreparing': 'Подготовка чтений…',
+  'reminders.readingsUnavailable': 'Ежедневные чтения пока недоступны на языке {{language}}. Выберите английский ниже.',
   'reminders.readingsLanguageHint': 'Показывать ежедневные цитаты на английском, а не на языке библиотеки.',
   'reminders.randomVerses': 'Случайные стихи',
   'reminders.readingPlan': 'План чтения',

@@ -289,6 +289,7 @@ export const tr: LocaleTable = {
   'reminders.readingsLanguage': 'Okuma dili',
   'reminders.readingsLanguageLibrary': 'Kütüphaneyle aynı ({{language}})',
   'reminders.readingsPreparing': 'Okumalar hazırlanıyor…',
+  'reminders.readingsUnavailable': 'Günlük okumalar henüz {{language}} dilinde mevcut değil. Aşağıdan İngilizceyi seçin.',
   'reminders.readingsLanguageHint': 'Günlük alıntıları kütüphane diliniz yerine İngilizce göster.',
   'reminders.randomVerses': 'Rastgele ayetler',
   'reminders.readingPlan': 'Okuma planı',
