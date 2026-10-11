@@ -399,6 +399,8 @@ export const ar: LocaleTable = {
   'paywall.notAvailableBody': 'لم تُهيَّأ عمليات الشراء داخل التطبيق في هذه النسخة بعد. تحقَّق مرة أخرى بعد الإصدار على App Store.',
   'paywall.welcome': 'مرحبًا بك في Pro!',
   'paywall.welcomeBody': 'اشتراكك نشط الآن.',
+  'paywall.lifetime': 'أو ادفع مرة واحدة للحصول على Pro مدى الحياة — {{price}}',
+  'paywall.welcomeLifetimeBody': 'أصبح Pro لك إلى الأبد. إذا كان لديك اشتراك أيضًا، فألغِه من إعدادات الاشتراكات في App Store أو Google Play حتى لا يتم تحصيل رسوم منك مجددًا.',
   'paywall.purchaseFailed': 'فشل الشراء',
   'paywall.restoreFailed': 'فشلت الاستعادة',
 

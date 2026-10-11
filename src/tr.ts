@@ -341,6 +341,8 @@ export const tr: LocaleTable = {
   'paywall.notAvailableBody': 'Uygulama içi satın alımlar bu sürümde henüz yapılandırılmadı. App Store yayınından sonra tekrar bakın.',
   'paywall.welcome': 'Pro’ya hoş geldiniz!',
   'paywall.welcomeBody': 'Aboneliğiniz artık etkin.',
+  'paywall.lifetime': 'Ya da tek seferlik ödeyin, ömür boyu Pro — {{price}}',
+  'paywall.welcomeLifetimeBody': 'Pro artık sonsuza dek sizin. Ayrıca bir aboneliğiniz varsa, tekrar ücretlendirilmemek için App Store veya Google Play abonelik ayarlarından iptal edin.',
   'paywall.purchaseFailed': 'Satın alma başarısız',
   'paywall.restoreFailed': 'Geri yükleme başarısız',
 

@@ -354,6 +354,8 @@ export const en = {
   'paywall.notAvailableBody': 'In-app purchases are not configured in this build yet. Check back after the App Store release.',
   'paywall.welcome': 'Welcome to Pro!',
   'paywall.welcomeBody': 'Your subscription is now active.',
+  'paywall.lifetime': 'Or pay once for lifetime Pro — {{price}}',
+  'paywall.welcomeLifetimeBody': 'Pro is yours for good. If you also have a subscription, cancel it in your App Store or Google Play subscription settings so you are not billed again.',
   'paywall.purchaseFailed': 'Purchase failed',
   'paywall.restoreFailed': 'Restore failed',
 

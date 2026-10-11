@@ -339,6 +339,8 @@ export const zh: LocaleTable = {
   'paywall.notAvailableBody': '此版本尚未配置应用内购买。请在 App Store 上架后再来查看。',
   'paywall.welcome': '欢迎使用 Pro！',
   'paywall.welcomeBody': '你的订阅现已生效。',
+  'paywall.lifetime': '或一次付费，永久使用 Pro — {{price}}',
+  'paywall.welcomeLifetimeBody': 'Pro 现已永久属于你。如果你还有订阅，请在 App Store 或 Google Play 的订阅设置中取消，以免再次扣费。',
   'paywall.purchaseFailed': '购买失败',
   'paywall.restoreFailed': '恢复失败',
 

@@ -348,6 +348,8 @@ export const fa: LocaleTable = {
   'paywall.notAvailableBody': 'خرید درون‌برنامه‌ای هنوز در این نسخه پیکربندی نشده است. پس از انتشار در App Store دوباره سر بزنید.',
   'paywall.welcome': 'به Pro خوش آمدید!',
   'paywall.welcomeBody': 'اشتراک شما اکنون فعال است.',
+  'paywall.lifetime': 'یا یک‌بار پرداخت کنید و Pro را برای همیشه داشته باشید — {{price}}',
+  'paywall.welcomeLifetimeBody': 'Pro اکنون برای همیشه از آنِ شماست. اگر اشتراک هم دارید، آن را در تنظیمات اشتراک App Store یا Google Play لغو کنید تا دوباره از شما پول کسر نشود.',
   'paywall.purchaseFailed': 'خرید ناموفق بود',
   'paywall.restoreFailed': 'بازیابی ناموفق بود',
 

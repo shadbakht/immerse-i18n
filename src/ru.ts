@@ -358,6 +358,8 @@ export const ru: LocaleTable = {
   'paywall.notAvailableBody': 'Встроенные покупки в этой сборке ещё не настроены. Загляните после выхода в App Store.',
   'paywall.welcome': 'Добро пожаловать в Pro!',
   'paywall.welcomeBody': 'Ваша подписка активна.',
+  'paywall.lifetime': 'Или заплатите один раз — Pro навсегда за {{price}}',
+  'paywall.welcomeLifetimeBody': 'Pro теперь ваш навсегда. Если у вас также есть подписка, отмените её в настройках подписок App Store или Google Play, чтобы с вас больше не списывались деньги.',
   'paywall.purchaseFailed': 'Не удалось оформить покупку',
   'paywall.restoreFailed': 'Не удалось восстановить',
 

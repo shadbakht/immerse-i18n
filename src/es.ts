@@ -337,6 +337,8 @@ export const es: LocaleTable = {
   'paywall.notAvailableBody': 'Las compras dentro de la app aún no están configuradas en esta versión. Vuelve después del lanzamiento en la App Store.',
   'paywall.welcome': '¡Te damos la bienvenida a Pro!',
   'paywall.welcomeBody': 'Tu suscripción ya está activa.',
+  'paywall.lifetime': 'O paga una sola vez por Pro de por vida — {{price}}',
+  'paywall.welcomeLifetimeBody': 'Pro es tuyo para siempre. Si además tienes una suscripción, cancélala en los ajustes de suscripciones de App Store o Google Play para que no se te cobre de nuevo.',
   'paywall.purchaseFailed': 'Error en la compra',
   'paywall.restoreFailed': 'Error al restaurar',
 
