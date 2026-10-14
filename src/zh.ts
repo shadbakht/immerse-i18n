@@ -516,6 +516,11 @@ export const zh: LocaleTable = {
   'listen.connectionLostTitle': '连接已断开',
   'listen.connectionLostBody': '无法连接到高级语音。请重试，或暂时切换到系统语音（离线可用）。',
   'listen.useSystemVoice': '使用系统语音',
+  'listen.sleepTimer': '睡眠定时',
+  'listen.sleepOff': '关闭',
+  'listen.sleepMinutes_other': '{{count}} 分钟',
+  'listen.sleepHour': '1 小时',
+  'listen.sleepEndOfChapter': '本章结束',
 
   'reader.signInRequired': '需要登录',
   'reader.signInBody': '创建账户即可保存汇编、笔记和交叉引用。',

@@ -525,6 +525,11 @@ export const fa: LocaleTable = {
   'listen.connectionLostTitle': 'اتصال قطع شد',
   'listen.connectionLostBody': 'دسترسی به صدای ویژهٔ شما ممکن نشد. دوباره تلاش کنید یا فعلاً به صدای سیستم (بدون نیاز به اینترنت) تغییر دهید.',
   'listen.useSystemVoice': 'استفاده از صدای سیستم',
+  'listen.sleepTimer': 'زمان‌سنج خواب',
+  'listen.sleepOff': 'خاموش',
+  'listen.sleepMinutes_other': '{{count}} دقیقه',
+  'listen.sleepHour': '۱ ساعت',
+  'listen.sleepEndOfChapter': 'پایان فصل',
 
   'reader.signInRequired': 'ورود لازم است',
   'reader.signInBody': 'برای ذخیرهٔ گزیده‌ها، یادداشت‌ها و ارجاعات هنگام مطالعه، حساب بسازید.',

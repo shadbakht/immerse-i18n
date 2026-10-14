@@ -518,6 +518,11 @@ export const tr: LocaleTable = {
   'listen.connectionLostTitle': 'Bağlantı kesildi',
   'listen.connectionLostBody': 'Premium sesinize ulaşılamadı. Tekrar deneyin veya şimdilik çevrimdışı kullanılabilen sistem sesine geçin.',
   'listen.useSystemVoice': 'Sistem sesini kullan',
+  'listen.sleepTimer': 'Uyku zamanlayıcısı',
+  'listen.sleepOff': 'Kapalı',
+  'listen.sleepMinutes_other': '{{count}} dakika',
+  'listen.sleepHour': '1 saat',
+  'listen.sleepEndOfChapter': 'Bölümün sonu',
 
   'reader.signInRequired': 'Giriş gerekli',
   'reader.signInBody': 'Okurken derlemelerinizi, notlarınızı ve çapraz referanslarınızı kaydetmek için hesap oluşturun.',

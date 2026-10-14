@@ -551,6 +551,12 @@ export const en = {
   'listen.connectionLostTitle': 'Connection Lost',
   'listen.connectionLostBody': "We couldn't reach your premium voice. Try again, or switch to the offline system voice for now.",
   'listen.useSystemVoice': 'Use System Voice',
+  'listen.sleepTimer': 'Sleep timer',
+  'listen.sleepOff': 'Off',
+  'listen.sleepMinutes_one': '{{count}} minute',
+  'listen.sleepMinutes_other': '{{count}} minutes',
+  'listen.sleepHour': '1 hour',
+  'listen.sleepEndOfChapter': 'End of chapter',
 
   'reader.signInRequired': 'Sign in required',
   'reader.signInBody': 'Create an account to save compilations, notes, and cross-references as you read.',

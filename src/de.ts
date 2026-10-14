@@ -535,6 +535,12 @@ export const de: LocaleTable = {
   'listen.connectionLostTitle': 'Verbindung verloren',
   'listen.connectionLostBody': 'Ihre Premium-Stimme konnte nicht erreicht werden. Versuchen Sie es erneut, oder wechseln Sie vorübergehend zur Systemstimme (offline verfügbar).',
   'listen.useSystemVoice': 'Systemstimme verwenden',
+  'listen.sleepTimer': 'Einschlaf-Timer',
+  'listen.sleepOff': 'Aus',
+  'listen.sleepMinutes_one': '{{count}} Minute',
+  'listen.sleepMinutes_other': '{{count}} Minuten',
+  'listen.sleepHour': '1 Stunde',
+  'listen.sleepEndOfChapter': 'Ende des Kapitels',
 
   'reader.signInRequired': 'Anmeldung erforderlich',
   'reader.signInBody': 'Erstellen Sie ein Konto, um Zusammenstellungen, Notizen und Querverweise beim Lesen zu speichern.',

@@ -593,6 +593,13 @@ export const ar: LocaleTable = {
   'listen.connectionLostTitle': 'انقطع الاتصال',
   'listen.connectionLostBody': 'تعذّر الوصول إلى الصوت المميز. حاول مرة أخرى، أو انتقل إلى صوت النظام المتاح دون اتصال بالإنترنت.',
   'listen.useSystemVoice': 'استخدام صوت النظام',
+  'listen.sleepTimer': 'مؤقّت النوم',
+  'listen.sleepOff': 'إيقاف',
+  'listen.sleepMinutes_few': '{{count}} دقائق',
+  'listen.sleepMinutes_many': '{{count}} دقيقة',
+  'listen.sleepMinutes_other': '{{count}} دقيقة',
+  'listen.sleepHour': 'ساعة واحدة',
+  'listen.sleepEndOfChapter': 'نهاية الفصل',
 
   'reader.signInRequired': 'تسجيل الدخول مطلوب',
   'reader.signInBody': 'أنشئ حسابًا لحفظ المجموعات والملاحظات والإحالات المرجعية أثناء القراءة.',

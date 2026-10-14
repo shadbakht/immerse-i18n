@@ -514,6 +514,12 @@ export const es: LocaleTable = {
   'listen.connectionLostTitle': 'Conexión perdida',
   'listen.connectionLostBody': 'No se pudo conectar con tu voz premium. Inténtalo de nuevo o cambia por ahora a la voz del sistema (disponible sin conexión).',
   'listen.useSystemVoice': 'Usar voz del sistema',
+  'listen.sleepTimer': 'Temporizador de sueño',
+  'listen.sleepOff': 'Desactivado',
+  'listen.sleepMinutes_one': '{{count}} minuto',
+  'listen.sleepMinutes_other': '{{count}} minutos',
+  'listen.sleepHour': '1 hora',
+  'listen.sleepEndOfChapter': 'Final del capítulo',
 
   'reader.signInRequired': 'Se requiere iniciar sesión',
   'reader.signInBody': 'Crea una cuenta para guardar compilaciones, notas y remisiones mientras lees.',
