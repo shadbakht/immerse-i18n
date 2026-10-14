@@ -343,6 +343,7 @@ export const ar: LocaleTable = {
   'reminders.tradition.hindu': 'الهندوسية',
   'reminders.tradition.islamic': 'الإسلام',
   'reminders.tradition.jewish': 'اليهودية',
+  'reminders.tradition.persian': 'التراث الفارسي',
   'reminders.tradition.zoroastrian': 'الزرادشتية',
   'reminders.readingsLanguage': 'لغة القراءات',
   'reminders.readingsLanguageLibrary': 'مثل المكتبة ({{language}})',

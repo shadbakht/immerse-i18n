@@ -293,6 +293,7 @@ export const fr: LocaleTable = {
   'reminders.tradition.hindu': 'Hindouisme',
   'reminders.tradition.islamic': 'Islam',
   'reminders.tradition.jewish': 'Judaïsme',
+  'reminders.tradition.persian': 'Tradition persane',
   'reminders.tradition.zoroastrian': 'Zoroastrisme',
   'reminders.readingsLanguage': 'Langue des lectures',
   'reminders.readingsLanguageLibrary': 'Comme la bibliothèque ({{language}})',

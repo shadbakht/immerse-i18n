@@ -302,6 +302,7 @@ export const en = {
   'reminders.tradition.hindu': 'Hindu',
   'reminders.tradition.islamic': 'Islamic',
   'reminders.tradition.jewish': 'Jewish',
+  'reminders.tradition.persian': 'Persian Tradition',
   'reminders.tradition.zoroastrian': 'Zoroastrian',
   'reminders.readingsLanguage': 'Readings language',
   'reminders.readingsLanguageLibrary': 'Same as library ({{language}})',

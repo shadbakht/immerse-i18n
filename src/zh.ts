@@ -290,6 +290,7 @@ export const zh: LocaleTable = {
   'reminders.tradition.hindu': '印度教',
   'reminders.tradition.islamic': '伊斯兰教',
   'reminders.tradition.jewish': '犹太教',
+  'reminders.tradition.persian': '波斯传统',
   'reminders.tradition.zoroastrian': '琐罗亚斯德教',
   'reminders.readingsLanguage': '读经语言',
   'reminders.readingsLanguageLibrary': '与书库相同（{{language}}）',

@@ -299,6 +299,7 @@ export const fa: LocaleTable = {
   'reminders.tradition.hindu': 'هندو',
   'reminders.tradition.islamic': 'اسلام',
   'reminders.tradition.jewish': 'یهودیت',
+  'reminders.tradition.persian': 'سنت ایرانی',
   'reminders.tradition.zoroastrian': 'زرتشتی',
   'reminders.readingsLanguage': 'زبان خوانش‌ها',
   'reminders.readingsLanguageLibrary': 'همانند کتابخانه ({{language}})',

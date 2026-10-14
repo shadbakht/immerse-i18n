@@ -292,6 +292,7 @@ export const tr: LocaleTable = {
   'reminders.tradition.hindu': 'Hinduizm',
   'reminders.tradition.islamic': 'İslam',
   'reminders.tradition.jewish': 'Yahudilik',
+  'reminders.tradition.persian': 'Fars geleneği',
   'reminders.tradition.zoroastrian': 'Zerdüştlük',
   'reminders.readingsLanguage': 'Okuma dili',
   'reminders.readingsLanguageLibrary': 'Kütüphaneyle aynı ({{language}})',

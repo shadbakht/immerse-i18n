@@ -306,6 +306,7 @@ export const ru: LocaleTable = {
   'reminders.tradition.hindu': 'Индуизм',
   'reminders.tradition.islamic': 'Ислам',
   'reminders.tradition.jewish': 'Иудаизм',
+  'reminders.tradition.persian': 'Персидская традиция',
   'reminders.tradition.zoroastrian': 'Зороастризм',
   'reminders.readingsLanguage': 'Язык чтений',
   'reminders.readingsLanguageLibrary': 'Как в библиотеке ({{language}})',
