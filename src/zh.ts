@@ -350,6 +350,8 @@ export const zh: LocaleTable = {
   'paywall.welcomeBody': '你的订阅现已生效。',
   'paywall.lifetime': '或一次付费，永久使用 Pro — {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro 现已永久属于你。如果你还有订阅，请在 App Store 或 Google Play 的订阅设置中取消，以免再次扣费。',
+  'paywall.cancelReminderTitle': '请取消原有订阅',
+  'paywall.cancelReminderBody': '您已拥有终身 Pro。请在续订前取消月度订阅，以免再次扣费。',
   'paywall.purchaseFailed': '购买失败',
   'paywall.restoreFailed': '恢复失败',
 

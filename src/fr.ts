@@ -354,6 +354,8 @@ export const fr: LocaleTable = {
   'paywall.welcomeBody': 'Votre abonnement est désormais actif.',
   'paywall.lifetime': 'Ou payez une seule fois pour Pro à vie — {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro est à vous pour toujours. Si vous avez aussi un abonnement, résiliez-le dans les réglages d’abonnement de l’App Store ou de Google Play pour ne plus être facturé.',
+  'paywall.cancelReminderTitle': 'Résiliez votre ancien abonnement',
+  'paywall.cancelReminderBody': 'Vous avez désormais Pro à vie. Résiliez votre abonnement mensuel avant son renouvellement pour ne plus être facturé.',
   'paywall.purchaseFailed': 'Échec de l’achat',
   'paywall.restoreFailed': 'Échec de la restauration',
 

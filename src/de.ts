@@ -368,6 +368,8 @@ export const de: LocaleTable = {
   'paywall.welcomeBody': 'Ihr Abonnement ist jetzt aktiv.',
   'paywall.lifetime': 'Oder einmalig zahlen für Pro auf Lebenszeit – {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro gehört Ihnen jetzt für immer. Falls Sie zusätzlich ein Abonnement haben, kündigen Sie es in den Abo-Einstellungen von App Store oder Google Play, damit Ihnen nichts mehr berechnet wird.',
+  'paywall.cancelReminderTitle': 'Altes Abo kündigen',
+  'paywall.cancelReminderBody': 'Sie haben jetzt Lifetime Pro. Kündigen Sie Ihr Monatsabo vor der Verlängerung, damit Sie nicht erneut belastet werden.',
   'paywall.purchaseFailed': 'Kauf fehlgeschlagen',
   'paywall.restoreFailed': 'Wiederherstellung fehlgeschlagen',
 

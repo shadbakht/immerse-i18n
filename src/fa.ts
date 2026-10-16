@@ -359,6 +359,8 @@ export const fa: LocaleTable = {
   'paywall.welcomeBody': 'اشتراک شما اکنون فعال است.',
   'paywall.lifetime': 'یا یک‌بار پرداخت کنید و Pro را برای همیشه داشته باشید — {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro اکنون برای همیشه از آنِ شماست. اگر اشتراک هم دارید، آن را در تنظیمات اشتراک App Store یا Google Play لغو کنید تا دوباره از شما پول کسر نشود.',
+  'paywall.cancelReminderTitle': 'اشتراک قبلی خود را لغو کنید',
+  'paywall.cancelReminderBody': 'اکنون Pro مادام‌العمر دارید. اشتراک ماهانه‌تان را پیش از تمدید لغو کنید تا دوباره هزینه‌ای از شما کسر نشود.',
   'paywall.purchaseFailed': 'خرید ناموفق بود',
   'paywall.restoreFailed': 'بازیابی ناموفق بود',
 

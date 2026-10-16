@@ -410,6 +410,8 @@ export const ar: LocaleTable = {
   'paywall.welcomeBody': 'اشتراكك نشط الآن.',
   'paywall.lifetime': 'أو ادفع مرة واحدة للحصول على Pro مدى الحياة — {{price}}',
   'paywall.welcomeLifetimeBody': 'أصبح Pro لك إلى الأبد. إذا كان لديك اشتراك أيضًا، فألغِه من إعدادات الاشتراكات في App Store أو Google Play حتى لا يتم تحصيل رسوم منك مجددًا.',
+  'paywall.cancelReminderTitle': 'ألغِ اشتراكك القديم',
+  'paywall.cancelReminderBody': 'لديك الآن Pro مدى الحياة. ألغِ اشتراكك الشهري قبل تجديده حتى لا تُحاسَب مرة أخرى.',
   'paywall.purchaseFailed': 'فشل الشراء',
   'paywall.restoreFailed': 'فشلت الاستعادة',
 

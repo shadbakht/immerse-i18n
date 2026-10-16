@@ -348,6 +348,8 @@ export const es: LocaleTable = {
   'paywall.welcomeBody': 'Tu suscripción ya está activa.',
   'paywall.lifetime': 'O paga una sola vez por Pro de por vida — {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro es tuyo para siempre. Si además tienes una suscripción, cancélala en los ajustes de suscripciones de App Store o Google Play para que no se te cobre de nuevo.',
+  'paywall.cancelReminderTitle': 'Cancela tu suscripción anterior',
+  'paywall.cancelReminderBody': 'Ya tienes Pro de por vida. Cancela tu suscripción mensual antes de que se renueve para que no te vuelvan a cobrar.',
   'paywall.purchaseFailed': 'Error en la compra',
   'paywall.restoreFailed': 'Error al restaurar',
 

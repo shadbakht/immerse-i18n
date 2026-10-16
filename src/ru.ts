@@ -369,6 +369,8 @@ export const ru: LocaleTable = {
   'paywall.welcomeBody': 'Ваша подписка активна.',
   'paywall.lifetime': 'Или заплатите один раз — Pro навсегда за {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro теперь ваш навсегда. Если у вас также есть подписка, отмените её в настройках подписок App Store или Google Play, чтобы с вас больше не списывались деньги.',
+  'paywall.cancelReminderTitle': 'Отмените прежнюю подписку',
+  'paywall.cancelReminderBody': 'У вас теперь Pro навсегда. Отмените месячную подписку до продления, чтобы с вас не списали оплату снова.',
   'paywall.purchaseFailed': 'Не удалось оформить покупку',
   'paywall.restoreFailed': 'Не удалось восстановить',
 

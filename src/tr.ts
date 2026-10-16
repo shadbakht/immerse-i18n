@@ -352,6 +352,8 @@ export const tr: LocaleTable = {
   'paywall.welcomeBody': 'Aboneliğiniz artık etkin.',
   'paywall.lifetime': 'Ya da tek seferlik ödeyin, ömür boyu Pro — {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro artık sonsuza dek sizin. Ayrıca bir aboneliğiniz varsa, tekrar ücretlendirilmemek için App Store veya Google Play abonelik ayarlarından iptal edin.',
+  'paywall.cancelReminderTitle': 'Eski aboneliğinizi iptal edin',
+  'paywall.cancelReminderBody': 'Artık Ömür Boyu Pro\'nuz var. Tekrar ücretlendirilmemek için aylık aboneliğinizi yenilenmeden önce iptal edin.',
   'paywall.purchaseFailed': 'Satın alma başarısız',
   'paywall.restoreFailed': 'Geri yükleme başarısız',
 

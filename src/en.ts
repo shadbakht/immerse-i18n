@@ -365,6 +365,8 @@ export const en = {
   'paywall.welcomeBody': 'Your subscription is now active.',
   'paywall.lifetime': 'Or pay once for lifetime Pro — {{price}}',
   'paywall.welcomeLifetimeBody': 'Pro is yours for good. If you also have a subscription, cancel it in your App Store or Google Play subscription settings so you are not billed again.',
+  'paywall.cancelReminderTitle': 'Cancel your old subscription',
+  'paywall.cancelReminderBody': 'You now have lifetime Pro. Cancel your monthly subscription before it renews so you are not billed again.',
   'paywall.purchaseFailed': 'Purchase failed',
   'paywall.restoreFailed': 'Restore failed',
 
