@@ -175,6 +175,7 @@ export const tr: LocaleTable = {
 
   'settings.welcomeToPro': 'Pro’ya hoş geldiniz!',
   'settings.manage': 'Yönet',
+  'settings.switchToLifetime': 'Ömür Boyu Pro\'ya geç',
   'settings.subscribeToPro': 'Pro’ya geçin',
 
   // Update prompt

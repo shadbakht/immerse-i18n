@@ -173,6 +173,7 @@ export const zh: LocaleTable = {
 
   'settings.welcomeToPro': '欢迎使用 Pro！',
   'settings.manage': '管理',
+  'settings.switchToLifetime': '切换为终身 Pro',
   'settings.subscribeToPro': '升级到 Pro',
 
   // Update prompt

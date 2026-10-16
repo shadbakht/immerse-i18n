@@ -175,6 +175,7 @@ export const fr: LocaleTable = {
 
   'settings.welcomeToPro': 'Bienvenue dans Pro !',
   'settings.manage': 'Gérer',
+  'settings.switchToLifetime': 'Passer à Pro à vie',
   'settings.subscribeToPro': 'Passer à Pro',
 
   // Update prompt

@@ -182,6 +182,7 @@ export const fa: LocaleTable = {
 
   'settings.welcomeToPro': 'به Pro خوش آمدید!',
   'settings.manage': 'مدیریت',
+  'settings.switchToLifetime': 'تغییر به Pro مادام‌العمر',
   'settings.subscribeToPro': 'ارتقا به Pro',
 
   // Update prompt

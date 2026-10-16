@@ -186,6 +186,7 @@ export const ru: LocaleTable = {
 
   'settings.welcomeToPro': 'Добро пожаловать в Pro!',
   'settings.manage': 'Управлять',
+  'settings.switchToLifetime': 'Перейти на Pro навсегда',
   'settings.subscribeToPro': 'Оформить Pro',
 
   // Update prompt

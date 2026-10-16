@@ -219,6 +219,7 @@ export const ar: LocaleTable = {
   // RevenueCat and the App Store).
   'settings.welcomeToPro': 'مرحبًا بك في Pro!',
   'settings.manage': 'إدارة',
+  'settings.switchToLifetime': 'التحويل إلى Pro مدى الحياة',
   'settings.subscribeToPro': 'الترقية إلى Pro',
 
   // Update prompt

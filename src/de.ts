@@ -187,6 +187,7 @@ export const de: LocaleTable = {
 
   'settings.welcomeToPro': 'Willkommen bei Pro!',
   'settings.manage': 'Verwalten',
+  'settings.switchToLifetime': 'Auf Lifetime Pro wechseln',
   'settings.subscribeToPro': 'Auf Pro upgraden',
 
   // Update prompt

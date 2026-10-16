@@ -182,6 +182,7 @@ export const en = {
   // RevenueCat and the App Store).
   'settings.welcomeToPro': 'Welcome to Pro!',
   'settings.manage': 'Manage',
+  'settings.switchToLifetime': 'Switch to Lifetime Pro',
   'settings.subscribeToPro': 'Upgrade to Pro',
 
   // Update prompt

@@ -170,6 +170,7 @@ export const es: LocaleTable = {
   'settings.planTrial': 'Pro (prueba)',
   'settings.welcomeToPro': '¡Bienvenido a Pro!',
   'settings.manage': 'Gestionar',
+  'settings.switchToLifetime': 'Cambiar a Pro de por vida',
   'settings.subscribeToPro': 'Cambia a Pro',
 
   // Update prompt
