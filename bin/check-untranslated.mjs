@@ -8,7 +8,11 @@
  * language added multiplies the cost of catching it late. This is the thing
  * that keeps "fully translated" true rather than a snapshot of one afternoon.
  *
- * Usage:  immerse-i18n-check <dir> [<dir>...]
+ * Usage:  immerse-i18n-check <dir|file> [<dir|file>...]
+ *
+ * A file can be named directly: the mobile app's App.js lives at the repo
+ * root, outside src/, and went unscanned while its first-launch screen stayed
+ * English.
  *
  * Deliberate exceptions go in the consumer's package.json:
  *
@@ -24,9 +28,9 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-const dirs = process.argv.slice(2);
-if (dirs.length === 0) {
-  console.error('usage: immerse-i18n-check <dir> [<dir>...]');
+const targets = process.argv.slice(2);
+if (targets.length === 0) {
+  console.error('usage: immerse-i18n-check <dir|file> [<dir|file>...]');
   process.exit(2);
 }
 
@@ -39,17 +43,23 @@ if (existsSync(pkgPath)) {
 const allow = new Set(config.allow);
 const ignorePaths = config.ignorePaths;
 
+const SOURCE_FILE = /\.(ts|tsx|js|jsx)$/;
 const files = [];
-for (const dir of dirs) {
+for (const target of targets) {
+  if (!existsSync(target)) continue;
+  if (statSync(target).isFile()) {
+    if (SOURCE_FILE.test(target)) files.push(target);
+    continue;
+  }
   (function walk(d) {
     if (!existsSync(d)) return;
     for (const f of readdirSync(d)) {
       const p = join(d, f);
       if (ignorePaths.some(ig => p.includes(ig))) continue;
       if (statSync(p).isDirectory()) walk(p);
-      else if (/\.(ts|tsx|js|jsx)$/.test(p)) files.push(p);
+      else if (SOURCE_FILE.test(p)) files.push(p);
     }
-  })(dir);
+  })(target);
 }
 
 // Prose, not identifiers: needs a letter run, and must not be SCREAMING_CASE
@@ -69,10 +79,14 @@ const looksLikeClassList = (s) => {
   return tokens.filter(t => CLASS_TOKEN.test(t)).length * 2 >= tokens.length;
 };
 
+// A route, path or URL is an address, not copy, even when a template literal
+// gives it spaces: `/read/${id}${pid ? … : …}`.
+const looksLikePath = (s) => /^\/|:\/\/|^\.{1,2}\//.test(s.trim());
+
 // User-facing text starts with a capital or contains a space; style values and
 // debug tokens ('auto', 'none', '45deg', 'defined') do neither.
 const userFacing = (s) =>
-  isProse(s) && (/^[A-Z]/.test(s) || s.includes(' ')) && !looksLikeClassList(s);
+  isProse(s) && (/^[A-Z]/.test(s) || s.includes(' ')) && !looksLikeClassList(s) && !looksLikePath(s);
 
 // Parenthesis depth a line leaves behind, ignoring the ones inside strings so
 // that a message like "…(Xcode → Product)…" does not read as an open call.
@@ -208,8 +222,74 @@ for (const file of files) {
     for (const m of line.matchAll(/\[\s*['"][a-z][\w-]*['"]\s*,\s*['"]([^'"]{3,})['"]\s*\]/g)) {
       if (userFacing(m[1])) hits.push(m[1]);
     }
+    // A ternary arm that wrapped onto its own line. The "string alone on a
+    // line" rule above asks for closing punctuation, which a button-style hint
+    // ("…, then tap Done") or a status word ("✓ Available") never has, so
+    // both arms of
+    //     {Platform.OS === 'android'
+    //       ? 'Long-press to make a new selection, then tap Done'
+    //       : 'Adjust your selection, then tap Done'}
+    // went unreported. A line opening with `?` or `:` is a ternary
+    // continuation in this codebase; object keys never start a line that way.
+    // A template arm that is mostly interpolation and one bare word around it
+    // (`${label}, Ang ${n}` — the Guru Granth Sahib's own citation unit) is a
+    // format string, so those must leave at least two words of prose.
+    const arm = trimmed.match(/^[?:]\s*(['"`])(.{2,}?)\1/);
+    if (arm) {
+      const prose = arm[2].replace(/\$\{[^}]*\}/g, '').trim();
+      const formatString = arm[1] === '`' && arm[2].includes('${') && !/[A-Za-z]{2,}\s+[A-Za-z]{2,}/.test(prose);
+      if (!formatString && userFacing(prose)) hits.push(arm[2]);
+    }
+    // The FIRST arm of a ternary whose line ends right after it — the head of
+    // a chain that wraps one condition per line:
+    //     : usernameStatus === 'available' ? '✓ Available'
+    //     : usernameStatus === 'taken'     ? '✗ Already taken'
+    const head = line.match(/\?\s*(['"])([^'"]{2,})\1\s*$/);
+    if (head && userFacing(head[2])) hits.push(head[2]);
+    // A literal fallback: `{book?.title || 'Table of Contents'}`,
+    // `title: book?.title ?? 'Reader'`. The value usually comes from data, so
+    // the English only shows when that data is missing — which is exactly when
+    // nobody is looking.
+    for (const m of line.matchAll(/(?:\|\||\?\?)\s*(['"])([^'"]{3,})\1/g)) {
+      if (userFacing(m[2])) hits.push(m[2]);
+    }
+    // The initial value of a piece of state that is rendered as text:
+    // `useState('Checking local library…')` painted the first-launch screen.
+    for (const m of line.matchAll(/\buseState\(\s*(['"])([^'"]{3,})\1/g)) {
+      if (userFacing(m[2])) hits.push(m[2]);
+    }
+    // JSX text that follows an expression on a line of its own:
+    //     <Text style={styles.back}>
+    //       {RTL ? '›' : '‹'} Tags
+    //     </Text>
+    // The text-child rules only start reading after a `>`, never after a `}`.
+    const afterExpr = trimmed.match(/^\{[^{}]*\}\s*([A-Z][A-Za-z][^<>{}]*)$/);
+    if (afterExpr && />\s*$/.test(prevTrimmed) && isProse(afterExpr[1].trim())) {
+      hits.push(afterExpr[1].trim());
+    }
+    // Words glued to an expression inside one element: `{planPct}% read</Text>`.
+    // Text between a `}` and a closing tag is a text child whatever its case.
+    for (const m of line.matchAll(/\}([^<>{}\n`'"]*[A-Za-z]{3}[^<>{}\n`'"]*)<\//g)) {
+      const text = m[1].trim();
+      if (isProse(text)) hits.push(text);
+    }
+    // Words leading an expression on a line of their own, inside an element:
+    //     <Text style={styles.viewAll}>
+    //       View all {completions.length}
+    // The bare-text rule skips any line holding a brace, since that is usually code.
+    const beforeExpr = trimmed.match(/^([A-Z][A-Za-z]+(?: [A-Za-z]+)*)\s+\{[^{}]*\}$/);
+    if (beforeExpr && />\s*$/.test(prevTrimmed) && isProse(beforeExpr[1])) {
+      hits.push(beforeExpr[1]);
+    }
+    // A ternary whose other arm is the empty string: `{hasBook ? 'Change' : ''}`.
+    // The two-literal ternary rule wants both arms to read as copy.
+    for (const m of line.matchAll(/\?\s*(['"])([^'"]{3,})\1\s*:\s*(['"])\3|\?\s*(['"])\4\s*:\s*(['"])([^'"]{3,})\5/g)) {
+      const text = m[2] ?? m[6];
+      if (userFacing(text)) hits.push(text);
+    }
 
-    for (const text of hits) {
+    // One finding per string per line, however many rules saw it.
+    for (const text of new Set(hits)) {
       if (allow.has(text)) continue;
       findings.push({ file, line: i + 1, text });
     }

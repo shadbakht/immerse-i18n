@@ -40,6 +40,27 @@ const CAUGHT = [
   'Remove "${item.title}" and reset reading progress to 0%?',
   'The two highlighted selections will be kept.',
   'Your Pro subscription has been restored.',
+  // A ternary chain wrapped one condition per line: the head of each arm ends
+  // its line, and the last arm opens one.
+  '✓ Available',
+  '✗ Already taken',
+  '3–20 chars: letters, numbers, _',
+  // Wrapped ternary arms with no closing punctuation.
+  'Long-press to make a new selection, then tap Done',
+  'Adjust your selection, then tap Done',
+  // Literal fallbacks after || and ??.
+  'Table of Contents',
+  'Reader',
+  // The initial value of state that is rendered as text.
+  'Checking local library…',
+  // JSX text after an expression, on a line of its own.
+  'Tags',
+  // Words glued to an expression before a closing tag.
+  '% read',
+  // Words leading an expression on a line of their own.
+  'View all',
+  // A ternary whose other arm is empty.
+  'Change',
 ];
 
 const FIXTURE = `
@@ -65,8 +86,58 @@ Alert.alert(
     ? 'Your Pro subscription has been restored.'
     : t('settings.noSubscriptionBody'),
 );
+const k = (
+  <Text>
+    {status === 'checking'  ? '…'
+    : status === 'available' ? '✓ Available'
+    : status === 'taken'     ? '✗ Already taken'
+    : '3–20 chars: letters, numbers, _'}
+  </Text>
+);
+const l = (
+  <Text>
+    {Platform.OS === 'android'
+      ? 'Long-press to make a new selection, then tap Done'
+      : 'Adjust your selection, then tap Done'}
+  </Text>
+);
+const m = <Text>{book?.title || 'Table of Contents'}</Text>;
+navigation.setOptions({ title: book?.title ?? 'Reader' });
+const [message, setMessage] = useState('Checking local library…');
+const n = (
+  <Text style={styles.back}>
+    {RTL ? '›' : '‹'} Tags
+  </Text>
+);
+const o = <Text style={styles.bookSub}>{planPct}% read</Text>;
+const p = (
+  <Text style={styles.viewAll}>
+    View all {completions.length}
+  </Text>
+);
+const q = <Text>{config.plan.bookId ? 'Change' : ''}</Text>;
 
 // Everything below is code, not copy, and must stay silent.
+const count = <Text>{done}/{total}</Text>;
+const suffix = enabled ? '' : 'none';
+const wrap = (
+  <View>
+    {items.map(i => <Row key={i} />)}
+  </View>
+);
+const font = { fontFamily: 'EB Garamond' };
+const size = prefs.size ?? 'medium';
+const side = rtl
+  ? 'right'
+  : 'left';
+const href = imported
+  ? null
+  : \`/read/\${id}\${pid ? \`?p=\${pid}\` : ''}\`;
+const cite = ang
+  ? \`\${label('citation.guruGranthSahib')}, Ang \${ang}\`
+  : label('citation.guruGranthSahib');
+type Size = 'Small' | 'Large';
+const tab = state?.routes?.[0]?.name ?? HOME_ROUTE;
 const e = { transform: rotate ? '45deg' : '-45deg' };
 const f = { pointerEvents: on ? 'auto' : 'none' };
 const g = state === 'indeterminate' ? 'border-[#1B6B7B] dark:border-[#2D9DB3]' : 'border-gray-300 dark:border-[#3A4D60]';
@@ -137,8 +208,35 @@ test('writes the whole report when its output is not a terminal', () => {
   // execFileSync pipes stdout and stderr, which is where an exit-on-write race
   // shows up: the count arrives and the findings under it are lost.
   const { output } = scan(FIXTURE);
-  assert.ok(output.includes('12 hardcoded UI string(s) found'));
+  assert.ok(output.includes(`${CAUGHT.length} hardcoded UI string(s) found`));
   assert.equal(output.split('\n').filter(l => l.startsWith('    ')).length, CAUGHT.length);
+});
+
+test('scans a file named directly, not only directories', () => {
+  // The mobile app's App.js sits at the repo root, outside src/, and its
+  // first-launch screen stayed English because only folders could be named.
+  const dir = mkdtempSync(join(tmpdir(), 'i18n-check-'));
+  try {
+    mkdirSync(join(dir, 'src'));
+    writeFileSync(join(dir, 'src', 'Clean.tsx'), "const a = <Text>{t('tags.empty')}</Text>;\n");
+    writeFileSync(join(dir, 'App.js'), 'const s = <Text style={styles.title}>Setting up Immerse</Text>;\n');
+    writeFileSync(join(dir, 'package.json'), '{}');
+    let status = 0;
+    let output = '';
+    try {
+      output = execFileSync(process.execPath, [BIN, 'src', 'App.js'], {
+        cwd: dir, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
+      });
+    } catch (e: any) {
+      status = e.status;
+      output = `${e.stdout ?? ''}${e.stderr ?? ''}`;
+    }
+    assert.equal(status, 1);
+    assert.ok(output.includes('App.js:1'));
+    assert.ok(output.includes('Setting up Immerse'));
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
 });
 
 test('passes a file with nothing hardcoded', () => {
