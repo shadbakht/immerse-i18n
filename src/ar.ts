@@ -197,6 +197,8 @@ export const ar: LocaleTable = {
   'settings.accountActions': 'إجراءات الحساب',
   'settings.legal': 'الشؤون القانونية',
   'settings.contactSupport': 'التواصل مع الدعم',
+  'settings.rateImmerse': "قيّم Immerse",
+  'settings.rateAction': "تقييم ↗",
   'settings.sectionReading': 'القراءة',
   'settings.readerAppearance': 'مظهر القارئ',
   'settings.readAloudVoice': 'صوت القراءة الجهرية',

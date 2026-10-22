@@ -152,6 +152,8 @@ export const es: LocaleTable = {
   'settings.accountActions': 'Acciones de la cuenta',
   'settings.legal': 'Legal',
   'settings.contactSupport': 'Contactar con soporte',
+  'settings.rateImmerse': "Valorar Immerse",
+  'settings.rateAction': "Valorar ↗",
   'settings.sectionReading': 'Lectura',
   'settings.readerAppearance': 'Apariencia del lector',
   'settings.readAloudVoice': 'Voz de lectura en voz alta',

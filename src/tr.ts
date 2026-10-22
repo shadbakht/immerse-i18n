@@ -156,6 +156,8 @@ export const tr: LocaleTable = {
   'settings.accountActions': 'Hesap işlemleri',
   'settings.legal': 'Yasal',
   'settings.contactSupport': 'Destekle İletişime Geç',
+  'settings.rateImmerse': "Immerse’ü değerlendirin",
+  'settings.rateAction': "Değerlendir ↗",
   'settings.sectionReading': 'Okuma',
   'settings.readerAppearance': 'Okuyucu görünümü',
   'settings.readAloudVoice': 'Sesli okuma sesi',

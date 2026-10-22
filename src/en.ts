@@ -160,6 +160,8 @@ export const en = {
   'settings.accountActions': 'Account Actions',
   'settings.legal': 'Legal',
   'settings.contactSupport': 'Contact Support',
+  'settings.rateImmerse': "Rate Immerse",
+  'settings.rateAction': "Rate ↗",
   'settings.sectionReading': 'Reading',
   'settings.readerAppearance': 'Reader Appearance',
   'settings.readAloudVoice': 'Read Aloud Voice',

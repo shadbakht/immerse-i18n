@@ -154,6 +154,8 @@ export const zh: LocaleTable = {
   'settings.accountActions': '账户操作',
   'settings.legal': '法律信息',
   'settings.contactSupport': '联系支持',
+  'settings.rateImmerse': "为 Immerse 评分",
+  'settings.rateAction': "评分 ↗",
   'settings.sectionReading': '阅读',
   'settings.readerAppearance': '阅读器外观',
   'settings.readAloudVoice': '朗读语音',

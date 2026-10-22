@@ -163,6 +163,8 @@ export const fa: LocaleTable = {
   'settings.accountActions': 'اقدامات حساب',
   'settings.legal': 'حقوقی',
   'settings.contactSupport': 'تماس با پشتیبانی',
+  'settings.rateImmerse': "امتیاز به Immerse",
+  'settings.rateAction': "امتیاز دادن ↗",
   'settings.sectionReading': 'مطالعه',
   'settings.readerAppearance': 'ظاهر صفحهٔ خواندن',
   'settings.readAloudVoice': 'صدای بلندخوانی',

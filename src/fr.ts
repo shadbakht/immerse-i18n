@@ -156,6 +156,8 @@ export const fr: LocaleTable = {
   'settings.accountActions': 'Actions sur le compte',
   'settings.legal': 'Mentions légales',
   'settings.contactSupport': 'Contacter le support',
+  'settings.rateImmerse': "Noter Immerse",
+  'settings.rateAction': "Noter ↗",
   'settings.sectionReading': 'Lecture',
   'settings.readerAppearance': 'Apparence du lecteur',
   'settings.readAloudVoice': 'Voix de lecture à voix haute',

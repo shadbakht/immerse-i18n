@@ -167,6 +167,8 @@ export const ru: LocaleTable = {
   'settings.accountActions': 'Действия с аккаунтом',
   'settings.legal': 'Правовая информация',
   'settings.contactSupport': 'Связаться с поддержкой',
+  'settings.rateImmerse': "Оценить Immerse",
+  'settings.rateAction': "Оценить ↗",
   'settings.sectionReading': 'Чтение',
   'settings.readerAppearance': 'Оформление читалки',
   'settings.readAloudVoice': 'Голос для чтения вслух',

@@ -168,6 +168,8 @@ export const de: LocaleTable = {
   'settings.accountActions': 'Kontoaktionen',
   'settings.legal': 'Rechtliches',
   'settings.contactSupport': 'Support kontaktieren',
+  'settings.rateImmerse': "Immerse bewerten",
+  'settings.rateAction': "Bewerten ↗",
   'settings.sectionReading': 'Lesen',
   'settings.readerAppearance': 'Leseansicht',
   'settings.readAloudVoice': 'Vorlesestimme',
