@@ -1081,6 +1081,8 @@ export const ar: LocaleTable = {
   'appearance.textWeight': 'سماكة النص',
   'appearance.paragraphNumbers': 'أرقام الفقرات',
   'appearance.paragraphNumbersHint': 'إظهار الأرقام المرجعية في الهامش.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'يسبح حوت صغير على طول أسفل الصفحة أثناء قراءتك.',
   'appearance.appTheme': 'سمة التطبيق',
   'appearance.appThemeHint': 'تنطبق خارج القارئ.',
   'appearance.reset': 'إعادة التعيين إلى الإعدادات الافتراضية',

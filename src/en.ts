@@ -1012,6 +1012,8 @@ export const en = {
   'appearance.textWeight': 'Text weight',
   'appearance.paragraphNumbers': 'Paragraph numbers',
   'appearance.paragraphNumbersHint': 'Show reference numbers in the margin.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'A little whale swims along the bottom of the page while you read.',
   'appearance.appTheme': 'App theme',
   'appearance.appThemeHint': 'Applies outside the reader.',
   'appearance.reset': 'Reset to defaults',

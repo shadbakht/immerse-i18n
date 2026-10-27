@@ -933,6 +933,8 @@ export const es: LocaleTable = {
   'appearance.textWeight': 'Grosor del texto',
   'appearance.paragraphNumbers': 'Números de párrafo',
   'appearance.paragraphNumbersHint': 'Muestra números de referencia en el margen.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'Una pequeña ballena nada por la parte inferior de la página mientras lees.',
   'appearance.appTheme': 'Tema de la app',
   'appearance.appThemeHint': 'Se aplica fuera del lector.',
   'appearance.reset': 'Restablecer valores',

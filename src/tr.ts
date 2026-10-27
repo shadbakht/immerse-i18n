@@ -925,6 +925,8 @@ export const tr: LocaleTable = {
   'appearance.textWeight': 'Metin kalınlığı',
   'appearance.paragraphNumbers': 'Paragraf numaraları',
   'appearance.paragraphNumbersHint': 'Kenar boşluğunda referans numaralarını gösterir.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'Okurken sayfanın altında küçük bir balina yüzer.',
   'appearance.appTheme': 'Uygulama teması',
   'appearance.appThemeHint': 'Okuyucu dışında geçerlidir.',
   'appearance.reset': 'Varsayılanlara dön',

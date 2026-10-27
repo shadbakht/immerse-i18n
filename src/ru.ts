@@ -981,6 +981,8 @@ export const ru: LocaleTable = {
   'appearance.textWeight': 'Насыщенность текста',
   'appearance.paragraphNumbers': 'Номера абзацев',
   'appearance.paragraphNumbersHint': 'Показывать номера для ссылок на полях.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'Маленький кит плывёт по нижнему краю страницы, пока вы читаете.',
   'appearance.appTheme': 'Тема приложения',
   'appearance.appThemeHint': 'Применяется вне читалки.',
   'appearance.reset': 'Сбросить настройки',

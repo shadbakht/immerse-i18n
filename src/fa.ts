@@ -928,6 +928,8 @@ export const fa: LocaleTable = {
   'appearance.textWeight': 'ضخامت متن',
   'appearance.paragraphNumbers': 'شمارهٔ بندها',
   'appearance.paragraphNumbersHint': 'شماره‌های ارجاع را در حاشیه نشان می‌دهد.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'هنگام خواندن، نهنگ کوچکی در پایین صفحه شنا می‌کند.',
   'appearance.appTheme': 'پوستهٔ برنامه',
   'appearance.appThemeHint': 'بیرون از صفحهٔ خواندن اعمال می‌شود.',
   'appearance.reset': 'بازنشانی به پیش‌فرض',

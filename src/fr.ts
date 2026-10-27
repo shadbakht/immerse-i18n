@@ -940,6 +940,8 @@ export const fr: LocaleTable = {
   'appearance.textWeight': 'Graisse du texte',
   'appearance.paragraphNumbers': 'Numéros de paragraphe',
   'appearance.paragraphNumbersHint': 'Affiche les numéros de référence dans la marge.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'Une petite baleine nage en bas de la page pendant que vous lisez.',
   'appearance.appTheme': 'Thème de l’app',
   'appearance.appThemeHint': 'S’applique en dehors du lecteur.',
   'appearance.reset': 'Rétablir les valeurs par défaut',

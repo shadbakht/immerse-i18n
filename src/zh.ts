@@ -923,6 +923,8 @@ export const zh: LocaleTable = {
   'appearance.textWeight': '字重',
   'appearance.paragraphNumbers': '段落编号',
   'appearance.paragraphNumbersHint': '在页边显示引用编号。',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': '阅读时，一只小鲸鱼会在页面底部游动。',
   'appearance.appTheme': '应用主题',
   'appearance.appThemeHint': '应用于阅读器之外的界面。',
   'appearance.reset': '恢复默认',

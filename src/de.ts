@@ -947,6 +947,8 @@ export const de: LocaleTable = {
   'appearance.textWeight': 'Schriftstärke',
   'appearance.paragraphNumbers': 'Absatznummern',
   'appearance.paragraphNumbersHint': 'Referenznummern am Rand anzeigen.',
+  'appearance.whalie': 'Whalie',
+  'appearance.whalieHint': 'Ein kleiner Wal schwimmt am unteren Seitenrand entlang, während Sie lesen.',
   'appearance.appTheme': 'App-Design',
   'appearance.appThemeHint': 'Gilt außerhalb der Leseansicht.',
   'appearance.reset': 'Auf Standard zurücksetzen',
