@@ -86,6 +86,7 @@ export const ru: LocaleTable = {
   'library.downloadFailed': 'Не удалось загрузить',
   'library.updateAvailable': 'Доступно обновление',
   'library.updateLanguageA11y': 'Обновить {{language}}',
+  'library.updatePromptBody': 'Доступна новая версия вашей библиотеки ({{language}}).',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Изменить язык библиотеки',
 
   'library.myBooks': 'Мои книги',

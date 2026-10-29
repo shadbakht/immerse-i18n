@@ -80,6 +80,7 @@ export const en = {
   'library.downloadFailed': 'Download failed',
   'library.updateAvailable': 'Update available',
   'library.updateLanguageA11y': 'Update {{language}}',
+  'library.updatePromptBody': 'A new version of your {{language}} library is available.',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Change library language',
 
   'library.myBooks': 'My Books',

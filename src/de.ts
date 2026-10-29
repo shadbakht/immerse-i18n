@@ -91,6 +91,7 @@ export const de: LocaleTable = {
   'library.downloadFailed': 'Download fehlgeschlagen',
   'library.updateAvailable': 'Update verfügbar',
   'library.updateLanguageA11y': '{{language}} aktualisieren',
+  'library.updatePromptBody': 'Eine neue Version Ihrer Bibliothek ({{language}}) ist verfügbar.',
   'library.changeLanguageA11y': '{{title}}, {{language}}. Sprache der Bibliothek ändern',
 
   'library.myBooks': 'Meine Bücher',

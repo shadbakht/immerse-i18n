@@ -109,6 +109,7 @@ export const ar: LocaleTable = {
   'library.downloadFailed': 'فشل التنزيل',
   'library.updateAvailable': 'يتوفر تحديث',
   'library.updateLanguageA11y': 'تحديث {{language}}',
+  'library.updatePromptBody': 'يتوفر إصدار جديد من مكتبتك ({{language}}).',
   'library.changeLanguageA11y': '{{title}}، {{language}}. تغيير لغة المكتبة',
 
   'library.myBooks': 'كتبي',

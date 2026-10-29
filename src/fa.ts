@@ -88,6 +88,7 @@ export const fa: LocaleTable = {
   'library.downloadFailed': 'دانلود ناموفق بود',
   'library.updateAvailable': 'به‌روزرسانی موجود است',
   'library.updateLanguageA11y': 'به‌روزرسانی {{language}}',
+  'library.updatePromptBody': 'نسخهٔ تازه‌ای از کتابخانهٔ {{language}} شما در دسترس است.',
   'library.changeLanguageA11y': '{{title}}، {{language}}. تغییر زبان کتابخانه',
 
   'library.myBooks': 'کتاب‌های من',

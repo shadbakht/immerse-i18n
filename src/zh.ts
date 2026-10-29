@@ -79,6 +79,7 @@ export const zh: LocaleTable = {
   'library.downloadFailed': '下载失败',
   'library.updateAvailable': '有可用更新',
   'library.updateLanguageA11y': '更新{{language}}',
+  'library.updatePromptBody': '你的{{language}}书库有新版本可用。',
   'library.changeLanguageA11y': '{{title}}，{{language}}。更改书库语言',
 
   'library.myBooks': '我的书',
