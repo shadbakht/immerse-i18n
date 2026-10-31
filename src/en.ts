@@ -752,6 +752,7 @@ export const en = {
   'sharePage.eyebrow': 'Shared compilation',
   'sharePage.openInReader': 'Open in reader',
   'sharePage.save': 'Save to my Compilations',
+  'sharePage.openInDiscover': 'Open in Immerse Discover',
   'sharePage.saving': 'Saving…',
   'sharePage.saved': 'Saved to your Compilations',
   'sharePage.saveHint': 'Opens the Immerse app, or sign in to save on the web.',

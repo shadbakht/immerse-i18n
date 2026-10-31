@@ -710,6 +710,7 @@ export const fa: LocaleTable = {
   'sharePage.eyebrow': 'گزیدهٔ هم‌رسانی‌شده',
   'sharePage.openInReader': 'باز کردن در کتاب‌خوان',
   'sharePage.save': 'ذخیره در گزیده‌های من',
+  'sharePage.openInDiscover': 'باز کردن در «کشف» در Immerse',
   'sharePage.saving': 'در حال ذخیره…',
   'sharePage.saved': 'در گزیده‌های شما ذخیره شد',
   'sharePage.saveHint': 'برنامهٔ Immerse را باز می‌کند، یا برای ذخیره در وب وارد شوید.',

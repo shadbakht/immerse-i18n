@@ -703,6 +703,7 @@ export const tr: LocaleTable = {
   'sharePage.eyebrow': 'Paylaşılan derleme',
   'sharePage.openInReader': 'Okuyucuda aç',
   'sharePage.save': 'Derlemelerime kaydet',
+  'sharePage.openInDiscover': 'Immerse Keşfet’te aç',
   'sharePage.saving': 'Kaydediliyor…',
   'sharePage.saved': 'Derlemelerine kaydedildi',
   'sharePage.saveHint': 'Immerse uygulamasını açar veya web’de kaydetmek için giriş yapın.',

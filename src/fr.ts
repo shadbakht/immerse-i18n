@@ -710,6 +710,7 @@ export const fr: LocaleTable = {
   'sharePage.eyebrow': 'Compilation partagée',
   'sharePage.openInReader': 'Ouvrir dans le lecteur',
   'sharePage.save': 'Enregistrer dans mes compilations',
+  'sharePage.openInDiscover': 'Ouvrir dans Immerse « Découvrir »',
   'sharePage.saving': 'Enregistrement…',
   'sharePage.saved': 'Enregistrée dans vos compilations',
   'sharePage.saveHint': 'Ouvre l’application Immerse, ou connectez-vous pour enregistrer sur le web.',

@@ -701,6 +701,7 @@ export const zh: LocaleTable = {
   'sharePage.eyebrow': '共享的汇编',
   'sharePage.openInReader': '在阅读器中打开',
   'sharePage.save': '保存到我的汇编',
+  'sharePage.openInDiscover': '在 Immerse“发现”中打开',
   'sharePage.saving': '正在保存…',
   'sharePage.saved': '已保存到你的汇编',
   'sharePage.saveHint': '将打开 Immerse 应用，或登录后在网页端保存。',

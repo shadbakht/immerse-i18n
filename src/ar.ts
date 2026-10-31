@@ -803,6 +803,7 @@ export const ar: LocaleTable = {
   'sharePage.eyebrow': 'مجموعة مشتركة',
   'sharePage.openInReader': 'فتح في القارئ',
   'sharePage.save': 'حفظ في مجموعاتي',
+  'sharePage.openInDiscover': 'فتح في «استكشاف» في Immerse',
   'sharePage.saving': 'جارٍ الحفظ…',
   'sharePage.saved': 'تم الحفظ في مجموعاتك',
   'sharePage.saveHint': 'يفتح تطبيق Immerse، أو سجِّل الدخول للحفظ على الويب.',

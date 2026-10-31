@@ -702,6 +702,7 @@ export const es: LocaleTable = {
   'sharePage.eyebrow': 'Compilación compartida',
   'sharePage.openInReader': 'Abrir en el lector',
   'sharePage.save': 'Guardar en mis compilaciones',
+  'sharePage.openInDiscover': 'Abrir en Descubrir de Immerse',
   'sharePage.saving': 'Guardando…',
   'sharePage.saved': 'Guardada en tus compilaciones',
   'sharePage.saveHint': 'Abre la app de Immerse, o inicia sesión para guardarla en la web.',

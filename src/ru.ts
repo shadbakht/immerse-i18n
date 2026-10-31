@@ -735,6 +735,7 @@ export const ru: LocaleTable = {
   'sharePage.eyebrow': 'Общая подборка',
   'sharePage.openInReader': 'Открыть в читалке',
   'sharePage.save': 'Сохранить в мои подборки',
+  'sharePage.openInDiscover': 'Открыть в разделе «Обзор» Immerse',
   'sharePage.saving': 'Сохранение…',
   'sharePage.saved': 'Сохранено в ваши подборки',
   'sharePage.saveHint': 'Откроется приложение Immerse, или войдите, чтобы сохранить в вебе.',

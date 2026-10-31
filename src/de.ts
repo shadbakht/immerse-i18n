@@ -723,6 +723,7 @@ export const de: LocaleTable = {
   'sharePage.eyebrow': 'Geteilte Zusammenstellung',
   'sharePage.openInReader': 'In der Leseansicht öffnen',
   'sharePage.save': 'In meinen Zusammenstellungen speichern',
+  'sharePage.openInDiscover': 'In Immerse „Entdecken“ öffnen',
   'sharePage.saving': 'Wird gespeichert…',
   'sharePage.saved': 'In Ihren Zusammenstellungen gespeichert',
   'sharePage.saveHint': 'Öffnet die Immerse-App, oder melden Sie sich an, um im Web zu speichern.',
