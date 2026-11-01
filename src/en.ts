@@ -467,6 +467,7 @@ export const en = {
   'tags.searchTagsPassages': 'Search compilations and passages…',
   'tags.exportSelected': 'Export selected compilations',
   'xrefs.exportSelected': 'Export selected cross-references',
+  'notes.exportSelected': 'Export selected notes',
   'tags.export': 'Export',
   'tags.exporting': 'Exporting\u2026',
   'tags.exportInclude': 'Include',
@@ -476,7 +477,7 @@ export const en = {
   'panel.signInToSave': 'Create a free account to save compilations, notes, and cross-references.',
   'panel.editSelection': 'Edit text selection',
 
-  'reader.xrefMode': 'X-ref mode — long-press to pick a passage',
+  'reader.xrefMode': 'Tap and hold to select a second passage',
   'reader.error': 'Reader Error',
   'reader.opening': 'Opening book…',
   // Shown under the "Opening book…" spinner for a book whose full fetch
@@ -526,7 +527,7 @@ export const en = {
   'reader.adjustSelectionHint': 'Adjust your selection, then tap Done',
   'reader.adjustSelectionHintAndroid': 'Long-press to make a new selection, then tap Done',
   'reader.savingXref': 'Saving cross-reference\u2026',
-  'reader.pickTargetHint': 'Select text or click a passage to link',
+  'reader.pickTargetHint': 'Select text to choose a second passage',
   'reader.footnoteUnavailable': 'Footnote text not available in the web version.',
   'reader.bookNotFound': 'Book not found',
   'reader.viewTags': 'View compilations',
@@ -769,7 +770,9 @@ export const en = {
   // The xref analogue of the compilation share links above. Same URL shape
   // (/c/<id>), but a shared set of cross-references rendered side by side.
   'share.createLinkXrefHint': 'A private web page showing these cross-references. Not shown in Discover.',
+  'share.createLinkNotesHint': 'A private web page showing these quotes with your notes. Not shown in Discover.',
   'sharePage.xrefEyebrow': 'Shared cross-references',
+  'sharePage.notesEyebrow': 'Shared notes',
   'sharePage.saveXrefs': 'Save to my Cross-References',
   'sharePage.savedXrefs': 'Saved to your Cross-References',
   'sharePage.savedXrefsPartial': 'Saved {{saved}} of {{total}} — {{skipped}} need content you don’t have',
@@ -784,6 +787,8 @@ export const en = {
   'export.shareTagsGeneric': 'Share Compilations',
   'export.shareXrefs_one': 'Share {{count}} cross-reference',
   'export.shareXrefs_other': 'Share {{count}} cross-references',
+  'export.shareNotes_one': 'Share {{count}} note',
+  'export.shareNotes_other': 'Share {{count}} notes',
   'export.preparing': 'Preparing…',
   'export.notesOn': 'Your written notes on each passage',
   'export.notesNone': 'No notes on these passages',

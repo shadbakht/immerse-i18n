@@ -452,6 +452,7 @@ export const tr: LocaleTable = {
   'tags.searchTagsPassages': 'Derlemelerde ve pasajlarda ara…',
   'tags.exportSelected': 'Seçili derlemeleri dışa aktar',
   'xrefs.exportSelected': 'Seçili çapraz referansları dışa aktar',
+  'notes.exportSelected': 'Seçili notları dışa aktar',
   'tags.export': 'Dışa aktar',
   'tags.exporting': 'Dışa aktarılıyor…',
   'tags.exportInclude': 'Dahil et',
@@ -461,7 +462,7 @@ export const tr: LocaleTable = {
   'panel.signInToSave': 'Derlemeleri, notları ve çapraz referansları kaydetmek için ücretsiz hesap oluşturun.',
   'panel.editSelection': 'Metin seçimini düzenle',
 
-  'reader.xrefMode': 'Çapraz referans modu — pasaj seçmek için uzun basın',
+  'reader.xrefMode': 'İkinci bir pasaj seçmek için basılı tutun',
   'reader.error': 'Okuyucu hatası',
   'reader.opening': 'Kitap açılıyor…',
   'reader.loadingCount_other': 'Şimdiye kadar {{count}} pasaj yüklendi…',
@@ -503,7 +504,7 @@ export const tr: LocaleTable = {
   'reader.adjustSelectionHint': 'Seçiminizi ayarlayın, ardından Tamam’a dokunun',
   'reader.adjustSelectionHintAndroid': 'Yeni bir seçim yapmak için basılı tutun, ardından Tamam’a dokunun',
   'reader.savingXref': 'Çapraz referans kaydediliyor…',
-  'reader.pickTargetHint': 'Bağlamak için metin seçin veya bir pasaja tıklayın',
+  'reader.pickTargetHint': 'İkinci bir pasaj seçmek için metin seçin',
   'reader.footnoteUnavailable': 'Dipnot metni web sürümünde bulunmuyor.',
   'reader.bookNotFound': 'Kitap bulunamadı',
   'reader.viewTags': 'Derlemeleri gör',
@@ -716,7 +717,9 @@ export const tr: LocaleTable = {
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'Bu çapraz referansları gösteren özel bir web sayfası. Keşfet’te gösterilmez.',
+  'share.createLinkNotesHint': 'Bu alıntıları notlarınızla birlikte gösteren özel bir web sayfası. Keşfet’te gösterilmez.',
   'sharePage.xrefEyebrow': 'Paylaşılan çapraz referanslar',
+  'sharePage.notesEyebrow': 'Paylaşılan notlar',
   'sharePage.saveXrefs': 'Çapraz referanslarıma kaydet',
   'sharePage.savedXrefs': 'Çapraz referanslarınıza kaydedildi',
   'sharePage.savedXrefsPartial': '{{total}} referanstan {{saved}} tanesi kaydedildi — {{skipped}} tanesi sizde olmayan içerik gerektiriyor',
@@ -726,6 +729,7 @@ export const tr: LocaleTable = {
   'export.shareTags_other': '{{count}} derlemeyi paylaş',
   'export.shareTagsGeneric': 'Derlemeleri paylaş',
   'export.shareXrefs_other': '{{count}} çapraz referansı paylaş',
+  'export.shareNotes_other': '{{count}} notu paylaş',
   'export.preparing': 'Hazırlanıyor…',
   'export.notesOn': 'Her pasaj için yazdığınız notlar',
   'export.notesNone': 'Bu pasajlarda not yok',

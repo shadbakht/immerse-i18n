@@ -459,6 +459,7 @@ export const fa: LocaleTable = {
   'tags.searchTagsPassages': 'جستجوی گزیده‌ها و بندها…',
   'tags.exportSelected': 'برون‌بری گزیده‌های انتخاب‌شده',
   'xrefs.exportSelected': 'برون‌بری ارجاعات متقابل انتخاب‌شده',
+  'notes.exportSelected': 'برون‌بری یادداشت‌های انتخاب‌شده',
   'tags.export': 'برون‌بری',
   'tags.exporting': 'در حال برون‌بری…',
   'tags.exportInclude': 'شامل',
@@ -468,7 +469,7 @@ export const fa: LocaleTable = {
   'panel.signInToSave': 'برای ذخیرهٔ گزیده‌ها، یادداشت‌ها و ارجاعات، حساب رایگان بسازید.',
   'panel.editSelection': 'ویرایش متن انتخاب‌شده',
 
-  'reader.xrefMode': 'حالت ارجاع — برای انتخاب بند، لمس طولانی کنید',
+  'reader.xrefMode': 'برای انتخاب بند دوم، لمس طولانی کنید',
   'reader.error': 'خطای کتاب‌خوان',
   'reader.opening': 'در حال باز کردن کتاب…',
   'reader.loadingCount_other': 'تاکنون {{count}} بند بارگذاری شده…',
@@ -510,7 +511,7 @@ export const fa: LocaleTable = {
   'reader.adjustSelectionHint': 'انتخاب خود را تنظیم کنید و سپس روی «تمام» ضربه بزنید',
   'reader.adjustSelectionHintAndroid': 'برای انتخاب تازه، انگشت خود را نگه دارید و سپس روی «تمام» ضربه بزنید',
   'reader.savingXref': 'در حال ذخیرهٔ ارجاع متقابل…',
-  'reader.pickTargetHint': 'متنی را انتخاب کنید یا برای پیوند روی بندی کلیک کنید',
+  'reader.pickTargetHint': 'برای انتخاب بند دوم، متنی را انتخاب کنید',
   'reader.footnoteUnavailable': 'متن پانویس در نسخهٔ وب در دسترس نیست.',
   'reader.bookNotFound': 'کتاب پیدا نشد',
   'reader.viewTags': 'مشاهدهٔ گزیده‌ها',
@@ -723,7 +724,9 @@ export const fa: LocaleTable = {
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': 'یک صفحهٔ وب خصوصی که این ارجاعات متقابل را نشان می‌دهد. در کشف نمایش داده نمی‌شود.',
+  'share.createLinkNotesHint': 'یک صفحهٔ وب خصوصی که این نقل‌قول‌ها را همراه با یادداشت‌های شما نشان می‌دهد. در کشف نمایش داده نمی‌شود.',
   'sharePage.xrefEyebrow': 'ارجاعات متقابل هم‌رسانی‌شده',
+  'sharePage.notesEyebrow': 'یادداشت‌های هم‌رسانی‌شده',
   'sharePage.saveXrefs': 'ذخیره در ارجاعات متقابل من',
   'sharePage.savedXrefs': 'در ارجاعات متقابل شما ذخیره شد',
   'sharePage.savedXrefsPartial': '{{saved}} از {{total}} ذخیره شد — {{skipped}} مورد به محتوایی نیاز دارد که ندارید',
@@ -732,6 +735,7 @@ export const fa: LocaleTable = {
   'export.shareTags_other': 'هم‌رسانی {{count}} گزیده',
   'export.shareTagsGeneric': 'هم‌رسانی گزیده‌ها',
   'export.shareXrefs_other': 'هم‌رسانی {{count}} ارجاع متقابل',
+  'export.shareNotes_other': 'هم‌رسانی {{count}} یادداشت',
   'export.preparing': 'در حال آماده‌سازی…',
   'export.notesOn': 'یادداشت‌های نوشتهٔ شما روی هر بند',
   'export.notesNone': 'یادداشتی روی این بندها نیست',

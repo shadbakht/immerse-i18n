@@ -450,6 +450,7 @@ export const zh: LocaleTable = {
   'tags.searchTagsPassages': '搜索汇编和段落…',
   'tags.exportSelected': '导出所选汇编',
   'xrefs.exportSelected': '导出所选交叉引用',
+  'notes.exportSelected': '导出所选笔记',
   'tags.export': '导出',
   'tags.exporting': '正在导出…',
   'tags.exportInclude': '包含',
@@ -459,7 +460,7 @@ export const zh: LocaleTable = {
   'panel.signInToSave': '创建免费账户即可保存汇编、笔记和交叉引用。',
   'panel.editSelection': '编辑所选文本',
 
-  'reader.xrefMode': '交叉引用模式 — 长按以选取段落',
+  'reader.xrefMode': '长按以选择第二个段落',
   'reader.error': '阅读器错误',
   'reader.opening': '正在打开书籍…',
   'reader.loadingCount_other': '已加载 {{count}} 段…',
@@ -501,7 +502,7 @@ export const zh: LocaleTable = {
   'reader.adjustSelectionHint': '调整选区，然后点按“完成”',
   'reader.adjustSelectionHintAndroid': '长按以重新选取，然后点按“完成”',
   'reader.savingXref': '正在保存交叉引用…',
-  'reader.pickTargetHint': '选择文本或点击某个段落以建立连接',
+  'reader.pickTargetHint': '选择文本以选取第二个段落',
   'reader.footnoteUnavailable': '网页版暂不提供脚注文本。',
   'reader.bookNotFound': '未找到该书',
   'reader.viewTags': '查看汇编',
@@ -714,7 +715,9 @@ export const zh: LocaleTable = {
 
   // ── Share links: cross-references (Phase 8) ───────────────────────────────
   'share.createLinkXrefHint': '一个私密网页，展示这些交叉引用。不会出现在「发现」中。',
+  'share.createLinkNotesHint': '一个私密网页，展示这些引文及你的笔记。不会出现在「发现」中。',
   'sharePage.xrefEyebrow': '共享的交叉引用',
+  'sharePage.notesEyebrow': '共享的笔记',
   'sharePage.saveXrefs': '保存到我的交叉引用',
   'sharePage.savedXrefs': '已保存到你的交叉引用',
   'sharePage.savedXrefsPartial': '已保存 {{total}} 条中的 {{saved}} 条 — {{skipped}} 条需要你没有的内容',
@@ -724,6 +727,7 @@ export const zh: LocaleTable = {
   'export.shareTags_other': '分享 {{count}} 个汇编',
   'export.shareTagsGeneric': '分享汇编',
   'export.shareXrefs_other': '分享 {{count}} 条交叉引用',
+  'export.shareNotes_other': '分享 {{count}} 条笔记',
   'export.preparing': '正在准备…',
   'export.notesOn': '你为每个段落写下的笔记',
   'export.notesNone': '这些段落上没有笔记',
