@@ -600,6 +600,7 @@ export const zh: LocaleTable = {
   'reader.notNow': '暂不',
   'reader.signIn': '登录',
   'reader.pdfNotFound': '找不到该 PDF 文件。',
+  'reader.scannedPdfNotice': '此 PDF 是扫描图像，其中的文字无法选取或添加批注。如需批注，请先用 OCR（文字识别）应用将其转换为文本，再导入新文件。',
   'reader.contentLoadFailed': '内容加载失败',
   'reader.noBook': '未指定书籍',
   'reader.storageError': '存储错误',

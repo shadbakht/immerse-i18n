@@ -599,6 +599,7 @@ export const es: LocaleTable = {
   'reader.notNow': 'Ahora no',
   'reader.signIn': 'Iniciar sesión',
   'reader.pdfNotFound': 'No se pudo encontrar el archivo PDF.',
+  'reader.scannedPdfNotice': 'Este PDF es una imagen escaneada, así que su texto no se puede seleccionar ni anotar. Para anotarlo, conviértalo a texto con una aplicación de OCR y luego importe el archivo nuevo.',
   'reader.contentLoadFailed': 'No se pudo cargar el contenido',
   'reader.noBook': 'No se especificó ningún libro',
   'reader.storageError': 'Error de almacenamiento',

@@ -609,6 +609,7 @@ export const fa: LocaleTable = {
   'reader.notNow': 'الان نه',
   'reader.signIn': 'ورود',
   'reader.pdfNotFound': 'فایل PDF پیدا نشد.',
+  'reader.scannedPdfNotice': 'این PDF تصویر اسکن‌شده است، بنابراین متن آن قابل انتخاب یا یادداشت‌گذاری نیست. برای یادداشت‌گذاری، ابتدا آن را با یک برنامهٔ OCR (تبدیل تصویر به متن) به متن تبدیل کنید و سپس فایل جدید را وارد کنید.',
   'reader.contentLoadFailed': 'محتوا بارگذاری نشد',
   'reader.noBook': 'کتابی مشخص نشده است',
   'reader.storageError': 'خطای ذخیره‌سازی',

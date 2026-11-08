@@ -636,6 +636,7 @@ export const en = {
   'reader.notNow': 'Not Now',
   'reader.signIn': 'Sign In',
   'reader.pdfNotFound': 'Could not locate the PDF file.',
+  'reader.scannedPdfNotice': 'This PDF is a scanned image, so its text can\'t be selected or annotated. To annotate it, convert it to text with an OCR app, then import the new file.',
   'reader.contentLoadFailed': 'Content could not load',
   'reader.noBook': 'No book specified',
   'reader.storageError': 'Storage error',

@@ -602,6 +602,7 @@ export const tr: LocaleTable = {
   'reader.notNow': 'Şimdi değil',
   'reader.signIn': 'Giriş yap',
   'reader.pdfNotFound': 'PDF dosyası bulunamadı.',
+  'reader.scannedPdfNotice': 'Bu PDF taranmış bir görüntü olduğu için metni seçilemez veya not eklenemez. Not eklemek için bir OCR uygulamasıyla metne dönüştürün, ardından yeni dosyayı içe aktarın.',
   'reader.contentLoadFailed': 'İçerik yüklenemedi',
   'reader.noBook': 'Kitap belirtilmedi',
   'reader.storageError': 'Depolama hatası',

@@ -620,6 +620,7 @@ export const de: LocaleTable = {
   'reader.notNow': 'Jetzt nicht',
   'reader.signIn': 'Anmelden',
   'reader.pdfNotFound': 'Die PDF-Datei konnte nicht gefunden werden.',
+  'reader.scannedPdfNotice': 'Diese PDF ist ein gescanntes Bild, daher kann ihr Text weder markiert noch kommentiert werden. Um sie zu kommentieren, wandeln Sie sie mit einer OCR-App in Text um und importieren Sie dann die neue Datei.',
   'reader.contentLoadFailed': 'Inhalt konnte nicht geladen werden',
   'reader.noBook': 'Kein Buch angegeben',
   'reader.storageError': 'Speicherfehler',

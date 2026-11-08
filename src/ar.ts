@@ -679,6 +679,7 @@ export const ar: LocaleTable = {
   'reader.notNow': 'ليس الآن',
   'reader.signIn': 'تسجيل الدخول',
   'reader.pdfNotFound': 'تعذَّر تحديد موقع ملف PDF.',
+  'reader.scannedPdfNotice': 'ملف PDF هذا صورة ممسوحة ضوئيًا، لذا لا يمكن تحديد نصه أو إضافة تعليقات عليه. لإضافة تعليقات، حوِّله إلى نص باستخدام تطبيق للتعرّف الضوئي على الحروف (OCR)، ثم أضِف الملف الجديد.',
   'reader.contentLoadFailed': 'تعذَّر تحميل المحتوى',
   'reader.noBook': 'لم يُحدَّد أي كتاب',
   'reader.storageError': 'خطأ في التخزين',

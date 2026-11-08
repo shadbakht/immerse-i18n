@@ -606,6 +606,7 @@ export const fr: LocaleTable = {
   'reader.notNow': 'Plus tard',
   'reader.signIn': 'Se connecter',
   'reader.pdfNotFound': 'Impossible de localiser le fichier PDF.',
+  'reader.scannedPdfNotice': 'Ce PDF est une image numérisée : son texte ne peut être ni sélectionné ni annoté. Pour l’annoter, convertissez-le en texte avec une application d’OCR, puis importez le nouveau fichier.',
   'reader.contentLoadFailed': 'Le contenu n’a pas pu être chargé',
   'reader.noBook': 'Aucun livre indiqué',
   'reader.storageError': 'Erreur de stockage',
