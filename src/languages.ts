@@ -17,6 +17,7 @@ export const LANGUAGE_LABELS: Record<string, string> = {
   de: 'Deutsch',
   es: 'Español',
   pt: 'Português',
+  hi: 'हिन्दी',
   fr: 'Français',
   ru: 'Русский',
   // Simplified, the script the `zh` tables are written in. Marked as such
@@ -70,6 +71,8 @@ export const UI_LANGUAGES: ReadonlyArray<{ code: string; label: string }> = [
   { code: 'de', label: LANGUAGE_LABELS.de },
   { code: 'es', label: LANGUAGE_LABELS.es },
   { code: 'fr', label: LANGUAGE_LABELS.fr },
+  { code: 'pt', label: LANGUAGE_LABELS.pt },
+  { code: 'hi', label: LANGUAGE_LABELS.hi },
   { code: 'ru', label: LANGUAGE_LABELS.ru },
   { code: 'zh', label: LANGUAGE_LABELS.zh },
   { code: 'tr', label: LANGUAGE_LABELS.tr },
