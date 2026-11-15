@@ -651,6 +651,9 @@ export const tr: LocaleTable = {
   'usertags.share': 'Paylaş',
   'usertags.error': 'Hata',
   'usertags.somethingWrong': 'Bir şeyler ters gitti',
+  'usertags.following': "Takip ediliyor",
+  'discover.compilationCount_other': "{{count}} derleme",
+  'discover.xrefCount_other': "{{count}} referans",
 
   'onboarding.chooseLanguage': 'Dilinizi seçin',
   'onboarding.changeLaterSettings': 'Bunu daha sonra Ayarlar’dan değiştirebilirsiniz.',

@@ -649,6 +649,9 @@ export const zh: LocaleTable = {
   'usertags.share': '分享',
   'usertags.error': '错误',
   'usertags.somethingWrong': '出错了',
+  'usertags.following': "已关注",
+  'discover.compilationCount_other': "{{count}} 个汇编",
+  'discover.xrefCount_other': "{{count}} 条引用",
 
   'onboarding.chooseLanguage': '选择你的语言',
   'onboarding.changeLaterSettings': '之后可以在设置中更改。',

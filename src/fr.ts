@@ -658,6 +658,11 @@ export const fr: LocaleTable = {
   'usertags.share': 'Partager',
   'usertags.error': 'Erreur',
   'usertags.somethingWrong': 'Une erreur s’est produite',
+  'usertags.following': "Abonné",
+  'discover.compilationCount_one': "{{count}} compilation",
+  'discover.compilationCount_other': "{{count}} compilations",
+  'discover.xrefCount_one': "{{count}} renvoi",
+  'discover.xrefCount_other': "{{count}} renvois",
 
   'onboarding.chooseLanguage': 'Choisissez votre langue',
   'onboarding.changeLaterSettings': 'Vous pourrez changer cela plus tard dans les Réglages.',

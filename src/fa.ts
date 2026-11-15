@@ -658,6 +658,9 @@ export const fa: LocaleTable = {
   'usertags.share': 'هم‌رسانی',
   'usertags.error': 'خطا',
   'usertags.somethingWrong': 'مشکلی پیش آمد',
+  'usertags.following': "دنبال می‌کنید",
+  'discover.compilationCount_other': "{{count}} گزیده",
+  'discover.xrefCount_other': "{{count}} ارجاع",
 
   'onboarding.chooseLanguage': 'زبان خود را انتخاب کنید',
   'onboarding.changeLaterSettings': 'می‌توانید این را بعداً در تنظیمات تغییر دهید.',

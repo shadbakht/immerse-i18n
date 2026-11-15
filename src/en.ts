@@ -690,6 +690,11 @@ export const en = {
   'usertags.share': 'Share',
   'usertags.error': 'Error',
   'usertags.somethingWrong': 'Something went wrong',
+  'usertags.following': "Following",
+  'discover.compilationCount_one': "{{count}} compilation",
+  'discover.compilationCount_other': "{{count}} compilations",
+  'discover.xrefCount_one': "{{count}} X-Ref",
+  'discover.xrefCount_other': "{{count}} X-Refs",
 
   'onboarding.chooseLanguage': 'Choose Your Language',
   'onboarding.changeLaterSettings': 'You can change this later in Settings.',

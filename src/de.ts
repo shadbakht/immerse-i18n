@@ -672,6 +672,11 @@ export const de: LocaleTable = {
   'usertags.share': 'Teilen',
   'usertags.error': 'Fehler',
   'usertags.somethingWrong': 'Etwas ist schiefgelaufen',
+  'usertags.following': "Folge ich",
+  'discover.compilationCount_one': "{{count}} Zusammenstellung",
+  'discover.compilationCount_other': "{{count}} Zusammenstellungen",
+  'discover.xrefCount_one': "{{count}} Querverweis",
+  'discover.xrefCount_other': "{{count}} Querverweise",
 
   'onboarding.chooseLanguage': 'Wählen Sie Ihre Sprache',
   'onboarding.changeLaterSettings': 'Sie können dies später in den Einstellungen ändern.',
