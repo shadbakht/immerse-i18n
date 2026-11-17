@@ -737,6 +737,10 @@ export const es: LocaleTable = {
   'sharePage.footer': 'Lee más en Immerse',
   'sharePage.needLanguagePack':
     'Esta cita es de la biblioteca en {{language}}. Descárgala desde el menú de idioma en Biblioteca para leerla aquí.',
+  'library.packMissingTitle': "Biblioteca no descargada",
+  'library.packMissingBody': "No tienes descargada la biblioteca en {{language}}. ¿Quieres descargar la biblioteca en {{language}}?",
+  'library.packMissingGo': "Ir a Biblioteca",
+  'library.packMissingLater': "Ahora no",
   'sharePage.viewOnly': 'Esta compilación compartida es de solo lectura.',
   'sharePage.fromPrivateImport': 'de una importación privada',
 

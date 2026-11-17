@@ -734,6 +734,10 @@ export const zh: LocaleTable = {
   'sharePage.footer': '在 Immerse 中阅读更多',
   'sharePage.needLanguagePack':
     '此引文来自{{language}}文库。请在“文库”的语言菜单中下载该语言以在此阅读。',
+  'library.packMissingTitle': "尚未下载书库",
+  'library.packMissingBody': "你尚未下载{{language}}书库。要下载{{language}}书库吗？",
+  'library.packMissingGo': "前往书库",
+  'library.packMissingLater': "以后再说",
   'sharePage.viewOnly': '此共享汇编仅供查看。',
   'sharePage.fromPrivateImport': '出自私人导入',
 

@@ -745,6 +745,10 @@ export const fr: LocaleTable = {
   'sharePage.footer': 'Lire plus dans Immerse',
   'sharePage.needLanguagePack':
     'Cette citation provient de la bibliothèque en {{language}}. Téléchargez-la depuis le menu des langues dans Bibliothèque pour la lire ici.',
+  'library.packMissingTitle': "Bibliothèque non téléchargée",
+  'library.packMissingBody': "Vous n’avez pas téléchargé la bibliothèque en {{language}}. Voulez-vous télécharger la bibliothèque en {{language}} ?",
+  'library.packMissingGo': "Aller à Bibliothèque",
+  'library.packMissingLater': "Plus tard",
   'sharePage.viewOnly': 'Cette compilation partagée est en lecture seule.',
   'sharePage.fromPrivateImport': 'd’un import privé',
 

@@ -774,6 +774,10 @@ export const ru: LocaleTable = {
   'sharePage.footer': 'Читать больше в Immerse',
   'sharePage.needLanguagePack':
     'Эта цитата из библиотеки на языке {{language}}. Загрузите её через меню языков в разделе «Библиотека», чтобы прочитать здесь.',
+  'library.packMissingTitle': "Библиотека не загружена",
+  'library.packMissingBody': "Библиотека на языке {{language}} не загружена. Хотите загрузить библиотеку на языке {{language}}?",
+  'library.packMissingGo': "Перейти в «Библиотеку»",
+  'library.packMissingLater': "Не сейчас",
   'sharePage.viewOnly': 'Эта общая подборка доступна только для просмотра.',
   'sharePage.fromPrivateImport': 'из частного импорта',
 

@@ -743,6 +743,10 @@ export const fa: LocaleTable = {
   'sharePage.footer': 'در Immerse بیشتر بخوانید',
   'sharePage.needLanguagePack':
     'این نقل‌قول از کتابخانهٔ {{language}} است. برای خواندن آن در اینجا، از منوی زبان در بخش کتابخانه آن را دانلود کنید.',
+  'library.packMissingTitle': "کتابخانه دانلود نشده است",
+  'library.packMissingBody': "کتابخانهٔ {{language}} را دانلود نکرده‌اید. آیا می‌خواهید کتابخانهٔ {{language}} را دانلود کنید؟",
+  'library.packMissingGo': "رفتن به کتابخانه",
+  'library.packMissingLater': "بعداً",
   'sharePage.viewOnly': 'این گزیدهٔ هم‌رسانی‌شده فقط برای مشاهده است.',
   'sharePage.fromPrivateImport': 'از یک وارد کردن خصوصی',
 

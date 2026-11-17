@@ -758,6 +758,10 @@ export const de: LocaleTable = {
   'sharePage.footer': 'Mehr lesen in Immerse',
   'sharePage.needLanguagePack':
     'Dieses Zitat stammt aus der Bibliothek {{language}}. Laden Sie sie über das Sprachmenü in „Bibliothek“ herunter, um es hier zu lesen.',
+  'library.packMissingTitle': "Bibliothek nicht heruntergeladen",
+  'library.packMissingBody': "Sie haben die Bibliothek {{language}} nicht heruntergeladen. Möchten Sie die Bibliothek {{language}} herunterladen?",
+  'library.packMissingGo': "Zur Bibliothek",
+  'library.packMissingLater': "Nicht jetzt",
   'sharePage.viewOnly': 'Diese geteilte Zusammenstellung kann nur angesehen werden.',
   'sharePage.fromPrivateImport': 'aus einem privaten Import',
 

@@ -787,6 +787,10 @@ export const en = {
   'sharePage.footer': 'Read more in Immerse',
   'sharePage.needLanguagePack':
     'This quote is from the {{language}} library. Download it from the language menu in Library to read it here.',
+  'library.packMissingTitle': "Library not downloaded",
+  'library.packMissingBody': "You don’t have the {{language}} library downloaded. Would you like to download the {{language}} library?",
+  'library.packMissingGo': "Go to Library",
+  'library.packMissingLater': "Not now",
   // Shown when the shared compilation contains only imported-book quotes, so
   // it cannot be copied — the reader can look but not save.
   'sharePage.viewOnly': 'This shared compilation is view-only.',

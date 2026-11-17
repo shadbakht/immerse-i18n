@@ -736,6 +736,10 @@ export const tr: LocaleTable = {
   'sharePage.footer': 'Immerse’te daha fazlasını oku',
   'sharePage.needLanguagePack':
     'Bu alıntı {{language}} kitaplığından. Burada okumak için Kitaplık’taki dil menüsünden indirin.',
+  'library.packMissingTitle': "Kütüphane indirilmedi",
+  'library.packMissingBody': "{{language}} kütüphanesini indirmediniz. {{language}} kütüphanesini indirmek ister misiniz?",
+  'library.packMissingGo': "Kütüphane’ye git",
+  'library.packMissingLater': "Şimdi değil",
   'sharePage.viewOnly': 'Bu paylaşılan derleme yalnızca görüntülenebilir.',
   'sharePage.fromPrivateImport': 'özel bir içe aktarmadan',
 

@@ -846,6 +846,10 @@ export const ar: LocaleTable = {
   'sharePage.footer': 'اقرأ المزيد في Immerse',
   'sharePage.needLanguagePack':
     'هذا الاقتباس من مكتبة {{language}}. نزِّلها من قائمة اللغات في المكتبة لقراءته هنا.',
+  'library.packMissingTitle': "المكتبة غير مُنزَّلة",
+  'library.packMissingBody': "لم تُنزِّل مكتبة {{language}} بعد. هل تريد تنزيل مكتبة {{language}}؟",
+  'library.packMissingGo': "الذهاب إلى المكتبة",
+  'library.packMissingLater': "ليس الآن",
   // Shown when the shared compilation contains only imported-book quotes, so
   // it cannot be copied — the reader can look but not save.
   'sharePage.viewOnly': 'هذه المجموعة المشتركة للعرض فقط.',
