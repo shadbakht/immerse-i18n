@@ -415,7 +415,7 @@ export const hi: LocaleTable = {
   'notes.searchPlaceholder': "नोट्स खोजें...",
   'notes.searchSelected': "चुने हुए नोट्स में खोजें...",
   'notes.byBook': "पुस्तक के अनुसार",
-  'notes.byDate': "तारीख़ के अनुसार",
+  'notes.byDate': "हाल के",
   'notes.writeNote': "अपना नोट लिखें…",
   'notes.noMatch': "कोई नोट आपकी खोज से मेल नहीं खाता।",
   'notes.deleteConfirm': "नोट मिटाएँ?",

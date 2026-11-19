@@ -455,7 +455,7 @@ export const ru: LocaleTable = {
   'notes.searchPlaceholder': 'Поиск по заметкам...',
   'notes.searchSelected': 'Поиск по выбранным заметкам...',
   'notes.byBook': 'По книгам',
-  'notes.byDate': 'По дате',
+  'notes.byDate': 'Недавние',
   'notes.writeNote': 'Напишите заметку…',
   'notes.noMatch': 'Ни одна заметка не соответствует запросу.',
   'notes.deleteConfirm': 'Удалить заметку?',

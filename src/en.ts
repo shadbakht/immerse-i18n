@@ -451,7 +451,7 @@ export const en = {
   'notes.searchPlaceholder': 'Search notes...',
   'notes.searchSelected': 'Search selected notes...',
   'notes.byBook': 'By Book',
-  'notes.byDate': 'By Date',
+  'notes.byDate': 'Recent',
   'notes.writeNote': 'Write your note…',
   'notes.noMatch': 'No notes match your search.',
   'notes.deleteConfirm': 'Delete note?',

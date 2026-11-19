@@ -438,7 +438,7 @@ export const tr: LocaleTable = {
   'notes.searchPlaceholder': 'Notlarda ara...',
   'notes.searchSelected': 'Seçili notlarda ara...',
   'notes.byBook': 'Kitaba göre',
-  'notes.byDate': 'Tarihe göre',
+  'notes.byDate': 'Son eklenenler',
   'notes.writeNote': 'Notunuzu yazın…',
   'notes.noMatch': 'Aramanızla eşleşen not yok.',
   'notes.deleteConfirm': 'Not silinsin mi?',

@@ -445,7 +445,7 @@ export const fa: LocaleTable = {
   'notes.searchPlaceholder': 'جستجوی یادداشت‌ها...',
   'notes.searchSelected': 'جستجو در یادداشت‌های انتخاب‌شده...',
   'notes.byBook': 'بر پایهٔ کتاب',
-  'notes.byDate': 'بر پایهٔ تاریخ',
+  'notes.byDate': 'اخیر',
   'notes.writeNote': 'یادداشت خود را بنویسید…',
   'notes.noMatch': 'هیچ یادداشتی با جستجوی شما مطابقت ندارد.',
   'notes.deleteConfirm': 'یادداشت حذف شود؟',

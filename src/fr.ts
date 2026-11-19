@@ -440,7 +440,7 @@ export const fr: LocaleTable = {
   'notes.searchPlaceholder': 'Rechercher dans les notes...',
   'notes.searchSelected': 'Rechercher dans les notes sélectionnées...',
   'notes.byBook': 'Par livre',
-  'notes.byDate': 'Par date',
+  'notes.byDate': 'Récents',
   'notes.writeNote': 'Écrivez votre note…',
   'notes.noMatch': 'Aucune note ne correspond à votre recherche.',
   'notes.deleteConfirm': 'Supprimer la note ?',

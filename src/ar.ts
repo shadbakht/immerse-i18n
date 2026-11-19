@@ -496,7 +496,7 @@ export const ar: LocaleTable = {
   'notes.searchPlaceholder': 'ابحث في الملاحظات...',
   'notes.searchSelected': 'ابحث في الملاحظات المحددة...',
   'notes.byBook': 'حسب الكتاب',
-  'notes.byDate': 'حسب التاريخ',
+  'notes.byDate': 'الأحدث',
   'notes.writeNote': 'اكتب ملاحظتك…',
   'notes.noMatch': 'لا توجد ملاحظات تطابق بحثك.',
   'notes.deleteConfirm': 'حذف الملاحظة؟',

@@ -454,7 +454,7 @@ export const de: LocaleTable = {
   'notes.searchPlaceholder': 'Notizen durchsuchen…',
   'notes.searchSelected': 'Ausgewählte Notizen durchsuchen…',
   'notes.byBook': 'Nach Buch',
-  'notes.byDate': 'Nach Datum',
+  'notes.byDate': 'Neueste',
   'notes.writeNote': 'Schreiben Sie Ihre Notiz…',
   'notes.noMatch': 'Keine Notizen entsprechen Ihrer Suche.',
   'notes.deleteConfirm': 'Notiz löschen?',

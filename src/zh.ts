@@ -436,7 +436,7 @@ export const zh: LocaleTable = {
   'notes.searchPlaceholder': '搜索笔记...',
   'notes.searchSelected': '在所选笔记中搜索...',
   'notes.byBook': '按书籍',
-  'notes.byDate': '按日期',
+  'notes.byDate': '最新',
   'notes.writeNote': '写下你的笔记…',
   'notes.noMatch': '没有符合搜索条件的笔记。',
   'notes.deleteConfirm': '删除笔记？',
