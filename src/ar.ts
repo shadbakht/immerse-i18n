@@ -98,6 +98,7 @@ export const ar: LocaleTable = {
   'nav.guest': 'ضيف',
   'nav.reader': 'القارئ',
   'nav.signOut': 'تسجيل الخروج',
+  'nav.installApp': 'تثبيت التطبيق',
 
   'library.title': 'المكتبة',
   'library.languageSheetTitle': 'لغة المكتبة',

@@ -69,6 +69,7 @@ export const en = {
   'nav.guest': 'Guest',
   'nav.reader': 'Reader',
   'nav.signOut': 'Sign Out',
+  'nav.installApp': 'Install App',
 
   'library.title': 'Library',
   'library.languageSheetTitle': 'Library language',

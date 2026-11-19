@@ -71,6 +71,7 @@ export const pt: LocaleTable = {
   'nav.guest': "Visitante",
   'nav.reader': "Leitor",
   'nav.signOut': "Sair",
+  'nav.installApp': "Instalar app",
   'library.title': "Biblioteca",
   'library.languageSheetTitle': "Idioma da biblioteca",
   'library.availableToDownload': "Disponível para baixar",

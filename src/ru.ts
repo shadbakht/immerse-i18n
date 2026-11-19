@@ -75,6 +75,7 @@ export const ru: LocaleTable = {
   'nav.guest': 'Гость',
   'nav.reader': 'Чтение',
   'nav.signOut': 'Выйти',
+  'nav.installApp': 'Установить приложение',
 
   'library.title': 'Библиотека',
   'library.languageSheetTitle': 'Язык библиотеки',

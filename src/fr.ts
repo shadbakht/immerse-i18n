@@ -68,6 +68,7 @@ export const fr: LocaleTable = {
   'nav.guest': 'Invité',
   'nav.reader': 'Lecteur',
   'nav.signOut': 'Se déconnecter',
+  'nav.installApp': 'Installer l’app',
 
   'library.title': 'Bibliothèque',
   'library.languageSheetTitle': 'Langue de la bibliothèque',

@@ -70,6 +70,7 @@ export const hi: LocaleTable = {
   'nav.guest': "अतिथि",
   'nav.reader': "रीडर",
   'nav.signOut': "साइन आउट",
+  'nav.installApp': "ऐप इंस्टॉल करें",
   'library.title': "पुस्तकालय",
   'library.languageSheetTitle': "पुस्तकालय की भाषा",
   'library.availableToDownload': "डाउनलोड के लिए उपलब्ध",

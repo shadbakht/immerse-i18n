@@ -77,6 +77,7 @@ export const fa: LocaleTable = {
   'nav.guest': 'مهمان',
   'nav.reader': 'کتاب‌خوان',
   'nav.signOut': 'خروج',
+  'nav.installApp': 'نصب برنامه',
 
   'library.title': 'کتابخانه',
   'library.languageSheetTitle': 'زبان کتابخانه',

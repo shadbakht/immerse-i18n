@@ -68,6 +68,7 @@ export const zh: LocaleTable = {
   'nav.guest': '访客',
   'nav.reader': '阅读器',
   'nav.signOut': '退出登录',
+  'nav.installApp': '安装应用',
 
   'library.title': '书库',
   'library.languageSheetTitle': '书库语言',

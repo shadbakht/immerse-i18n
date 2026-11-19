@@ -70,6 +70,7 @@ export const tr: LocaleTable = {
   'nav.guest': 'Misafir',
   'nav.reader': 'Okuyucu',
   'nav.signOut': 'Çıkış yap',
+  'nav.installApp': 'Uygulamayı yükle',
 
   'library.title': 'Kütüphane',
   'library.languageSheetTitle': 'Kütüphane dili',
