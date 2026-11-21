@@ -216,7 +216,7 @@ export const pt: LocaleTable = {
   'update.ignore': "Ignorar",
   'home.tags': "Compilações",
   'home.notes': "Notas",
-  'home.xrefs': "Ref. cruzadas",
+  'home.xrefs': "Ref. cruz.",
   'home.readingPlan': "PLANO DE LEITURA",
   'home.dailyVerses': "LEITURA DIÁRIA",
   'home.dayStreak_one': "{{count}} dia seguido",
