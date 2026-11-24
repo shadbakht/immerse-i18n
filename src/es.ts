@@ -234,6 +234,7 @@ export const es: LocaleTable = {
   'home.tapToSetUp': 'Toca para configurar',
   'home.tapToReadVerse': 'Toca para leer el versículo de hoy',
   'home.tapToContinue': 'Toca para continuar',
+  'home.timeLeftToday': 'Quedan {{time}} hoy',
   'home.planFinished': 'Terminado: elige tu próximo libro',
   'home.recentlyViewed': 'Visto recientemente',
   'home.removeFromRecent': 'Quitar de Visto recientemente',

@@ -238,6 +238,7 @@ export const tr: LocaleTable = {
   'home.tapToSetUp': 'Ayarlamak için dokunun',
   'home.tapToReadVerse': 'Bugünün ayetini okumak için dokunun',
   'home.tapToContinue': 'Devam etmek için dokunun',
+  'home.timeLeftToday': 'Bugün {{time}} kaldı',
   'home.planFinished': 'Bitti — sıradaki kitabınızı seçin',
   'home.recentlyViewed': 'Son görüntülenenler',
   'home.removeFromRecent': 'Son görüntülenenlerden kaldır',

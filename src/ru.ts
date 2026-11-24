@@ -252,6 +252,7 @@ export const ru: LocaleTable = {
   'home.tapToSetUp': 'Нажмите, чтобы настроить',
   'home.tapToReadVerse': 'Нажмите, чтобы прочитать стих дня',
   'home.tapToContinue': 'Нажмите, чтобы продолжить',
+  'home.timeLeftToday': 'Сегодня осталось {{time}}',
   'home.planFinished': 'Завершено — выберите следующую книгу',
   'home.recentlyViewed': 'Недавно открытые',
   'home.removeFromRecent': 'Убрать из недавних',

@@ -253,6 +253,7 @@ export const de: LocaleTable = {
   'home.tapToSetUp': 'Zum Einrichten tippen',
   'home.tapToReadVerse': 'Tippen, um den heutigen Vers zu lesen',
   'home.tapToContinue': 'Zum Fortfahren tippen',
+  'home.timeLeftToday': 'Heute noch {{time}}',
   'home.planFinished': 'Abgeschlossen – wählen Sie Ihr nächstes Buch',
   'home.recentlyViewed': 'Zuletzt angesehen',
   'home.removeFromRecent': 'Aus „Zuletzt angesehen“ entfernen',

@@ -287,6 +287,7 @@ export const ar: LocaleTable = {
   'home.tapToSetUp': 'اضغط للإعداد',
   'home.tapToReadVerse': 'اضغط لقراءة آية اليوم',
   'home.tapToContinue': 'اضغط للمتابعة',
+  'home.timeLeftToday': 'المتبقي اليوم: {{time}}',
   'home.planFinished': 'انتهت — اختر كتابك التالي',
   'home.recentlyViewed': 'شوهدت مؤخرًا',
   'home.removeFromRecent': 'إزالة من «شوهدت مؤخرًا»',

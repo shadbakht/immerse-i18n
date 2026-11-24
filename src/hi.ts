@@ -225,6 +225,7 @@ export const hi: LocaleTable = {
   'home.tapToSetUp': "सेट करने के लिए टैप करें",
   'home.tapToReadVerse': "आज का पाठ पढ़ने के लिए टैप करें",
   'home.tapToContinue': "जारी रखने के लिए टैप करें",
+  'home.timeLeftToday': "आज {{time}} बाकी",
   'home.planFinished': "पूरा हुआ — अपनी अगली पुस्तक चुनें",
   'home.recentlyViewed': "हाल में देखी गई",
   'home.removeFromRecent': "हाल में देखी गई से हटाएँ",

@@ -246,6 +246,7 @@ export const en = {
   'home.tapToSetUp': 'Tap to set up',
   'home.tapToReadVerse': 'Tap to read today\'s verse',
   'home.tapToContinue': 'Tap to continue',
+  'home.timeLeftToday': '{{time}} remaining today',
   'home.planFinished': 'Finished — choose your next book',
   'home.recentlyViewed': 'Recently Viewed',
   'home.removeFromRecent': 'Remove from Recently Viewed',

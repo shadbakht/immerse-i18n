@@ -236,6 +236,7 @@ export const zh: LocaleTable = {
   'home.tapToSetUp': '点按以设置',
   'home.tapToReadVerse': '点按以阅读今日经文',
   'home.tapToContinue': '点按以继续',
+  'home.timeLeftToday': '今天剩余 {{time}}',
   'home.planFinished': '已读完 — 请选择下一本书',
   'home.recentlyViewed': '最近阅读',
   'home.removeFromRecent': '从最近阅读中移除',

@@ -245,6 +245,7 @@ export const fa: LocaleTable = {
   'home.tapToSetUp': 'برای تنظیم ضربه بزنید',
   'home.tapToReadVerse': 'برای خواندن آیهٔ امروز ضربه بزنید',
   'home.tapToContinue': 'برای ادامه ضربه بزنید',
+  'home.timeLeftToday': 'امروز {{time}} باقی مانده',
   'home.planFinished': 'به پایان رسید — کتاب بعدی خود را انتخاب کنید',
   'home.recentlyViewed': 'اخیراً مشاهده‌شده',
   'home.removeFromRecent': 'برداشتن از موارد اخیر',
