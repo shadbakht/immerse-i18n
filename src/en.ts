@@ -53,7 +53,7 @@ export const en = {
   'common.somethingWrong': 'Something went wrong.',
   'common.rename': 'Rename',
   'common.dragToReorder': 'Drag to reorder',
-  'common.openInReader': 'Open in reader',
+  'common.openInReader': 'Continue reading',
   // Fallback tradition name for a book whose category can't be resolved.
   'common.otherTradition': 'Other',
 
@@ -779,7 +779,7 @@ export const en = {
   'share.publishedNote': 'Published to Discover — turn off the toggle to stop sharing.',
   'share.selectOne': 'Select one compilation to create a link.',
   'sharePage.eyebrow': 'Shared compilation',
-  'sharePage.openInReader': 'Open in reader',
+  'sharePage.openInReader': 'Continue reading',
   'sharePage.save': 'Save to my Compilations',
   'sharePage.openInDiscover': 'Open in Immerse Discover',
   'sharePage.saving': 'Saving…',
@@ -902,7 +902,7 @@ export const en = {
   'reader.shareTooLongBody': 'Your selection exceeds the {{limit}}-character limit by {{over}} characters. Shorten your selection, or share it as text only.',
   'reader.shareAsText': 'Share as text',
   'reminders.viewSource': 'View Source',
-  'library.tapToExpandHint': 'Tap to expand · Hold to open in reader',
+  'library.tapToExpandHint': 'Tap to expand · Hold to continue reading',
   'library.deleteBookImportedBody': 'This book and all its annotations will be permanently removed.',
   'library.deleteBookBundledBody':
     'This book and all its annotations will be removed. It will return when the library next refreshes.',

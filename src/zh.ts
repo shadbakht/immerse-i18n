@@ -55,7 +55,7 @@ export const zh: LocaleTable = {
   'common.somethingWrong': '出错了。',
   'common.rename': '重命名',
   'common.dragToReorder': '拖动以调整顺序',
-  'common.openInReader': '在阅读器中打开',
+  'common.openInReader': '继续阅读',
   'common.otherTradition': '其他',
 
   'nav.home': '主页',
@@ -726,7 +726,7 @@ export const zh: LocaleTable = {
   'share.publishedNote': '已发布到「发现」——关闭开关即可停止分享。',
   'share.selectOne': '选择一个汇编以创建链接。',
   'sharePage.eyebrow': '共享的汇编',
-  'sharePage.openInReader': '在阅读器中打开',
+  'sharePage.openInReader': '继续阅读',
   'sharePage.save': '保存到我的汇编',
   'sharePage.openInDiscover': '在 Immerse“发现”中打开',
   'sharePage.saving': '正在保存…',
@@ -830,7 +830,7 @@ export const zh: LocaleTable = {
   'reader.shareTooLongBody': '您的选择超出 {{limit}} 字符上限 {{over}} 个字符。请缩短选择，或仅以文字形式分享。',
   'reader.shareAsText': '以文字分享',
   'reminders.viewSource': '查看来源',
-  'library.tapToExpandHint': '点按展开 · 长按在阅读器中打开',
+  'library.tapToExpandHint': '点按展开 · 长按继续阅读',
   'library.deleteBookImportedBody': '这本书及其全部注释将被永久移除。',
   'library.deleteBookBundledBody':
     '这本书及其全部注释将被移除。书库下次刷新时它会重新出现。',

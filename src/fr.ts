@@ -55,7 +55,7 @@ export const fr: LocaleTable = {
   'common.somethingWrong': 'Une erreur s’est produite.',
   'common.rename': 'Renommer',
   'common.dragToReorder': 'Faites glisser pour réorganiser',
-  'common.openInReader': 'Ouvrir dans le lecteur',
+  'common.openInReader': 'Continuer la lecture',
   'common.otherTradition': 'Autres',
 
   'nav.home': 'Accueil',
@@ -737,7 +737,7 @@ export const fr: LocaleTable = {
   'share.publishedNote': 'Publiée dans Découvrir — désactivez l’option pour arrêter le partage.',
   'share.selectOne': 'Sélectionnez une compilation pour créer un lien.',
   'sharePage.eyebrow': 'Compilation partagée',
-  'sharePage.openInReader': 'Ouvrir dans le lecteur',
+  'sharePage.openInReader': 'Continuer la lecture',
   'sharePage.save': 'Enregistrer dans mes compilations',
   'sharePage.openInDiscover': 'Ouvrir dans Immerse « Découvrir »',
   'sharePage.saving': 'Enregistrement…',
@@ -847,7 +847,7 @@ export const fr: LocaleTable = {
   'reader.shareTooLongBody': 'Votre sélection dépasse la limite de {{limit}} caractères de {{over}} caractères. Raccourcissez votre sélection ou partagez-la en texte seul.',
   'reader.shareAsText': 'Partager en texte',
   'reminders.viewSource': 'Voir la source',
-  'library.tapToExpandHint': 'Touchez pour développer · Maintenez pour ouvrir dans le lecteur',
+  'library.tapToExpandHint': 'Touchez pour développer · Maintenez pour continuer la lecture',
   'library.deleteBookImportedBody': 'Ce livre et toutes ses annotations seront supprimés définitivement.',
   'library.deleteBookBundledBody':
     'Ce livre et toutes ses annotations seront supprimés. Il reviendra lors de la prochaine actualisation de la bibliothèque.',

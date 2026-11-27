@@ -64,7 +64,7 @@ export const fa: LocaleTable = {
   'common.somethingWrong': 'مشکلی پیش آمد.',
   'common.rename': 'تغییر نام',
   'common.dragToReorder': 'برای تغییر ترتیب بکشید',
-  'common.openInReader': 'باز کردن در کتاب‌خوان',
+  'common.openInReader': 'ادامهٔ خواندن',
   'common.otherTradition': 'سایر',
 
   'nav.home': 'خانه',
@@ -735,7 +735,7 @@ export const fa: LocaleTable = {
   'share.publishedNote': 'در کشف منتشر شد — برای توقف هم‌رسانی، کلید را خاموش کنید.',
   'share.selectOne': 'برای ساختن پیوند، یک گزیده انتخاب کنید.',
   'sharePage.eyebrow': 'گزیدهٔ هم‌رسانی‌شده',
-  'sharePage.openInReader': 'باز کردن در کتاب‌خوان',
+  'sharePage.openInReader': 'ادامهٔ خواندن',
   'sharePage.save': 'ذخیره در گزیده‌های من',
   'sharePage.openInDiscover': 'باز کردن در «کشف» در Immerse',
   'sharePage.saving': 'در حال ذخیره…',
@@ -836,7 +836,7 @@ export const fa: LocaleTable = {
   'reader.shareTooLongBody': 'انتخاب شما {{over}} نویسه از سقف {{limit}} نویسه بیشتر است. انتخاب را کوتاه‌تر کنید یا آن را فقط به‌صورت متن هم‌رسانی کنید.',
   'reader.shareAsText': 'هم‌رسانی به‌صورت متن',
   'reminders.viewSource': 'مشاهدهٔ منبع',
-  'library.tapToExpandHint': 'برای باز شدن ضربه بزنید · برای باز کردن در کتاب‌خوان نگه دارید',
+  'library.tapToExpandHint': 'برای باز شدن ضربه بزنید · برای ادامهٔ خواندن نگه دارید',
   'library.deleteBookImportedBody': 'این کتاب و همهٔ حاشیه‌نویسی‌هایش برای همیشه برداشته می‌شوند.',
   'library.deleteBookBundledBody':
     'این کتاب و همهٔ حاشیه‌نویسی‌هایش برداشته می‌شوند. در به‌روزرسانی بعدی کتابخانه بازمی‌گردد.',

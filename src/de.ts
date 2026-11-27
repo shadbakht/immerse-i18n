@@ -67,7 +67,7 @@ export const de: LocaleTable = {
   'common.somethingWrong': 'Etwas ist schiefgelaufen.',
   'common.rename': 'Umbenennen',
   'common.dragToReorder': 'Zum Umsortieren ziehen',
-  'common.openInReader': 'In der Leseansicht öffnen',
+  'common.openInReader': 'Weiterlesen',
   'common.otherTradition': 'Weitere',
 
   'nav.home': 'Start',
@@ -750,7 +750,7 @@ export const de: LocaleTable = {
   'share.publishedNote': 'In Entdecken veröffentlicht – schalten Sie den Schalter aus, um das Teilen zu beenden.',
   'share.selectOne': 'Wählen Sie eine Zusammenstellung, um einen Link zu erstellen.',
   'sharePage.eyebrow': 'Geteilte Zusammenstellung',
-  'sharePage.openInReader': 'In der Leseansicht öffnen',
+  'sharePage.openInReader': 'Weiterlesen',
   'sharePage.save': 'In meinen Zusammenstellungen speichern',
   'sharePage.openInDiscover': 'In Immerse „Entdecken“ öffnen',
   'sharePage.saving': 'Wird gespeichert…',
@@ -856,7 +856,7 @@ export const de: LocaleTable = {
   'reader.shareTooLongBody': 'Ihre Auswahl überschreitet das Limit von {{limit}} Zeichen um {{over}} Zeichen. Kürzen Sie Ihre Auswahl oder teilen Sie sie nur als Text.',
   'reader.shareAsText': 'Als Text teilen',
   'reminders.viewSource': 'Quelle ansehen',
-  'library.tapToExpandHint': 'Tippen zum Ausklappen · Halten zum Öffnen in der Leseansicht',
+  'library.tapToExpandHint': 'Tippen zum Ausklappen · Halten zum Weiterlesen',
   'library.deleteBookImportedBody': 'Dieses Buch und alle seine Anmerkungen werden dauerhaft entfernt.',
   'library.deleteBookBundledBody':
     'Dieses Buch und alle seine Anmerkungen werden entfernt. Es kehrt zurück, wenn die Bibliothek das nächste Mal aktualisiert wird.',

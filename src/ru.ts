@@ -62,7 +62,7 @@ export const ru: LocaleTable = {
   'common.somethingWrong': 'Что-то пошло не так.',
   'common.rename': 'Переименовать',
   'common.dragToReorder': 'Перетащите, чтобы изменить порядок',
-  'common.openInReader': 'Открыть в читалке',
+  'common.openInReader': 'Продолжить чтение',
   'common.otherTradition': 'Другое',
 
   'nav.home': 'Главная',
@@ -766,7 +766,7 @@ export const ru: LocaleTable = {
   'share.publishedNote': 'Опубликовано в «Обзоре» — выключите переключатель, чтобы прекратить доступ.',
   'share.selectOne': 'Выберите одну подборку, чтобы создать ссылку.',
   'sharePage.eyebrow': 'Общая подборка',
-  'sharePage.openInReader': 'Открыть в читалке',
+  'sharePage.openInReader': 'Продолжить чтение',
   'sharePage.save': 'Сохранить в мои подборки',
   'sharePage.openInDiscover': 'Открыть в разделе «Обзор» Immerse',
   'sharePage.saving': 'Сохранение…',
@@ -888,7 +888,7 @@ export const ru: LocaleTable = {
   'reader.shareTooLongBody': 'Выделение превышает лимит в {{limit}} симв. на {{over}} симв. Сократите выделение или поделитесь им только как текстом.',
   'reader.shareAsText': 'Поделиться текстом',
   'reminders.viewSource': 'Открыть источник',
-  'library.tapToExpandHint': 'Нажмите, чтобы развернуть · Удерживайте, чтобы открыть в читалке',
+  'library.tapToExpandHint': 'Нажмите, чтобы развернуть · Удерживайте, чтобы продолжить чтение',
   'library.deleteBookImportedBody': 'Эта книга и все её аннотации будут удалены навсегда.',
   'library.deleteBookBundledBody':
     'Эта книга и все её аннотации будут удалены. Она вернётся при следующем обновлении библиотеки.',

@@ -80,7 +80,7 @@ export const ar: LocaleTable = {
   'common.somethingWrong': 'حدث خطأ ما.',
   'common.rename': 'إعادة تسمية',
   'common.dragToReorder': 'اسحب لإعادة الترتيب',
-  'common.openInReader': 'فتح في القارئ',
+  'common.openInReader': 'متابعة القراءة',
   // Fallback tradition name for a book whose category can't be resolved.
   'common.otherTradition': 'أخرى',
 
@@ -838,7 +838,7 @@ export const ar: LocaleTable = {
   'share.publishedNote': 'منشورة في استكشاف — أوقف المفتاح لإيقاف المشاركة.',
   'share.selectOne': 'اختر مجموعة واحدة لإنشاء رابط.',
   'sharePage.eyebrow': 'مجموعة مشتركة',
-  'sharePage.openInReader': 'فتح في القارئ',
+  'sharePage.openInReader': 'متابعة القراءة',
   'sharePage.save': 'حفظ في مجموعاتي',
   'sharePage.openInDiscover': 'فتح في «استكشاف» في Immerse',
   'sharePage.saving': 'جارٍ الحفظ…',
@@ -979,7 +979,7 @@ export const ar: LocaleTable = {
   'reader.shareTooLongBody': 'يتجاوز تحديدك حدّ {{limit}} حرفًا بمقدار {{over}} حرفًا. اختصر تحديدك، أو شاركه نصًّا فقط.',
   'reader.shareAsText': 'مشاركة كنص',
   'reminders.viewSource': 'عرض المصدر',
-  'library.tapToExpandHint': 'اضغط للتوسيع · اضغط مطولًا للفتح في القارئ',
+  'library.tapToExpandHint': 'اضغط للتوسيع · اضغط مطولًا لمتابعة القراءة',
   'library.deleteBookImportedBody': 'سيُزال هذا الكتاب وجميع تعليقاته التوضيحية نهائيًا.',
   'library.deleteBookBundledBody':
     'سيُزال هذا الكتاب وجميع تعليقاته التوضيحية. وسيعود عند تحديث المكتبة في المرة القادمة.',

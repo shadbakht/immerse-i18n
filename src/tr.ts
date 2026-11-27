@@ -57,7 +57,7 @@ export const tr: LocaleTable = {
   'common.somethingWrong': 'Bir şeyler ters gitti.',
   'common.rename': 'Yeniden adlandır',
   'common.dragToReorder': 'Sıralamak için sürükleyin',
-  'common.openInReader': 'Okuyucuda aç',
+  'common.openInReader': 'Okumaya devam et',
   'common.otherTradition': 'Diğer',
 
   'nav.home': 'Ana sayfa',
@@ -728,7 +728,7 @@ export const tr: LocaleTable = {
   'share.publishedNote': 'Keşfet’te yayınlandı — paylaşımı durdurmak için anahtarı kapatın.',
   'share.selectOne': 'Bağlantı oluşturmak için bir derleme seçin.',
   'sharePage.eyebrow': 'Paylaşılan derleme',
-  'sharePage.openInReader': 'Okuyucuda aç',
+  'sharePage.openInReader': 'Okumaya devam et',
   'sharePage.save': 'Derlemelerime kaydet',
   'sharePage.openInDiscover': 'Immerse Keşfet’te aç',
   'sharePage.saving': 'Kaydediliyor…',
@@ -832,7 +832,7 @@ export const tr: LocaleTable = {
   'reader.shareTooLongBody': 'Seçiminiz {{limit}} karakterlik sınırı {{over}} karakter aşıyor. Seçiminizi kısaltın veya yalnızca metin olarak paylaşın.',
   'reader.shareAsText': 'Metin olarak paylaş',
   'reminders.viewSource': 'Kaynağı görüntüle',
-  'library.tapToExpandHint': 'Genişletmek için dokunun · Okuyucuda açmak için basılı tutun',
+  'library.tapToExpandHint': 'Genişletmek için dokunun · Okumaya devam etmek için basılı tutun',
   'library.deleteBookImportedBody': 'Bu kitap ve tüm açıklamaları kalıcı olarak kaldırılacak.',
   'library.deleteBookBundledBody':
     'Bu kitap ve tüm açıklamaları kaldırılacak. Kütüphane bir sonraki yenilendiğinde geri gelecek.',

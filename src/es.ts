@@ -49,7 +49,7 @@ export const es: LocaleTable = {
   'common.somethingWrong': 'Algo sali\u00f3 mal.',
   'common.rename': 'Cambiar el nombre',
   'common.dragToReorder': 'Arrastra para reordenar',
-  'common.openInReader': 'Abrir en el lector',
+  'common.openInReader': 'Seguir leyendo',
   'common.otherTradition': 'Otros',
 
   'nav.home': 'Inicio',
@@ -729,7 +729,7 @@ export const es: LocaleTable = {
   'share.publishedNote': 'Publicada en Descubrir — desactiva el interruptor para dejar de compartirla.',
   'share.selectOne': 'Selecciona una compilación para crear un enlace.',
   'sharePage.eyebrow': 'Compilación compartida',
-  'sharePage.openInReader': 'Abrir en el lector',
+  'sharePage.openInReader': 'Seguir leyendo',
   'sharePage.save': 'Guardar en mis compilaciones',
   'sharePage.openInDiscover': 'Abrir en Descubrir de Immerse',
   'sharePage.saving': 'Guardando…',
@@ -840,7 +840,7 @@ export const es: LocaleTable = {
   'reader.shareTooLongBody': 'Tu selección supera el límite de {{limit}} caracteres en {{over}} caracteres. Acorta tu selección o compártela solo como texto.',
   'reader.shareAsText': 'Compartir como texto',
   'reminders.viewSource': 'Ver fuente',
-  'library.tapToExpandHint': 'Toca para desplegar · Mantén pulsado para abrir en el lector',
+  'library.tapToExpandHint': 'Toca para desplegar · Mantén pulsado para seguir leyendo',
   'library.deleteBookImportedBody': 'Este libro y todas sus anotaciones se eliminarán permanentemente.',
   'library.deleteBookBundledBody':
     'Este libro y todas sus anotaciones se eliminarán. Volverá a aparecer la próxima vez que se actualice la biblioteca.',
